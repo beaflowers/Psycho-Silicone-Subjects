@@ -1,3 +1,0 @@
-openai
-pyserial
-python-dotenv
