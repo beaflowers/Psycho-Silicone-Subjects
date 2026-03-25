@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-MODEL_NAME = "gpt-5-mini"
+MODEL_NAME = os.environ.get("OPENAI_CHAT_MODEL", "gpt-5-mini")
 
 
 def create_client() -> OpenAI:

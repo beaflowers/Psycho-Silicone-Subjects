@@ -1,38 +1,50 @@
 # Psycho-Silicone-Subjects
 
-Starter structure for reading button data from a Raspberry Pi Pico over USB
-serial using Python on your computer, then sending that button value to the
-OpenAI API.
+Interactive RAG bridge for a Raspberry Pi Pico button panel. The desktop app
+now follows the notebook pattern more closely: you type a real question in the
+terminal, the app retrieves relevant PDF chunks, and the Pico buttons act as
+live tone modifiers instead of fixed prompt triggers.
+
+## How it works now
+
+1. Your Pico runs CircuitPython and reports the current pressed button state.
+2. The desktop app listens for those button updates in the background.
+3. You type a direct question in the terminal.
+4. The last button you pressed is stored as the current tone mode, even after release.
+5. The app retrieves relevant chunks from your PDF knowledge base.
+6. OpenAI generates a grounded answer, optionally colored by the selected mode.
+
+The RAG index is prepared at startup, so chunking and document embeddings happen
+before the first question instead of during the first query.
+
+Document chunks and embeddings are also cached locally in `.rag_cache/`, so the
+PDF embedding cost is only paid again if the source PDFs or chunking settings
+change.
 
 ## Project layout
 
 ```text
+src/code.py
+src/RAG_femwife.ipynb
 src/pico_chatgpt_bridge/main.py
+src/pico_chatgpt_bridge/button_monitor.py
+src/pico_chatgpt_bridge/rag_engine.py
 src/pico_chatgpt_bridge/pico_serial.py
 requirements.txt
 ```
 
-## How the data flows
+## Expected Pico serial messages
 
-1. Your Pico runs CircuitPython and reads the four buttons.
-2. The Pico sends a text line over USB serial.
-3. The Python app on your computer reads that line.
-4. The app prints the button name or names that were sent.
-5. The app builds a prompt from that button value and sends it to OpenAI.
-
-## Expected serial message
-
-The desktop app expects each line from the Pico to look like this:
+The Pico now sends button state changes like:
 
 ```text
 blue
-```
-
-If more than one button is pressed, the Pico can send a comma-separated line:
-
-```text
 blue,red
+none
 ```
+
+`none` means all buttons are released. The desktop app now ignores `none` and
+keeps the last non-empty button selection as the active mode.
 
 ## Install
 
@@ -44,33 +56,47 @@ pip install -r requirements.txt
 
 ## Configuration
 
-Optionally set a serial port if auto-detection does not find your Pico:
-
-```powershell
-$env:PICO_SERIAL_PORT="COM5"
-```
-
 Set your OpenAI API key:
 
 ```powershell
 $env:OPENAI_API_KEY="your_api_key_here"
 ```
 
-You can also use a local `.env` file in the project root instead of setting
-PowerShell variables every time. This is the recommended option. Copy
-`.env.example` to `.env` and add your real key:
+Optionally set a serial port if auto-detection does not find your Pico:
 
-```env
-OPENAI_API_KEY=your_api_key_here
-PICO_SERIAL_PORT=COM8
+```powershell
+$env:PICO_SERIAL_PORT="COM5"
 ```
 
-The app will load `.env` automatically at startup.
+Point the RAG system at your PDF knowledge base. You can either use a folder:
 
-## Model Choice
+```powershell
+$env:RAG_PDF_FOLDER="C:\path\to\pdfs"
+```
 
-The model is chosen directly in the code so it stays visible. You can change it
-in [openai_client.py](/c:/Users/b/Documents/Concordia/CART498-GenAI/Final%20Project/Repo/Psycho-Silicone-Subjects/src/pico_chatgpt_bridge/openai_client.py#L11).
+Or a list of explicit PDF paths separated by `;` on Windows:
+
+```powershell
+$env:RAG_PDF_PATHS="C:\docs\a.pdf;C:\docs\b.pdf"
+```
+
+Optional model overrides:
+
+```powershell
+$env:OPENAI_CHAT_MODEL="gpt-5-mini"
+$env:OPENAI_EMBED_MODEL="text-embedding-3-large"
+```
+
+Optional cache controls:
+
+```powershell
+$env:RAG_DISABLE_CACHE="1"
+```
+
+Use that only when you want to force a rebuild of the local RAG cache.
+
+You can also place the PDFs in `rag_docs/` at the project root and skip the
+RAG path env vars.
 
 ## Run
 
@@ -78,5 +104,20 @@ in [openai_client.py](/c:/Users/b/Documents/Concordia/CART498-GenAI/Final%20Proj
 python -m src.pico_chatgpt_bridge.main
 ```
 
-When the Pico sends button data, the host app will print the button name or
-names it receives, then print the model response.
+## Interactive commands
+
+- Type a question and press Enter to query the RAG system.
+- Type `/reset` to clear conversation memory.
+- Press Enter on an empty line, or type `quit` / `exit`, to close the app.
+
+## Button tones
+
+- `blue`: melancholy and introspective
+- `yellow`: cheerful and optimistic
+- `red`: angry and aggressive
+- `green`: calm and peaceful
+
+Pressing a button once latches that mode until another button is pressed.
+
+If no Pico is connected, the app still runs in interactive RAG mode without
+button tone control.

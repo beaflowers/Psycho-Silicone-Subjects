@@ -1,38 +1,71 @@
-"""Desktop entry point for reading Pico button data."""
+"""Desktop entry point for interactive RAG querying with latched button modes."""
 
 from __future__ import annotations
 
 from openai import APIError
 
-## Importing from local modules
+from .button_monitor import ButtonMonitor
 from .openai_client import create_client, get_model_name
-from .pico_serial import open_pico_serial, read_line
-from .prompting import build_prompt
+from .prompting import build_tone_instruction, describe_button_state
+from .rag_engine import RAGEngine
 
 
 def main() -> None:
-    """Listen for Pico events, print button presses, and send them to OpenAI."""
+    """Run the interactive RAG loop and apply latched Pico button modes."""
     client = create_client()
     model = get_model_name()
+    rag = RAGEngine(client=client, chat_model=model)
+    buttons = ButtonMonitor()
+    buttons.start()
 
-    with open_pico_serial() as connection:
-        print("Listening for Pico button data over USB serial...")
+    previous_response_id: str | None = None
 
-        while True:
-            line = read_line(connection)
-            print(f"Pressed: {line}")
+    print("Interactive RAG mode is ready.")
+    print(f"RAG sources: {rag.describe_sources()}")
+    print("Preparing the RAG index before interactive mode starts...")
+    try:
+        rag.ensure_ready()
+    except (APIError, RuntimeError) as exc:
+        print(f"RAG setup failed: {exc}")
+        return
+    print("Press a Pico button once to select a persistent tone mode.")
+    print("Type a question and press Enter. Type /reset to clear conversation memory.")
+    print("Press Enter on an empty line, or type quit/exit, to stop.")
 
-            prompt = build_prompt(line)
+    while True:
+        try:
+            question = input("Question (or 'quit'): ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nExiting interactive mode.")
+            break
 
-            try:
-                response = client.responses.create(model=model, input=prompt)
-            except APIError as exc:
-                print(f"OpenAI API error: {exc}")
-                continue
+        if question.lower() in {"quit", "exit", ""}:
+            break
 
-            print("ChatGPT response:")
-            print(response.output_text)
+        if question == "/reset":
+            previous_response_id = None
+            print("Conversation memory cleared.")
             print()
+            continue
+
+        selected_mode = buttons.get_buttons()
+        tone_instruction = build_tone_instruction(selected_mode)
+
+        try:
+            answer, previous_response_id = rag.ask(
+                question,
+                previous_response_id=previous_response_id,
+                tone_instruction=tone_instruction,
+            )
+        except (APIError, RuntimeError) as exc:
+            print(f"RAG query failed: {exc}")
+            print()
+            continue
+
+        print(f"Selected mode: {describe_button_state(selected_mode)}")
+        print("Response:")
+        print(answer)
+        print()
 
 
 if __name__ == "__main__":

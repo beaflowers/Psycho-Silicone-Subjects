@@ -2,37 +2,28 @@ import time
 import board
 from digitalio import DigitalInOut, Direction, Pull
 
-blue_btn = DigitalInOut(board.GP14)
-blue_btn.direction = Direction.INPUT
-blue_btn.pull = Pull.UP
+BUTTONS = {
+    "blue": DigitalInOut(board.GP14),
+    "yellow": DigitalInOut(board.GP15),
+    "red": DigitalInOut(board.GP16),
+    "green": DigitalInOut(board.GP17),
+}
 
-yell_btn = DigitalInOut(board.GP15)
-yell_btn.direction = Direction.INPUT
-yell_btn.pull = Pull.UP
+for button in BUTTONS.values():
+    button.direction = Direction.INPUT
+    button.pull = Pull.UP
 
-red_btn = DigitalInOut(board.GP16)
-red_btn.direction = Direction.INPUT
-red_btn.pull = Pull.UP
-
-grn_btn = DigitalInOut(board.GP17)
-grn_btn.direction = Direction.INPUT
-grn_btn.pull = Pull.UP
+last_pressed = ()
 
 while True:
-    pressed_buttons = []
+    pressed_buttons = tuple(
+        name for name, button in BUTTONS.items() if button.value
+    )
 
-    if blue_btn.value:
-        pressed_buttons.append("blue")
-    if yell_btn.value:
-        pressed_buttons.append("yellow")
-    if red_btn.value:
-        pressed_buttons.append("red")
-    if grn_btn.value:
-        pressed_buttons.append("green")
-
-    if pressed_buttons:
+    if pressed_buttons and pressed_buttons != last_pressed:
         print(",".join(pressed_buttons))
-    else:
-        pass
+        last_pressed = pressed_buttons
+    elif not pressed_buttons:
+        last_pressed = ()
 
-    time.sleep(0.5)
+    time.sleep(0.05)

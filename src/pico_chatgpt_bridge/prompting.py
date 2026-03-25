@@ -1,16 +1,49 @@
-"""Prompt-building helpers."""
+"""Helpers for mapping Pico button input to response tone."""
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 
-def build_prompt(button_value: str) -> str:
-    """Build a simple prompt from the incoming button value."""
+BUTTON_TONES = {
+    "blue": "melancholy and introspective",
+    "yellow": "cheerful and optimistic",
+    "red": "angry and aggressive",
+    "green": "calm and peaceful",
+}
+
+BUTTON_ORDER = ("blue", "yellow", "red", "green")
+
+
+def parse_button_line(button_value: str) -> tuple[str, ...]:
+    """Parse a serial button line into a stable, ordered tuple."""
+    raw_buttons = {
+        part.strip().lower()
+        for part in button_value.split(",")
+        if part.strip() and part.strip().lower() != "none"
+    }
+    return tuple(button for button in BUTTON_ORDER if button in raw_buttons)
+
+
+def describe_button_state(buttons: Iterable[str]) -> str:
+    """Return a compact human-readable button description."""
+    button_list = list(buttons)
+    if not button_list:
+        return "none"
+    return ", ".join(button_list)
+
+
+def build_tone_instruction(buttons: Iterable[str]) -> str:
+    """Convert active buttons into a tone instruction for the model."""
+    tones = [BUTTON_TONES[button] for button in buttons if button in BUTTON_TONES]
+    if not tones:
+        return ""
+
+    if len(tones) == 1:
+        combined = tones[0]
+    else:
+        combined = ", ".join(tones[:-1]) + f", and {tones[-1]}"
+
     return (
-        "You are receiving input from an external button.\n"
-        f"The button input is: {button_value}\n"
-        "If the  button is 'blue', you respond with more meloncholy and introspective text.\n"
-        "If the button is 'yellow', you respond with more cheerful and optimistic text.\n"
-        "If the button is 'red', you respond with more angry and aggressive text.\n"
-        "If the button is 'green', you respond with more calm and peaceful text.\n"
-        "Write a short response (1-3 sentences) that reflects the tone of the button input.\n"
+        "Tone modifier from the live button state: shape the answer with a "
+        f"{combined} voice while staying grounded in the retrieved material."
     )
