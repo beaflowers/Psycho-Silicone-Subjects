@@ -49,7 +49,7 @@ def main() -> None:
             continue
 
         selected_mode = buttons.get_buttons()
-        tone_instruction = build_tone_instruction(selected_mode)
+        tone_instruction = build_tone_instruction(selected_mode) 
 
         try:
             answer, previous_response_id = rag.ask(
