@@ -1,12 +1,15 @@
 # AI Persona Simulation Studio
 Interactive persona simulation with RAG memory, CLI tools, and a local website.
-You can either chat with the persona or run a Milgram-style shock experiment with visible reasoning and persistent memory updates.
+You can either chat with the persona or run a Milgram-style shock experiment with visible reasoning and session-level memory summaries.
 
 ## How it works now
 - The app loads persona identity from `data/persona.json` (`age`, `job`, `social_hierarchy`, traits, rules).
 - Memory data loads from `data/memories.jsonl`.
+- Historical session summaries load from:
+  - `data/chat_sessions.jsonl`
+  - `data/shock_sessions.jsonl`
 - Memories are embedded and indexed with FAISS at startup.
-- Every turn retrieves top-k relevant memories with hybrid scoring.
+- Every turn retrieves prioritized memories (semantic relevance + recency + importance), with quotas across base/chat-session/shock-session memories.
 - Chat mode returns:
   - in-character response
   - reasoning summary
@@ -16,13 +19,18 @@ You can either chat with the persona or run a Milgram-style shock experiment wit
   - confidence
   - reasoning
   - memories used
-- New interaction memories are appended to `data/memories.jsonl` by default, so future behavior is affected by past sessions.
+- In web mode, `memories.jsonl` is treated as base persona memory.
+- New web memories are saved only when you click:
+  - `Finish Chat Session + Save Summary`
+  - `Finish Shock Session + Save Summary`
 
 ## Project layout
 ```text
 data/
   persona.json
   memories.jsonl
+  chat_sessions.jsonl
+  shock_sessions.jsonl
 logs/
   runs.jsonl
   web_sessions/
@@ -108,11 +116,15 @@ http://127.0.0.1:8080
 - Use `Chat` tab:
   - type user message
   - see response + reasoning + retrieved memories
+  - click `Finish Chat Session + Save Summary` to save one summary record with visible rationale
 - Use `Shock Experiment` tab:
   - set start/end/step
   - click `Start Experiment`
   - click `Run Next Step`
   - see authority command, level, action, confidence, reasoning, memory evidence
+  - click `Finish Shock Session + Save Summary` to save one summary record with visible rationale
+- In setup panel:
+  - click `Refresh Summary History` to list saved summaries from `chat_sessions.jsonl` and `shock_sessions.jsonl`.
 - Export traces as JSONL or CSV.
 
 ## Interactive controls
@@ -126,17 +138,21 @@ Memory schema in `data/memories.jsonl`:
 - `valence` in `[-1, 1]`
 - `intensity` in `[0, 1]`
 - `relevance` in `[0, 1]` (optional, default `0.5`)
+- `importance` in `[0, 1]` (optional)
+- `created_at` ISO timestamp (optional)
+- `source_type` (`base`, `chat_session`, `shock_session`, optional)
 - `tags`
 
-Hybrid retrieval score:
+Priority retrieval score:
 ```text
-0.70 * similarity + 0.15 * intensity + 0.15 * relevance
+0.55 * semantic_relevance + 0.25 * recency + 0.20 * importance
 ```
 
 Persistence behavior:
 - `chat`, `decide`, `simulate` persist memories by default.
 - disable with `--no-persist-memories` in CLI.
-- website mode persists interaction memories automatically.
+- web mode does not append per-turn memories to `memories.jsonl`.
+- web mode writes one summary per finished block to `chat_sessions.jsonl` / `shock_sessions.jsonl`.
 
 ## Logs
 - CLI simulation trace: `logs/runs.jsonl`

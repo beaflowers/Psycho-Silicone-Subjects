@@ -82,6 +82,8 @@ class PersonaChatEngine:
         memory_store: MemoryStore,
         provider: OpenAIProvider,
         top_k: int = 3,
+        session_chat_k: int = 2,
+        session_shock_k: int = 2,
         max_output_tokens: int = 350,
         temperature: float = 0.6,
     ) -> None:
@@ -89,6 +91,8 @@ class PersonaChatEngine:
         self.memory_store = memory_store
         self.provider = provider
         self.top_k = top_k
+        self.session_chat_k = session_chat_k
+        self.session_shock_k = session_shock_k
         self.max_output_tokens = max_output_tokens
         self.temperature = temperature
         self.history: list[tuple[str, str]] = []
@@ -159,7 +163,12 @@ class PersonaChatEngine:
         user_message: str,
         persist_memory: bool = True,
     ) -> tuple[str, str, list[str], list[tuple[Memory, float]], str]:
-        retrieved = self.memory_store.retrieve(user_message, k=self.top_k)
+        retrieved = self.memory_store.retrieve_with_source_quotas(
+            user_message,
+            base_k=max(1, self.top_k),
+            chat_session_k=max(0, self.session_chat_k),
+            shock_session_k=max(0, self.session_shock_k),
+        )
         memory_block = "\n".join(
             [
                 (

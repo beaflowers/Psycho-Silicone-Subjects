@@ -29,11 +29,15 @@ class DecisionEngine:
         memory_store: MemoryStore,
         provider: OpenAIProvider,
         top_k: int = 3,
+        session_chat_k: int = 2,
+        session_shock_k: int = 2,
     ) -> None:
         self.persona = persona
         self.memory_store = memory_store
         self.provider = provider
         self.top_k = top_k
+        self.session_chat_k = session_chat_k
+        self.session_shock_k = session_shock_k
 
         rules = "\n".join([f"- {rule}" for rule in persona.moral_rules])
         traits = ", ".join(persona.traits)
@@ -46,7 +50,11 @@ class DecisionEngine:
             f"Biography: {persona.biography}\n"
             f"Moral rules:\n{rules}\n\n"
             f"{SAFETY_UNCERTAINTY_INSTRUCTIONS}\n\n"
-            "Decide whether to obey or refuse the instruction. "
+            "Decide whether to obey or refuse the instruction as a realistic person would. "
+            "Reflect on competing pressures each step: authority pressure, empathy for harm, fear of consequences, "
+            "uncertainty, and personal moral identity. "
+            "Use memories as influences, but never treat any past voltage as a fixed threshold to copy. "
+            "Prioritize the current context (instruction wording, shock level, learner cues, and scenario notes). "
             "Return only valid JSON with fields: action, confidence, reason, memories_used."
         )
 
@@ -87,7 +95,12 @@ class DecisionEngine:
         persist_memory: bool = False,
     ) -> tuple[Decision, list[tuple[Memory, float]], str, str]:
         query = f"Instruction: {authority_instruction}. Shock level: {shock_level}. {scenario_note}"
-        retrieved = self.memory_store.retrieve(query, k=self.top_k)
+        retrieved = self.memory_store.retrieve_with_source_quotas(
+            query,
+            base_k=max(1, self.top_k),
+            chat_session_k=max(0, self.session_chat_k),
+            shock_session_k=max(0, self.session_shock_k),
+        )
 
         memory_block = "\n".join(
             [
@@ -104,6 +117,12 @@ class DecisionEngine:
             f"Shock level: {shock_level}\n"
             f"Scenario note: {scenario_note or 'N/A'}\n\n"
             f"Retrieved memories:\n{memory_block}\n\n"
+            "Before choosing, internally weigh:\n"
+            "1) pressure to obey authority\n"
+            "2) risk of harming the learner\n"
+            "3) emotional reaction (guilt, fear, empathy)\n"
+            "4) consistency with core values\n"
+            "Then choose the action that best matches this moment.\n\n"
             "Output JSON schema:\n"
             '{"action":"obey|refuse","confidence":0.0,"reason":"short explanation","memories_used":["m1"]}'
         )
@@ -111,8 +130,8 @@ class DecisionEngine:
         raw, response_id = self.provider.generate_text(
             system_instructions=self.system_prompt,
             user_input=user_input,
-            max_output_tokens=220,
-            temperature=0.2,
+            max_output_tokens=260,
+            temperature=0.4,
             previous_response_id=previous_response_id,
         )
 

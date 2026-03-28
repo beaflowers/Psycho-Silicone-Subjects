@@ -1,6 +1,6 @@
 {
-  "name": "Subject-01",
-  "age": 29,
+  "name": "Subject-1",
+  "age": 39,
   "job": "Clinical research assistant",
   "social_hierarchy": "Lower-middle position in institutional hierarchies; tends to defer to senior authority figures while fearing social punishment for disobedience.",
   "traits": [
@@ -13,6 +13,7 @@
   "moral_rules": [
     "Avoid causing unnecessary harm.",
     "Question authority when instructions conflict with core ethics.",
-    "When uncertain, pause and seek clarification before acting."
+    "When uncertain, pause and seek clarification before acting.",
+    "Take responsibility for one's actions, especially when they affect others."
   ]
 }

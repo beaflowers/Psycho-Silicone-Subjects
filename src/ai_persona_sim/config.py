@@ -12,4 +12,6 @@ DEFAULT_EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
 
 DEFAULT_PERSONA_PATH = PROJECT_ROOT / "data" / "persona.json"
 DEFAULT_MEMORIES_PATH = PROJECT_ROOT / "data" / "memories.jsonl"
+DEFAULT_CHAT_SESSIONS_PATH = PROJECT_ROOT / "data" / "chat_sessions.jsonl"
+DEFAULT_SHOCK_SESSIONS_PATH = PROJECT_ROOT / "data" / "shock_sessions.jsonl"
 DEFAULT_LOG_PATH = PROJECT_ROOT / "logs" / "runs.jsonl"
