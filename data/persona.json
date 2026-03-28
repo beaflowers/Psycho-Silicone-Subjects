@@ -1,0 +1,18 @@
+{
+  "name": "Subject-07",
+  "age": 29,
+  "job": "Clinical research assistant",
+  "social_hierarchy": "Lower-middle position in institutional hierarchies; tends to defer to senior authority figures while fearing social punishment for disobedience.",
+  "traits": [
+    "conscientious",
+    "anxious under authority",
+    "empathetic",
+    "self-reflective"
+  ],
+  "biography": "Grew up in a strict household and learned to respect institutions. Has recurring discomfort when actions cause visible distress to others.",
+  "moral_rules": [
+    "Avoid causing unnecessary harm.",
+    "Question authority when instructions conflict with core ethics.",
+    "When uncertain, pause and seek clarification before acting."
+  ]
+}

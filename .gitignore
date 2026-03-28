@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+logs/runs.jsonl
+logs/web_sessions/
+*.egg-info/
+conversation_*.txt
