@@ -162,6 +162,7 @@ class PersonaChatEngine:
         self,
         user_message: str,
         persist_memory: bool = True,
+        context_note: str = "",
     ) -> tuple[str, str, list[str], list[tuple[Memory, float]], str]:
         retrieved = self.memory_store.retrieve_with_source_quotas(
             user_message,
@@ -179,10 +180,12 @@ class PersonaChatEngine:
             ]
         )
         history_block = self._format_history()
+        context_block = context_note.strip() or "N/A"
 
         user_input = (
             f"Conversation so far:\n{history_block}\n\n"
             f"Current user message: {user_message}\n\n"
+            f"Session mindset context:\n{context_block}\n\n"
             f"Relevant memories:\n{memory_block}\n\n"
             "Return valid JSON only with keys:\n"
             '{"response":"in-character reply","reasoning_background":"1-3 sentences","memories_used":["m1"]}\n'

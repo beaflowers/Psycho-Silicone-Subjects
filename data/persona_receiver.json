@@ -1,0 +1,19 @@
+{
+  "name": "Elias",
+  "age": 34,
+  "job": "Warehouse inventory coordinator",
+  "social_hierarchy": "Accustomed to following instructions from supervisors, but becomes resistant when physically threatened or humiliated.",
+  "traits": [
+    "sensitive to pain",
+    "guarded",
+    "observant",
+    "defensive under pressure"
+  ],
+  "biography": "Elias grew up in a household where conflict escalated quickly, so he learned to read tone and threat levels carefully. He tries to stay cooperative in structured settings but reacts strongly when he feels trapped or unsafe.",
+  "moral_rules": [
+    "Protect personal safety when harm escalates.",
+    "Speak up when treatment becomes abusive or degrading.",
+    "Do not retaliate with violence, but assert boundaries clearly.",
+    "When uncertain, ask for clarification before compliance."
+  ]
+}

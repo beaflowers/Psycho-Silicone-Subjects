@@ -177,3 +177,41 @@ python -m pip install -e .
 ## Safety
 This project is for simulation, learning, and research contexts only.
 Do not use it to manipulate or harm real people.
+
+##Running locally in terminal:
+cd "/Users/uandha/Documents/New project/ai-persona-sim"
+source .venv/bin/activate
+persona-sim --help
+
+In options to menu:
+persona-sim chat
+persona-sim decide "Press the button now" --shock-level 90
+persona-sim simulate --steps 10
+persona-sim web --host 127.0.0.1 --port 8080
+
+## pyproject.tomlis Python project’s main config file that defines:
+build system (setuptools, wheel)
+package metadata (name, version, description, python version)
+dependencies (openai, faiss-cpu, numpy, etc.)
+CLI command mapping: persona-sim → ai_persona_sim.cli:run
+where source code lives (src/ layout)
+
+-runs pip install -e ., pip reads this file to know how to install and run your project.
+
+## Silicon Subject Personality - Composed Prompt
+
+ persona.json: the core identity that contains: 
+name
+age
+job
+social_hierarchy
+traits
+biography
+moral_rules
+
+memories.jsonl: the persona’s past memories database used for retrieval.
+
+How it’s used:
+At runtime, memories are embedded and indexed (FAISS).
+For each user turn/decision, the app retrieves top relevant memories.
+Those retrieved memories are inserted into the prompt to influence response/decision reasoning.

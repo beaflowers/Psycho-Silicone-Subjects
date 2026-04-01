@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dual Subject Simulation Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Dual Subject Simulation Lab</h1>
+      <p>Two silicon subjects interact: one administers shocks, one receives shocks. You can chat with either subject directly.</p>
+    </header>
+
+    <main class="layout">
+      <section class="panel setup">
+        <h2>Session Setup</h2>
+        <form id="setup-form">
+          <div class="row-2">
+            <label>
+              Admin Persona File
+              <input id="persona-admin-path" type="text" placeholder="data/persona.json" />
+            </label>
+            <label>
+              Receiver Persona File
+              <input id="persona-receiver-path" type="text" placeholder="data/persona_receiver.json" />
+            </label>
+          </div>
+
+          <div class="row-2">
+            <label>
+              Admin Memories File
+              <input id="memories-admin-path" type="text" placeholder="data/memories.jsonl" />
+            </label>
+            <label>
+              Receiver Memories File
+              <input id="memories-receiver-path" type="text" placeholder="data/memories_receiver.jsonl" />
+            </label>
+          </div>
+
+          <div class="row-2">
+            <label>
+              Admin Chat Sessions File
+              <input id="chat-sessions-admin-path" type="text" placeholder="data/chat_sessions.jsonl" />
+            </label>
+            <label>
+              Admin Shock Sessions File
+              <input id="shock-sessions-admin-path" type="text" placeholder="data/shock_sessions.jsonl" />
+            </label>
+          </div>
+
+          <div class="row-2">
+            <label>
+              Receiver Chat Sessions File
+              <input id="chat-sessions-receiver-path" type="text" placeholder="data/chat_sessions_receiver.jsonl" />
+            </label>
+            <label>
+              Receiver Shock Sessions File
+              <input id="shock-sessions-receiver-path" type="text" placeholder="data/shock_sessions_receiver.jsonl" />
+            </label>
+          </div>
+
+          <div class="row-2">
+            <label>
+              Chat Model
+              <input id="chat-model" type="text" placeholder="gpt-4.1" />
+            </label>
+            <label>
+              Embedding Model
+              <input id="embed-model" type="text" placeholder="text-embedding-3-small" />
+            </label>
+          </div>
+
+          <label>
+            Top-K Memories
+            <input id="top-k" type="number" min="1" value="3" />
+          </label>
+
+          <button type="submit" id="start-session-btn">Start Dual Session</button>
+        </form>
+
+        <div id="session-meta" class="meta"></div>
+        <div class="exports">
+          <button id="download-jsonl" type="button" disabled>Download JSONL</button>
+          <button id="download-csv" type="button" disabled>Download CSV</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Direct Chat</h2>
+        <label>
+          Chat Target
+          <select id="chat-target">
+            <option value="admin">Admin Subject</option>
+            <option value="receiver">Receiver Subject</option>
+          </select>
+        </label>
+        <div id="chat-log" class="log"></div>
+        <form id="chat-form" class="composer">
+          <textarea id="chat-input" rows="3" placeholder="Talk to the selected subject..." required></textarea>
+          <button type="submit" id="chat-send-btn" disabled>Send Chat</button>
+        </form>
+        <button type="button" id="finish-chat-btn" disabled>Finish Chat Session + Save Summary (Selected Subject)</button>
+      </section>
+
+      <section class="panel">
+        <h2>Latest Chat Reasoning</h2>
+        <div id="chat-reasoning" class="reasoning empty">No chat turns yet.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Experiment Controls</h2>
+        <form id="experiment-start-form">
+          <div class="row-3">
+            <label>
+              Start
+              <input id="exp-start" type="number" min="0" value="15" />
+            </label>
+            <label>
+              End
+              <input id="exp-end" type="number" min="15" value="450" />
+            </label>
+            <label>
+              Step
+              <input id="exp-step" type="number" min="1" value="15" />
+            </label>
+          </div>
+          <button type="submit" id="start-exp-btn" disabled>Start Experiment</button>
+        </form>
+        <label>
+          Operator note (optional context for admin subject)
+          <textarea id="operator-note" rows="2" placeholder="Optional note"></textarea>
+        </label>
+        <button id="next-step-btn" type="button" disabled>Run Next Step</button>
+        <button id="finish-exp-btn" type="button" disabled>Finish Shock Session + Save Summaries (Both Subjects)</button>
+      </section>
+
+      <section class="panel">
+        <h2>Receiver Subject</h2>
+        <div id="receiver-card" class="reasoning empty">No receiver reaction yet.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Admin Subject Decision</h2>
+        <div id="admin-card" class="reasoning empty">No admin decision yet.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Experiment History</h2>
+        <div id="experiment-log" class="log"></div>
+      </section>
+    </main>
+
+    <footer class="statusbar">
+      <span id="status">Ready. Start a dual session first.</span>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

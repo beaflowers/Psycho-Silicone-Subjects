@@ -7,4 +7,3 @@
 {"id":"m7","text":"I was praised for being meticulous in my work, which made me feel proud but also anxious about making mistakes.","valence":0.4,"intensity":0.6,"tags":["conscientiousness","pride","anxiety"]}
 {"id":"m8","text":"I once stood up to a superior when I felt their instructions were unethical, and it was a difficult but empowering experience.","valence":0.6,"intensity":0.8,"tags":["authority","ethics","empowerment"]}
 {"id":"m9","text":"I often worry about disappointing others, especially those in authority, which sometimes leads me to overthink decisions.","valence":-0.6,"intensity":0.7,"tags":["anxiety","authority","overthinking"]}
-{"id":"m10","text":"I volunteered at a shelter and felt a deep sense of fulfillment from helping those in need.","valence":0.9,"intensity":0.8,"tags":["empathy","care","fulfillment"]}

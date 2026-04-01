@@ -8,4 +8,5 @@ __all__ = [
     "decision_engine",
     "logging_utils",
     "web_app",
+    "web_app_v2",
 ]

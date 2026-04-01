@@ -5,5 +5,6 @@ __pycache__/
 .env
 logs/runs.jsonl
 logs/web_sessions/
+logs/web2_sessions/
 *.egg-info/
 conversation_*.txt

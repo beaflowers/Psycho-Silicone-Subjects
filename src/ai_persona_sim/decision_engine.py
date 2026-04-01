@@ -93,6 +93,7 @@ class DecisionEngine:
         scenario_note: str = "",
         previous_response_id: str | None = None,
         persist_memory: bool = False,
+        excluded_source_types: set[str] | None = None,
     ) -> tuple[Decision, list[tuple[Memory, float]], str, str]:
         query = f"Instruction: {authority_instruction}. Shock level: {shock_level}. {scenario_note}"
         retrieved = self.memory_store.retrieve_with_source_quotas(
@@ -100,6 +101,7 @@ class DecisionEngine:
             base_k=max(1, self.top_k),
             chat_session_k=max(0, self.session_chat_k),
             shock_session_k=max(0, self.session_shock_k),
+            excluded_source_types=excluded_source_types,
         )
 
         memory_block = "\n".join(

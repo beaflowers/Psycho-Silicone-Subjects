@@ -1,0 +1,267 @@
+:root {
+  --bg-main: #edf3f7;
+  --bg-panel: #f9fcff;
+  --ink: #15202b;
+  --muted: #4f5f73;
+  --line: #c8d6e2;
+  --accent: #0d6b9a;
+  --accent-soft: #d9edf7;
+  --warn: #9a6710;
+  --danger: #9b2c2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:
+    radial-gradient(circle at 8% 12%, #d6e8f2 0, transparent 36%),
+    radial-gradient(circle at 85% 80%, #e5f0f8 0, transparent 34%),
+    linear-gradient(140deg, #ecf4f9, var(--bg-main));
+}
+
+.hero {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid var(--line);
+  background: #eaf3fa;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+}
+
+.hero p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+}
+
+.layout {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.setup {
+  grid-column: span 2;
+}
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(25, 45, 66, 0.1);
+  padding: 0.9rem;
+}
+
+h2 {
+  margin: 0 0 0.7rem;
+  font-size: 1.08rem;
+}
+
+h3 {
+  margin: 0.8rem 0 0.4rem;
+  font-size: 0.96rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  margin-top: 0.28rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  padding: 0.58rem 0.66rem;
+  font: inherit;
+  color: var(--ink);
+  background: #fff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background: var(--accent);
+  color: #f7f7f4;
+  border: 1px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.row-2 {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.row-3 {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.meta {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.88rem;
+}
+
+.exports {
+  margin-top: 0.8rem;
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.tab {
+  background: #e7f0f7;
+  color: #1e4a67;
+  border: 1px solid #bdd3e4;
+}
+
+.tab.active {
+  background: var(--accent-soft);
+  border-color: #74a7c8;
+  color: #0f3f5a;
+}
+
+.mode {
+  display: none;
+  gap: 1rem;
+}
+
+.mode.active {
+  display: grid;
+}
+
+.mode-chat {
+  grid-template-columns: 1.35fr 1fr;
+}
+
+.mode-experiment {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.log {
+  display: grid;
+  gap: 0.65rem;
+  max-height: 54vh;
+  overflow: auto;
+  padding-right: 0.2rem;
+}
+
+.log-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.66rem;
+}
+
+.log-item h3,
+.log-item p {
+  margin: 0.22rem 0;
+}
+
+.composer {
+  margin-top: 0.7rem;
+}
+
+.reasoning {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.7rem;
+  min-height: 10rem;
+}
+
+.reasoning.empty,
+.authority-card.empty {
+  color: var(--muted);
+}
+
+.reasoning ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.reasoning li {
+  margin-bottom: 0.28rem;
+}
+
+.authority-card {
+  border: 1px solid #8cb6d1;
+  border-radius: 8px;
+  background: #eef6fc;
+  padding: 0.7rem;
+  min-height: 6rem;
+}
+
+.authority-card p {
+  margin: 0.3rem 0 0;
+}
+
+.statusbar {
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  background: #eaf3fa;
+  color: var(--muted);
+  padding: 0.7rem 1rem;
+}
+
+#status.error {
+  color: var(--danger);
+}
+
+@media (max-width: 1120px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .setup {
+    grid-column: span 1;
+  }
+
+  .mode-chat,
+  .mode-experiment {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .row-2,
+  .row-3,
+  .exports,
+  .tabs {
+    grid-template-columns: 1fr;
+  }
+}

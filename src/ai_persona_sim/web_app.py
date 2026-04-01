@@ -838,7 +838,7 @@ class WebState:
         }
 
 
-def make_handler(state: WebState):
+def make_handler(state: WebState, web_root: Path):
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *_args: Any) -> None:
             return
@@ -857,13 +857,13 @@ def make_handler(state: WebState):
         def do_GET(self) -> None:
             parsed = urlparse(self.path)
             if parsed.path in {"/", "/index.html"}:
-                self._serve_file(WEB_ROOT / "index.html", "text/html; charset=utf-8")
+                self._serve_file(web_root / "index.html", "text/html; charset=utf-8")
                 return
             if parsed.path == "/app.js":
-                self._serve_file(WEB_ROOT / "app.js", "application/javascript; charset=utf-8")
+                self._serve_file(web_root / "app.js", "application/javascript; charset=utf-8")
                 return
             if parsed.path == "/styles.css":
-                self._serve_file(WEB_ROOT / "styles.css", "text/css; charset=utf-8")
+                self._serve_file(web_root / "styles.css", "text/css; charset=utf-8")
                 return
             if parsed.path == "/api/export":
                 self._export(parse_qs(parsed.query))
@@ -951,14 +951,15 @@ def make_handler(state: WebState):
     return Handler
 
 
-def run_web_server(host: str = "127.0.0.1", port: int = 8080) -> None:
+def run_web_server(host: str = "127.0.0.1", port: int = 8080, web_root: Path | None = None) -> None:
     if not OPENAI_API_KEY:
         raise RuntimeError("OPENAI_API_KEY is missing. Add it to .env before running web mode.")
-    if not WEB_ROOT.exists():
-        raise RuntimeError(f"Web assets not found at {WEB_ROOT}")
+    root = web_root or WEB_ROOT
+    if not root.exists():
+        raise RuntimeError(f"Web assets not found at {root}")
 
     state = WebState()
-    handler = make_handler(state)
+    handler = make_handler(state, root)
     server = ThreadingHTTPServer((host, port), handler)
 
     print(f"Web app running at http://{host}:{port}")

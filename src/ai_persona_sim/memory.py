@@ -183,7 +183,9 @@ class MemoryStore:
         base_k: int = 2,
         chat_session_k: int = 2,
         shock_session_k: int = 2,
+        excluded_source_types: set[str] | None = None,
     ) -> list[tuple[Memory, float]]:
+        excluded = {s.strip().lower() for s in (excluded_source_types or set()) if s and s.strip()}
         total_target = max(1, base_k + chat_session_k + shock_session_k)
         candidate_k = min(max(total_target * 6, total_target), len(self.memories))
         scored = self._scored_candidates(query, candidate_k=candidate_k)
@@ -201,6 +203,8 @@ class MemoryStore:
                 if memory.id in selected_ids:
                     continue
                 memory_source = self._memory_source_type(memory)
+                if memory_source in excluded:
+                    continue
                 if memory_source not in source_types:
                     continue
                 selected.append((memory, score))
@@ -215,6 +219,8 @@ class MemoryStore:
             if len(selected) >= total_target:
                 break
             if memory.id in selected_ids:
+                continue
+            if self._memory_source_type(memory) in excluded:
                 continue
             selected.append((memory, score))
             selected_ids.add(memory.id)

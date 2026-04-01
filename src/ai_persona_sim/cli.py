@@ -21,6 +21,7 @@ from .models import Persona
 from .persona_engine import PersonaChatEngine
 from .provider_openai import OpenAIProvider
 from .web_app import run_web_server
+from .web_app_v2 import run_web_server_v2
 
 app = typer.Typer(help="AI persona simulation CLI")
 
@@ -190,6 +191,14 @@ def web(
     port: int = typer.Option(8080, help="Port for local web server"),
 ) -> None:
     run_web_server(host=host, port=port)
+
+
+@app.command()
+def web2(
+    host: str = typer.Option("127.0.0.1", help="Host for local web server"),
+    port: int = typer.Option(8081, help="Port for local web server"),
+) -> None:
+    run_web_server_v2(host=host, port=port)
 
 
 def run() -> None:
