@@ -2,18 +2,25 @@
 
 from __future__ import annotations
 
+from collections import deque
+from collections.abc import Callable
 import os
 import threading
 
 from .pico_serial import open_pico_serial, read_line
-from .prompting import describe_button_state, parse_button_line
+from .prompting import parse_button_line
 
 
 class ButtonMonitor:
     """Track the last selected button mode without blocking terminal input."""
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        on_event: Callable[[tuple[str, ...]], None] | None = None,
+    ) -> None:
         self._selected_buttons: tuple[str, ...] = ()
+        self._events: deque[tuple[str, ...]] = deque()
+        self._on_event = on_event
         self._debug = os.environ.get("PICO_DEBUG_SERIAL", "").lower() in {
             "1",
             "true",
@@ -33,15 +40,21 @@ class ButtonMonitor:
         with self._lock:
             return self._selected_buttons
 
-    def _set_buttons(self, buttons: tuple[str, ...]) -> bool:
-        """Latch the latest non-empty button state and report whether it changed."""
+    def drain_events(self) -> tuple[tuple[str, ...], ...]:
+        """Return all queued button press events since the last poll."""
+        with self._lock:
+            events = tuple(self._events)
+            self._events.clear()
+            return events
+
+    def _record_event(self, buttons: tuple[str, ...]) -> bool:
+        """Queue every non-empty button event and store the latest selection."""
         if not buttons:
             return False
 
         with self._lock:
-            if buttons == self._selected_buttons:
-                return False
             self._selected_buttons = buttons
+            self._events.append(buttons)
             return True
 
     def _run(self) -> None:
@@ -57,11 +70,9 @@ class ButtonMonitor:
                     if self._debug:
                         print(f"Raw Pico line: {line!r}", flush=True)
                     buttons = parse_button_line(line)
-                    if self._set_buttons(buttons):
-                        print(
-                            f"Selected mode: {describe_button_state(buttons)}",
-                            flush=True,
-                        )
+                    if self._record_event(buttons):
+                        if self._on_event is not None:
+                            self._on_event(buttons)
         except Exception as exc:
             print(
                 f"Pico serial unavailable. Continuing without live buttons: {exc}",

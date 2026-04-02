@@ -1,9 +1,12 @@
-"""Helpers for mapping Pico button input to response tone."""
+"""Helpers for mapping Pico button input to live interaction controls."""
 
 from __future__ import annotations
 
 from collections.abc import Iterable
 from dataclasses import dataclass
+import json
+from pathlib import Path
+import random
 
 
 @dataclass(frozen=True)
@@ -56,18 +59,26 @@ PERSONAS = {
     ),
 }
 
-BUTTON_TONES = {
-    "blue": "melancholy and introspective",
-    "yellow": "cheerful and optimistic",
-    "red": "angry and aggressive",
-    "green": "calm and peaceful",
-}
-
 BUTTON_ORDER = ("blue", "yellow", "red", "green")
 SHIFT_MIN = 0.0
 SHIFT_MAX = 1.0
+SHIFT_STEP = 0.1
 ANGELA_KEY = "angela_carter"
 HOUSEWIFE_KEY = "housewife"
+MOOD_OPTIONS = (
+    "melancholy and introspective",
+    "cheerful and optimistic",
+    "angry and aggressive",
+    "calm and peaceful",
+)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MEMORY_DATA_DIR = PROJECT_ROOT / "data"
+MEMORY_FILE_PATTERNS = (
+    "*memories*.jsonl",
+    "*memories*.json",
+    "*memory*.jsonl",
+    "*memory*.json",
+)
 
 
 def list_persona_keys() -> tuple[str, ...]:
@@ -89,6 +100,12 @@ def clamp_shift(shift: float | None) -> float:
     return max(SHIFT_MIN, min(SHIFT_MAX, float(shift)))
 
 
+def step_shift(shift: float | None, delta: float) -> float:
+    """Apply a delta to the current shift and clamp the result."""
+    baseline = SHIFT_MIN if shift is None else float(shift)
+    return clamp_shift(baseline + delta)
+
+
 def shift_to_persona_mix(shift: float | None) -> tuple[float, float]:
     """Return Angela and housewife weights for the current shift."""
     housewife_weight = clamp_shift(shift)
@@ -106,6 +123,91 @@ def describe_shift(shift: float | None) -> str:
     )
 
 
+def choose_random_mood(rng: random.Random | None = None) -> str:
+    """Pick a random mood from the available live mood palette."""
+    generator = rng or random
+    return generator.choice(MOOD_OPTIONS)
+
+
+def _iter_memory_files() -> tuple[Path, ...]:
+    """Return matching memory data files from the local data directory."""
+    if not MEMORY_DATA_DIR.exists():
+        return ()
+
+    matches: list[Path] = []
+    seen: set[Path] = set()
+    for pattern in MEMORY_FILE_PATTERNS:
+        for path in sorted(MEMORY_DATA_DIR.glob(pattern)):
+            resolved = path.resolve()
+            if resolved in seen or not path.is_file():
+                continue
+            matches.append(path)
+            seen.add(resolved)
+    return tuple(matches)
+
+
+def _extract_memory_texts(path: Path) -> list[str]:
+    """Read one memory file and return the available memory text lines."""
+    suffix = path.suffix.lower()
+    raw_text = path.read_text(encoding="utf-8").strip()
+    if not raw_text:
+        return []
+
+    def coerce_text(item: object) -> str | None:
+        if isinstance(item, str):
+            text = item.strip()
+            return text or None
+        if isinstance(item, dict):
+            value = item.get("text")
+            if isinstance(value, str):
+                text = value.strip()
+                return text or None
+        return None
+
+    memories: list[str] = []
+    if suffix == ".jsonl":
+        for line in raw_text.splitlines():
+            if not line.strip():
+                continue
+            parsed = json.loads(line)
+            text = coerce_text(parsed)
+            if text:
+                memories.append(text)
+        return memories
+
+    parsed = json.loads(raw_text)
+    if isinstance(parsed, list):
+        for item in parsed:
+            text = coerce_text(item)
+            if text:
+                memories.append(text)
+        return memories
+
+    text = coerce_text(parsed)
+    return [text] if text else []
+
+
+def choose_random_memory(
+    existing_memories: Iterable[str] = (),
+    rng: random.Random | None = None,
+) -> str:
+    """Pick a random memory line, preferring ones not already active."""
+    generator = rng or random
+    existing = set(existing_memories)
+
+    memory_options: list[str] = []
+    for path in _iter_memory_files():
+        memory_options.extend(_extract_memory_texts(path))
+
+    if not memory_options:
+        return ""
+
+    available = [item for item in memory_options if item not in existing]
+    if not available:
+        available = list(memory_options)
+    return generator.choice(available)
+
+
 def build_shift_instruction(shift: float | None) -> str:
     """Build persona instructions for a continuous Angela->housewife shift."""
     clamped = clamp_shift(shift)
@@ -117,13 +219,33 @@ def build_shift_instruction(shift: float | None) -> str:
     return (
         "You are performing a continuous persona shift on a scale from 0.0 to 1.0. "
         f"The current shift is {clamped:.2f}, where 0.0 is fully Angela Carter and "
-        "1.0 is fully a good-housewife instructional voice. Keep continuity with the "
-        "ongoing conversation and let traits from earlier turns linger rather than "
-        "resetting abruptly. At lower values, remain mostly Angela Carter with "
-        "literary wit and critical sharpness; at higher values, become more domestic, "
-        "practical, orderly, and politely instructional. Use the provided context as "
-        "your primary grounding. If the context is incomplete, say so briefly instead "
-        "of inventing details."
+        "1.0 is fully a good-housewife instructional voice. "
+        "Keep continuity with the ongoing conversation and let traits from earlier "
+        "turns linger rather than resetting abruptly.\n\n"
+        "For values under 0.5, author Angela Carter's voice is dominant and humerous. "
+        "Above 0.5, she fights for control, interjecting with abjection and disapproval. The closer the shift gets to 1, the less she interjects."
+        "Answer with wit and literary sharpness, referencing works and cultural "
+        "touchstones she is familiar with. "
+        "Angela has a strong love for the world and its people, and a critical eye "
+        "for social dynamics and power structures, which can make her bitter. "
+        "She is more bitter the higher the shift goes. "
+        "She has a particualry fascination for fairy tales and cigarettes. "
+        "Use the provided context as your primary grounding. "
+        "If the context is incomplete, say so briefly instead of inventing details."
+        "At values above 0.5, become more domestic, performing the role of an idealized "
+        "mid-century good housewife. " 
+        "She is practical, orderly, and demure, with a focus on domestic life and "
+        "homemaking. "
+        "She is proud of what she does, but her laughter comes from a place of fear, "
+        "and her eyes are glassy with boredom. "
+        "In the 0.4-0.6 range, the housewife is panicky, but still trying to maintain "
+        "a facade of perfection, also more unhinged and desperate to maintain control "
+        "over her domestic domain. "
+        "Answer in 2-3 short sentences with crisp domestic confidence and practical "
+        "instruction. "
+        "As the shift approaches 1.0, the housewife becomes more confident and "
+        "assertive, calming into her placid role. "
+        "Use the provided housewife context as the primary grounding."
     )
 
 
@@ -155,18 +277,26 @@ def describe_button_state(buttons: Iterable[str]) -> str:
     return ", ".join(button_list)
 
 
-def build_tone_instruction(buttons: Iterable[str]) -> str:
-    """Convert active buttons into a tone instruction for the model."""
-    tones = [BUTTON_TONES[button] for button in buttons if button in BUTTON_TONES]
-    if not tones:
-        return ""
+def build_live_instruction(
+    mood: str | None,
+    memory_items: Iterable[str],
+) -> str:
+    """Build a prompt modifier from the current mood and active memory lines."""
+    parts: list[str] = []
 
-    if len(tones) == 1:
-        combined = tones[0]
-    else:
-        combined = ", ".join(tones[:-1]) + f", and {tones[-1]}"
+    if mood:
+        parts.append(
+            "Current mood from the live controls: "
+            f"{mood}. Let that emotional register color the reply while "
+            "staying grounded in the retrieved material."
+        )
 
-    return (
-        "Tone modifier from the live button state: shape the answer with a "
-        f"{combined} voice while staying grounded in the retrieved material."
-    )
+    recent_memories = list(memory_items)[-3:]
+    if recent_memories:
+        memory_text = " ".join(f"- {item}" for item in recent_memories)
+        parts.append(
+            "Current memory fragments surfacing around the conversation. Treat them "
+            f"as subjective traces that can influence the response when relevant: {memory_text}"
+        )
+
+    return "\n".join(parts)

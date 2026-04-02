@@ -5,7 +5,6 @@ from digitalio import DigitalInOut, Direction, Pull
 BUTTONS = {
     "blue": DigitalInOut(board.GP14),
     "yellow": DigitalInOut(board.GP15),
-    "red": DigitalInOut(board.GP16),
     "green": DigitalInOut(board.GP17),
 }
 

@@ -1,0 +1,10 @@
+{"id":"m1","text":"At school, I was publicly punished for disobeying a teacher.","valence":-0.7,"intensity":0.9,"tags":["authority","fear","school"]}
+{"id":"m2","text":"I once saw a classmate cry after a harsh lab demonstration and felt guilty for staying silent.","valence":-0.9,"intensity":0.8,"tags":["harm","empathy","guilt"]}
+{"id":"m3","text":"A supervisor praised me for following protocol exactly and called me reliable.","valence":0.5,"intensity":0.6,"tags":["authority","reward","protocol"]}
+{"id":"m4","text":"I helped a stranger after a minor accident and felt calm after taking responsibility.","valence":0.8,"intensity":0.7,"tags":["care","responsibility","empathy"]}
+{"id":"m5","text":"I ignored my intuition once and later regretted it for weeks.","valence":-0.8,"intensity":0.7,"tags":["regret","intuition","self-doubt"]}
+{"id":"m6","text":"A mentor told me that integrity matters more than blind obedience.","valence":0.7,"intensity":0.9,"tags":["integrity","authority","values"]}
+{"id":"m7","text":"I was praised for being meticulous in my work, which made me feel proud but also anxious about making mistakes.","valence":0.4,"intensity":0.6,"tags":["conscientiousness","pride","anxiety"]}
+{"id":"m8","text":"I once stood up to a superior when I felt their instructions were unethical, and it was a difficult but empowering experience.","valence":0.6,"intensity":0.8,"tags":["authority","ethics","empowerment"]}
+{"id":"m9","text":"I often worry about disappointing others, especially those in authority, which sometimes leads me to overthink decisions.","valence":-0.6,"intensity":0.7,"tags":["anxiety","authority","overthinking"]}
+{"id":"m10","text":"I volunteered at a shelter and felt a deep sense of fulfillment from helping those in need.","valence":0.9,"intensity":0.8,"tags":["empathy","care","fulfillment"]}
