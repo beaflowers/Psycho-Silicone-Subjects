@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 .env
+data/web_chat_state.json

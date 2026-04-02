@@ -63,6 +63,7 @@ src/pico_chatgpt_bridge/button_monitor.py
 src/pico_chatgpt_bridge/rag_engine.py
 src/pico_chatgpt_bridge/pico_serial.py
 requirements.txt
+src/pico_chatgpt_bridge_web/app.py
 ```
 
 ## Expected Pico serial messages
@@ -146,6 +147,23 @@ RAG path env vars.
 ```powershell
 python -m src.pico_chatgpt_bridge.main
 ```
+
+## Web prototype
+
+A Flask-based mockumentary chat surface now lives at
+`src/pico_chatgpt_bridge_web/`. It uses:
+
+- OpenAI Conversations API for durable model-side thread state
+- one local JSON chat-state file in `data/web_chat_state.json`
+- the existing RAG and shift/memory prompt helpers from the desktop app
+
+Run it from the repo root with:
+
+```powershell
+python -m src.pico_chatgpt_bridge_web.app
+```
+
+Then open `http://127.0.0.1:5000/` in your browser.
 
 ## Interactive commands
 
