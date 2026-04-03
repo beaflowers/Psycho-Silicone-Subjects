@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Jekyll & Mr Hyde RAG Chat</title>
+  <style>
+    :root {
+      --bg: #f9f4ea;
+      --panel: #fffdf8;
+      --ink: #1f1a17;
+      --muted: #6f665f;
+      --accent: #0e5f6f;
+      --accent-2: #8f2a12;
+      --line: #e7d9c7;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, #fff6e8 0%, transparent 35%),
+        radial-gradient(circle at 90% 20%, #e9f7fb 0%, transparent 35%),
+        var(--bg);
+      color: var(--ink);
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+
+    .app {
+      width: min(960px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--panel);
+      box-shadow: 0 20px 45px rgba(20, 19, 17, 0.08);
+      overflow: hidden;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(120deg, #fff 0%, #fff8ef 45%, #f0fbff 100%);
+    }
+
+    .title {
+      font-family: Georgia, "Times New Roman", serif;
+      letter-spacing: 0.2px;
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .status {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .chat {
+      height: min(65vh, 600px);
+      overflow: auto;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .bubble {
+      max-width: 85%;
+      padding: 11px 13px;
+      border-radius: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      border: 1px solid var(--line);
+    }
+
+    .user {
+      align-self: flex-end;
+      background: #e8f5f8;
+      border-color: #c9e8ef;
+    }
+
+    .bot {
+      align-self: flex-start;
+      background: #fff7ef;
+      border-color: #f0ddc9;
+    }
+
+    .sources {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .input-wrap {
+      border-top: 1px solid var(--line);
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 8px;
+    }
+
+    input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 11px 12px;
+      font-size: 0.95rem;
+      outline: none;
+      background: #fff;
+    }
+
+    input:focus {
+      border-color: #7db6c5;
+      box-shadow: 0 0 0 3px rgba(125, 182, 197, 0.2);
+    }
+
+    button {
+      border: none;
+      border-radius: 10px;
+      padding: 0 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform .08s ease;
+    }
+
+    button:active { transform: translateY(1px); }
+
+    #sendBtn {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    #resetBtn {
+      background: #fbe4dc;
+      color: var(--accent-2);
+      border: 1px solid #efc8bb;
+    }
+
+    @media (max-width: 640px) {
+      .input-wrap {
+        grid-template-columns: 1fr;
+      }
+      #sendBtn, #resetBtn {
+        min-height: 42px;
+      }
+      .bubble {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <h1 class="title">Dr Jekyll & Mr Hyde RAG Chat</h1>
+      <div id="status" class="status">Checking backend…</div>
+    </header>
+
+    <section id="chat" class="chat"></section>
+
+    <form id="form" class="input-wrap">
+      <input id="msg" autocomplete="off" placeholder="Ask about the book…" />
+      <button id="sendBtn" type="submit">Send</button>
+      <button id="resetBtn" type="button">Reset</button>
+    </form>
+  </main>
+
+  <script>
+    const chatEl = document.getElementById("chat");
+    const statusEl = document.getElementById("status");
+    const formEl = document.getElementById("form");
+    const msgEl = document.getElementById("msg");
+    const resetEl = document.getElementById("resetBtn");
+
+    const SESSION_KEY = "rag_session_id";
+    let sessionId = localStorage.getItem(SESSION_KEY);
+    if (!sessionId) {
+      sessionId = String(Date.now());
+      localStorage.setItem(SESSION_KEY, sessionId);
+    }
+
+    function addBubble(text, role, sources = []) {
+      const bubble = document.createElement("div");
+      bubble.className = `bubble ${role}`;
+      bubble.textContent = text;
+
+      if (sources.length) {
+        const src = document.createElement("div");
+        src.className = "sources";
+        src.textContent = "Sources: " + sources.map(s => `${s.path} (p.${s.page}, ${s.score})`).join(" | ");
+        bubble.appendChild(src);
+      }
+
+      chatEl.appendChild(bubble);
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
+
+    async function checkHealth() {
+      try {
+        const res = await fetch("/api/health");
+        const data = await res.json();
+        statusEl.textContent = data.ok
+          ? `Ready | Sources: ${data.sources}`
+          : "Backend unavailable";
+      } catch (err) {
+        statusEl.textContent = "Backend unavailable";
+      }
+    }
+
+    formEl.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const message = msgEl.value.trim();
+      if (!message) return;
+
+      addBubble(message, "user");
+      msgEl.value = "";
+      addBubble("Thinking…", "bot");
+
+      try {
+        const res = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message, session_id: sessionId })
+        });
+        const data = await res.json();
+        chatEl.lastChild.remove();
+
+        if (!res.ok || !data.ok) {
+          addBubble(`Error: ${data.detail || "Unknown error"}`, "bot");
+          return;
+        }
+
+        addBubble(data.answer, "bot", data.sources || []);
+      } catch (err) {
+        chatEl.lastChild.remove();
+        addBubble(`Error: ${err.message}`, "bot");
+      }
+    });
+
+    resetEl.addEventListener("click", async () => {
+      try {
+        await fetch("/api/reset", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ session_id: sessionId })
+        });
+        chatEl.innerHTML = "";
+        addBubble("Conversation memory reset.", "bot");
+      } catch (err) {
+        addBubble("Could not reset session.", "bot");
+      }
+    });
+
+    addBubble("Ask any question about the loaded PDF(s).", "bot");
+    checkHealth();
+  </script>
+</body>
+</html>
