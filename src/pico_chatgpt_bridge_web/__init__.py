@@ -1,1 +1,1 @@
-"""Flask web prototype for the Psycho-Silicone Subjects archive."""
+"""Web chat package for the Psycho-Silicone Subjects project."""

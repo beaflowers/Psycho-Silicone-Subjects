@@ -4,3 +4,4 @@ numpy
 pypdf
 pyserial
 python-dotenv
+flask

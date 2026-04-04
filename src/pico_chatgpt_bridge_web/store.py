@@ -1,4 +1,4 @@
-"""Tiny JSON-backed store for one saved web chat state."""
+"""JSON-backed store for saved web chat character states."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from typing import Any
 
 
 class ChatStateStore:
-    """Persist a single current chat state to a local JSON file."""
+    """Persist the website's multi-character chat state to a local JSON file."""
 
     def __init__(self, path: Path) -> None:
         self._path = path

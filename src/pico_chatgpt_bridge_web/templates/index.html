@@ -1,159 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Psycho-Silicone Subjects Archive</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&family=Beth+Ellen&family=Crushed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="masthead reveal-on-scroll is-visible">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&family=Beth+Ellen&family=Special+Elite&display=swap" rel="stylesheet">
+  <title>Psycho-Silicone Subjects</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">Mockumentary Archive Reel</p>
+      <h1>Psycho-Silicone Subjects</h1>
+      <p class="lede">A staged 1960s-style viewing room: character selection at the side, archival images and moving footage in the spotlight, and the interview transcript running below.</p>
+    </section>
 
-        <h1>Psycho Silicone Subjects</h1>
-        <p class="dek">
-          Begin with the official description, continue through the recovered evidence,
-          and descend into the interview terminal where the subjects are still speaking.
-        </p>
-      </header>
+    <section class="stage">
+      <aside class="casting-panel">
+        <div class="panel cast-selection-panel">
+          <p class="panel-label">Participants</p>
+          <div id="characterTabs" class="character-tabs"></div>
+        </div>
 
-      <main class="story-stack">
-        <section class="story-panel intro-panel reveal-on-scroll">
-          <div class="panel-copy">
-            <p class="section-label">Project Overview</p>
-            <h2>A 1960s experiment in obedience, fantasy, and synthetic domesticity.</h2>
-            <p>
-              The archive claims these women volunteered for a behavioral study.
-              The transcripts suggest otherwise. Every surviving fragment points to a
-              system designed to test how authority could be made to sound caring,
-              decorative, and inevitable.
-            </p>
-            <p>
-              Scroll further and the official record begins to crack. Images arrive
-              first, then the moving evidence, and only at the end are you allowed to
-              speak back to the subjects themselves.
-            </p>
+        <div id="siliconeControls" class="panel control-panel">
+          <label class="panel-label" for="shiftRange">Voice Crossfade</label>
+          <input id="shiftRange" type="range" min="0" max="1" step="0.01">
+          <div id="shiftValue" class="value-chip">shift=0.00</div>
+          <div class="side-actions">
+            <button id="moodBtn" class="secondary-btn" type="button">Randomize Mood</button>
+            <button id="memoryBtn" class="secondary-btn" type="button">Add Memory</button>
           </div>
-          <aside class="evidence-note">
-            <p class="section-label">Archive Stamp</p>
-            <p>
-              Classification: domestic readjustment, emotional compliance,
-              personality drift.
-            </p>
-          </aside>
-        </section>
+          <div id="siliconeMeta" class="hint"></div>
+        </div>
+      </aside>
 
-        <section class="story-panel media-panel reveal-on-scroll">
-          <div class="panel-heading">
-            <p class="section-label">Recovered Images</p>
-            <h2>Photographs from the observation floor.</h2>
+      <section class="screening-room">
+        <div class="screening-header">
+          <div>
+            <p id="chatTitle" class="chat-title">Loading...</p>
+            <p id="chatSubtitle" class="chat-subtitle"></p>
           </div>
-          <div class="media-grid">
-            <figure class="media-card tall">
-              <div class="media-placeholder">Image / Poster</div>
-              <figcaption>
-                Replace this with a publicity still, laboratory portrait, or archive scan.
-              </figcaption>
-            </figure>
-            <figure class="media-card">
-              <div class="media-placeholder">Chat Screenshot</div>
-              <figcaption>
-                A place for visual fragments of previous conversations or interfaces.
-              </figcaption>
-            </figure>
-            <figure class="media-card">
-              <div class="media-placeholder">Document Scan</div>
-              <figcaption>
-                Redacted notes, protocol sheets, or domestic propaganda can sit here.
-              </figcaption>
-            </figure>
-          </div>
-        </section>
+          <p class="screening-stamp">Recorded Reconstruction</p>
+        </div>
 
-        <section class="story-panel reel-panel reveal-on-scroll">
-          <div class="panel-heading">
-            <p class="section-label">Film Evidence</p>
-            <h2>Moving images from the subject reels.</h2>
-          </div>
-          <div class="reel-layout">
-            <div class="reel-screen">
-              <div class="media-placeholder wide">Video Embed</div>
+        <div class="screening-grid">
+          <section class="feature-frame">
+            <div class="frame-header">
+              <p class="media-heading">Featured Image</p>
             </div>
-            <div class="reel-notes">
-              <p>
-                Use this section for documentary clips, recovered monitor footage, or
-                edited recordings of chat interactions staged as institutional film.
-              </p>
-              <p>
-                The design is ready for a video embed, looping background footage, or
-                a stacked sequence of smaller clips.
-              </p>
+            <div id="imageMedia" class="feature-media"></div>
+          </section>
+
+          <section class="feature-frame video-frame">
+            <div class="frame-header">
+              <p class="media-heading">Screen Test Footage</p>
             </div>
-          </div>
-        </section>
+            <div id="videoMedia" class="feature-media"></div>
+          </section>
+        </div>
+      </section>
+    </section>
 
-        <section class="story-panel transcript-panel reveal-on-scroll">
-          <div class="panel-heading">
-            <p class="section-label">Recovered Testimony</p>
-            <h2>The transcripts begin to contradict the brochure.</h2>
-          </div>
-          <div class="transcript-grid">
-            <blockquote class="transcript-quote">
-              “They kept telling us the machine was here to help us relax.”
-            </blockquote>
-            <blockquote class="transcript-quote">
-              “Every answer sounded more obedient after the third revision.”
-            </blockquote>
-            <blockquote class="transcript-quote">
-              “When the housewife smiled, you could hear Angela Carter laughing underneath.”
-            </blockquote>
-          </div>
-        </section>
+    <section class="transcript-shell">
+      <div class="chat-topbar">
+        <div>
+          <p class="transcript-label">Interview Transcript</p>
+          <p class="chat-subtitle">Live exchange with the selected subject.</p>
+        </div>
+        <button id="resetBtn" class="ghost-btn" type="button">Reset Local Transcript</button>
+      </div>
 
-        <section class="chat-panel reveal-on-scroll">
-          <div class="chat-header">
-            <div>
-              <p class="section-label">Post-Interview Console</p>
-              <h2>Subject Conversation</h2>
-            </div>
-            <button id="new-session-button" class="ghost-button" type="button">New File</button>
-          </div>
+      <section id="chatLog" class="chat-log"></section>
 
-          <div class="controls">
-            <label class="control-block" for="shift-range">
-              <span>Shift</span>
-              <input id="shift-range" type="range" min="0" max="1" step="0.05" value="0">
-              <output id="shift-output">0.00</output>
-            </label>
+      <form id="composer" class="composer">
+        <textarea id="messageInput" rows="3" placeholder="Ask the selected character a question..."></textarea>
+        <div class="composer-actions">
+          <span id="composerStatus" class="composer-status"></span>
+          <button id="sendBtn" class="primary-btn" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
 
-            <div class="button-row">
-              <button id="mood-button" type="button">Randomize Mood</button>
-              <button id="memory-button" type="button">Surface Memory</button>
-            </div>
-          </div>
-
-          <div class="state-readout">
-            <p><span class="meta-label">Mood</span> <strong id="mood-readout">none</strong></p>
-            <p><span class="meta-label">Memories</span> <strong id="memory-readout">0 active</strong></p>
-          </div>
-
-          <div id="chat-log" class="chat-log" aria-live="polite"></div>
-
-          <form id="chat-form" class="chat-form">
-            <label class="sr-only" for="chat-input">Interview prompt</label>
-            <textarea id="chat-input" rows="4" placeholder="Ask the subjects about what happened to them..." required></textarea>
-            <button id="send-button" type="submit">Ask the Archive</button>
-          </form>
-        </section>
-      </main>
-    </div>
-
-    <script type="application/json" id="bootstrap-data">
-      {{ {"ragError": rag_error, "modelName": model_name}|tojson }}
-    </script>
-    <script src="{{ url_for('static', filename='app.js') }}"></script>
-  </body>
-  </html>
+  <script>
+    window.APP_BOOT = {
+      model: {{ model|tojson }},
+      characters: {{ characters|tojson }},
+    };
+  </script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
