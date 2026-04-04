@@ -4,3 +4,4 @@ openai>=1.99.0
 python-dotenv>=1.1.0
 pypdf>=5.8.0
 numpy>=2.0.0
+pyserial>=3.5

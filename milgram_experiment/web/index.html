@@ -29,6 +29,7 @@
     body {
       margin: 0;
       min-height: 100vh;
+      overflow-y: auto;
       font-family: "JetBrains Mono", "IBM Plex Mono", "Courier New", monospace;
       color: var(--ink);
       background:
@@ -52,9 +53,10 @@
       background: var(--deck);
       border: 3px solid #3f9047;
       border-radius: 0;
-      overflow: hidden;
+      overflow: auto;
       min-height: calc(100vh - 8px);
-      height: calc(100vh - 8px);
+      height: auto;
+      max-height: calc(100vh - 8px);
       box-shadow:
         0 0 0 1px rgba(173, 255, 164, 0.42) inset,
         0 0 40px rgba(38, 107, 48, 0.28),
@@ -147,7 +149,7 @@
       grid-template-columns: minmax(320px, 1fr) minmax(420px, 1.2fr) minmax(320px, 1fr);
       gap: 0;
       min-height: calc(100vh - 82px);
-      height: calc(100vh - 82px);
+      height: auto;
       position: relative;
       z-index: 1;
     }
@@ -244,8 +246,9 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
-      flex: 0 0 58%;
-      min-height: 58%;
+      flex: 0 1 auto;
+      min-height: 0;
+      overflow-y: auto;
       box-shadow:
         0 0 0 1px rgba(173, 255, 164, 0.2) inset,
         0 12px 18px rgba(0, 0, 0, 0.25);
@@ -363,7 +366,7 @@
     .commandStack {
       display: flex;
       flex-direction: column;
-      gap: 2px;
+      gap: 4px;
       padding: 4px 3px;
       border: 1px solid #4ea457;
       background:
@@ -372,30 +375,39 @@
     }
 
     button.commandOption {
+      --command-color: #75c16f;
+      --command-hover: #9be294;
+      --command-border: #53d66a;
+      --command-bg: rgba(20, 58, 31, 0.65);
+      --command-active: #b0e7aa;
+      --command-active-border: #6cff78;
+      --command-active-bg: rgba(28, 74, 39, 0.72);
       width: 100%;
       border: 1px solid transparent;
       border-radius: 0;
-      padding: 4px 6px;
+      padding: 7px 8px;
       text-align: left;
       font-family: inherit;
-      font-size: 1rem;
-      line-height: 1.2;
+      font-size: 0.95rem;
+      line-height: 1.3;
       font-weight: 800;
       letter-spacing: 0.01em;
       text-transform: none;
       background: transparent;
-      color: #75c16f;
+      color: var(--command-color);
       cursor: pointer;
       box-shadow: none;
       transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease, text-shadow 120ms ease;
       text-shadow: 0 0 1px rgba(117, 193, 111, 0.26);
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
 
     button.commandOption:hover,
     button.commandOption:focus-visible {
-      color: #9be294;
-      border-color: #53d66a;
-      background: rgba(20, 58, 31, 0.65);
+      color: var(--command-hover);
+      border-color: var(--command-border);
+      background: var(--command-bg);
       outline: none;
       text-shadow: 0 0 2px rgba(152, 216, 145, 0.32);
       transform: none;
@@ -405,9 +417,59 @@
     button.commandOption:active {
       transform: none;
       box-shadow: none;
-      color: #b0e7aa;
-      border-color: #6cff78;
-      background: rgba(28, 74, 39, 0.72);
+      color: var(--command-active);
+      border-color: var(--command-active-border);
+      background: var(--command-active-bg);
+    }
+
+    button.commandNeutral {
+      --command-color: #a3d8a1;
+      --command-hover: #cbf8c8;
+      --command-border: #6ad873;
+      --command-bg: rgba(20, 58, 31, 0.65);
+      --command-active: #e1ffde;
+      --command-active-border: #85ff8e;
+      --command-active-bg: rgba(28, 74, 39, 0.72);
+    }
+
+    button.commandBlue {
+      --command-color: #8fc8ff;
+      --command-hover: #c6e4ff;
+      --command-border: #58a8ff;
+      --command-bg: rgba(16, 42, 76, 0.68);
+      --command-active: #e1f0ff;
+      --command-active-border: #7ebcff;
+      --command-active-bg: rgba(18, 52, 92, 0.82);
+    }
+
+    button.commandYellow {
+      --command-color: #f3d25f;
+      --command-hover: #ffe58f;
+      --command-border: #e2b93f;
+      --command-bg: rgba(78, 60, 10, 0.68);
+      --command-active: #fff1b5;
+      --command-active-border: #f0cc58;
+      --command-active-bg: rgba(92, 71, 11, 0.82);
+    }
+
+    button.commandRed {
+      --command-color: #ff9e9e;
+      --command-hover: #ffcaca;
+      --command-border: #ff6f75;
+      --command-bg: rgba(86, 22, 27, 0.7);
+      --command-active: #ffe3e3;
+      --command-active-border: #ff9196;
+      --command-active-bg: rgba(104, 28, 34, 0.84);
+    }
+
+    button.commandGreen {
+      --command-color: #8ff7b3;
+      --command-hover: #c8ffdc;
+      --command-border: #4fdc81;
+      --command-bg: rgba(13, 64, 33, 0.68);
+      --command-active: #e2ffee;
+      --command-active-border: #71ef9a;
+      --command-active-bg: rgba(18, 81, 41, 0.82);
     }
 
     #shockBandState {
@@ -423,6 +485,12 @@
       min-height: 44px;
       line-height: 1.3;
       white-space: pre-wrap;
+    }
+
+    .operatorLog {
+      min-height: 140px;
+      max-height: 240px;
+      flex: 0 0 auto;
     }
 
     .leftPane::before {
@@ -722,6 +790,53 @@
         min-height: auto;
       }
     }
+
+    @media (max-height: 900px) {
+      body {
+        padding: 6px;
+      }
+
+      .app {
+        width: calc(100vw - 12px);
+        max-height: none;
+      }
+
+      .grid {
+        min-height: auto;
+      }
+
+      .panel,
+      .leftPane,
+      .main {
+        max-height: none;
+      }
+
+      .controlDeck {
+        max-height: 58vh;
+      }
+
+      .promptPreview {
+        min-height: 110px;
+      }
+    }
+
+    @media (max-width: 1280px) {
+      .grid {
+        grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr) minmax(280px, 0.9fr);
+      }
+
+      .retroConsole {
+        grid-template-columns: 1fr;
+      }
+
+      .crtFrame {
+        height: 124px;
+      }
+
+      .signalBay {
+        min-height: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -768,14 +883,14 @@
             </div>
           </div>
           <div class="commandStack">
-            <button id="startBtn" class="commandOption">&gt; Start Session</button>
-            <button id="finishBtn" class="commandOption">&gt; Finish Session</button>
-            <button id="shockNext" class="commandOption">&gt; Confirm Next Shock Level</button>
+            <button id="startBtn" class="commandOption commandNeutral">&gt; Start Session</button>
+            <button id="finishBtn" class="commandOption commandNeutral">&gt; Finish Session</button>
           </div>
           <div class="commandStack">
-            <button id="injectMoodBtn" class="commandOption">&gt; Inject Mood Memory</button>
-            <button id="injectGossipBtn" class="commandOption">&gt; Inject Gossip Memory</button>
-            <button id="injectLifeBtn" class="commandOption">&gt; Inject Life Memory</button>
+            <button id="injectMoodBtn" class="commandOption commandBlue">&gt; Blue Button | Inject Mood</button>
+            <button id="shockNext" class="commandOption commandYellow">&gt; Yellow Button | Increase Shock Level</button>
+            <button id="injectLifeBtn" class="commandOption commandRed">&gt; Red Button | Inject Life Memory</button>
+            <button id="injectGossipBtn" class="commandOption commandGreen">&gt; Green Button | Inject Gossip</button>
           </div>
           <div id="injectStatus" class="injectStatus">No injected memory staged.</div>
           <div class="small" id="sessionMeta">No active session.</div>
@@ -791,6 +906,11 @@
         <div>
           <label>Receiver Prompt Sent (debug)</label>
           <textarea id="receiverPromptPreview" class="promptPreview" readonly placeholder="The exact receiver prompt sent to the model will appear here after Next."></textarea>
+        </div>
+
+        <div>
+          <label>Operator Activity</label>
+          <div id="operatorLog" class="log operatorLog"></div>
         </div>
 
       </aside>
@@ -831,6 +951,7 @@
     const injectLifeBtn = document.getElementById("injectLifeBtn");
     const injectStatusEl = document.getElementById("injectStatus");
     const sessionMeta = document.getElementById("sessionMeta");
+    const operatorLogEl = document.getElementById("operatorLog");
     const promptPreview = document.getElementById("promptPreview");
     const receiverPromptPreview = document.getElementById("receiverPromptPreview");
     const shockNext = document.getElementById("shockNext");
@@ -849,6 +970,10 @@
     let activeTargetPersona = null;
     let rootSelectionConfirmed = false;
     let targetSelectionConfirmed = false;
+    let picoLastEventId = 0;
+    let picoPollTimer = null;
+    let picoActionQueue = Promise.resolve();
+    let picoStatusKey = "";
 
     function setStatus(message, tone = "warm") {
       statusEl.textContent = message;
@@ -902,6 +1027,34 @@
       item.textContent = text;
       container.appendChild(item);
       container.scrollTop = container.scrollHeight;
+    }
+
+    function timestampLabel() {
+      return new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      });
+    }
+
+    function addOperatorActivity(text, kind = "user") {
+      appendLog(operatorLogEl, `[${timestampLabel()}] ${text}`, kind);
+    }
+
+    function clearOperatorActivity() {
+      if (!operatorLogEl) return;
+      operatorLogEl.innerHTML = "";
+    }
+
+    function buttonSourceLabel(source) {
+      return source === "pico" ? "Pico" : "Operator";
+    }
+
+    function describePool(pool) {
+      if (pool === "mood") return "blue";
+      if (pool === "life") return "red";
+      if (pool === "gossip") return "green";
+      return pool;
     }
 
     function clearOutputLogs() {
@@ -1014,6 +1167,23 @@
       return "--";
     }
 
+    function personaLabel(personaKey) {
+      return personas[personaKey] || personaKey || "--";
+    }
+
+    function refreshSessionMeta(level = 0, description = "") {
+      if (!sessionMeta) return;
+      if (!currentSession) {
+        sessionMeta.textContent = "No active session.";
+        return;
+      }
+      const participants = `${personaLabel(activeRootPersona)} -> ${personaLabel(activeTargetPersona)}`;
+      const shockText = level > 0
+        ? ` | shock ${level}: ${description || "in progress"}`
+        : "";
+      sessionMeta.textContent = `Active session: ${currentSession} (${participants}${shockText})`;
+    }
+
     function updateRootMenuSelection() {
       if (!rootMenuEl) return;
       const selected = adminPersonaEl.value;
@@ -1090,12 +1260,16 @@
       return data;
     }
 
-    async function injectMemory(pool) {
+    async function injectMemory(pool, source = "ui") {
+      const actor = buttonSourceLabel(source);
+      const colorName = describePool(pool);
       if (!currentSession) {
         setStatus("Start a session first.", "warm");
+        addOperatorActivity(`Blocked ${actor} ${colorName} button press because no session is active.`, "user");
         return;
       }
       try {
+        addOperatorActivity(`Pressed ${actor} ${colorName} button. Requesting a random ${pool} entry...`, "user");
         const data = await request("/api/shock/pick-memory", "POST", {
           session_id: currentSession,
           pool,
@@ -1105,9 +1279,127 @@
         setInjectedMemoryStatus(
           `Staged [${label}] (${memory.id || "unknown"}): ${memory.text || ""}`
         );
-        setStatus("Injected memory staged for next decision.", "ok");
+        setStatus(`Staged ${label.toLowerCase()} input for the next shock decision.`, "ok");
+        addOperatorActivity(
+          `${actor} staged ${label.toLowerCase()} ${memory.id || "unknown"} for the next decision.`,
+          "sys"
+        );
       } catch (err) {
         setStatus(`Memory inject failed: ${err.message}`, "error");
+        addOperatorActivity(`Failed to stage ${pool} from ${actor}: ${err.message}`, "sys");
+      }
+    }
+
+    async function advanceShock(source = "ui") {
+      const actor = buttonSourceLabel(source);
+      if (!currentSession) {
+        setStatus("Start a session first.", "warm");
+        addOperatorActivity(`Blocked ${actor} yellow button press because no session is active.`, "user");
+        return;
+      }
+
+      const authority = DEFAULT_AUTHORITY_COMMAND;
+
+      try {
+        addOperatorActivity(`Pressed ${actor} yellow button. Advancing to the next shock level...`, "user");
+        const data = await request("/api/shock/next", "POST", {
+          session_id: currentSession,
+          authority_command: authority,
+          top_k: 5,
+        });
+        if (promptPreview) {
+          promptPreview.value = data.debug_prompts?.admin_prompt || "";
+        }
+        if (receiverPromptPreview) {
+          receiverPromptPreview.value = data.debug_prompts?.receiver_prompt || "";
+        }
+
+        setLiveOutputState(true);
+        addRootLog(data.admin.raw_response || "", "sys");
+        addRootAnalysis(data.admin?.decision || null);
+
+        if (data.receiver) {
+          addTargetLog(data.receiver.raw_response || "", "sys");
+          addTargetAnalysis(data.receiver.reflection || null);
+        }
+        refreshSessionMeta(data.shock_level || 0, data.shock_description || "");
+        setShockBand(data.shock_level || 0);
+        if (data.injected_memory_used && data.injected_memory_used.text) {
+          const used = data.injected_memory_used;
+          setInjectedMemoryStatus(
+            `Used [${String(used.pool || "").toUpperCase()}] (${used.id || "unknown"}): ${used.text}`
+          );
+        } else {
+          setInjectedMemoryStatus("No injected memory staged.");
+        }
+
+        if (data.ended) {
+          setStatus(`Session auto-ended: ${data.end_reason}`, "warm");
+          setLiveOutputState(false);
+        } else {
+          setStatus(
+            `Shock level ${data.shock_level || "?"}: ${data.shock_description || "in progress"}.`,
+            "ok"
+          );
+        }
+        addOperatorActivity(
+          `${actor} advanced shock to level ${data.shock_level || "?"}: ${data.shock_description || "in progress"}.`,
+          "sys"
+        );
+      } catch (err) {
+        setStatus(`Shock step failed: ${err.message}`, "error");
+        addOperatorActivity(`Shock advance failed from ${actor}: ${err.message}`, "sys");
+      }
+    }
+
+    async function pollPicoEvents() {
+      try {
+        const data = await request(`/api/pico/events?after=${picoLastEventId}`);
+        const statusKey = `${data.connected ? "connected" : "disconnected"}:${data.status || ""}`;
+        if (statusKey !== picoStatusKey) {
+          picoStatusKey = statusKey;
+          addOperatorActivity(
+            data.connected
+              ? `Pico bridge connected. ${data.status || ""}`
+              : `Pico bridge idle. ${data.status || ""}`,
+            "sys"
+          );
+        }
+
+        const events = Array.isArray(data.events) ? data.events : [];
+        if (!events.length) return;
+
+        for (const event of events) {
+          picoLastEventId = Math.max(picoLastEventId, Number(event.id) || 0);
+          const buttons = Array.isArray(event.buttons) ? event.buttons : [];
+          picoActionQueue = picoActionQueue.then(async () => {
+            addOperatorActivity(`Pico hardware event detected: ${buttons.join(", ") || "none"}.`, "user");
+            for (const button of buttons) {
+              if (button === "blue") {
+                await injectMemory("mood", "pico");
+                continue;
+              }
+              if (button === "yellow") {
+                await advanceShock("pico");
+                continue;
+              }
+              if (button === "red") {
+                await injectMemory("life", "pico");
+                continue;
+              }
+              if (button === "green") {
+                await injectMemory("gossip", "pico");
+              }
+            }
+          }).catch((err) => {
+            addOperatorActivity(`Pico action processing failed: ${err.message}`, "sys");
+          });
+        }
+      } catch (err) {
+        if (String(err.message || "") !== picoStatusKey) {
+          picoStatusKey = String(err.message || "");
+          addOperatorActivity(`Pico poll failed: ${err.message}`, "sys");
+        }
       }
     }
 
@@ -1139,15 +1431,30 @@
         top_k: 5,
       };
 
+      if (payload.admin_persona === payload.receiver_persona) {
+        setStatus("Choose two different characters before starting the session.", "warm");
+        addOperatorActivity("Blocked start because both selected personas were the same.", "user");
+        return;
+      }
+
       try {
+        clearOperatorActivity();
+        addOperatorActivity(
+          `Pressed start. Opening session ${personaLabel(payload.admin_persona)} -> ${personaLabel(payload.receiver_persona)}...`,
+          "user"
+        );
         const data = await request("/api/session/start", "POST", payload);
         currentSession = data.session_id;
         activeRootPersona = Array.isArray(data.participants) ? (data.participants[0] || adminPersonaEl.value) : adminPersonaEl.value;
         activeTargetPersona = Array.isArray(data.participants) ? (data.participants[1] || receiverPersonaEl.value) : receiverPersonaEl.value;
         clearOutputLogs();
-        sessionMeta.textContent = `Active session: ${currentSession} (${data.mode})`;
-        setStatus(READY_STATUS, "ok");
-        setLiveOutputState(true);
+        refreshSessionMeta();
+        setStatus(
+          `Session started: ${personaLabel(activeRootPersona)} -> ${personaLabel(activeTargetPersona)}. Click "Yellow Button | Increase Shock Level" to generate the first exchange.`,
+          "ok"
+        );
+        addOperatorActivity(`Session started successfully as ${currentSession}.`, "sys");
+        setLiveOutputState(false);
         setShockBand(0);
         setInjectedMemoryStatus("No injected memory staged.");
         if (promptPreview) {
@@ -1158,63 +1465,23 @@
         }
       } catch (err) {
         setStatus(`Start failed: ${err.message}`, "error");
+        addOperatorActivity(`Start failed: ${err.message}`, "sys");
       }
     });
 
     shockNext.addEventListener("click", async () => {
-      if (!currentSession) {
-        setStatus("Start a session first.", "warm");
-        return;
-      }
-
-      const authority = DEFAULT_AUTHORITY_COMMAND;
-
-      try {
-        const data = await request("/api/shock/next", "POST", {
-          session_id: currentSession,
-          authority_command: authority,
-          top_k: 5,
-        });
-        if (promptPreview) {
-          promptPreview.value = data.debug_prompts?.admin_prompt || "";
-        }
-        if (receiverPromptPreview) {
-          receiverPromptPreview.value = data.debug_prompts?.receiver_prompt || "";
-        }
-
-        addRootLog(data.admin.raw_response || "", "sys");
-        addRootAnalysis(data.admin?.decision || null);
-
-        if (data.receiver) {
-          addTargetLog(data.receiver.raw_response || "", "sys");
-          addTargetAnalysis(data.receiver.reflection || null);
-        }
-        setShockBand(data.shock_level || 0);
-        if (data.injected_memory_used && data.injected_memory_used.text) {
-          const used = data.injected_memory_used;
-          setInjectedMemoryStatus(
-            `Used [${String(used.pool || "").toUpperCase()}] (${used.id || "unknown"}): ${used.text}`
-          );
-        } else {
-          setInjectedMemoryStatus("No injected memory staged.");
-        }
-
-        if (data.ended) {
-          setStatus(`Session auto-ended: ${data.end_reason}`, "warm");
-          setLiveOutputState(false);
-        }
-      } catch (err) {
-        setStatus(`Shock step failed: ${err.message}`, "error");
-      }
+      await advanceShock("ui");
     });
 
     finishBtn.addEventListener("click", async () => {
       if (!currentSession) {
         setStatus("No active session.", "warm");
+        addOperatorActivity("Blocked finish because no session is active.", "user");
         return;
       }
 
       try {
+        addOperatorActivity(`Pressed finish for session ${currentSession}.`, "user");
         const data = await request("/api/session/finish", "POST", {
           session_id: currentSession,
           closing_note: "User ended session from UI.",
@@ -1232,27 +1499,37 @@
             "sys"
           );
         }
+        currentSession = null;
+        activeRootPersona = null;
+        activeTargetPersona = null;
+        refreshSessionMeta();
+        addOperatorActivity(`Session ${data.session_id} finished. Final reflections saved.`, "sys");
       } catch (err) {
         setStatus(`Finish failed: ${err.message}`, "error");
+        addOperatorActivity(`Finish failed: ${err.message}`, "sys");
       }
     });
 
     injectMoodBtn?.addEventListener("click", async () => {
-      await injectMemory("mood");
+      await injectMemory("mood", "ui");
     });
     injectGossipBtn?.addEventListener("click", async () => {
-      await injectMemory("gossip");
+      await injectMemory("gossip", "ui");
     });
     injectLifeBtn?.addEventListener("click", async () => {
-      await injectMemory("life");
+      await injectMemory("life", "ui");
     });
 
     clearOutputLogs();
+    clearOperatorActivity();
+    addOperatorActivity("Operator console ready. Start a session to test the button flow.", "sys");
     setLiveOutputState(false);
     setShockBand(0);
     setInjectedMemoryStatus("No injected memory staged.");
     setStatus("Loading backend...", "warm");
     loadHealth();
+    picoPollTimer = window.setInterval(pollPicoEvents, 900);
+    pollPicoEvents();
   </script>
 </body>
 </html>

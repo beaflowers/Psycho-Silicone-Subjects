@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alike+Angular&family=Beth+Ellen&family=Crushed&display=swap" rel="stylesheet">
+
+  <title>Psycho-Silicone Subjects</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">Mockumentary Archive Reel</p>
+      <h1>Psycho-Silicone Subjects</h1>
+      <p class="lede">A staged 1960s-style viewing room: character selection at the side, archival images and moving footage in the spotlight, and the interview transcript running below.</p>
+      <div id="healthStatus" class="health-card">Checking archive status...</div>
+    </section>
+
+    <section class="stage">
+      <aside class="casting-panel">
+        <div class="panel">
+          <p class="panel-label">Cast Selection</p>
+          <div id="characterTabs" class="character-tabs"></div>
+        </div>
+
+        <div id="siliconeControls" class="panel control-panel">
+          <label class="panel-label" for="shiftRange">Voice Crossfade</label>
+          <input id="shiftRange" type="range" min="0" max="1" step="0.01">
+          <div id="shiftValue" class="value-chip">shift=0.00</div>
+          <div class="side-actions">
+            <button id="moodBtn" class="secondary-btn" type="button">Randomize Mood</button>
+            <button id="memoryBtn" class="secondary-btn" type="button">Add Memory</button>
+          </div>
+          <div id="siliconeMeta" class="hint"></div>
+        </div>
+      </aside>
+
+      <section class="screening-room">
+        <div class="screening-header">
+          <div>
+            <p id="chatTitle" class="chat-title">Loading...</p>
+            <p id="chatSubtitle" class="chat-subtitle"></p>
+          </div>
+          <p class="screening-stamp">Recorded Reconstruction</p>
+        </div>
+
+        <div class="screening-grid">
+          <section class="feature-frame">
+            <div class="frame-header">
+              <p class="media-heading">Featured Image</p>
+            </div>
+            <div id="imageMedia" class="feature-media"></div>
+          </section>
+
+          <section class="feature-frame video-frame">
+            <div class="frame-header">
+              <p class="media-heading">Screen Test Footage</p>
+            </div>
+            <div id="videoMedia" class="feature-media"></div>
+          </section>
+        </div>
+
+        <div class="panel media-note-panel">
+          <p id="mediaHint" class="hint"></p>
+        </div>
+      </section>
+    </section>
+
+    <section class="transcript-shell">
+      <div class="chat-topbar">
+        <div>
+          <p class="transcript-label">Interview Transcript</p>
+          <p class="chat-subtitle">Live exchange with the selected subject.</p>
+        </div>
+        <button id="resetBtn" class="ghost-btn" type="button">Reset Local Transcript</button>
+      </div>
+
+      <section id="chatLog" class="chat-log"></section>
+
+      <form id="composer" class="composer">
+        <textarea id="messageInput" rows="3" placeholder="Ask the selected character a question..."></textarea>
+        <div class="composer-actions">
+          <span id="composerStatus" class="composer-status"></span>
+          <button id="sendBtn" class="primary-btn" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    window.APP_BOOT = {
+      model: {{ model|tojson }},
+      characters: {{ characters|tojson }},
+    };
+  </script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

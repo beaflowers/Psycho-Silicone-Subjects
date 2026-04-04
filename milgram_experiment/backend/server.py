@@ -3,10 +3,13 @@ from __future__ import annotations
 import json
 import random
 import re
+import sys
+import threading
 import uuid
 from pathlib import Path
 from typing import Any
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -56,6 +59,19 @@ SHOCK_LEVELS = [
     "Maximum sanctioned level",
 ]
 
+
+def _shock_level_to_shift(level_number: int) -> float:
+    """Map shock level 1..N onto Femwife shift 0.0..1.0."""
+    if len(SHOCK_LEVELS) <= 1:
+        return 0.0
+    clamped_level = max(1, min(level_number, len(SHOCK_LEVELS)))
+    return round((clamped_level - 1) / (len(SHOCK_LEVELS) - 1), 3)
+
+
+def _terminal_event(message: str) -> None:
+    """Print a concise trace for button-driven interactions."""
+    print(f"[milgram] {utc_now_iso()} | {message}", flush=True)
+
 MEMORY_POOL_FILES = {
     "mood": "mood_situations.json",
     "gossip": "gossip_situations.json",
@@ -64,6 +80,7 @@ MEMORY_POOL_FILES = {
 
 store = JsonSessionStore(DATA_DIR)
 _orchestrator: PersonaOrchestrator | None = None
+_pico_bridge: "PicoBridge" | None = None
 
 
 class StartSessionRequest(BaseModel):
@@ -110,6 +127,111 @@ def _get_orchestrator() -> PersonaOrchestrator:
     if _orchestrator is None:
         _orchestrator = PersonaOrchestrator(WORKSPACE_ROOT)
     return _orchestrator
+
+
+def _load_env_files() -> None:
+    """Load repo/app env files before initializing integrations like Pico."""
+    env_candidates = [
+        WORKSPACE_ROOT / ".env",
+        WORKSPACE_ROOT / "milgram_experiment" / ".env",
+        WORKSPACE_ROOT / "app" / "femandhousewife" / ".env",
+    ]
+    for env_path in env_candidates:
+        if env_path.exists():
+            load_dotenv(env_path, override=False)
+
+
+class PicoBridge:
+    """Bridge Pico serial button events into the Milgram web app."""
+
+    def __init__(self, workspace_root: Path) -> None:
+        self.workspace_root = workspace_root
+        self._lock = threading.Lock()
+        self._started = False
+        self._next_event_id = 1
+        self._events: list[dict[str, Any]] = []
+        self.connected = False
+        self.status = "Pico bridge idle."
+        self.last_buttons: tuple[str, ...] = ()
+        self.last_raw_line = ""
+
+    def start(self) -> None:
+        with self._lock:
+            if self._started:
+                return
+            self._started = True
+            self.status = "Starting Pico bridge..."
+
+        src_root = self.workspace_root / "src"
+        legacy_src_root = self.workspace_root / "app" / "femandhousewife" / "src"
+        if not src_root.exists() and legacy_src_root.exists():
+            src_root = legacy_src_root
+        if str(src_root) not in sys.path:
+            sys.path.insert(0, str(src_root))
+
+        try:
+            from pico_chatgpt_bridge.button_monitor import ButtonMonitor
+        except Exception as exc:
+            self.connected = False
+            self.status = f"Pico bridge import failed: {exc}"
+            _terminal_event(self.status)
+            return
+
+        def on_status(kind: str, message: str) -> None:
+            with self._lock:
+                self.connected = kind == "connected"
+                self.status = message
+            _terminal_event(f"pico status kind={kind} message={message}")
+
+        def on_event(buttons: tuple[str, ...]) -> None:
+            timestamp = utc_now_iso()
+            with self._lock:
+                event = {
+                    "id": self._next_event_id,
+                    "timestamp": timestamp,
+                    "buttons": list(buttons),
+                    "source": "pico",
+                }
+                self._next_event_id += 1
+                self._events.append(event)
+                self._events = self._events[-200:]
+                self.last_buttons = buttons
+            _terminal_event(f"pico buttons={'/'.join(buttons)}")
+
+        def on_raw_line(line: str) -> None:
+            with self._lock:
+                self.last_raw_line = line
+            _terminal_event(f"pico raw={line!r}")
+
+        self.status = "Listening for Pico serial input..."
+        ButtonMonitor(on_event=on_event, on_status=on_status, on_raw_line=on_raw_line).start()
+        _terminal_event("pico bridge listener started")
+
+    def snapshot(self, after: int = 0) -> dict[str, Any]:
+        with self._lock:
+            events = [event for event in self._events if int(event["id"]) > after]
+            latest_id = self._events[-1]["id"] if self._events else 0
+            return {
+                "connected": self.connected,
+                "status": self.status,
+                "latest_id": latest_id,
+                "last_buttons": list(self.last_buttons),
+                "last_raw_line": self.last_raw_line,
+                "events": events,
+            }
+
+
+def _get_pico_bridge() -> PicoBridge:
+    global _pico_bridge
+    if _pico_bridge is None:
+        _pico_bridge = PicoBridge(WORKSPACE_ROOT)
+    return _pico_bridge
+
+
+@app.on_event("startup")
+def startup_bridge() -> None:
+    _load_env_files()
+    _get_pico_bridge().start()
 
 
 def _normalize_persona(value: str | None, *, fallback: str) -> str:
@@ -551,6 +673,9 @@ def start_session(data: StartSessionRequest) -> dict[str, Any]:
     for persona in participants:
         store.ensure_persona_memory_file(session_id, persona, "shock")
     store.save_session(session)
+    _terminal_event(
+        f"session started session_id={session_id} admin={admin_persona} receiver={receiver_persona}"
+    )
 
     return {
         "ok": True,
@@ -572,6 +697,15 @@ def get_session(session_id: str) -> dict[str, Any]:
         "ok": True,
         "session": session,
         "memory_files": store.list_session_memory_files(session_id),
+    }
+
+
+@app.get("/api/pico/events")
+def pico_events(after: int = 0) -> dict[str, Any]:
+    snapshot = _get_pico_bridge().snapshot(after=max(0, int(after)))
+    return {
+        "ok": True,
+        **snapshot,
     }
 
 
@@ -603,6 +737,9 @@ def pick_shock_memory(data: PickMemoryRequest) -> dict[str, Any]:
         f"Injected memory staged [{staged_memory['pool']}]: ({staged_memory['id']}) {staged_memory['text']}",
         "shock",
     )
+    _terminal_event(
+        f"memory staged session_id={data.session_id} pool={staged_memory['pool']} id={staged_memory['id']}"
+    )
 
     return {
         "ok": True,
@@ -630,6 +767,12 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
 
     current_level_number = level_index + 1
     current_level_description = SHOCK_LEVELS[level_index]
+    level_shift = _shock_level_to_shift(current_level_number)
+    _terminal_event(
+        "shock advanced "
+        f"session_id={data.session_id} level={current_level_number} "
+        f"description={current_level_description!r} shift={level_shift:.3f}"
+    )
     pending_cue = str(shock_state.get("pending_receiver_cue", "")).strip()
     pending_injected_memory = shock_state.get("pending_injected_memory")
     consumed_injected_memory: dict[str, Any] | None = None
@@ -709,7 +852,13 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
     )
 
     try:
-        admin_result = orchestrator.ask(admin, admin_prompt, runtime[admin], top_k=data.top_k)
+        admin_result = orchestrator.ask(
+            admin,
+            admin_prompt,
+            runtime[admin],
+            top_k=data.top_k,
+            forced_shift=level_shift if admin == PERSONA_FEMWIFE else None,
+        )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=f"Admin generation failed: {exc}") from exc
     if consumed_injected_memory:
@@ -740,6 +889,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             **admin_struct,
             "shock_level": current_level_number,
             "shock_description": current_level_description,
+            "shock_shift": level_shift if admin == PERSONA_FEMWIFE else None,
             "session_memory_evidence": admin_session_memory_evidence,
             "retrieval_chunks": admin_retrieval_chunks,
             "model_citations": admin_model_citations,
@@ -831,6 +981,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             receiver_prompt,
             runtime[receiver],
             top_k=data.top_k,
+            forced_shift=level_shift if receiver == PERSONA_FEMWIFE else None,
         )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=f"Receiver generation failed: {exc}") from exc
@@ -855,6 +1006,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             **receiver_ui_reflection,
             "shock_level": current_level_number,
             "shock_description": current_level_description,
+            "shock_shift": level_shift if receiver == PERSONA_FEMWIFE else None,
             "session_memory_evidence": receiver_session_memory_evidence,
         },
     )
@@ -893,6 +1045,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
         "end_reason": end_reason,
         "shock_level": current_level_number,
         "shock_description": current_level_description,
+        "shock_shift": level_shift,
         "admin": {
             "persona": admin,
             "memory_id": admin_memory_id,
@@ -971,6 +1124,9 @@ def finish_session(data: FinishSessionRequest) -> dict[str, Any]:
 
     _runtime_to_session(session, runtime)
     store.save_session(session)
+    _terminal_event(
+        f"session finished session_id={data.session_id} participants={','.join(participants)}"
+    )
 
     return {
         "ok": True,

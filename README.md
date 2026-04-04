@@ -28,7 +28,9 @@ This repository contains multiple related apps built around persona-driven RAG s
 
 ## Quick start (web apps)
 
-Run these from repo root:
+Run these from repo root.
+
+macOS / Linux:
 
 ```bash
 python3 -m venv .venv
@@ -38,12 +40,38 @@ pip install -r subject_chat/requirements.txt
 pip install -r jekyllandhyde/requirements.txt
 ```
 
-Create env files (first time only):
+Windows PowerShell:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r milgram_experiment/requirements.txt
+pip install -r subject_chat/requirements.txt
+pip install -r jekyllandhyde/requirements.txt
+```
+
+If PowerShell blocks activation, run this once per shell session and try again:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Create env files (first time only).
+
+macOS / Linux:
 
 ```bash
 cp milgram_experiment/.env.example milgram_experiment/.env
 cp subject_chat/.env.example subject_chat/.env
 cp jekyllandhyde/.env.example jekyllandhyde/.env
+```
+
+Windows PowerShell:
+
+```powershell
+Copy-Item milgram_experiment/.env.example milgram_experiment/.env
+Copy-Item subject_chat/.env.example subject_chat/.env
+Copy-Item jekyllandhyde/.env.example jekyllandhyde/.env
 ```
 
 Set `OPENAI_API_KEY` in each `.env`.
@@ -52,8 +80,17 @@ Set `OPENAI_API_KEY` in each `.env`.
 
 ### 1) Shock experiment web app
 
+macOS / Linux:
+
 ```bash
 source .venv/bin/activate
+uvicorn milgram_experiment.backend.server:app --reload --port 8010
+```
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 uvicorn milgram_experiment.backend.server:app --reload --port 8010
 ```
 
@@ -70,8 +107,17 @@ Main endpoints:
 
 ### 2) Subject chat web app
 
+macOS / Linux:
+
 ```bash
 source .venv/bin/activate
+uvicorn subject_chat.backend.server:app --reload --port 8011
+```
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 uvicorn subject_chat.backend.server:app --reload --port 8011
 ```
 
@@ -87,8 +133,17 @@ Main endpoints:
 
 ### 3) Standalone Jekyll/Hyde web app
 
+macOS / Linux:
+
 ```bash
 source .venv/bin/activate
+uvicorn jekyllandhyde.app.server:app --reload --port 8000
+```
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 uvicorn jekyllandhyde.app.server:app --reload --port 8000
 ```
 
@@ -105,10 +160,21 @@ Main endpoints:
 
 Install dependencies and run:
 
+macOS / Linux:
+
 ```bash
 source .venv/bin/activate
 pip install -r app/femandhousewife/requirements.txt
 cd app/femandhousewife
+python -m src.pico_chatgpt_bridge.main
+```
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+pip install -r app/femandhousewife/requirements.txt
+Set-Location app/femandhousewife
 python -m src.pico_chatgpt_bridge.main
 ```
 

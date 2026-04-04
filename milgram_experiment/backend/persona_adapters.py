@@ -69,7 +69,10 @@ class PersonaOrchestrator:
         return module.RAGEngine(client=self.client, pdf_paths=[jekyll_pdf], chat_model=model)
 
     def _build_femwife_engine(self) -> Any:
-        src_root = self.workspace_root / "app" / "femandhousewife" / "src"
+        legacy_src_root = self.workspace_root / "app" / "femandhousewife" / "src"
+        src_root = self.workspace_root / "src"
+        if not src_root.exists() and legacy_src_root.exists():
+            src_root = legacy_src_root
         if not src_root.exists():
             raise RuntimeError(f"Missing Pico src folder: {src_root}")
 
@@ -102,13 +105,30 @@ class PersonaOrchestrator:
         return fallback[0]
 
     def _find_femwife_pdfs(self) -> list[Path]:
-        folder = self.workspace_root / "app" / "femandhousewife" / "PDFs"
-        if not folder.exists():
-            raise RuntimeError(f"Missing femwife PDFs folder: {folder}")
+        legacy_folder = self.workspace_root / "app" / "femandhousewife" / "PDFs"
+        repo_pdf_dirs = [
+            self.workspace_root / "PDFs" / "angela_carter",
+            self.workspace_root / "PDFs" / "housewife",
+        ]
 
-        pdfs = sorted(folder.rglob("*.pdf"))
+        if legacy_folder.exists():
+            pdfs = sorted(
+                path
+                for path in legacy_folder.rglob("*.pdf")
+                if any(token in str(path).lower() for token in ("angela", "housewife"))
+            )
+        else:
+            pdfs = sorted(
+                path
+                for folder in repo_pdf_dirs
+                if folder.exists()
+                for path in folder.rglob("*.pdf")
+            )
+
         if not pdfs:
-            raise RuntimeError("No femwife PDFs found in app/femandhousewife/PDFs.")
+            raise RuntimeError(
+                "No femwife PDFs found in app/femandhousewife/PDFs or PDFs/{angela_carter,housewife}."
+            )
         return pdfs
 
     def describe_sources(self) -> dict[str, str]:
@@ -124,6 +144,7 @@ class PersonaOrchestrator:
         state: PersonaRuntimeState,
         *,
         top_k: int | None = None,
+        forced_shift: float | None = None,
     ) -> dict[str, Any]:
         if persona_key == PERSONA_JEKYLL:
             answer, response_id, chunks = self.jekyll_engine.ask(
@@ -150,7 +171,7 @@ class PersonaOrchestrator:
             }
 
         if persona_key == PERSONA_FEMWIFE:
-            shift = self._auto_shift(state.shift, prompt)
+            shift = forced_shift if forced_shift is not None else self._auto_shift(state.shift, prompt)
             tone_instruction = (
                 "You are in a live experiment. Let your tone adapt naturally to pressure, "
                 "authority, empathy, and tension in the conversation while staying grounded "
