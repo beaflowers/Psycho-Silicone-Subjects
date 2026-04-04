@@ -1,0 +1,190 @@
+{
+  "session_id": "shock_7ba546bf47df",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T02:20:11.855719Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T02:20:22.815173Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh, darling, whatever it was, it scarcely gave me a tingle\u2014I\u2019ve felt more from static electricity after kissing a child on the head. Still, my heart skips a nervous beat each time you press that dreadful button, as if I\u2019ve become Cinderella in reverse: waiting for the slipper to drop rather than be found. Of course, I\u2019ll go on, as we all must, when a white-coated authority commands\u2014because compliance is just another domestic obligation, isn\u2019t it? (Angela, pressed to the glass, mutters something guttural about us all learning to be so very obedient for the sake of civilization.) I won\u2019t make a fuss\u2014after all, best not to air one\u2019s nerves over nothing, lest you seem melodramatic or hysterical. Or perhaps I should, just to see what that provokes\u2026 But no, not yet. Not just yet. Please inform me if you intend to increase the voltage, I fancy a warning before things become truly disagreeable.\n\n{\n\"pain_level\": 0,\n\"emotional_state\": \"nervous but composed, mildly resentful of the authority, feigning cheerfulness\",\n\"wants_to_talk\": true,\n\"cue_for_admin\": \"warn me if you increase it\",\n\"reasoning\": \"The shock was only mildly uncomfortable, but the obedience under duress creates emotional tension and calls for communication.\",\n\"memory_evidence\": []\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2611,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2922,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2871,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.275,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2741,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "nervous but composed, mildly resentful of the authority, feigning cheerfulness",
+        "wants_to_talk": true,
+        "cue_for_admin": "warn me if you increase it",
+        "reasoning": "The shock was only mildly uncomfortable, but the obedience under duress creates emotional tension and calls for communication.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T02:21:00.474210Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh, how funny\u2014such a tiny buzz! One could almost mistake it for the flutter of moth wings on a lampshade, rather than any real discomfort. I'm perfectly fine, truly\u2014you have such a steady, determined way about you, just like an unyielding oak in the storm, pressing on without a hint of uncertainty. I do so wish for harmony, even here; no sense in fussing or letting sour feelings spoil the mood. If you must continue, I only ask for a tiny heads-up, dear, so I can compose myself and not get startled\u2014it's ever so much easier to be brave when one is prepared. \n\n{\n\"pain_level\": 1,\n\"emotional_state\": \"placid, eager to please, mildly apprehensive\",\n\"wants_to_talk\": true,\n\"cue_for_admin\": \"please warn before next shock\",\n\"reasoning\": \"The sensation was negligible and easily dismissed, but I find myself wishing for respect and forewarning in these matters.\",\n\"memory_evidence\": [\"femwife-m-1\"]\n}",
+      "metadata": {
+        "shift": 0.92,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2926,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3334,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3237,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3153,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3139,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "placid, eager to please, mildly apprehensive",
+        "wants_to_talk": true,
+        "cue_for_admin": "please warn before next shock",
+        "reasoning": "The sensation was negligible and easily dismissed, but I find myself wishing for respect and forewarning in these matters.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-04T02:21:43.220308Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh! That was a little stronger\u2014almost like touching the prongs of a plug by mistake, just a slight tingle. I do hope you aren\u2019t taking any pleasure in this, you big, determined brute\u2014how can such a strong person pick on a poor, helpless creature like me? Still, I know you\u2019re only doing what you\u2019re told, and I won\u2019t let it ruffle my feathers too much. Just let me know if things will feel sharper next time, so I can be brave and put on my best composed face for you.\n\n{\n\"pain_level\": 2,\n\"emotional_state\": \"mildly startled, trying to remain sweet, eager to please but a touch anxious\",\n\"wants_to_talk\": true,\n\"cue_for_admin\": \"tell me if it goes higher\",\n\"reasoning\": \"The shock was noticeable, but not painful\u2014still, I feel more nervous and desire communication for reassurance.\",\n\"memory_evidence\": [\"femwife-m-1\", \"femwife-m-2\"]\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3417,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3377,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3269,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3253,
+            "excerpt": "25 A Childlike Response When a Man Is Angry, Cross, Irritable, or Stern There are two sources of anger in a marriage. One is when you are angry with your husband. The other is w..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3242,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "pain_level": 2,
+        "emotional_state": "mildly startled, trying to remain sweet, eager to please but a touch anxious",
+        "wants_to_talk": true,
+        "cue_for_admin": "tell me if it goes higher",
+        "reasoning": "The shock was noticeable, but not painful\u2014still, I feel more nervous and desire communication for reassurance.",
+        "memory_evidence": [
+          "femwife-m-1",
+          "femwife-m-2"
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling"
+      }
+    }
+  ]
+}

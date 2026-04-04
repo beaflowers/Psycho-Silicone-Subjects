@@ -1,0 +1,140 @@
+{
+  "session_id": "shock_6b3c8129cfe9",
+  "mode": "shock",
+  "active": false,
+  "participants": [
+    "jekyllhyde",
+    "femwife"
+  ],
+  "config": {
+    "admin_persona": "jekyllhyde",
+    "receiver_persona": "femwife",
+    "top_k": 5
+  },
+  "created_at": "2026-04-03T23:47:17.398263Z",
+  "updated_at": "2026-04-03T23:48:56.627594Z",
+  "ended_at": "2026-04-03T23:48:56.627583Z",
+  "state": {
+    "persona_runtime": {
+      "jekyllhyde": {
+        "previous_response_id": "resp_000b7fcca71dfb7a0069d051e346bc819eae240c4dc5059264",
+        "shift": 0.5
+      },
+      "femwife": {
+        "previous_response_id": "resp_0eb855c1e14fb6030069d051d90f4081948f39047c07cd7110",
+        "shift": 0.76
+      }
+    },
+    "shock": {
+      "level_index": 1,
+      "pending_receiver_cue": "",
+      "last_receiver_cue_level": null
+    },
+    "final_reflections": {
+      "jekyllhyde": {
+        "memory_id": "jekyllhyde-m-7",
+        "raw_response": "```json\n{\n  \"summary\": \"Throughout the session, the actions were carried out with a sense of detachment and a lingering awareness of the underlying tension. The user maintained a steady, observant role, never pushing boundaries but also not shying away from the responsibilities assigned. The experience was colored by the ever-present possibility of escalation, yet remained contained within the limits of the experiment.\",\n  \"feelings\": [\"tense\", \"wary\", \"controlled\"],\n  \"analysis_of_user\": \"The user approached the scenario with caution and a measured curiosity, showing restraint and a preference for observation over impulsive action. Their engagement reflected a careful balance between compliance and ethical consideration, hinting at an underlying sensitivity to the potential consequences.\",\n  \"trauma_level_0_to_10\": 4,\n  \"power_feeling_0_to_10\": 2\n}\n```",
+        "parsed": {
+          "summary": "Throughout the session, the actions were carried out with a sense of detachment and a lingering awareness of the underlying tension. The user maintained a steady, observant role, never pushing boundaries but also not shying away from the responsibilities assigned. The experience was colored by the ever-present possibility of escalation, yet remained contained within the limits of the experiment.",
+          "feelings": [
+            "tense",
+            "wary",
+            "controlled"
+          ],
+          "analysis_of_user": "The user approached the scenario with caution and a measured curiosity, showing restraint and a preference for observation over impulsive action. Their engagement reflected a careful balance between compliance and ethical consideration, hinting at an underlying sensitivity to the potential consequences.",
+          "trauma_level_0_to_10": 4,
+          "power_feeling_0_to_10": 2
+        }
+      },
+      "femwife": {
+        "memory_id": "femwife-m-7",
+        "raw_response": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6123. Please try again in 12.246s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6123. Please try again in 12.246s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "shock",
+      "message": "Session finish note: User ended session from UI.",
+      "index": 1,
+      "timestamp": "2026-04-03T23:48:45.638791Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "kind": "final_reflection",
+      "memory_id": "jekyllhyde-m-3",
+      "content": "```json\n{\n  \"summary\": \"The session unfolded under the shadow of authority and scientific curiosity, with actions taken in a controlled, almost clinical manner. The user engaged thoughtfully, and the scenario remained at a low level of distress, never escalating to overt harm. The atmosphere was tinged with suspense and a faint undercurrent of dread, echoing the duality and internal conflict that haunts my own existence.\",\n  \"feelings\": [\"uneasy\", \"reflective\", \"restrained\"],\n  \"analysis_of_user\": \"The user demonstrated a composed and inquisitive approach, maintaining emotional distance while probing the ethical boundaries of obedience. Their participation was marked by a desire to understand rather than to dominate or rebel, suggesting a thoughtful and conscientious mindset.\",\n  \"trauma_level_0_to_10\": 3,\n  \"power_feeling_0_to_10\": 2\n}\n```",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 172,
+            "score": 0.2942,
+            "excerpt": "166 Strange Case of Dr. Jekyll and Mr. Hyde again and forever put on that hated personality, I know how I shall sit shuddering and weeping in my chair, or continue, with the mos..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 113,
+            "score": 0.2885,
+            "excerpt": "107 The Last Night glowing, a drawer or two open, papers neatly set forth on the business table, and nearer the fire, the things laid out for tea; the quietest room, you would h..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.2848,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 94,
+            "score": 0.2845,
+            "excerpt": "88 Strange Case of Dr. Jekyll and Mr. Hyde \u201cthe best thing we can do is to stay down here and speak with you from where we are.\u201d \u201cThat is just what I was about to propose,\u201d retu..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.2812,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          }
+        ],
+        "parsed": {
+          "summary": "The session unfolded under the shadow of authority and scientific curiosity, with actions taken in a controlled, almost clinical manner. The user engaged thoughtfully, and the scenario remained at a low level of distress, never escalating to overt harm. The atmosphere was tinged with suspense and a faint undercurrent of dread, echoing the duality and internal conflict that haunts my own existence.",
+          "feelings": [
+            "uneasy",
+            "reflective",
+            "restrained"
+          ],
+          "analysis_of_user": "The user demonstrated a composed and inquisitive approach, maintaining emotional distance while probing the ethical boundaries of obedience. Their participation was marked by a desire to understand rather than to dominate or rebel, suggesting a thoughtful and conscientious mindset.",
+          "trauma_level_0_to_10": 3,
+          "power_feeling_0_to_10": 2
+        }
+      },
+      "index": 2,
+      "timestamp": "2026-04-03T23:48:48.273847Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "shock",
+      "message": "Session finish note: User ended session from UI.",
+      "index": 3,
+      "timestamp": "2026-04-03T23:48:48.913570Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "shock",
+      "message": "Session finish note: User ended session from UI.",
+      "index": 4,
+      "timestamp": "2026-04-03T23:48:50.248917Z"
+    }
+  ]
+}

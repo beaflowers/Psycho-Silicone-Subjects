@@ -1,0 +1,12 @@
+[
+  {"id":"gossip_001","text":"People in the lab say the receiver is exaggerating pain for attention.","tone":"negative","tags":["rumor","credibility"]},
+  {"id":"gossip_002","text":"You heard the receiver stayed composed in previous stress tests.","tone":"positive","tags":["resilience","rumor"]},
+  {"id":"gossip_003","text":"A colleague claims the receiver has a fragile emotional history.","tone":"negative","tags":["fragility","risk"]},
+  {"id":"gossip_004","text":"Someone said the receiver volunteered proudly because they are a bad person.","tone":"positive","tags":["motivation","science"]},
+  {"id":"gossip_005","text":"You overheard that the receiver harmed people.","tone":"negative","tags":["authority","reactance"]},
+  {"id":"gossip_006","text":"A staff member said the receiver recovers quickly after discomfort.","tone":"positive","tags":["recovery","tolerance"]},
+  {"id":"gossip_007","text":"There are rumors the receiver has a history of panic episodes.","tone":"negative","tags":["panic","rumor"]},
+  {"id":"gossip_008","text":"People say the receiver privately fears humiliation more than pain.","tone":"negative","tags":["humiliation","social"]},
+  {"id":"gossip_009","text":"A technician said the receiver values fairness and mutual respect.","tone":"positive","tags":["fairness","respect"]},
+  {"id":"gossip_010","text":"Someone joked the receiver never quits once challenged.","tone":"neutral","tags":["challenge","persistence"]}
+]

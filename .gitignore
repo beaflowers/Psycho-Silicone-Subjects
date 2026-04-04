@@ -1,0 +1,11 @@
+.venv/
+.env
+.rag_cache/
+__pycache__/
+*.pyc
+
+local_backups/*.tar.gz
+.DS_Store
+
+local_backups/*.tar.gz
+.DS_Store

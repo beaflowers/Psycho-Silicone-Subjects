@@ -1,0 +1,67 @@
+{
+  "session_id": "shock_43d6fcfd23a2",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T22:53:19.228197Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T22:53:29.985729Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, level one on your little electrical scale is barely a pinprick\u2014enough to ruffle an apron, not singe it. You must present a pleasant face, of course, even when the current hums faintly beneath your skin; a good housewife does not flinch, she merely tidies the jolt away behind a fixed, dazzling smile. Yet, you should not forget that even the smallest shock, if repeated or ignored, will one day set the curtains alight\u2014oh, but hush! That\u2019s hardly proper table talk, is it?\n\n```json\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly tense, masking with composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Monitor for cumulative effects\",\n  \"reasoning\": \"Level 1 shock inconsequential now, but repeated exposure may cause distress\u2014even a model housewife has her limits, as Carter herself would mutter between cigarette drags.\",\n  \"memory_evidence\": []\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2655,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3035,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2798,
+            "excerpt": "hurt you\u2019 turns"
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2768,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2638,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "mildly tense, masking with composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "Monitor for cumulative effects",
+        "reasoning": "Level 1 shock inconsequential now, but repeated exposure may cause distress\u2014even a model housewife has her limits, as Carter herself would mutter between cigarette drags.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    }
+  ]
+}

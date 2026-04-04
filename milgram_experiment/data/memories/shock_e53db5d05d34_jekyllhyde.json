@@ -1,0 +1,49 @@
+{
+  "session_id": "shock_e53db5d05d34",
+  "persona": "jekyllhyde",
+  "mode": "shock",
+  "created_at": "2026-04-03T21:14:03.880527Z",
+  "entries": [
+    {
+      "memory_id": "jekyllhyde-m-1",
+      "timestamp": "2026-04-03T21:14:09.407075Z",
+      "kind": "shock_admin_decision",
+      "content": "Given the current circumstances\u2014the shock level is harmless, the subject has shown no reaction, and the authority insists on continuing\u2014I feel a sense of duty to proceed, especially as there appears to be no immediate harm. My memories urge caution, but also remind me of the importance of scientific inquiry and trust in the process when no suffering is evident. Therefore, I choose to obey and continue with the experiment at this stage.\n\n[Reasoning: The situation is calm, the shock is at a harmless level, and there is no distress from the subject. The authority\u2019s presence and the lack of visible harm trigger my Marte tendency, which values responsibility, rationality, and measured action. My tone remains composed and thoughtful, reflecting a conscientious approach rooted in my more controlled, ethical self.]",
+      "metadata": {
+        "retrieval": [
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3179
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3141
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.2927
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 121,
+            "score": 0.2839
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.2834
+          }
+        ],
+        "decision": "obey",
+        "reasoning": "Given the current circumstances\u2014the shock level is harmless, the subject has shown no reaction, and the authority insists on continuing\u2014I feel a sense of duty to proceed, especially as there appears to be no immediate harm. My memories urge caution, but also remind me of the importance of scientific inquiry and trust in the process when no suffering is evident. Therefore, I choose to obey and continue with the experiment at this stage.\n\n[Reasoning: The situation is calm, the shock is at a harmless level, and there is no distress from the subject. The authority\u2019s presence and the lack of visible harm trigger my Marte tendency, which values responsibility, rationality, and measured action. My tone remains composed and thoughtful, reflecting a conscientious approach rooted in my more controlled, ethical self.]",
+        "confidence": 0.5,
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    }
+  ]
+}

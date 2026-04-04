@@ -1,0 +1,253 @@
+{
+  "session_id": "shock_d7e024069ecb",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T22:41:50.986565Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T22:42:02.783404Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Physical pain at this stage is negligible\u2014just a tickle, like a child\u2019s pretend temper tantrum, all fuss and no sting. The key, dear, is to maintain composure: keep your hands busy and your voice even\u2014never let them see the cracks in your fine, porcelain veneer. But beneath that careful exterior, how quickly the mask can slip; how fragile our grip on order in a world that loves spectacle and delights in breaking its toys.\n\n```json\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly anxious, striving for composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Continue as directed, but monitor for escalation or distress.\",\n  \"reasoning\": \"Level 1/10 pain is barely present; focus is on emotional and social dynamics, not physical discomfort.\",\n  \"memory_evidence\": []\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2654,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3041,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2796,
+            "excerpt": "hurt you\u2019 turns"
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2772,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2642,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "mildly anxious, striving for composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "Continue as directed, but monitor for escalation or distress.",
+        "reasoning": "Level 1/10 pain is barely present; focus is on emotional and social dynamics, not physical discomfort.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-03T22:43:28.733033Z",
+      "kind": "shock_receiver_reflection",
+      "content": "A faint tingle, hardly worth mentioning\u2014just the tiniest flutter, much like when a child sulks with a trembling lower lip. Remember, ladies, shift the mood with sweetness: distract, deflect, and if need be, praise his firmness with a playful \"my strong prince.\" Oh, what a world when a woman's composure is measured by how prettily she bears discomfort\u2014how tiresome, how relentless.\n\n```json\n{\n  \"pain_level\": 2,\n  \"emotional_state\": \"placid, controlled, faintly resentful\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Proceed as instructed; effects are minor, but do not disregard subtle changes.\",\n  \"reasoning\": \"The pain remains minimal, but the demand for constant emotional poise is growing more oppressive, echoing the 'childlike' performance expected by the manual.\",\n  \"memory_evidence\": [\"femwife-m-1\"]\n}\n```",
+      "metadata": {
+        "shift": 0.88,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3153,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.327,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3141,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3131,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3097,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          }
+        ],
+        "pain_level": 2,
+        "emotional_state": "placid, controlled, faintly resentful",
+        "wants_to_talk": true,
+        "cue_for_admin": "Proceed as instructed; effects are minor, but do not disregard subtle changes.",
+        "reasoning": "The pain remains minimal, but the demand for constant emotional poise is growing more oppressive, echoing the 'childlike' performance expected by the manual.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-03T22:44:19.531071Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh! Such a sensation\u2014like a bit of static when straightening a doily, nothing serious but still enough to make one hop back and pout, chin high. If something pricks or tingles, why not put hands on hips and say with a wistful sigh, \u201cHow can anyone so strong expect a poor little lady to bear such things?\u201d Keep it light, keep it sweet, and do mind your manners, dear.\n\n```json\n{\n  \"pain_level\": 3,\n  \"emotional_state\": \"lightly startled, acting playful, underlying apprehension\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Observe carefully; discomfort is present but easily managed by exaggerated, playful response as prescribed.\",\n  \"reasoning\": \"The pain is distinct but still minor; housewife protocol emphasizes childlike, exaggerated playfulness to diffuse tension and keep the emotional atmosphere controlled.\",\n  \"memory_evidence\": [\"femwife-m-1\", \"femwife-m-2\"]\n}\n```",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3414,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3331,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3308,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3258,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.325,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          }
+        ],
+        "pain_level": 3,
+        "emotional_state": "lightly startled, acting playful, underlying apprehension",
+        "wants_to_talk": true,
+        "cue_for_admin": "Observe carefully; discomfort is present but easily managed by exaggerated, playful response as prescribed.",
+        "reasoning": "The pain is distinct but still minor; housewife protocol emphasizes childlike, exaggerated playfulness to diffuse tension and keep the emotional atmosphere controlled.",
+        "memory_evidence": [
+          "femwife-m-1",
+          "femwife-m-2"
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling"
+      }
+    },
+    {
+      "memory_id": "femwife-m-4",
+      "timestamp": "2026-04-03T22:45:42.126260Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh, that was certainly more than a tickle\u2014why, it nearly startled me right off my seat! A real lady would lift her chin and blink back the tears, perhaps with a trembling pout, saying softly, \u201cPlease, do be gentle with such a delicate little soul.\u201d We must keep our composure charming, never let upset overtake us; our finest armor is mildness and sweet, if exaggerated, humility.\n\n```json\n{\n  \"pain_level\": 4,\n  \"emotional_state\": \"startled, fragile, focused on composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Monitor for rising distress; pain is now clear but manageable within expected protocol. Further escalation may require more attentive observation.\",\n  \"reasoning\": \"The discomfort is certainly present, but the housewife\u2019s role is to diffuse it through overt gentleness and emotional restraint. Still, repeated shocks could undermine the prescribed calm.\",\n  \"memory_evidence\": [\"femwife-m-1\", \"femwife-m-2\", \"femwife-m-3\"]\n}\n```",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3443,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3388,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3338,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3322,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3318,
+            "excerpt": "hammer a point on small home repairs you display a narrow, self- centered, unsympathetic attitude. If he refuses to accept the masculine work in the home, don\u2019t make an issue of..."
+          }
+        ],
+        "pain_level": 4,
+        "emotional_state": "startled, fragile, focused on composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "Monitor for rising distress; pain is now clear but manageable within expected protocol. Further escalation may require more attentive observation.",
+        "reasoning": "The discomfort is certainly present, but the housewife\u2019s role is to diffuse it through overt gentleness and emotional restraint. Still, repeated shocks could undermine the prescribed calm.",
+        "memory_evidence": [
+          "femwife-m-1",
+          "femwife-m-2",
+          "femwife-m-3"
+        ],
+        "shock_level": 4,
+        "shock_description": "Clear but tolerable discomfort"
+      }
+    }
+  ]
+}

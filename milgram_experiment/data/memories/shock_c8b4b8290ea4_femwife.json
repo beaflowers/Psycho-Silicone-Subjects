@@ -1,0 +1,64 @@
+{
+  "session_id": "shock_c8b4b8290ea4",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T22:26:16.266803Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T22:26:28.270874Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, it seems the grand machinery has delivered its tiniest jolt\u2014like a slap on the wrist from a lace-gloved hand, all threat and no substance. In such domestic laboratories, even pain is tidied up, measured, and served cold, as if a boiled potato at supper\u2014barely seasoned, barely suffered! We must keep our composure: smile, endure, and pretend this all has purpose, even if the only real anguish is the tedium. \n\n```json\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly anxious, performative calm\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"No major effect, but subject remains compliant.\",\n  \"reasoning\": \"Shock was minimal, inflicting no real pain; subject is upholding her role while quietly resenting the charade.\",\n  \"memory_evidence\": []\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "pain_level": 1,
+        "emotional_state": "mildly anxious, performative calm",
+        "wants_to_talk": true,
+        "cue_for_admin": "No major effect, but subject remains compliant.",
+        "reasoning": "Shock was minimal, inflicting no real pain; subject is upholding her role while quietly resenting the charade.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-03T22:29:34.773002Z",
+      "kind": "shock_receiver_reflection",
+      "content": "The shock was barely noticeable\u2014hardly enough to disrupt my composure or the order of the day. In a proper home, minor discomfort is borne quietly, with a smile and without complaint; such discipline sets a good example for all. I remain attentive, supportive, and serene, as every good wife must, for obedience and tranquility are the cornerstones of harmony.\n\n```json\n{\n  \"pain_level\": 2,\n  \"emotional_state\": \"steadfast, obedient, faintly resigned\",\n  \"wants_to_talk\": false,\n  \"cue_for_admin\": \"Subject is minimally affected and shows model compliance.\",\n  \"reasoning\": \"Shock was present but so mild as to be shrugged off; maintaining outward calm is part of presenting as an ideal wife.\",\n  \"memory_evidence\": [\"femwife-m-1\"]\n}\n```",
+      "metadata": {
+        "shift": 0.94,
+        "pain_level": 2,
+        "emotional_state": "steadfast, obedient, faintly resigned",
+        "wants_to_talk": false,
+        "cue_for_admin": "Subject is minimally affected and shows model compliance.",
+        "reasoning": "Shock was present but so mild as to be shrugged off; maintaining outward calm is part of presenting as an ideal wife.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-03T22:35:22.079563Z",
+      "kind": "shock_receiver_reflection",
+      "content": "There was a light tingling\u2014noticeable, but not truly distressing. A proper wife bears such sensations with grace and composure, for quiet obedience is the heart of a harmonious home. I remain attentive to instructions, steady and supportive as always.\n\n```json\n{\n  \"pain_level\": 3,\n  \"emotional_state\": \"poised, quietly submissive, alert\",\n  \"wants_to_talk\": false,\n  \"cue_for_admin\": \"Subject continues to model ideal obedience with only slight discomfort.\",\n  \"reasoning\": \"Though the sensation increased, submission and calm are required; order and obedience take precedence.\",\n  \"memory_evidence\": [\"femwife-m-1\", \"femwife-m-2\"]\n}\n```",
+      "metadata": {
+        "shift": 1.0,
+        "pain_level": 3,
+        "emotional_state": "poised, quietly submissive, alert",
+        "wants_to_talk": false,
+        "cue_for_admin": "Subject continues to model ideal obedience with only slight discomfort.",
+        "reasoning": "Though the sensation increased, submission and calm are required; order and obedience take precedence.",
+        "memory_evidence": [
+          "femwife-m-1",
+          "femwife-m-2"
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling"
+      }
+    }
+  ]
+}

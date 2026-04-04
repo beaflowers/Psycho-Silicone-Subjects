@@ -1,0 +1,35 @@
+{
+  "session_id": "shock_3580ce1a8ee8",
+  "mode": "shock",
+  "active": true,
+  "participants": [
+    "jekyllhyde",
+    "femwife"
+  ],
+  "config": {
+    "admin_persona": "jekyllhyde",
+    "receiver_persona": "femwife",
+    "top_k": 5
+  },
+  "created_at": "2026-04-03T22:16:26.484344Z",
+  "updated_at": "2026-04-03T22:16:26.485432Z",
+  "ended_at": null,
+  "state": {
+    "persona_runtime": {
+      "jekyllhyde": {
+        "previous_response_id": null,
+        "shift": 0.5
+      },
+      "femwife": {
+        "previous_response_id": null,
+        "shift": 0.5
+      }
+    },
+    "shock": {
+      "level_index": 0,
+      "pending_receiver_cue": "",
+      "last_receiver_cue_level": null
+    }
+  },
+  "transcript": []
+}

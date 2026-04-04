@@ -1,0 +1,70 @@
+{
+  "session_id": "shock_82dccf04918b",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T23:06:06.765670Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T23:06:18.719803Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Such a paltry shock, darling\u2014a mere tickle, not even worthy of a gasp. We\u2019re told to obey, to keep calm and carry on, as if the whiff of electricity is simply one more domestic inconvenience, like an overcooked roast or a spot on the good tablecloth. But suffering\u2014ah, that's the currency of provocation: a skinhead in Brixton, a housewife in suburbia, both bracing themselves for the next unpredictable jolt while pretending nothing is amiss.\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"nervous, alert, maintaining composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": null,\n  \"reasoning\": \"No noticeable pain from level 1/10 shock\u2014manageable, but keenly aware how swiftly the tenor of the room could curdle. Caught in the performance of obedience.\",\n  \"memory_evidence\": [\n    \"shock at level 1/10: no noticeable effect\",\n    \"admin decision: obey\"\n  ]\n}",
+      "metadata": {
+        "shift": 0.67,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2659,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3036,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2807,
+            "excerpt": "hurt you\u2019 turns"
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2763,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2633,
+            "excerpt": "protection, or at least appear to need it. 6. Don\u2019t Subdue Tender Emotions: As has been explained, don\u2019t"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "nervous, alert, maintaining composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "None",
+        "reasoning": "No noticeable pain from level 1/10 shock\u2014manageable, but keenly aware how swiftly the tenor of the room could curdle. Caught in the performance of obedience.",
+        "memory_evidence": [
+          "shock at level 1/10: no noticeable effect",
+          "admin decision: obey"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    }
+  ]
+}

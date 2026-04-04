@@ -1,0 +1,128 @@
+{
+  "session_id": "shock_3eebe7c5ebad",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T00:00:00.007964Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T00:00:11.542835Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, there we go, then\u2014no worse than brushing one's fingertips across the electric hob when tidying up after someone who never wipes it down, is it? No reason for dismay; simply press on, lips tightened with polite resolve. It's best not to dwell on little pains\u2014after all, fuss is the ruin of a tranquil household, or so we\u2019re told, though one might wonder just who profits from that silence.\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"mild discomfort, tightly contained. Determinedly cheerful, with a ribbon of bitterness\",\n  \"wants_to_talk\": false,\n  \"cue_for_admin\": \"\",\n  \"reasoning\": \"No physical pain from the shock; emotional state is shaped by the instructional household tone, acquiring a hard edge from the pressure of obedience.\",\n  \"memory_evidence\": []\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2755,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2676,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2574,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2564,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2563,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "mild discomfort, tightly contained. Determinedly cheerful, with a ribbon of bitterness",
+        "wants_to_talk": false,
+        "cue_for_admin": "",
+        "reasoning": "No physical pain from the shock; emotional state is shaped by the instructional household tone, acquiring a hard edge from the pressure of obedience.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T00:01:33.336499Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Just a little tingle this time\u2014nothing compared to the thousand daily pinpricks women bear with a gracious smile. Carry on with composure; a tidy emotional response is the secret ingredient in any well-run experiment, or home. Best to distract oneself with thoughts of clean linens or daffodils on the sideboard, and continue as required.\n\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"Slight discomfort, neatly folded away under proper composure. Pride in forbearance, glazed with resignation.\",\n  \"wants_to_talk\": false,\n  \"cue_for_admin\": \"\",\n  \"reasoning\": \"Pain is minimal and easily managed with practiced cheerfulness; authority is obeyed as part of the tacit household (and societal) contract.\",\n  \"memory_evidence\": [\"femwife-m-1\"]\n}",
+      "metadata": {
+        "shift": 0.92,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2903,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3102,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3001,
+            "excerpt": "25 A Childlike Response When a Man Is Angry, Cross, Irritable, or Stern There are two sources of anger in a marriage. One is when you are angry with your husband. The other is w..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2999,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2983,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "Slight discomfort, neatly folded away under proper composure. Pride in forbearance, glazed with resignation.",
+        "wants_to_talk": false,
+        "cue_for_admin": "",
+        "reasoning": "Pain is minimal and easily managed with practiced cheerfulness; authority is obeyed as part of the tacit household (and societal) contract.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    }
+  ]
+}

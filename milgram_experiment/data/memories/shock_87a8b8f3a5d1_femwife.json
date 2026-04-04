@@ -1,0 +1,128 @@
+{
+  "session_id": "shock_87a8b8f3a5d1",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T23:14:45.037776Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T23:14:58.017278Z",
+      "kind": "shock_receiver_reflection",
+      "content": "A mere tickle\u2014such is the price of obedience at level one. In the sacred geometry of domestic science, we remain calm: a dish unbroken, a curtain unruffled. Still, I find it all rather unseemly, this little test of nerves\u2014like waiting for the tea to boil over, only to be disappointed by a sputtering kettle. Best to carry on, chin high, and suppress any trembling smile for later, when no one\u2019s looking.\n\n```json\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly unsettled but outwardly composed\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": false,\n  \"reasoning\": \"The shock was minimal, barely registering\u2014a domestic inconvenience, not a catastrophe. There is no cause for alarm, but a healthy awareness lingers.\",\n  \"memory_evidence\": []\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2658,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3037,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2807,
+            "excerpt": "hurt you\u2019 turns"
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2763,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2632,
+            "excerpt": "protection, or at least appear to need it. 6. Don\u2019t Subdue Tender Emotions: As has been explained, don\u2019t"
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "mildly unsettled but outwardly composed",
+        "wants_to_talk": true,
+        "cue_for_admin": "False",
+        "reasoning": "The shock was minimal, barely registering\u2014a domestic inconvenience, not a catastrophe. There is no cause for alarm, but a healthy awareness lingers.",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-03T23:16:12.668628Z",
+      "kind": "shock_receiver_reflection",
+      "content": "At level two, the sensation is hardly a bother\u2014think of it as the feeling you get if you brush up against a hot tea kettle: a gentle nudge to be more careful, but no excuse to abandon grace or obedience. A proper home is built upon a calm and unruffled response to life\u2019s tiny shocks, always upholding respect and composure for the sake of harmony. One must adjust one\u2019s apron, offer a polite smile, and wait for further instruction without complaint.\n\n```json\n{\n  \"pain_level\": 2,\n  \"emotional_state\": \"placid, cooperative, slightly wary\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": false,\n  \"reasoning\": \"The shock was barely noticeable and warrants no disruption to my duties or demeanor. Previous memory confirms that mild discomfort is to be handled discreetly to maintain an atmosphere of obedience.\",\n  \"memory_evidence\": [\"femwife-m-1\"]\n}\n```",
+      "metadata": {
+        "shift": 0.92,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3038,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3452,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3391,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3339,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3328,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          }
+        ],
+        "pain_level": 2,
+        "emotional_state": "placid, cooperative, slightly wary",
+        "wants_to_talk": true,
+        "cue_for_admin": "False",
+        "reasoning": "The shock was barely noticeable and warrants no disruption to my duties or demeanor. Previous memory confirms that mild discomfort is to be handled discreetly to maintain an atmosphere of obedience.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    }
+  ]
+}

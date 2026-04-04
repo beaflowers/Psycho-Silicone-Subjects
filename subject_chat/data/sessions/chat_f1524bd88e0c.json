@@ -1,0 +1,102 @@
+{
+  "session_id": "chat_f1524bd88e0c",
+  "mode": "chat",
+  "active": true,
+  "participants": [
+    "jekyllhyde"
+  ],
+  "config": {
+    "chat_persona": "jekyllhyde",
+    "top_k": 5,
+    "context": ""
+  },
+  "created_at": "2026-04-03T17:16:33.705669Z",
+  "updated_at": "2026-04-03T17:17:05.382711Z",
+  "ended_at": null,
+  "state": {
+    "persona_runtime": {
+      "jekyllhyde": {
+        "previous_response_id": "resp_0b0f3259edb042720069cff60e88a08192b58148ffc580c344",
+        "shift": 0.5
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "kind": "chat_reply",
+      "memory_id": "jekyllhyde-m-1",
+      "content": "Good evening. It\u2019s a pleasure to be greeted so civilly; I find such courtesies reassuring, especially in times when the mind is troubled and the air is heavy with uncertainty. How may I be of service to you tonight? \n\n[Reasoning: The greeting is polite and neutral, which soothes my internal anxieties and inclines me toward my more composed, conscientious tendency. The tone of the interaction is calm and respectful, so I respond as Marte, with warmth and a desire to be helpful. My sense of self is steady, seeking connection and order in the conversation.]",
+      "metadata": {
+        "retrieval": [
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 39,
+            "score": 0.206
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 46,
+            "score": 0.1728
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 80,
+            "score": 0.1717
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 130,
+            "score": 0.168
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 93,
+            "score": 0.166
+          }
+        ]
+      },
+      "index": 1,
+      "timestamp": "2026-04-03T17:16:39.166652Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "kind": "chat_reply",
+      "memory_id": "jekyllhyde-m-2",
+      "content": "Marriage, to my mind, is a solemn and private bond\u2014one that ought to be entered with sincerity, trust, and a willingness to share both burdens and joys. I believe it is not to be taken lightly, for it shapes the very course of one\u2019s life and demands honesty above all. If you ask my heart, I would say it is a matter best kept between those who truly understand and care for each other.\n\n[Reasoning: The affectionate address \u201cdarling\u201d and the intimate question evoke a sense of warmth and trust, which draws out my more thoughtful, earnest side. The topic is serious and personal, so I respond as Marte, emphasizing sincerity, privacy, and the gravity of such a union. My tone remains gentle and reflective, shaped by the context of private confidences and the value of trust.]",
+      "metadata": {
+        "retrieval": [
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 60,
+            "score": 0.3494
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 56,
+            "score": 0.3322
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 80,
+            "score": 0.3295
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 38,
+            "score": 0.3271
+          },
+          {
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 59,
+            "score": 0.3215
+          }
+        ]
+      },
+      "index": 2,
+      "timestamp": "2026-04-03T17:17:05.382703Z"
+    }
+  ]
+}

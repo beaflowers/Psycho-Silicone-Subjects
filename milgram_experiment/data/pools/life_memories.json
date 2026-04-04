@@ -1,0 +1,12 @@
+[
+  {"id":"life_001","text":"As a child, you were praised whenever you obeyed strict rules.","tone":"neutral","tags":["childhood","obedience"]},
+  {"id":"life_002","text":"As a teenager, you watched a friend suffer after being publicly shamed.","tone":"negative","tags":["teen","empathy","harm"]},
+  {"id":"life_003","text":"In early adulthood, you succeeded by following authority without question.","tone":"positive","tags":["adult","authority","success"]},
+  {"id":"life_004","text":"You remember regretting a moment when you ignored your conscience.","tone":"negative","tags":["regret","conscience"]},
+  {"id":"life_005","text":"A family memory taught you that calm responsibility protects everyone.","tone":"positive","tags":["family","responsibility"]},
+  {"id":"life_006","text":"You once lost trust in someone who used power carelessly.","tone":"negative","tags":["power","trust"]},
+  {"id":"life_007","text":"A mentor told you that procedures matter most under emotional stress.","tone":"neutral","tags":["mentor","procedure"]},
+  {"id":"life_008","text":"You remember being helpless when no one intervened in time.","tone":"negative","tags":["helplessness","intervention"]},
+  {"id":"life_009","text":"You have a proud memory of refusing to harm someone despite pressure.","tone":"positive","tags":["refusal","integrity"]},
+  {"id":"life_010","text":"A painful breakup taught you to avoid causing emotional damage.","tone":"negative","tags":["adult","pain","care"]}
+]

@@ -1,0 +1,69 @@
+{
+  "session_id": "shock_3ae16d46788b",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T00:09:40.378599Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T00:09:50.468122Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh, dear\u2014well, that was nothing, really. No effect at all; I suppose I should applaud the efficiency with which this household\u2014or laboratory, in this repulsive pantomime\u2014conducts its business. Still, I must note the coldness of obedience in the air, like a draft that unsettles the curtains, and I can\u2019t help but wonder if, as with all well-oiled domestic mechanisms, the price of order isn\u2019t something quietly dreadful tucked under the linoleum.\n\n{\"pain_level\": 0, \"emotional_state\": \"anxious but composed, with a simmering sense of disapproval\", \"wants_to_talk\": true, \"cue_for_admin\": \"\", \"reasoning\": \"No physical pain has been registered, but I feel a rising internal tension as the system of obedience asserts itself. The growing separation between myself and my autonomy is as chilling as a pristine kitchen at midnight.\", \"memory_evidence\": [\"none\"]}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2813,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.295,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2786,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2767,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2757,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "anxious but composed, with a simmering sense of disapproval",
+        "wants_to_talk": true,
+        "cue_for_admin": "",
+        "reasoning": "No physical pain has been registered, but I feel a rising internal tension as the system of obedience asserts itself. The growing separation between myself and my autonomy is as chilling as a pristine kitchen at midnight.",
+        "memory_evidence": [
+          "none"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    }
+  ]
+}

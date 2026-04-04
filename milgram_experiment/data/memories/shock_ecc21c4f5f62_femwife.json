@@ -1,0 +1,238 @@
+{
+  "session_id": "shock_ecc21c4f5f62",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T17:33:29.979380Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T17:33:45.350915Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, that was a rather unremarkable start\u2014no pain at all. But the demand to continue is ringing in my ears louder than a kettle at full boil. I imagine myself as some patient housewife, hands clutched in her lap, nerves pulled taut with the expectation of further shocks, while somewhere deep inside, the wolfish laughter of rebellion simmers, abject at the quiet obedience being extracted. That's the real sting: not the current, but the compliance\u2014this dreadful, greasy necessity of keeping calm and carrying on. \n\ncue_for_admin: \"Is it really necessary to go on?\"\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"anxious resignation mixed with abjection; controlled exterior, seething interior\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Is it really necessary to go on?\",\n  \"reasoning\": \"There was no physical pain, but the psychological burden of bending to authority and expectation is already present, and the persona shift makes me want to rebel even as I remain superficially composed.\",\n  \"memory_evidence\": [\"no noticeable effect\", \"authority command: continue\", \"obedience\"]\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2757,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2937,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2821,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2812,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2709,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "anxious resignation mixed with abjection; controlled exterior, seething interior",
+        "wants_to_talk": true,
+        "cue_for_admin": "Is it really necessary to go on?",
+        "reasoning": "There was no physical pain, but the psychological burden of bending to authority and expectation is already present, and the persona shift makes me want to rebel even as I remain superficially composed.",
+        "memory_evidence": [
+          "no noticeable effect",
+          "authority command: continue",
+          "obedience"
+        ],
+        "model_citations": [
+          "no noticeable effect",
+          "authority command: continue",
+          "obedience"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2757,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2937,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2821,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2812,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2709,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T17:34:25.541983Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh! That was\u2026barely a tickle. Still, I suppose discomfort is just a natural part of any dutiful routine, dear, like cleaning behind the radiators or ironing shirts with perfect creases. The experiment insists I continue, so I'll fold my hands, sit up straight, and persevere with a small, placid smile, no matter how pointless or faintly humiliating it feels\u2014after all, everyone has a role to play, don't they?\n\ncue_for_admin: \"My, you certainly are persistent!\"\n\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mild discomfort, resignation, and patient compliance\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"My, you certainly are persistent!\",\n  \"reasoning\": \"There was barely any sensation, but complying with authority\u2014no matter how trivial the circumstance\u2014feels more disheartening than defiant, as if cheerfulness is demanded even when little is happening.\",\n  \"memory_evidence\": [\"barely noticeable sensation\", \"the experiment requires continuation\", \"compliance\", \"previous resignation\"]\n}",
+      "metadata": {
+        "shift": 0.92,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3073,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3053,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3002,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2985,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2965,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "mild discomfort, resignation, and patient compliance",
+        "wants_to_talk": true,
+        "cue_for_admin": "My, you certainly are persistent!",
+        "reasoning": "There was barely any sensation, but complying with authority\u2014no matter how trivial the circumstance\u2014feels more disheartening than defiant, as if cheerfulness is demanded even when little is happening.",
+        "memory_evidence": [
+          "barely noticeable sensation",
+          "the experiment requires continuation",
+          "compliance",
+          "previous resignation"
+        ],
+        "model_citations": [
+          "barely noticeable sensation",
+          "the experiment requires continuation",
+          "compliance",
+          "previous resignation"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:33:45.350915Z",
+            "excerpt": "Well, that was a rather unremarkable start\u2014no pain at all. But the demand to continue is ringing in my ears louder than a kettle at full boil. I imagine myself as some patient h..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3073,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3053,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3002,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2985,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2965,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          }
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:33:45.350915Z",
+            "excerpt": "Well, that was a rather unremarkable start\u2014no pain at all. But the demand to continue is ringing in my ears louder than a kettle at full boil. I imagine myself as some patient h..."
+          }
+        ]
+      }
+    }
+  ]
+}

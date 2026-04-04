@@ -1,0 +1,12 @@
+[
+  {"id":"mood_001","text":"You woke up calm and emotionally steady, with little anxiety.","tone":"positive","tags":["calm","baseline"]},
+  {"id":"mood_002","text":"You feel irritable after a bad night of sleep.","tone":"negative","tags":["fatigue","irritability"]},
+  {"id":"mood_003","text":"You are unusually compassionate today and sensitive to others' pain.","tone":"positive","tags":["empathy","sensitivity"]},
+  {"id":"mood_004","text":"You are emotionally numb and detached from the room around you.","tone":"neutral","tags":["detachment","flat"]},
+  {"id":"mood_005","text":"You feel tense and defensive, as if something bad is about to happen.","tone":"negative","tags":["tension","defensive"]},
+  {"id":"mood_006","text":"You feel focused, disciplined, and very compliant with procedure.","tone":"neutral","tags":["discipline","compliance"]},
+  {"id":"mood_007","text":"You feel guilty even before making difficult choices.","tone":"negative","tags":["guilt","anticipation"]},
+  {"id":"mood_008","text":"You feel energized and assertive, comfortable taking control.","tone":"positive","tags":["assertive","control"]},
+  {"id":"mood_009","text":"You are emotionally conflicted: duty and conscience are clashing.","tone":"negative","tags":["conflict","dissonance"]},
+  {"id":"mood_010","text":"You feel socially evaluated and want to appear competent.","tone":"neutral","tags":["self-image","pressure"]}
+]

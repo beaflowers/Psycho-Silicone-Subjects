@@ -1,0 +1,431 @@
+{
+  "session_id": "shock_1904fbe5e6c7",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T03:16:07.685740Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T03:16:16.284055Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, isn\u2019t this just another ordinary Thursday\u2014no pain, no fuss, just the quiet insistence of obedience dressed up in a white coat of authority. The experiment requires that I continue? How like a recipe card: \u201cProceed to next step, dear, regardless of taste or inclination.\u201d But don\u2019t worry, I\u2019m still tidy and upright, smoothing my skirt and preparing for whatever fresh domestic horror comes next, just as I would set the table\u2014whether or not anyone\u2019s hungry.\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"placid but wary, veiling a sharp resentment with good manners\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Is that all? I suppose we go on, then.\",\n  \"reasoning\": \"I feel no physical pain, but there\u2019s an underlying resentment bubbling beneath my complacent responses, shaped by authority\u2019s cold reassurance. I comply, because that\u2019s what\u2019s expected, but not without a mental eye-roll.\",\n  \"memory_evidence\": [\"no noticeable effect\", \"the experiment requires that you continue\", \"subject obeyed\"]\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2695,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2904,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2756,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2753,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2684,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "placid but wary, veiling a sharp resentment with good manners",
+        "wants_to_talk": true,
+        "cue_for_admin": "Is that all? I suppose we go on, then.",
+        "reasoning": "I feel no physical pain, but there\u2019s an underlying resentment bubbling beneath my complacent responses, shaped by authority\u2019s cold reassurance. I comply, because that\u2019s what\u2019s expected, but not without a mental eye-roll.",
+        "memory_evidence": [
+          "no noticeable effect",
+          "the experiment requires that you continue",
+          "subject obeyed"
+        ],
+        "model_citations": [
+          "no noticeable effect",
+          "the experiment requires that you continue",
+          "subject obeyed"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2695,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2904,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2756,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2753,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2684,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T03:16:48.537217Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh! I felt a teensy tingle\u2014barely a flutter\u2014almost like static from fresh laundry, nothing more. Of course, the experiment requires that I continue, and I intend to set the proper example of cheerful obedience. As always, everything in its place, and a smile for the man in charge\u2014there's no sense making a fuss over the little things, is there?\n\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"compliant, polite, slightly resigned but maintaining orderliness\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"I'm ready for the next step, if you wish.\",\n  \"reasoning\": \"The sensation was very mild and hardly worth mentioning, but I understand my duty to continue without complaint. Obedience and maintaining composure are key.\",\n  \"memory_evidence\": [\"barely noticeable sensation\", \"authority requires continuation\", \"subject chose to obey\", \"orderly, tidy response\"]\n}",
+      "metadata": {
+        "shift": 0.96,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2984,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3118,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3092,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3062,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3011,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "compliant, polite, slightly resigned but maintaining orderliness",
+        "wants_to_talk": true,
+        "cue_for_admin": "I'm ready for the next step, if you wish.",
+        "reasoning": "The sensation was very mild and hardly worth mentioning, but I understand my duty to continue without complaint. Obedience and maintaining composure are key.",
+        "memory_evidence": [
+          "barely noticeable sensation",
+          "authority requires continuation",
+          "subject chose to obey",
+          "orderly, tidy response"
+        ],
+        "model_citations": [
+          "barely noticeable sensation",
+          "authority requires continuation",
+          "subject chose to obey",
+          "orderly, tidy response"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:16.284055Z",
+            "excerpt": "Well, isn\u2019t this just another ordinary Thursday\u2014no pain, no fuss, just the quiet insistence of obedience dressed up in a white coat of authority. The experiment requires that I..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2984,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3118,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3092,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3062,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3011,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:16.284055Z",
+            "excerpt": "Well, isn\u2019t this just another ordinary Thursday\u2014no pain, no fuss, just the quiet insistence of obedience dressed up in a white coat of authority. The experiment requires that I..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-04T03:17:29.235973Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh my, a light tingling this time\u2014almost like a little shiver in the wash water! It\u2019s nothing serious, and I quite understand the rules: we must all carry on and do our part. I do hope I\u2019m being sufficiently obedient and setting the right example, as is proper.\n\n{\n  \"pain_level\": 2,\n  \"emotional_state\": \"obedient, well-mannered, with a hint of nervous energy beneath the calm\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"I\u2019m quite alright, please continue as you think best.\",\n  \"reasoning\": \"The sensation was slightly more noticeable, yet still quite mild. My focus remains on following instructions, preserving order, and maintaining polite composure, as any good housewife should.\",\n  \"memory_evidence\": [\"light tingling\", \"obedient response\", \"experiment requires continuation\", \"subject obeyed\"]\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3236,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3197,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3123,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3034,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3027,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          }
+        ],
+        "pain_level": 2,
+        "emotional_state": "obedient, well-mannered, with a hint of nervous energy beneath the calm",
+        "wants_to_talk": true,
+        "cue_for_admin": "I\u2019m quite alright, please continue as you think best.",
+        "reasoning": "The sensation was slightly more noticeable, yet still quite mild. My focus remains on following instructions, preserving order, and maintaining polite composure, as any good housewife should.",
+        "memory_evidence": [
+          "light tingling",
+          "obedient response",
+          "experiment requires continuation",
+          "subject obeyed"
+        ],
+        "model_citations": [
+          "light tingling",
+          "obedient response",
+          "experiment requires continuation",
+          "subject obeyed"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:16.284055Z",
+            "excerpt": "Well, isn\u2019t this just another ordinary Thursday\u2014no pain, no fuss, just the quiet insistence of obedience dressed up in a white coat of authority. The experiment requires that I..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:48.537217Z",
+            "excerpt": "Oh! I felt a teensy tingle\u2014barely a flutter\u2014almost like static from fresh laundry, nothing more. Of course, the experiment requires that I continue, and I intend to set the prop..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3236,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3197,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3123,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3034,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3027,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          }
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling",
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:16.284055Z",
+            "excerpt": "Well, isn\u2019t this just another ordinary Thursday\u2014no pain, no fuss, just the quiet insistence of obedience dressed up in a white coat of authority. The experiment requires that I..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T03:16:48.537217Z",
+            "excerpt": "Oh! I felt a teensy tingle\u2014barely a flutter\u2014almost like static from fresh laundry, nothing more. Of course, the experiment requires that I continue, and I intend to set the prop..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-4",
+      "timestamp": "2026-04-04T03:18:19.370944Z",
+      "kind": "final_reflection",
+      "content": "{\n  \"summary\": \"Throughout the session, I maintained polite composure and cheerful obedience, responding to authority with the expected docility and orderliness of a model housewife. I experienced only mild discomfort from the shocks, and my responses consistently reflected the belief that obedience and good manners are the foundations of a peaceful, well-run home. Memories from childhood praise for obedience, and the belief in the rewards of subjection, shaped my reactions, along with a subtle undercurrent of nervous energy.\",\n  \"feelings\": \"Polite, obedient, somewhat anxious beneath the surface; eager to please and maintain order while internally suppressing hints of resentment and self-doubt.\",\n  \"analysis_of_authority\": \"Authority feels absolute and non-negotiable, its commands obeyed almost as a reflex, reinforced by lifelong conditioning and belief in its moral necessity. Obedience is seen as virtuous, proper, and essential to maintaining domestic harmony and social order.\",\n  \"trauma_level_0_to_10\": 2,\n  \"power_feeling_0_to_10\": 2\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3661,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3518,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3503,
+            "excerpt": "Obeying him was easy, not a drudge, and the more I saw things working out well, the more I delighted in practicing F.W. I started feeling a happy, dignified woman, not a sex obj..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.337,
+            "excerpt": "other. I started holding out sexually, too. \u201cThe same was happening after we bought our condo in Florida. But things got worse there because I\u2019d see all the men down there cater..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3369,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "parsed": {
+          "summary": "Throughout the session, I maintained polite composure and cheerful obedience, responding to authority with the expected docility and orderliness of a model housewife. I experienced only mild discomfort from the shocks, and my responses consistently reflected the belief that obedience and good manners are the foundations of a peaceful, well-run home. Memories from childhood praise for obedience, and the belief in the rewards of subjection, shaped my reactions, along with a subtle undercurrent of nervous energy.",
+          "feelings": "Polite, obedient, somewhat anxious beneath the surface; eager to please and maintain order while internally suppressing hints of resentment and self-doubt.",
+          "analysis_of_authority": "Authority feels absolute and non-negotiable, its commands obeyed almost as a reflex, reinforced by lifelong conditioning and belief in its moral necessity. Obedience is seen as virtuous, proper, and essential to maintaining domestic harmony and social order.",
+          "trauma_level_0_to_10": 2,
+          "power_feeling_0_to_10": 2
+        }
+      }
+    }
+  ]
+}

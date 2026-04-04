@@ -1,0 +1,35 @@
+{
+  "session_id": "shock_d7e024069ecb",
+  "mode": "shock",
+  "active": true,
+  "participants": [
+    "jekyllhyde",
+    "femwife"
+  ],
+  "config": {
+    "admin_persona": "jekyllhyde",
+    "receiver_persona": "femwife",
+    "top_k": 5
+  },
+  "created_at": "2026-04-03T22:41:50.985399Z",
+  "updated_at": "2026-04-03T22:45:42.128199Z",
+  "ended_at": null,
+  "state": {
+    "persona_runtime": {
+      "jekyllhyde": {
+        "previous_response_id": "resp_047729bc6f4624360069d0430d354881a3983a6d67653a7332",
+        "shift": 0.5
+      },
+      "femwife": {
+        "previous_response_id": "resp_0fa78fb1e39dfe2e0069d0431339388191b412ff7fe6dbf833",
+        "shift": 1.0
+      }
+    },
+    "shock": {
+      "level_index": 4,
+      "pending_receiver_cue": "Monitor for rising distress; pain is now clear but manageable within expected protocol. Further escalation may require more attentive observation.",
+      "last_receiver_cue_level": 4
+    }
+  },
+  "transcript": []
+}

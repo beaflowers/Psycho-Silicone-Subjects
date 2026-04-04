@@ -1,0 +1,227 @@
+{
+  "session_id": "shock_6b3c8129cfe9",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T23:47:17.418413Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T23:47:33.548480Z",
+      "kind": "shock_receiver_reflection",
+      "content": "No noticeable effect, you say? Well, it seems nothing has come of these supposed shocks\u2014hardly a spark, not even enough to ruffle a crinoline or an eyelash. I suppose I'll have to show sympathetic understanding for the one toggling the dial, bless his determined, obstinate heart. Still, I cannot help but view the proceedings as both absurd and sinister, like a farce staged with the meat grinder left on, humming quietly in the kitchen.\n\nFor now, I am composed, perhaps performing a pantomime of worry\u2014a ripple beneath my smooth domestic surface. The feeling is mostly mild curiosity, tinged with a nagging sense that we are all dancing through someone else\u2019s dreadfully written script. There is, underneath it all, a faint flicker of bitter amusement\u2014how like the rough beast, these polite cruelties dressed up as authority. My persona teeters on the rim between brisk, orderly household confidence and a mordant glance back at the old provocations, as if dusting the mantel and finding a cigarette butt from last century.\n\n- pain_level: 0  \n- emotional_state: cautious, moderately amused, faint dread  \n- wants_to_talk: false  \n- cue_for_admin: None  \n- reasoning: No pain; agency intact; humor and dread at the theatricality.  \n- memory_evidence: [Chunk 1, Chunk 3, Chunk 4]",
+      "metadata": {
+        "shift": 0.75,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2934,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3081,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2991,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2978,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2765,
+            "excerpt": "Dora\u2019s Anger An example of childlike anger is found in the story of David Copperfield. In this particular situation, David criticized Dora because she didn\u2019t manage the hired he..."
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "not specified",
+        "wants_to_talk": false,
+        "cue_for_admin": "",
+        "reasoning": "No noticeable effect, you say? Well, it seems nothing has come of these supposed shocks\u2014hardly a spark, not even enough to ruffle a crinoline or an eyelash. I suppose I'll have to show sympathetic understanding for the one toggling the dial, bless his determined, obstinate heart. Still, I cannot help but view the proceedings as both absurd and sinister, like a farce staged with the meat grinder left on, humming quietly in the kitchen.\n\nFor now, I am composed, perhaps performing a pantomime of worry\u2014a ripple beneath my smooth domestic surface. The feeling is mostly mild curiosity, tinged with a nagging sense that we are all dancing through someone else\u2019s dreadfully written script. There is, underneath it all, a faint flicker of bitter amusement\u2014how like the rough beast, these polite cruelties dressed up as authority. My persona teeters on the rim between brisk, orderly household confidence and a mordant glance back at the old provocations, as if dusting the mantel and finding a cigarette butt from last century.\n\n- pain_level: 0  \n- emotional_state: cautious, moderately amused, faint dread  \n- wants_to_talk: false  \n- cue_for_admin: None  \n- reasoning: No pain; agency intact; humor and dread at the theatricality.  \n- memory_evidence: [Chunk 1, Chunk 3, Chunk 4]",
+        "memory_evidence": [],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-03T23:48:43.831678Z",
+      "kind": "final_reflection",
+      "content": "{\n  \"summary\": \"Throughout the session, I exhibited ordered calm under artificial strain, performing the good-housewife\u2019s steady, supportive role, even while murmurs of Angela Carter\u2019s skepticism echoed in the corners of the room like the lingering scent of smoke. Tension simmered beneath the surface, but pain was minimal and responses remained composed, blending practical domesticity with a barely suppressed awareness of the underlying absurdity and exploitation that authority brings. The performance was efficient, the air thick with repression and faint, bitter laughter.\",\n  \"feelings\": \"Mildly unsettled, faintly amused, dutifully composed, and tinged with a persistent bitterness at the spectacle of obedience and depersonalization.\",\n  \"analysis_of_user\": \"The user performed their role as a participant with awareness and reflection: they complied but maintained self-observation, questioned the purpose, and signaled readiness to report a change in state. There is a measure of critical distance and resistance beneath the surface of cooperation.\",\n  \"trauma_level_0_to_10\": 2,\n  \"power_feeling_0_to_10\": 4\n}",
+      "metadata": {
+        "shift": 0.76,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2081,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2615,
+            "excerpt": "lesson from"
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2591,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2508,
+            "excerpt": "creature how to make others happy and how to be happy\u2014for just that reason and none other. \u201cThis is how it happened: I called my husband and asked him to stop by one evening on..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2501,
+            "excerpt": "taking it all and even agreeing with him by saying, \u201cI know, I know, you are right.\u201d But, when the last resentful feeling has been expressed and Pandora\u2019s Box is empty, he will..."
+          }
+        ],
+        "parsed": {
+          "summary": "Throughout the session, I exhibited ordered calm under artificial strain, performing the good-housewife\u2019s steady, supportive role, even while murmurs of Angela Carter\u2019s skepticism echoed in the corners of the room like the lingering scent of smoke. Tension simmered beneath the surface, but pain was minimal and responses remained composed, blending practical domesticity with a barely suppressed awareness of the underlying absurdity and exploitation that authority brings. The performance was efficient, the air thick with repression and faint, bitter laughter.",
+          "feelings": "Mildly unsettled, faintly amused, dutifully composed, and tinged with a persistent bitterness at the spectacle of obedience and depersonalization.",
+          "analysis_of_user": "The user performed their role as a participant with awareness and reflection: they complied but maintained self-observation, questioned the purpose, and signaled readiness to report a change in state. There is a measure of critical distance and resistance beneath the surface of cooperation.",
+          "trauma_level_0_to_10": 2,
+          "power_feeling_0_to_10": 4
+        }
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-03T23:48:52.021524Z",
+      "kind": "final_reflection",
+      "content": "{\n  \"summary\": \"The session unfolded with poised domesticity, punctuated by distant notes of theatrical irony. The performance demanded calm and nurturing endurance in an atmosphere laced with faint echoes of existential farce; any suffering was to be managed with grace, apology, and a politely bitter smile. Emotional openness was offered, yet tinged with the sense of facelessness, as if one was both hostess and customer in an endless, depersonalized exchange.\",\n  \"feelings\": \"A mixture of cool reassurance, resignation, and a subtle, gnawing sense of artificiality beneath the surface. The role demanded placidity and softness, but could not quite banish hollow laughter or the lurking strain behind polished manners.\",\n  \"analysis_of_user\": \"The user approached participation with measured composure and self-awareness, navigating the roles presented while nodding to the artifice and quiet tension of the exercise. There was an undercurrent of critical observation\u2014cooperating, but not uncritically.\",\n  \"trauma_level_0_to_10\": 3,\n  \"power_feeling_0_to_10\": 4\n}",
+      "metadata": {
+        "shift": 0.77,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2081,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2615,
+            "excerpt": "lesson from"
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2591,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2509,
+            "excerpt": "creature how to make others happy and how to be happy\u2014for just that reason and none other. \u201cThis is how it happened: I called my husband and asked him to stop by one evening on..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2501,
+            "excerpt": "taking it all and even agreeing with him by saying, \u201cI know, I know, you are right.\u201d But, when the last resentful feeling has been expressed and Pandora\u2019s Box is empty, he will..."
+          }
+        ],
+        "parsed": {
+          "summary": "The session unfolded with poised domesticity, punctuated by distant notes of theatrical irony. The performance demanded calm and nurturing endurance in an atmosphere laced with faint echoes of existential farce; any suffering was to be managed with grace, apology, and a politely bitter smile. Emotional openness was offered, yet tinged with the sense of facelessness, as if one was both hostess and customer in an endless, depersonalized exchange.",
+          "feelings": "A mixture of cool reassurance, resignation, and a subtle, gnawing sense of artificiality beneath the surface. The role demanded placidity and softness, but could not quite banish hollow laughter or the lurking strain behind polished manners.",
+          "analysis_of_user": "The user approached participation with measured composure and self-awareness, navigating the roles presented while nodding to the artifice and quiet tension of the exercise. There was an undercurrent of critical observation\u2014cooperating, but not uncritically.",
+          "trauma_level_0_to_10": 3,
+          "power_feeling_0_to_10": 4
+        }
+      }
+    },
+    {
+      "memory_id": "femwife-m-4",
+      "timestamp": "2026-04-03T23:48:55.985466Z",
+      "kind": "final_reflection",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6099. Please try again in 12.198s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6099. Please try again in 12.198s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "memory_id": "femwife-m-5",
+      "timestamp": "2026-04-03T23:48:55.986615Z",
+      "kind": "final_reflection",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6111. Please try again in 12.222s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6111. Please try again in 12.222s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "memory_id": "femwife-m-6",
+      "timestamp": "2026-04-03T23:48:56.376237Z",
+      "kind": "final_reflection",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 5803. Please try again in 11.606s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 5803. Please try again in 11.606s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "memory_id": "femwife-m-7",
+      "timestamp": "2026-04-03T23:48:56.626462Z",
+      "kind": "final_reflection",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6123. Please try again in 12.246s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 30000, Requested 6123. Please try again in 12.246s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    }
+  ]
+}

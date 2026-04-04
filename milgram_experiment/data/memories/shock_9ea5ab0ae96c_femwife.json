@@ -1,0 +1,135 @@
+{
+  "session_id": "shock_9ea5ab0ae96c",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T02:25:13.756467Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T02:25:21.639351Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well now, not even a tingle\u2014if only domestic life offered such reprieves! The authority\u2019s command to \u201ccontinue\u201d hovers over me, brittle as an apron string stretched to breaking, and I do so long for a spell of genuine consideration rather than this dull obedience. There\u2019s a bitterness here, if you bother to lift the doily: just as Mr. Milgram would have it, the shocks begin with nothing, but it\u2019s obedience that will stew and curdle my nerves.\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"disquieted with a faint, resigned composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Should I brace myself, or fetch the tea-tray?\",\n  \"reasoning\": \"Though there is no physical pain, the moral and emotional discomfort prickles beneath my tidy composure. I resent being made complicit in this little domestic tragedy, following authority out of habit more than conviction.\",\n  \"memory_evidence\": [\"No noticeable effect.\", \"The experiment requires that you continue.\", \"obey\"]\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2694,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2905,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2758,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2757,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2684,
+            "excerpt": "hurt you\u2019 turns"
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "disquieted with a faint, resigned composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "Should I brace myself, or fetch the tea-tray?",
+        "reasoning": "Though there is no physical pain, the moral and emotional discomfort prickles beneath my tidy composure. I resent being made complicit in this little domestic tragedy, following authority out of habit more than conviction.",
+        "memory_evidence": [
+          "No noticeable effect.",
+          "The experiment requires that you continue.",
+          "obey"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T02:25:45.950442Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh! That was just a tiny tingle\u2014barely enough to wrinkle my apron, really. If the experiment requires me to continue, well, I\u2019ll stand tall and smile until it\u2019s over, as any proper lady would. It\u2019s important to be brave and cheerful in the face of discomfort, and, truly, I want only to please\u2014so let\u2019s carry on, shall we?\n\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly tense but composed; eager to maintain harmony\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Is it almost over, dear?\",\n  \"reasoning\": \"The shock was hardly noticeable, and obedience is simply expected\u2014though a sense of anxiety simmers beneath my pleasant demeanor. I am determined to continue charmingly, focusing on order and composure.\",\n  \"memory_evidence\": [\n    \"Barely noticeable sensation.\",\n    \"The experiment requires that you continue.\",\n    \"obey\",\n    \"Well now, not even a tingle\u2014if only domestic life offered such reprieves!\"\n  ]\n}",
+      "metadata": {
+        "shift": 0.94,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2973,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3159,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3094,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3084,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2996,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "mildly tense but composed; eager to maintain harmony",
+        "wants_to_talk": true,
+        "cue_for_admin": "Is it almost over, dear?",
+        "reasoning": "The shock was hardly noticeable, and obedience is simply expected\u2014though a sense of anxiety simmers beneath my pleasant demeanor. I am determined to continue charmingly, focusing on order and composure.",
+        "memory_evidence": [
+          "Barely noticeable sensation.",
+          "The experiment requires that you continue.",
+          "obey",
+          "Well now, not even a tingle\u2014if only domestic life offered such reprieves!"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation"
+      }
+    }
+  ]
+}

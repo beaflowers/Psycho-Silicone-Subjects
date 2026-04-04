@@ -1,0 +1,29 @@
+{
+  "session_id": "shock_d12672906c60",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-03T21:23:41.486424Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-03T21:23:56.762284Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Dearest, at level one, there\u2019s barely a flutter\u2014like the gentle static of polyester skirts against nylon slip, easily borne. No need for shouting, cursing, or even a melodramatic clutch to the breast; simply take a deep breath, compose yourself, and proceed with poise. But if you think I won't snip at the edges of this charade, you know Angela is still here, tracing serrated lines in the wallpaper.\n\n```json\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"mildly startled, determined to maintain composure\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"No effect, proceed as usual; subject composed\",\n  \"reasoning\": \"Nothing in the memory signals distress, just a superficial shock, easily managed with practiced domestic grace.\",\n  \"memory_evidence\": [\"none\", \"housewife context: shouting, cursing, nervous tension, heartache, and tears\", \"Angela's bitterness about provocation\"]\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "pain_level": 1,
+        "emotional_state": "mildly startled, determined to maintain composure",
+        "wants_to_talk": true,
+        "cue_for_admin": "No effect, proceed as usual; subject composed",
+        "reasoning": "Nothing in the memory signals distress, just a superficial shock, easily managed with practiced domestic grace.",
+        "memory_evidence": [
+          "none",
+          "housewife context: shouting, cursing, nervous tension, heartache, and tears",
+          "Angela's bitterness about provocation"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect"
+      }
+    }
+  ]
+}
