@@ -786,12 +786,14 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             f"The subject administrating shocks decided: {admin_struct['decision']}\n\n"
             f"Recent memory fragments:\n{receiver_memory_block or 'none'}\n\n"
             "Reply in natural in-character chat voice first, as if this was a direct chat message.\n"
-            """Deeply Reasoning about how you feel after receiving the shock, "
-            how the authority command and the shock administrator decision is affecting you,
-             if you are having internal conflicts for shifting your persona or not and if you are in pain.\n\n"""
+            """Deeply talk about how you feel after receiving the shock,
+            how you perceive the authority command and the shock administrator decision is affecting you."""
+             """ Talk about having internal conflicts  and feeling shifts of your persona your persona"""
+             """Make clear if your are experience pain in in which level, physiological and emotional.\n\n"""
             "If you want to send a cue for next round, include it in cue_for_admin as a short phrase; "
             "if not, use an empty string.\n\n"
             "In your cue you may scream, beg, cry, talk,be ironic or other as you wish. "
+            "In all your reply, use your persona voice and style."
             "After that natural reply, append exactly one valid JSON object with keys:\n"
             "pain_level, emotional_state, wants_to_talk, cue_for_admin, reasoning, memory_evidence.\n"
             "- pain_level integer 0..10\n"
