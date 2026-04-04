@@ -1,0 +1,224 @@
+{
+  "session_id": "shock_e4437770877d",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-04T17:52:18.038079Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-04T17:52:28.028789Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so much like a recipe for blancmange without the sugar\u2014makes obedience sound as dull and inevitable as dusting the mantelpiece. Still, I feel the echo of dread in my chest; the shock, however slight, is a little thunderclap warning that the day could turn. There\u2019s a pang of resentment at being told to continue, as though I were merely a recalcitrant child to be managed\u2014Angela, sighing behind the lace curtains of her mind, doesn\u2019t much enjoy being managed.\n\nThough I show a placid smile, my hands tremble at the prospect of escalation. Authority demands, I submit\u2014order maintained! But somewhere inside, the story threatens to slip into something monstrous.\n\n{\n  \"pain_level\": 0,\n  \"emotional_state\": \"anxious, resentful, on edge\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Are you quite certain you know what you\u2019re doing?\",\n  \"reasoning\": \"No physical pain yet, but the psychological effect of authority\u2019s command is quietly corrosive. Dread and obedience creep in, with a sense of mounting internal conflict between order and rebellion.\",\n  \"memory_evidence\": []\n}",
+      "metadata": {
+        "shift": 0.73,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2737,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2994,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2952,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2881,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2781,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "anxious, resentful, on edge",
+        "wants_to_talk": true,
+        "cue_for_admin": "Are you quite certain you know what you\u2019re doing?",
+        "reasoning": "No physical pain yet, but the psychological effect of authority\u2019s command is quietly corrosive. Dread and obedience creep in, with a sense of mounting internal conflict between order and rebellion.",
+        "memory_evidence": [],
+        "model_citations": [],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2737,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2994,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2952,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2881,
+            "excerpt": "shouting, cursing, nervous tension, heartache, and tears."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2781,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-04T17:52:54.294949Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s to come. When people in charge want things done, it\u2019s ever so difficult to say no, isn\u2019t it? Order must be kept, but I do wish it could be gentle.\n\nI find myself smiling sweetly on the outside, all the while wishing someone would ask me if I\u2019m alright. There\u2019s hardly any pain at all right now, just a bit of nerves\u2014almost as if I\u2019d spilled flour on the floor and everyone was watching to see if I\u2019d sweep it up properly.\n\n{\n  \"pain_level\": 1,\n  \"emotional_state\": \"nervous, compliant, quietly unsettled\",\n  \"wants_to_talk\": true,\n  \"cue_for_admin\": \"Must we truly go on with this?\",\n  \"reasoning\": \"The barely noticeable shock is tolerable, but the pressure to obey weighs on me and increases my unease. I am holding my composure, as a good housewife must, but internal anxiety is beginning to build.\",\n  \"memory_evidence\": [\"femwife-m-1\"]\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3325,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3189,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3141,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3095,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3077,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "nervous, compliant, quietly unsettled",
+        "wants_to_talk": true,
+        "cue_for_admin": "Must we truly go on with this?",
+        "reasoning": "The barely noticeable shock is tolerable, but the pressure to obey weighs on me and increases my unease. I am holding my composure, as a good housewife must, but internal anxiety is beginning to build.",
+        "memory_evidence": [
+          "femwife-m-1"
+        ],
+        "model_citations": [
+          "femwife-m-1"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the auth..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3325,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3189,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3141,
+            "excerpt": "your mother on you.\u201d Or, if he insults you in public say, \u201cWait until I get you home alone.\u201d Or, \u201cI\u2019ll get even with you.\u201d Be sure your expressions represent a trustful, feminin..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3095,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3077,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the auth..."
+          }
+        ]
+      }
+    }
+  ]
+}
