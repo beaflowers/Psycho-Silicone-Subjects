@@ -12,9 +12,9 @@
 <body>
   <main class="app-shell">
     <section class="hero">
-      <p class="eyebrow">Mockumentary Archive Reel</p>
+      <p class="eyebrow">Archive Reel</p>
       <h1>Psycho-Silicone Subjects</h1>
-      <p class="lede">A staged 1960s-style viewing room: character selection at the side, archival images and moving footage in the spotlight, and the interview transcript running below.</p>
+      <p class="lede">Found footage from the Milgram experiments, exploring digital obedience and complicity.</p>
     </section>
 
     <section class="stage">
@@ -24,15 +24,17 @@
           <div id="characterTabs" class="character-tabs"></div>
         </div>
 
+        <section class="panel stills-panel">
+          <div class="frame-header compact-frame-header">
+            <p class="media-heading">Reference Stills</p>
+          </div>
+          <div id="imageMedia" class="sidebar-media"></div>
+        </section>
+
         <div id="siliconeControls" class="panel control-panel">
           <label class="panel-label" for="shiftRange">Voice Crossfade</label>
           <input id="shiftRange" type="range" min="0" max="1" step="0.01">
           <div id="shiftValue" class="value-chip">shift=0.00</div>
-          <div class="side-actions">
-            <button id="moodBtn" class="secondary-btn" type="button">Randomize Mood</button>
-            <button id="memoryBtn" class="secondary-btn" type="button">Add Memory</button>
-          </div>
-          <div id="siliconeMeta" class="hint"></div>
         </div>
       </aside>
 
@@ -42,22 +44,17 @@
             <p id="chatTitle" class="chat-title">Loading...</p>
             <p id="chatSubtitle" class="chat-subtitle"></p>
           </div>
-          <p class="screening-stamp">Recorded Reconstruction</p>
+          <p class="screening-stamp"></p>
         </div>
 
         <div class="screening-grid">
-          <section class="feature-frame">
-            <div class="frame-header">
-              <p class="media-heading">Featured Image</p>
-            </div>
-            <div id="imageMedia" class="feature-media"></div>
-          </section>
-
           <section class="feature-frame video-frame">
             <div class="frame-header">
-              <p class="media-heading">Screen Test Footage</p>
+              <p class="media-heading">Discovered Screen Recordings</p>
             </div>
-            <div id="videoMedia" class="feature-media"></div>
+            <div class="crt-stage">
+              <div id="videoMedia" class="feature-media video-media"></div>
+            </div>
           </section>
         </div>
       </section>

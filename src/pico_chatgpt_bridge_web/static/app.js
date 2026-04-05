@@ -4,9 +4,6 @@ const characterTabsEl = document.getElementById("characterTabs");
 const siliconeControlsEl = document.getElementById("siliconeControls");
 const shiftRangeEl = document.getElementById("shiftRange");
 const shiftValueEl = document.getElementById("shiftValue");
-const siliconeMetaEl = document.getElementById("siliconeMeta");
-const moodBtn = document.getElementById("moodBtn");
-const memoryBtn = document.getElementById("memoryBtn");
 const chatTitleEl = document.getElementById("chatTitle");
 const chatSubtitleEl = document.getElementById("chatSubtitle");
 const chatLogEl = document.getElementById("chatLog");
@@ -167,9 +164,6 @@ function renderSidebar() {
   if (isSilicone) {
     shiftRangeEl.value = Number(character.shift || 0);
     shiftValueEl.textContent = describeShift(character.shift || 0);
-    const mood = character.mood ? `Mood: ${character.mood}` : "Mood: none";
-    const memories = Array.isArray(character.active_memories) ? character.active_memories.length : 0;
-    siliconeMetaEl.textContent = `${mood} | Active memories: ${memories}`;
   }
 }
 
@@ -216,22 +210,6 @@ async function updateShift() {
     }),
   });
   renderAll();
-}
-
-async function randomizeMood() {
-  composerStatusEl.textContent = "Randomizing mood...";
-  const payload = await fetchJson("/api/chat/randomize-mood", { method: "POST" });
-  appState = payload.state;
-  renderAll();
-  composerStatusEl.textContent = "Mood updated.";
-}
-
-async function addMemory() {
-  composerStatusEl.textContent = "Adding memory...";
-  const payload = await fetchJson("/api/chat/add-memory", { method: "POST" });
-  appState = payload.state;
-  renderAll();
-  composerStatusEl.textContent = `Memory added: ${payload.memory}`;
 }
 
 async function resetCurrentTranscript() {
@@ -304,8 +282,6 @@ shiftRangeEl.addEventListener("input", () => {
   shiftValueEl.textContent = describeShift(shiftRangeEl.value);
 });
 shiftRangeEl.addEventListener("change", updateShift);
-moodBtn.addEventListener("click", randomizeMood);
-memoryBtn.addEventListener("click", addMemory);
 resetBtn.addEventListener("click", resetCurrentTranscript);
 composerEl.addEventListener("submit", sendMessage);
 

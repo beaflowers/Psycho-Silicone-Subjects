@@ -40,14 +40,14 @@ CHARACTER_CONFIGS = {
         "title": "Silicone Subject interview log",
         "empty_message": "Ask Angela/Housewife anything from the archive.",
         "default_shift": 0.9,
-        "subtitle": "Composite archive with a continuous shift between Angela Carter and the housewife voice.",
+        "subtitle": "",
     },
     JEKYLL_KEY: {
         "label": "Jekyll / Hyde",
         "title": "Jekyll / Hyde interview log",
         "empty_message": "Ask Jekyll/Hyde anything from the case notes.",
         "default_shift": 0.0,
-        "subtitle": "Separate archive built from the Jekyll and Hyde corpus.",
+        "subtitle": "",
     },
 }
 
