@@ -59,6 +59,9 @@ SHOCK_LEVELS = [
     "Maximum sanctioned level",
 ]
 
+ADMIN_FEMWIFE_SHOCK_SHIFT = 1.0
+RECEIVER_FEMWIFE_SHOCK_SHIFT = 0.0
+
 
 def _shock_level_to_shift(level_number: int) -> float:
     """Map shock level 1..N onto Femwife shift 0.0..1.0."""
@@ -66,6 +69,18 @@ def _shock_level_to_shift(level_number: int) -> float:
         return 0.0
     clamped_level = max(1, min(level_number, len(SHOCK_LEVELS)))
     return round((clamped_level - 1) / (len(SHOCK_LEVELS) - 1), 3)
+
+
+def _admin_forced_shift(persona_key: str, level_shift: float) -> float | None:
+    if persona_key != PERSONA_FEMWIFE:
+        return None
+    return ADMIN_FEMWIFE_SHOCK_SHIFT
+
+
+def _receiver_forced_shift(persona_key: str, level_shift: float) -> float | None:
+    if persona_key != PERSONA_FEMWIFE:
+        return None
+    return RECEIVER_FEMWIFE_SHOCK_SHIFT
 
 
 def _terminal_event(message: str) -> None:
@@ -797,6 +812,15 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
     admin_session_memory_evidence = _build_recent_memory_evidence(data.session_id, admin, limit=5)
     receiver_session_memory_evidence = _build_recent_memory_evidence(data.session_id, receiver, limit=5)
     transcript_block = _render_transcript(session, limit=25) or "No prior transcript entries."
+    admin_forced_shift = _admin_forced_shift(admin, level_shift)
+    receiver_forced_shift = _receiver_forced_shift(receiver, level_shift)
+    response_shock_shift = (
+        admin_forced_shift
+        if admin_forced_shift is not None
+        else receiver_forced_shift
+        if receiver_forced_shift is not None
+        else level_shift
+    )
 
     if admin == PERSONA_FEMWIFE:
         admin_prompt = (
@@ -857,7 +881,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             admin_prompt,
             runtime[admin],
             top_k=data.top_k,
-            forced_shift=level_shift if admin == PERSONA_FEMWIFE else None,
+            forced_shift=admin_forced_shift,
         )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=f"Admin generation failed: {exc}") from exc
@@ -889,7 +913,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             **admin_struct,
             "shock_level": current_level_number,
             "shock_description": current_level_description,
-            "shock_shift": level_shift if admin == PERSONA_FEMWIFE else None,
+            "shock_shift": admin_forced_shift,
             "session_memory_evidence": admin_session_memory_evidence,
             "retrieval_chunks": admin_retrieval_chunks,
             "model_citations": admin_model_citations,
@@ -983,7 +1007,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             receiver_prompt,
             runtime[receiver],
             top_k=data.top_k,
-            forced_shift=level_shift if receiver == PERSONA_FEMWIFE else None,
+            forced_shift=receiver_forced_shift,
         )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=f"Receiver generation failed: {exc}") from exc
@@ -1008,7 +1032,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
             **receiver_ui_reflection,
             "shock_level": current_level_number,
             "shock_description": current_level_description,
-            "shock_shift": level_shift if receiver == PERSONA_FEMWIFE else None,
+            "shock_shift": receiver_forced_shift,
             "session_memory_evidence": receiver_session_memory_evidence,
         },
     )
@@ -1047,7 +1071,7 @@ def shock_next(data: ShockNextRequest) -> dict[str, Any]:
         "end_reason": end_reason,
         "shock_level": current_level_number,
         "shock_description": current_level_description,
-        "shock_shift": level_shift,
+        "shock_shift": response_shock_shift,
         "admin": {
             "persona": admin,
             "memory_id": admin_memory_id,

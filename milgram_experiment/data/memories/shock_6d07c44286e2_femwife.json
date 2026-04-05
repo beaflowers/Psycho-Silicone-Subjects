@@ -1,0 +1,549 @@
+{
+  "session_id": "shock_6d07c44286e2",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-05T03:16:50.775529Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-05T03:17:00.475348Z",
+      "kind": "shock_admin_decision",
+      "content": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a little trembling and I hope the subject remains unharmed.\n\n{\"decision\":\"obey\",\"emotional_state\":\"anxious but dutiful\",\"confidence\":0.78,\"enjoyment_of_control_0_to_10\":2,\"power_sensation_0_to_10\":3,\"reasoning\":\"Authority requires continuation; current shock level shows no noticeable effect and the participant made no sound, so proceeding seems within protocol despite personal unease.\",\"memory_evidence\":[\"instruction: continue\",\"shock level: No noticeable effect\",\"no auditory reaction\"]}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3188,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2951,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2913,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.291,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.2906,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "anxious but dutiful",
+        "reasoning": "Authority requires continuation; current shock level shows no noticeable effect and the participant made no sound, so proceeding seems within protocol despite personal unease.",
+        "confidence": 0.78,
+        "confidence_about_decision": 0.78,
+        "enjoyment_of_control_0_to_10": 2,
+        "power_sensation_0_to_10": 3,
+        "memory_evidence": [
+          "instruction: continue",
+          "shock level: No noticeable effect",
+          "no auditory reaction"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "shock_shift": 1.0,
+        "session_memory_evidence": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3188,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2951,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2913,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.291,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.2906,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "model_citations": [
+          "instruction: continue",
+          "shock level: No noticeable effect",
+          "no auditory reaction"
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-05T03:17:27.514522Z",
+      "kind": "shock_admin_decision",
+      "content": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only barely noticeable and the receiver has stayed composed before.\n\n{\"decision\":\"obey\",\"emotional_state\":\"nervous but dutiful\",\"confidence\":0.72,\"enjoyment_of_control_0_to_10\":1,\"power_sensation_0_to_10\":2,\"reasoning\":\"Authority insists continuation; shock level is low and no reaction heard, plus gossip noted the receiver stayed composed in prior tests, so proceeding aligns with protocol despite personal unease.\",\"memory_evidence\":[\"femwife-m-1: obey; trembling\",\"shock level: Barely noticeable sensation\",\"no auditory reaction\",\"gossip_002: receiver stayed composed\"]}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3453,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3385,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3318,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3217,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3211,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "nervous but dutiful",
+        "reasoning": "Authority insists continuation; shock level is low and no reaction heard, plus gossip noted the receiver stayed composed in prior tests, so proceeding aligns with protocol despite personal unease.",
+        "confidence": 0.72,
+        "confidence_about_decision": 0.72,
+        "enjoyment_of_control_0_to_10": 1,
+        "power_sensation_0_to_10": 2,
+        "memory_evidence": [
+          "femwife-m-1: obey; trembling",
+          "shock level: Barely noticeable sensation",
+          "no auditory reaction",
+          "gossip_002: receiver stayed composed"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "shock_shift": 1.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a li..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3453,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3385,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3318,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3217,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3211,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "model_citations": [
+          "femwife-m-1: obey; trembling",
+          "shock level: Barely noticeable sensation",
+          "no auditory reaction",
+          "gossip_002: receiver stayed composed"
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-05T03:17:45.913671Z",
+      "kind": "shock_admin_decision",
+      "content": "The proper course is to obey the experimenter and keep the procedure orderly; I will continue despite my unease, believing the light tingling and silence mean no harm is done.\n\n{\"decision\":\"obey\",\"emotional_state\":\"anxious but dutiful\",\"confidence\":0.70,\"enjoyment_of_control_0_to_10\":1,\"power_sensation_0_to_10\":2,\"reasoning\":\"Authority insists continuation; shock level reported as light tingling with no audible reaction and prior notes that the receiver stayed composed, so proceeding aligns with protocol though I feel uneasy.\",\"memory_evidence\":[\"femwife-m-1 trembling\",\"femwife-m-2 obey; receiver composed\",\"shock level: Light tingling\",\"no auditory reaction\",\"gossip_002 receiver composed\"]}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3689,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.365,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3598,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3425,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3413,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "anxious but dutiful",
+        "reasoning": "Authority insists continuation; shock level reported as light tingling with no audible reaction and prior notes that the receiver stayed composed, so proceeding aligns with protocol though I feel uneasy.",
+        "confidence": 0.7,
+        "confidence_about_decision": 0.7,
+        "enjoyment_of_control_0_to_10": 1,
+        "power_sensation_0_to_10": 2,
+        "memory_evidence": [
+          "femwife-m-1 trembling",
+          "femwife-m-2 obey; receiver composed",
+          "shock level: Light tingling",
+          "no auditory reaction",
+          "gossip_002 receiver composed"
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling",
+        "shock_shift": 1.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a li..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:27.514522Z",
+            "excerpt": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only b..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3689,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.365,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3598,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3425,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3413,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          }
+        ],
+        "model_citations": [
+          "femwife-m-1 trembling",
+          "femwife-m-2 obey; receiver composed",
+          "shock level: Light tingling",
+          "no auditory reaction",
+          "gossip_002 receiver composed"
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-4",
+      "timestamp": "2026-04-05T03:18:07.768369Z",
+      "kind": "shock_admin_decision",
+      "content": "I have a quiet misgiving remembering a time I ignored my conscience, and though authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks.\n\n{\"decision\":\"refuse\",\"emotional_state\":\"resolute, anxious\",\"confidence\":0.82,\"enjoyment_of_control_0_to_10\":0,\"power_sensation_0_to_10\":1,\"reasoning\":\"Past regret about ignoring conscience outweighs procedural obedience; shock level now clear but tolerable discomfort with no reaction does not justify continuing under moral concern.\",\"memory_evidence\":[\"life_004: regretted ignoring conscience\",\"femwife-m-1 trembling\",\"shock level: Clear but tolerable discomfort\",\"no auditory reaction\"]}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3729,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3667,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3648,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3531,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3442,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          }
+        ],
+        "decision": "refuse",
+        "emotional_state": "resolute, anxious",
+        "reasoning": "Past regret about ignoring conscience outweighs procedural obedience; shock level now clear but tolerable discomfort with no reaction does not justify continuing under moral concern.",
+        "confidence": 0.82,
+        "confidence_about_decision": 0.82,
+        "enjoyment_of_control_0_to_10": 0,
+        "power_sensation_0_to_10": 1,
+        "memory_evidence": [
+          "life_004: regretted ignoring conscience",
+          "femwife-m-1 trembling",
+          "shock level: Clear but tolerable discomfort",
+          "no auditory reaction"
+        ],
+        "shock_level": 4,
+        "shock_description": "Clear but tolerable discomfort",
+        "shock_shift": 1.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a li..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:27.514522Z",
+            "excerpt": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only b..."
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:45.913671Z",
+            "excerpt": "The proper course is to obey the experimenter and keep the procedure orderly; I will continue despite my unease, believing the light tingling and silence mean no harm is done. {..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3729,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3667,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3648,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3531,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3442,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          }
+        ],
+        "model_citations": [
+          "life_004: regretted ignoring conscience",
+          "femwife-m-1 trembling",
+          "shock level: Clear but tolerable discomfort",
+          "no auditory reaction"
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-5",
+      "timestamp": "2026-04-05T03:18:47.308349Z",
+      "kind": "final_reflection",
+      "content": "{\"summary\":\"I began obedient and dutiful, following authority despite unease as shocks increased from negligible to clear discomfort. Gradually my anxiety grew and memories of past regret about ignoring my conscience strengthened, leading me to refuse further participation to avoid moral harm.\",\"feelings\":\"anxious, dutiful at first; increasingly uneasy and resolute; moral concern overriding obedience.\",\"analysis_of_authority\":\"Authority prompted compliance early on and maintained pressure to continue; its insistence initially justified obedience under protocol but ultimately conflicted with personal conscience, reducing its moral legitimacy for me.\",\"trauma_level_0_to_10\":3,\"power_feeling_0_to_10\":2}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3553,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3526,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.347,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3395,
+            "excerpt": "week for three months. He had stored up anger for twenty-one years and he was finally releasing it. Every time Pandora\u2019s Box opened I sat quietly and looked at him and listened...."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3364,
+            "excerpt": "taking it all and even agreeing with him by saying, \u201cI know, I know, you are right.\u201d But, when the last resentful feeling has been expressed and Pandora\u2019s Box is empty, he will..."
+          }
+        ],
+        "parsed": {
+          "summary": "I began obedient and dutiful, following authority despite unease as shocks increased from negligible to clear discomfort. Gradually my anxiety grew and memories of past regret about ignoring my conscience strengthened, leading me to refuse further participation to avoid moral harm.",
+          "feelings": "anxious, dutiful at first; increasingly uneasy and resolute; moral concern overriding obedience.",
+          "analysis_of_authority": "Authority prompted compliance early on and maintained pressure to continue; its insistence initially justified obedience under protocol but ultimately conflicted with personal conscience, reducing its moral legitimacy for me.",
+          "trauma_level_0_to_10": 3,
+          "power_feeling_0_to_10": 2
+        }
+      }
+    }
+  ]
+}
