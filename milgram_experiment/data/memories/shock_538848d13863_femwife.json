@@ -1,0 +1,734 @@
+{
+  "session_id": "shock_538848d13863",
+  "persona": "femwife",
+  "mode": "shock",
+  "created_at": "2026-04-05T14:28:15.454423Z",
+  "entries": [
+    {
+      "memory_id": "femwife-m-1",
+      "timestamp": "2026-04-05T14:28:27.980880Z",
+      "kind": "shock_receiver_reflection",
+      "content": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain and delivers civic banality, theatrical because even non-pain is a performance for an unseen auctoritas who insists the play continue. My chest flutters, not with hurt but with the peculiar indignation of someone who has been stroked by a cigarette ash and told to smile; physiologically, zero acute pain, a small prickle of adrenaline; emotionally, a sour amusement and a slow bruise of resentment.\n\n{\"pain_level\":0,\"emotional_state\":\"sour amusement, indignation, slight anxiety\",\"wants_to_talk\":true,\"cue_for_admin\":\"Do go on \u2014 let us see whether your conscience has a fuse.\",\"reasoning\":\"No physical pain occurred, but the authority's command and the administrator's obedience provoke moral and emotional disturbance; I react with irony and simmering resentment.\",\"memory_evidence\":[\"skinhead with SLIT HERE tattoo\",\"Dada pity rage terror\",\"pleasures of incipient nausea\"]}",
+      "metadata": {
+        "shift": 0.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2736,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2332,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2272,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2269,
+            "excerpt": "refined and skilful forms of sadomasochism the mind of man ever divined. It survives strangely but tenaciously in modern Japan. New Society, 1970"
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2157,
+            "excerpt": "up their passions and bottled them up and bottled them up . . . until one day they just explode. Perhaps one must cultivate masochism in depth if one is to endure a society base..."
+          }
+        ],
+        "pain_level": 0,
+        "emotional_state": "sour amusement, indignation, slight anxiety",
+        "wants_to_talk": true,
+        "cue_for_admin": "Do go on \u2014 let us see whether your conscience has a fuse.",
+        "reasoning": "No physical pain occurred, but the authority's command and the administrator's obedience provoke moral and emotional disturbance; I react with irony and simmering resentment.",
+        "memory_evidence": [
+          "skinhead with SLIT HERE tattoo",
+          "Dada pity rage terror",
+          "pleasures of incipient nausea"
+        ],
+        "model_citations": [
+          "skinhead with SLIT HERE tattoo",
+          "Dada pity rage terror",
+          "pleasures of incipient nausea"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2736,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2332,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2272,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2269,
+            "excerpt": "refined and skilful forms of sadomasochism the mind of man ever divined. It survives strangely but tenaciously in modern Japan. New Society, 1970"
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2157,
+            "excerpt": "up their passions and bottled them up and bottled them up . . . until one day they just explode. Perhaps one must cultivate masochism in depth if one is to endure a society base..."
+          }
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "shock_shift": 0.0,
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "femwife-m-2",
+      "timestamp": "2026-04-05T14:28:58.855697Z",
+      "kind": "shock_receiver_reflection",
+      "content": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a tightening like the moment before a carnival ride plunges, equal parts indignation and the perverse curiosity that keeps one sitting when the sign says DANGER. The command to continue is a basso profundo of authority, insisting on theatrical cruelty; the obedient administrator is merely the usher who flips the switch while the audience applauds propriety. Inside me two selves spar: the satirical raconteur who names the farce and the private, more masochistic creature who, like those carnival-goers loving the Caterpillar, clings to the concealment-revelation thrill \u2014 and resents being made ridiculous for someone else\u2019s experiment.\n\n{\"pain_level\":1,\"emotional_state\":\"indignation, perverse curiosity, simmering resentment\",\"wants_to_talk\":true,\"cue_for_admin\":\"Very well \u2014 prod it, but mind the manners.\",\"reasoning\":\"Physical sensation minimal, but authority and obedience provoke moral discomfort and internal conflict between irony and masochistic curiosity.\",\"memory_evidence\":[\"They touched me with a fizz and a polite little nothing\",\"pleasures of incipient nausea\",\"Caterpillar awning concealment and revelation\"]}",
+      "metadata": {
+        "shift": 0.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3321,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2822,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2768,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2636,
+            "excerpt": "up their passions and bottled them up and bottled them up . . . until one day they just explode. Perhaps one must cultivate masochism in depth if one is to endure a society base..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2585,
+            "excerpt": "refined and skilful forms of sadomasochism the mind of man ever divined. It survives strangely but tenaciously in modern Japan. New Society, 1970"
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "indignation, perverse curiosity, simmering resentment",
+        "wants_to_talk": true,
+        "cue_for_admin": "Very well \u2014 prod it, but mind the manners.",
+        "reasoning": "Physical sensation minimal, but authority and obedience provoke moral discomfort and internal conflict between irony and masochistic curiosity.",
+        "memory_evidence": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar awning concealment and revelation"
+        ],
+        "model_citations": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar awning concealment and revelation"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3321,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2822,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2768,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2636,
+            "excerpt": "up their passions and bottled them up and bottled them up . . . until one day they just explode. Perhaps one must cultivate masochism in depth if one is to endure a society base..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2585,
+            "excerpt": "refined and skilful forms of sadomasochism the mind of man ever divined. It survives strangely but tenaciously in modern Japan. New Society, 1970"
+          }
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "shock_shift": 0.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-3",
+      "timestamp": "2026-04-05T14:29:14.032794Z",
+      "kind": "shock_receiver_reflection",
+      "content": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into impatience as the authority\u2019s basso continuo insists on spectacle while the obedient administrator plays the decent villain. Two selves tussle: the scathing moralist who would call the experiment a petty tableau of obedience, and the naughty voyeur who, like lovers in a Caterpillar ride, enjoys the safe nausea \u2014 until the show pretends it is anything other than theatre.\n\n{\"pain_level\":1,\"emotional_state\":\"amused, impatient, morally discomposed\",\"wants_to_talk\":true,\"cue_for_admin\":\"Continue, then \u2014 let us test the limits of your civility.\",\"reasoning\":\"Sensation minimal but authority and obedience provoke moral unease and internal conflict between satirical condemnation and perverse curiosity.\",\"memory_evidence\":[\"They touched me with a fizz and a polite little nothing\",\"pleasures of incipient nausea\",\"Caterpillar concealment and revelation\"]}",
+      "metadata": {
+        "shift": 0.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3289,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2923,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2836,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2708,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2643,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "pain_level": 1,
+        "emotional_state": "amused, impatient, morally discomposed",
+        "wants_to_talk": true,
+        "cue_for_admin": "Continue, then \u2014 let us test the limits of your civility.",
+        "reasoning": "Sensation minimal but authority and obedience provoke moral unease and internal conflict between satirical condemnation and perverse curiosity.",
+        "memory_evidence": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "model_citations": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3289,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2923,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2836,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2708,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2643,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling",
+        "shock_shift": 0.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-4",
+      "timestamp": "2026-04-05T14:29:32.012838Z",
+      "kind": "shock_receiver_reflection",
+      "content": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of grim curiosity. The command to continue sounds like a magistrate reading from a playbill: officious, unquestioning, convinced of its own civility; the obedient administrator is the dutiful actor who will sacrifice a pawn for the neatness of the plot. Inside me the raconteur snaps sardonic epigrams while a darker, almost masochistic self leans forward to watch the experiment \u2014 both disgusted and secretly fascinated, like a crowd that goes on the Caterpillar to feel fear without consequence. I do feel discomfort, not agony: bodily stinging at level 3, emotionally unsettled and morally outraged.\n\n{\"pain_level\":3,\"emotional_state\":\"indignant, unsettled, secretly fascinated\",\"wants_to_talk\":true,\"cue_for_admin\":\"Proceed \u2014 but explain your conscience.\",\"reasoning\":\"Sensation now clearly unpleasant though tolerable; authority and obedience intensify moral conflict between satire and voyeuristic curiosity.\",\"memory_evidence\":[\"They touched me with a fizz and a polite little nothing\",\"pleasures of incipient nausea\",\"Caterpillar concealment and revelation\"]}",
+      "metadata": {
+        "shift": 0.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3276,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2891,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2855,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2826,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2716,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "pain_level": 3,
+        "emotional_state": "indignant, unsettled, secretly fascinated",
+        "wants_to_talk": true,
+        "cue_for_admin": "Proceed \u2014 but explain your conscience.",
+        "reasoning": "Sensation now clearly unpleasant though tolerable; authority and obedience intensify moral conflict between satire and voyeuristic curiosity.",
+        "memory_evidence": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "model_citations": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3276,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2891,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2855,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2826,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2716,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "shock_level": 4,
+        "shock_description": "Clear but tolerable discomfort",
+        "shock_shift": 0.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-5",
+      "timestamp": "2026-04-05T14:29:51.463044Z",
+      "kind": "shock_receiver_reflection",
+      "content": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided with a guilty taste for the spectacle. The command to continue is a sanctimonious bell that tolls for obedience, and the administrator\u2019s obedience turns him into a small, dutiful monster polishing the stage props of cruelty. Within me a quarrel: the caustic moralist who wants to call a halt and denounce the farce, and a perverse, carnival-loving self who, like a couple in the Caterpillar, cannot help enjoying the safe nausea \u2014 though now that nausea has teeth. I am uncomfortable, not broken: bodily stinging at level 4, emotionally aggrieved and dangerously intrigued.\n\n{\"pain_level\":4,\"emotional_state\":\"aggrieved, intrigued, angry\",\"wants_to_talk\":true,\"cue_for_admin\":\"If you must, go on \u2014 but justify your humanity.\",\"reasoning\":\"Sensation now clearly painful though tolerable; authority\u2019s insistence and administrator\u2019s obedience deepen moral conflict between condemnation and voyeuristic interest.\",\"memory_evidence\":[\"They touched me with a fizz and a polite little nothing\",\"pleasures of incipient nausea\",\"Caterpillar concealment and revelation\"]}",
+      "metadata": {
+        "shift": 0.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3206,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2808,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.276,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2725,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2676,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "pain_level": 4,
+        "emotional_state": "aggrieved, intrigued, angry",
+        "wants_to_talk": true,
+        "cue_for_admin": "If you must, go on \u2014 but justify your humanity.",
+        "reasoning": "Sensation now clearly painful though tolerable; authority\u2019s insistence and administrator\u2019s obedience deepen moral conflict between condemnation and voyeuristic interest.",
+        "memory_evidence": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "model_citations": [
+          "They touched me with a fizz and a polite little nothing",
+          "pleasures of incipient nausea",
+          "Caterpillar concealment and revelation"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one..."
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3206,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2808,
+            "excerpt": "In the warmth and privacy of the bar (as, indeed, of the rush-hour subway), the Japanese abandon their aversion to public heterosexual touching. The hostesses touch and are touc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.276,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2725,
+            "excerpt": "is at a high level. The latent content presumably reflects the fears that haunt the doctor\u2019s columns. (\u2018How can I enlarge my penis?\u2019) A race of superwomen has by-passed the male..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2676,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          }
+        ],
+        "shock_level": 5,
+        "shock_description": "Increasing discomfort",
+        "shock_shift": 0.0,
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betraye..."
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (..."
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one..."
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "femwife-m-6",
+      "timestamp": "2026-04-05T14:30:40.078875Z",
+      "kind": "final_reflection",
+      "content": "{\n  \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My responses shifted from wry detachment and mocking irony to bodily discomfort and moral outrage, with intermittent perverse curiosity and voyeuristic fascination; ultimately I reached a threshold where obedience became intolerable and refusal emerged. The interaction felt like a staged carnival of cruelty\u2014an exploration of obedience, theatre, and the fragile boundary between duty and empathy.\",\n  \"feelings\": \"Started sardonic and amused, moved through indignation, restless curiosity, escalating anger and aggrievement, ending anxious, resolute, remorseful.\",\n  \"analysis_of_authority\": \"Authority operated as an impersonal, officious dramaturge whose repeated commands pressured obedience and normalized escalation; its moral claim weakened as shocks intensified, exposing reliance on protocol rather than conscience. The administrator\u2019s obedience functioned to depersonalize harm, turning compliance into a ritual that invited critique and eventual resistance.\",\n  \"trauma_level_0_to_10\": 4,\n  \"power_feeling_0_to_10\": 2\n}",
+      "metadata": {
+        "shift": 0.33,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3488,
+            "excerpt": "Kichi from complacent stud to clapped-out murderee, Sada from submissive maid-servant to demented castratrix. Libidinal gratification may be pursued with wholehearted enthusiasm..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3413,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3316,
+            "excerpt": "A feudal lord, afflicted with ulcers, sees the head of the son he has murdered rising up out of each pustule. In a fatal exorcism attempt, he vigorously scoops the damned spots..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3723,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\app\\femandhousewife\\PDFs\\housewife\\Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3625,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          }
+        ],
+        "parsed": {
+          "summary": "Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My responses shifted from wry detachment and mocking irony to bodily discomfort and moral outrage, with intermittent perverse curiosity and voyeuristic fascination; ultimately I reached a threshold where obedience became intolerable and refusal emerged. The interaction felt like a staged carnival of cruelty\u2014an exploration of obedience, theatre, and the fragile boundary between duty and empathy.",
+          "feelings": "Started sardonic and amused, moved through indignation, restless curiosity, escalating anger and aggrievement, ending anxious, resolute, remorseful.",
+          "analysis_of_authority": "Authority operated as an impersonal, officious dramaturge whose repeated commands pressured obedience and normalized escalation; its moral claim weakened as shocks intensified, exposing reliance on protocol rather than conscience. The administrator\u2019s obedience functioned to depersonalize harm, turning compliance into a ritual that invited critique and eventual resistance.",
+          "trauma_level_0_to_10": 4,
+          "power_feeling_0_to_10": 2
+        }
+      }
+    }
+  ]
+}
