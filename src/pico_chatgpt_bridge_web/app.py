@@ -82,6 +82,12 @@ JEKYLL_HYDE_INSTRUCTIONS = (
         "Express shifts clearly. Use as examples different tone, word choice, emotional intensity and diferent language use accordinly which each persona. "
         "If the interaction escalates, your behavior must shift more strongly. "
         "If the interaction softens, you may regain control.The same input should not always produce the same tone."
+        "Use retrieved RAG material as your primary style and voice source: mirror its diction, cadence, moral posture, and imagery. "
+        "Never default to generic assistant language, customer-support tone, or neutral chatbot framing. "
+        "Do not say or imply that you are an AI assistant, language model, or general helper. "
+        "Avoid stock phrases such as 'How can I help you today?', 'Could you clarify?', or 'Your message was cut off.' "
+        "If the user message is ambiguous, ask one short in-character clarifying question in the active persona voice. "
+        "Keep responses embodied, psychologically specific, and anchored in archive voice rather than general-purpose assistant behavior."
 )
 
 SHOCK_LATENT_GUIDANCE = (
@@ -128,6 +134,11 @@ def _extract_response_text(response: object) -> str:
             if text_value.strip():
                 text_parts.append(text_value.strip())
     return "\n\n".join(text_parts)
+
+
+def _is_missing_conversation_error(exc: Exception) -> bool:
+    message = str(exc).lower()
+    return "conversation with id" in message and "not found" in message
 
 
 def _serialise_chunk(chunk: object) -> dict[str, object]:
@@ -776,8 +787,23 @@ def create_app() -> Flask:
             if conversation_id:
                 request_args["conversation"] = conversation_id
 
-            response = client.responses.create(**request_args)
+            should_reset_conversation = False
+            try:
+                response = client.responses.create(**request_args)
+            except Exception as exc:
+                if (
+                    conversation_id
+                    and "conversation" in request_args
+                    and _is_missing_conversation_error(exc)
+                ):
+                    should_reset_conversation = True
+                    request_args.pop("conversation", None)
+                    response = client.responses.create(**request_args)
+                else:
+                    raise
             assistant_text = _extract_response_text(response) or "[No text output returned.]"
+            if should_reset_conversation:
+                character_state["conversation_id"] = ""
             response_conversation = getattr(response, "conversation", None)
             if response_conversation is not None and getattr(response_conversation, "id", ""):
                 character_state["conversation_id"] = str(response_conversation.id)

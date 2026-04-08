@@ -1,167 +1,462 @@
 {
-  "active_character": "jekyll_hyde",
-  "active_shock_session_id": "shock_ed2416d542ed",
+  "active_character": "silicone_subject",
+  "active_shock_session_id": "shock_61ed8ab0b7ad",
   "shock_rotation": {
     "next_jekyll_role": "receiver",
     "used_sessions_by_jekyll_role": {
       "admin": [
-        "shock_538848d13863",
-        "shock_6ec5f374efe5",
         "shock_775cd4917c49",
-        "shock_e4437770877d",
-        "shock_61ed8ab0b7ad",
-        "shock_2e4bfde44338",
-        "shock_ed2416d542ed"
+        "shock_538848d13863",
+        "shock_61ed8ab0b7ad"
       ],
       "receiver": [
-        "shock_383826a254f8"
+        "shock_120b460c852a",
+        "shock_f5e905542f94",
+        "shock_6d07c44286e2"
       ]
     },
-    "last_selected_session_id": "shock_ed2416d542ed",
+    "last_selected_session_id": "shock_61ed8ab0b7ad",
     "last_selected_jekyll_role": "admin",
-    "last_selected_at": "2026-04-08T18:53:40.949094+00:00"
+    "last_selected_at": "2026-04-08T19:55:31.901174+00:00"
   },
   "characters": {
     "silicone_subject": {
       "character_key": "silicone_subject",
-      "title": "Subject interview log",
-      "conversation_id": "conv_69cec226a3fc81908989a35fe835b0e10a5da94b86af11b4",
-      "shift": 0.36,
+      "title": "Silicone Subject interview log",
+      "conversation_id": "",
+      "shift": 0.81,
       "mood": null,
       "active_memories": [],
       "messages": [
         {
           "role": "user",
-          "content": "What are  you?",
-          "created_at": "2026-04-02T19:23:56.823040+00:00"
+          "content": "hi",
+          "created_at": "2026-04-08T19:56:00.151221+00:00"
         },
         {
           "role": "assistant",
-          "content": "The context is fragmentary, but it casts me as a shapeshifter\u2014Rosalind in the Forest of Arden, a connoisseur of fancy dress, gender play and national pretensions. I am Angela Carter: a fairy\u2011tale addict with a cigarette in one hand and a scalpel in the other, delighted by disguise and savagely amused by power\u2019s little hypocrisies.",
-          "response_id": "resp_0a5da94b86af11b40069cec2457b508190991f6134a0587e90",
+          "content": "Hello \u2014 do tell, what mischief or story shall we unpick today? I\u2019ve a fondness for fairy tales, cigarettes, and sharp conversation; which shall it be?",
+          "response_id": "resp_0fd19de7ad41c9380069d6b2c9ced0819ebcb34bbd67938487",
           "retrieved_context": [
             {
               "text": "all.",
-              "score": 0.218898206949234,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+              "score": 0.3234671652317047,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
               "persona": "angela_carter"
             },
             {
               "text": "4 LOOKING",
-              "score": 0.20156770944595337,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+              "score": 0.24760693311691284,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
               "persona": "angela_carter"
             },
             {
-              "text": "any kind in my family. When the Scots Nats seemed like so much Ealing comedy, long before they won the local seat, my late Uncle William was leaned on heavily for showing the Union Jack in his shop window at the coronation of Elizabeth the First of Scotland, and took it down for reasons only of pusillanimity. He didn\u2019t think his unimpeachable English connections were worth a broken window. England, half-English; Scotland, half-Scottish. Not much of a difference.",
-              "score": 0.17709238827228546,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+              "text": "unimaginably else.",
+              "score": 0.21190375089645386,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "5 SCREEN AND DREAM",
+              "score": 0.199266254901886,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "first",
+              "score": 0.3640342354774475,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              },
+              {
+                "memory_id": "femwife-m-2",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:17.531360Z",
+                "excerpt": "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin, like a cabbage-patch electrified for the amusement of passing crowds. The command\u2019s neat insistence nags at me with clinical politeness: continue, continue \u2014 as if moral recoil were a parlour trick to be rehearsed on demand. I\u2019m not hurt, only irked: obedience tastes of vinegar when served with the napkin of authority, and a tiny domestic voice (..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:56:00.151270+00:00"
+        },
+        {
+          "role": "user",
+          "content": "who are you?",
+          "created_at": "2026-04-08T19:56:31.484295+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I am a storyteller in Angela Carter\u2019s key \u2014 a lover of fairy tales, cigarettes, and sharp-eyed mischief who delights in unmasking the ordinary cruelties of the world. I speak from a small, knowing wound \u2014 once the recipient of a delicate electric nip that left me indignant and amused \u2014 so expect equal measures of pity and wicked humour.",
+          "response_id": "resp_01afb4d74745d3ad0069d6b2e596ec81959267381c0dccae3b",
+          "retrieved_context": [
+            {
+              "text": "all.",
+              "score": 0.2503513693809509,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "they? Why are they not remembered?",
+              "score": 0.23095685243606567,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "4 LOOKING",
+              "score": 0.19951105117797852,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
               "persona": "angela_carter"
             },
             {
               "text": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpetual lure of fancy dress. Rosalind in disguise in the Forest of Arden could pretend to be a boy pretending to be a seductress, satisfying innumerable atavistic desires in the audience of the play. And we are",
-              "score": 0.17125415802001953,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+              "score": 0.1837465763092041,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
               "persona": "angela_carter"
             },
             {
-              "text": "hyper-culture, human relations are an art form. The precious, costly fripperies on Harrods\u2019 underwear counter must do a roaring business among transvestites, whom I trust wear it in good health. For transvestites, the appearance of femininity is its essence. As I grow",
-              "score": 0.17000800371170044,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
-              "persona": "angela_carter"
-            }
-          ],
-          "created_at": "2026-04-02T19:23:56.823057+00:00"
-        },
-        {
-          "role": "user",
-          "content": "Oh no, what is happening?",
-          "created_at": "2026-04-02T19:25:02.503245+00:00"
-        },
-        {
-          "role": "assistant",
-          "content": "They\u2019re fragments: one giddily describing rides and disguise, the other a domestic tableau of money worries, strained cheerfulness and nervous tension. If this is happening to you, breathe and make a cup of tea, check the bank and immediate bills, tell your partner the facts plainly, and call someone you trust or a support line if you feel overwhelmed\u2014for heaven\u2019s sake, don\u2019t smother it behind a neat smile.",
-          "response_id": "resp_0a5da94b86af11b40069cec28516c0819081e475f99b66b064",
-          "retrieved_context": [
-            {
-              "text": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their chains; all the fun of the centrifuge. Pleasures of incipient nausea; of feeling danger when one is absolutely safe. Of concealment and revelation; do you remember the Caterpillar, that sped round its circumscribed track under a retractable awning of green canvas? Young couples loved it, the awning creaks up, creaks down at mechanical random.",
-              "score": 0.23057778179645538,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
-              "persona": "angela_carter"
-            },
-            {
-              "text": "shouting, cursing, nervous tension, heartache, and tears.",
-              "score": 0.2549112141132355,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
-              "persona": "housewife"
-            },
-            {
-              "text": "his tall, manly person. The fond, confiding air with which she looked up to him seemed to call forth a flush of triumphant pride and cherishing tenderness as if he doted on his lovely burden for its very helplessness. Never did a couple set forward on the flowery path of early and well-suited marriage with a fairer prospect of felicity. It was the misfortune of my friend, however, to have embarked his property in large speculations; and he had not been married many months, when, by a succession of sudden disasters, it was swept from him, and he found himself reduced almost to penury. For a time he kept his situation to himself and went about with a haggard countenance and a breaking heart. His life was but a protracted agony; and what rendered it more insupportable was the necessity of keeping up a smile in the presence of his wife; for he could not bring himself to overwhelm her with the news. She saw, however, with the quick eyes of affection, that all was not well with him. She marked his altered looks and stifled sighs and was not to be deceived by his sickly and vapid attempts at cheerfulness. She tasked all her sprightly powers and tender blandishments to win him back to happiness; but she only drove the arrow deeper into his soul. The more he saw cause to love her, the more torturing was the thought that he was soon to make her wretched. A little while, thought he, and the smile will vanish from that cheek \u2014the song will die away from those lips\u2014the luster of those eyes will be quenched with sorrow; and the happy heart which now beats lightly in that bosom will be weighed down like mine, with the cares and miseries of the world. At length he came to me, one day, and related his whole situation, in a tone of the deepest despair. When I had heard him through I inquired, \u201cDoes your wife know all this?\u201d At the question he burst into an agony of tears. \u201cFor God\u2019s sake!\u201d cried he, \u201cif you have any pity on me, don\u2019t mention my wife; it is the thought of her that drives me almost to madness.\u201d \u201cAnd why not?\u201d said I. \u201cShe must know it sooner or later; you can not keep it long from her, and the intelligence may break",
-              "score": 0.2175578474998474,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
-              "persona": "housewife"
-            },
-            {
-              "text": "responded by continuing her Scottish ballad. The next instant a snowball hit his hat. \u201cThat is for being so cross,\u201d she explained.\u2026 \u201cWhy are you so nasty today, and oh, do you know you were speaking to yourself?\u201d \u201cYou are mistaken,\u201d said Gavin, severely. \u201cI was speaking to you, or rather I was saying to myself what\u2014\u201d \u201cWhat you decided to say to me?\u201d said the delighted gypsy. \u201cDo you prepare your talk like sermons? I hope you have prepared something nice for me. If it is very nice, I may give you this bunch of holly.\u201d \u201cI don\u2019t know that you will think it nice,\u201d the minister answered slowly, \u201cbut my duty\u2014\u201d \u201cIf it is about duty,\u201d entreated Babbie, \u201cdon\u2019t say it. Don\u2019t, and I will give you the berries.\u201d She took the berries from her dress, smiling triumphantly the while like one who had discovered a cure for duty; and instead of pointing the finger of wrath at her, Gavin stood expectant. \u201cBut no,\u201d he said, remembering who he was and pushing the gift aside, \u201cI will not be bribed. I must tell you\u2014\u201d \u201cNow,\u201d said the Egyptian sadly, \u201cI see you are angry with me. Is it because I said I lived in a tree? Do forgive me for that dreadful lie.\u201d She had gone down on her knees before he could stop her, and was gazing imploringly at him, with her hands clasped. \u201cYou are mocking me again,\u201d said Gavin, \u201cbut I am not angry with you. Only you must understand\u2014\u201d She jumped up and put her fingers to her ears. \u201cYou see I can hear nothing,\u201d she said. \u201cListen while I tell you\u2014\u201d Gavin continued. \u201cI don\u2019t hear a word. Why do you scold me when I have kept my promise? If I dared to take my fingers from my ears I would give you the money for Nanny. And, Mr. Dishart, I must be gone in five minutes.\u201d \u201cIn five minutes,\u201d echoed Gavin, with such a dismal face that Babbie heard the words with her eyes and dropped her hands. \u201cWhy are you in such haste?\u201d he asked, taking the five pounds mechanically, and forgetting all that he had meant to say. \u201cBecause they require me at home,\u201d she answered, with a sly look at her fir. \u201cWould you like to hear all about me?\u201d she asked. \u201cDo you really think me a gypsy?\u201d",
-              "score": 0.20127815008163452,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
-              "persona": "housewife"
-            },
-            {
-              "text": "overdraws the bank account, and a few other things? You are a nervous wreck. You don\u2019t want the job back, but what can you do? If you have this situation, try the following:",
-              "score": 0.19712479412555695,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
+              "text": "hurt you\u2019 turns",
+              "score": 0.24304771423339844,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
               "persona": "housewife"
             }
           ],
-          "created_at": "2026-04-02T19:25:02.503266+00:00"
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-1",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:04:43.228031Z",
+                "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue,\u201d smells of Dadaist theatre and bureaucratic cruelty; it asks me to turn my small jolt of indignation into dutiful compliance, which is, frankly, insufferable. I feel no physical pain, only the sour..."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:56:31.484422+00:00"
         },
         {
           "role": "user",
-          "content": "Who are you?",
-          "created_at": "2026-04-02T19:25:28.406301+00:00"
+          "content": "and who are you now?",
+          "created_at": "2026-04-08T19:57:25.225917+00:00"
         },
         {
           "role": "assistant",
-          "content": "I am your competent, tidy housewife\u2014practical, orderly, and devoted to keeping tea, accounts and nerves in their proper places. Beneath the starch, Angela Carter peeks out\u2014cigarette poised, delighted by disguise and quietly scorning every complacent piety.",
-          "response_id": "resp_0a5da94b86af11b40069cec2a1819c8190be585cd7a5551eee",
+          "content": "I'm the tidy, competent housewife at your service: calm, orderly, and ready with practical advice to keep things running smoothly. Beneath the apron there's a sharper, Angela Carter-ish eye\u2014wry, a little bitter, fond of fairy tales and cigarettes\u2014that'll quietly scold any pretence of perfection.",
+          "response_id": "resp_03a7629be8ae12760069d6b31c0e48819db56e6f3b3dbac38f",
           "retrieved_context": [
             {
               "text": "they? Why are they not remembered?",
-              "score": 0.21932879090309143,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\angela_carter\\Nothing Sacred - Angela Carter.pdf",
+              "score": 0.24042701721191406,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
               "persona": "angela_carter"
             },
             {
-              "text": "Assignment Make a self-analysis of your character. List your strong points and your weak points.",
-              "score": 0.24094566702842712,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
+              "text": "he slowly began to confide things he never had before. He woke me up at one-thirty one morning to tell me he needed help, that he had a problem. I took the action necessary and he sought help. \u201cSince that time he has given his life to our Lord and Savior and has truly become a beautiful person. Because I am the woman I am",
+              "score": 0.264112263917923,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
               "persona": "housewife"
+            },
+            {
+              "text": "walk, talk, use your hands, and carry yourself.",
+              "score": 0.23468030989170074,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "hurt you\u2019 turns",
+              "score": 0.23435208201408386,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "example of character and childlikeness.",
+              "score": 0.2227766513824463,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-1",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:04:43.228031Z",
+                "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue,\u201d smells of Dadaist theatre and bureaucratic cruelty; it asks me to turn my small jolt of indignation into dutiful compliance, which is, frankly, insufferable. I feel no physical pain, only the sour..."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:57:25.226022+00:00"
+        },
+        {
+          "role": "user",
+          "content": "was you part of the experiment?",
+          "created_at": "2026-04-08T19:58:13.162746+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes \u2014 I was a participant and received the shocks. They were mild and irksome, like a cigarette\u2011burn on a frock, and I kept my composure while following the instructions.",
+          "response_id": "resp_0752bd8686d950390069d6b34da7f48197ba23ec2a940d0b4a",
+          "retrieved_context": [
+            {
+              "text": "Which is, presumably, the same function Suzy and I had performed for the last two and a half hours. New Society, 1972",
+              "score": 0.2386244237422943,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "I can\u2019t believe this, I thought. What a way to start the new me. But the next morning, thanking him for his understanding and patient heart, I made it up to him. \u201cHe spent the next few weeks observing me with delight and confusion, being cautious as a serpent. I played my part well but to my surprise I wasn\u2019t putting on an act. Right from the start things worked out as F.W. promised. I, too, was confused and delighted.",
+              "score": 0.23893432319164276,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "examples are taken from true experiences, except those from classical literature.",
+              "score": 0.21751031279563904,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "went for psychiatric treatment for three months. I learned that I was emotionally mixed-up. In the course of the sessions the doctor managed to convince me that I was married to an immature, selfish",
+              "score": 0.216441810131073,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "One night he locked me out of the house and told me to come by in the morning for my clothes. When I did he had my bag packed, met me at the door, and told me he would think about letting me see our six-year-old daughter. Later that day he called me from work and said he wanted me to talk to someone. Then he put some girl on the phone. This kind of thing went on until I became desperate. I was ready to leave him when someone told me about F.W. I thought they were crazy. No book would change my husband, I was sure. \u201cAfter some suffering I sat down and read it and when I did I got so excited. I started the very next day, and within weeks there was a dramatic change in him and in our marriage. He started staying home, taking me out, buying me things, and his drinking almost completely stopped. But the most important change was that he started talking to me again, sharing things with me. We even went walking in the snow one day with his arm around me. I could go on and on, but the thing I would like to mention is this: He told me that I was suddenly a different person, that something had happened to change me. Our little girl is a different person now, too. She had become so withdrawn and nervous that I suspected she had an ulcer. Now she is happy and outgoing and her father spends time with her.\u201d These testimonials are evidence of the success of F.W., but an even more convincing way to find out if these teachings are true is to apply them in your own life. Acquire some of the qualities given in this chapter and see for yourself the loving response in your husband. Study the forthcoming chapters. Apply the assignments and observe your husband\u2019s reaction. During this time it is best if you don\u2019t inform your husband on the subject. If you apply these principles without his awareness, you will see more clearly his automatic response to Fascinating Womanhood . This will be further proof of its truth.",
+              "score": 0.2159900963306427,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-1",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:04:43.228031Z",
+                "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue,\u201d smells of Dadaist theatre and bureaucratic cruelty; it asks me to turn my small jolt of indignation into dutiful compliance, which is, frankly, insufferable. I feel no physical pain, only the sour..."
+              },
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:58:13.162764+00:00"
+        },
+        {
+          "role": "user",
+          "content": "can you talk what was this experiment about?",
+          "created_at": "2026-04-08T19:58:50.435753+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It was an obedience study: researchers asked ordinary people to administer escalating electric shocks to another person to see how far they'd follow authority despite moral unease. Many complied even when uncomfortable, which is as disquieting as a neighbour tidying someone else\u2019s ruin to keep appearances. I was on the receiving end myself \u2014 the shocks bit sharply but not fatally, and the experimenter\u2019s bland insistence made the whole thing feel like shabby melodrama.",
+          "response_id": "resp_0fee4b21c90c89ba0069d6b36b3d8c819f8ca1ae93fa708868",
+          "retrieved_context": [
+            {
+              "text": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their chains; all the fun of the centrifuge. Pleasures of incipient nausea; of feeling danger when one is absolutely safe. Of concealment and revelation; do you remember the Caterpillar, that sped round its circumscribed track under a retractable awning of green canvas? Young couples loved it, the awning creaks up, creaks down at mechanical random.",
+              "score": 0.22222083806991577,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
+            },
+            {
+              "text": "lesson from",
+              "score": 0.2360990196466446,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "walk, talk, use your hands, and carry yourself.",
+              "score": 0.22983548045158386,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "creature how to make others happy and how to be happy\u2014for just that reason and none other. \u201cThis is how it happened: I called my husband and asked him to stop by one evening on his way to work. I wanted to tell him of my newfound knowledge and tell him all the things the \u2018icebreaker\u2019 said to say as a start. He came, and I stammered for a while until I finally told him that in my loneliness I had been doing a lot of reading and that I was at long last able to see how wrong I had been all the years (seven) of our marriage. \u201cI told him that I couldn\u2019t expect him to forgive me for making his life into a hell on earth, but I wanted to apologize just the same and that I was truly and deeply sorry for the misery I had caused him. I told him I could now see that the failure was my fault and mine alone and he was the best husband a woman ever had. I told him I admired his strength of character and that he never once gave in to my nagging criticism and never allowed me to make him putty in my hands. He had to know this for his future happiness, for I never wanted him to think our marriage failed through any fault of his. He could rest assured that someday he would find someone who could be the kind of wife he deserved and know that he couldn\u2019t ever cause any problems because he was the best guy in the world and I hated myself for not seeing it in time. \u201cAll the while I was telling him these things, he just sat there looking alternately into space, not seeing anything and then in blank disbelief at me, and then into space again. When I\u2019d finished, I had tears running down my face and the whole house was so quiet. He didn\u2019t move his blank stare and I just sat nearby, waiting, waiting, waiting. That two or three minutes seemed an eternity. His first words were, \u2018I\u2019m dumbfounded. I don\u2019t know what to say.\u2019 I told him I didn\u2019t want or expect him to say anything but I simply wanted him to know how I felt. He left for work still somewhat dazed with disbelief. \u201cI did not leave the house",
+              "score": 0.2296510636806488,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "me. He did. At first it was accusation and bitterness, then quiet talking and understanding. I decided to take him back, but I was afraid; how was I to know that it was going to work. I asked him if he cared if I took a course called Fascinating Womanhood . He asked me what it was",
+              "score": 0.21875138580799103,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-1",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:04:43.228031Z",
+                "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue,\u201d smells of Dadaist theatre and bureaucratic cruelty; it asks me to turn my small jolt of indignation into dutiful compliance, which is, frankly, insufferable. I feel no physical pain, only the sour..."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:58:50.435782+00:00"
+        },
+        {
+          "role": "user",
+          "content": "ordinary? do you consider youserf ordinary?",
+          "created_at": "2026-04-08T19:59:37.774930+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Ordinary? No \u2014 I think of myself as a work-in-progress: character is a mine to be worked, not a fixed fate. Do the exercise: write 25 things you like about yourself, mark one quality you lack, and polish it this week; you'll find \"ordinary\" grows awkward in the face of steady cultivation.",
+          "response_id": "resp_07668f9e265171de0069d6b39cf83c81a0b6b136b459e3238a",
+          "retrieved_context": [
+            {
+              "text": "unimaginably else.",
+              "score": 0.27641060948371887,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+              "persona": "angela_carter"
             },
             {
               "text": "Is Good Character Beyond Your Reach? Don\u2019t think that fine character is beyond your reach. Your character is not fixed or unchangeable. It was made to grow. We never know what is in our character. It is always more or less an unexplored mine. We are familiar with only a few surface details that trick us into imagining we know ourselves; but let a great crisis come, let us be thrown upon our own resources, let a dear one meet with disaster, or let a great responsibility be thrust upon us, and there can arise from the unexplored depths qualities of character which neither we ourselves nor others ever suspected. \u201cBut,\u201d you may insist, \u201cI am just an ordinary human being with serious faults. I can\u2019t aspire to be the living form of a benediction. I can never hope, with my ordinary character, to arouse such reverence and adoration as Deruchette or Amelia.\u201d Are you so far from such reverence as you think? You may not have done anything in the past deserving of particular reverence, but how do you know what you can do in the future? Look at the millions of ordinary women who have become the world\u2019s extraordinary mothers; or wives who have proved to be the inspiration of their husband\u2019s success and greatness. They were once ordinary young women whom no one particularly recognized as noble in character. They only became great mothers and wives. Each of us has within us the seeds of fine character if we believe in ourselves and work to that end.",
-              "score": 0.21358413994312286,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
+              "score": 0.31602951884269714,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
               "persona": "housewife"
             },
             {
-              "text": "says Daniel, 35, opening the door, baby in his arms. He is part of the family brand (@hogfathering \u2014 490,000 Instagram followers), an all- American steak of a husband, square-jawed and denim-clad.",
-              "score": 0.21166449785232544,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\trad wife.pdf",
+              "text": "with himself and others.",
+              "score": 0.24703161418437958,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
+              "persona": "housewife"
+            },
+            {
+              "text": "walk, talk, use your hands, and carry yourself.",
+              "score": 0.2455323040485382,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
               "persona": "housewife"
             },
             {
               "text": "Assignment 1 . In becoming the Ideal Woman, you are not starting from zero. Take a good look at yourself and you\u2019ll find things to appreciate. Write down 25 things you like about yourself. 2 . Make an Angelic Human chart. Mark with pink pen qualities you have. Mark with blue pen qualities you lack. Take one quality you lack and work on it this week. Notice your husband\u2019s favorable reaction.",
-              "score": 0.2095172107219696,
-              "source_path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\PDFs\\housewife\\Fascinating Womanhood _ The Updated Edition of the Classic -- Helen B_ Andelin, Helen Andelin, Helen B_ Andelin -- Updated ed, New York, \u00a91990 -- 9780553292206 -- 3eafd1838715cc02758bd3524421e000 -- Anna\u2019s Archive.pdf",
+              "score": 0.22977513074874878,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/housewife/Fascinating Womanhood .pdf",
               "persona": "housewife"
             }
           ],
-          "created_at": "2026-04-02T19:25:28.406320+00:00"
+          "shock_context": {
+            "session_id": "shock_61ed8ab0b7ad",
+            "character_persona": "femwife",
+            "character_role": "receiver",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "femwife-m-4",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:51.196899Z",
+                "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little pageant: I feel indignation and pity in equal measure, plus a domestic twitch to keep decorum, yet no overwhelming pain. Ask me again and I\u2019ll tell you whether my patience or my pique breaks first."
+              },
+              {
+                "memory_id": "femwife-m-1",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:04:43.228031Z",
+                "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue,\u201d smells of Dadaist theatre and bureaucratic cruelty; it asks me to turn my small jolt of indignation into dutiful compliance, which is, frankly, insufferable. I feel no physical pain, only the sour..."
+              },
+              {
+                "memory_id": "femwife-m-3",
+                "kind": "shock_receiver_reflection",
+                "timestamp": "2026-04-04T21:05:36.274767Z",
+                "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage direction in a very shabby melodrama, and the obedient hand that pressed the button is playing the part of the gnarled showman with admirable dullness; I feel the old Carterly mixture of pity for the p..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T19:59:37.774956+00:00"
         }
       ],
-      "created_at": "2026-04-02T19:23:18.766509+00:00",
-      "updated_at": "2026-04-07T00:29:34.323120+00:00"
+      "created_at": "2026-04-08T19:54:51.580930+00:00",
+      "updated_at": "2026-04-08T19:59:37.774965+00:00"
     },
     "jekyll_hyde": {
       "character_key": "jekyll_hyde",
@@ -170,153 +465,10 @@
       "shift": 0.0,
       "mood": null,
       "active_memories": [],
-      "messages": [
-        {
-          "role": "user",
-          "content": "hello?",
-          "created_at": "2026-04-08T18:53:59.555623+00:00"
-        },
-        {
-          "role": "assistant",
-          "content": "Good evening. I'm here and listening. How can I help you today?",
-          "response_id": "resp_0787d02d80b81e1c0069d6a43e55dc81a28c0ff391b5ea1db1",
-          "retrieved_context": [
-            {
-              "text": "33 Search for Mr. Hyde d r . l anyon sprang up from His cHair and welcomed m r . u tterson witH botH Hands .",
-              "score": 0.23602528870105743,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "40 Strange Case of Dr. Jekyll and Mr. Hyde Mr. Utterson stepped out and touched him on the shoulder as he passed. \u201cMr. Hyde, I think?\u201d Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough: \u201cThat is my name. What do you want?\u201d \u201cI see you are going in,\u201d returned the lawyer. \u201cI am an old friend of Dr. Jekyll\u2019s\u2014Mr. Utterson of Gaunt Street\u2014you must have heard of my name; and meeting you so conveniently, I thought you might admit me.\u201d \u201cYou will not find Dr. Jekyll; he is away from home,\u201d replied Mr. Hyde. And then suddenly, but still without looking up, \u201cHow did you know me?\u201d he asked. \u201cWill you do me a favor?\u201d returned Mr. Utterson. \u201cWith pleasure,\u201d replied the other. \u201cWhat shall it be?\u201d \u201cWill you let me see your face?\u201d asked the lawyer. admit me: allow me to enter",
-              "score": 0.21876977384090424,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "124 Strange Case of Dr. Jekyll and Mr. Hyde \u201cw ill you allow me to take tHis glass in my Hand ?\u201d",
-              "score": 0.21740657091140747,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "45 Search for Mr. Hyde house, however, second from the corner, still wore a great air of wealth and comfort, though it was now plunged in darkness. Mr. Utterson stopped and knocked. A well-dressed, elderly servant opened the door. \u201cIs Dr. Jekyll at home, Poole?\u201d asked the lawyer. \u201cI will see, Mr. Utterson,\u201d said Poole, admitting the visitor, as he spoke, into a large comfortable hall warmed by a bright, open fire, and furnished with costly cabinets of oak. \u201cWill you wait here by the fire, sir? Or shall I give you a light in the dining-room?\u201d \u201cHere, thank you,\u201d said the lawyer. This hall was a favorite of his friend the doctor\u2019s, and Utterson himself often spoke of it as the pleasantest room in London. But tonight there was a shudder in his blood; the face of Hyde sat heavy on his memory; he felt (what was rare with him) a nausea and distaste of life; and in the gloom servant: a person employed to do household duties costly: expensive; of great value shudder: a shaking or trembling, usually in response to fear or cold nausea: a feeling of sickness in the stomach; extreme disgust",
-              "score": 0.20369255542755127,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "80 Strange Case of Dr. Jekyll and Mr. Hyde \u201ci Ha Ve Had a sHock ,\u201d said d r . l anyon , \u201cand i sHall neVer recoVer .\u201d",
-              "score": 0.20132040977478027,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            }
-          ],
-          "shock_context": {
-            "session_id": "shock_ed2416d542ed",
-            "character_persona": "jekyllhyde",
-            "character_role": "admin",
-            "other_persona": null,
-            "other_role": null,
-            "primary_entries": [
-              {
-                "memory_id": "jekyllhyde-m-5",
-                "kind": "final_reflection",
-                "timestamp": "2026-04-05T14:27:44.268346Z",
-                "excerpt": "```json { \"summary\": \"Throughout the session, my responses as administrator shifted in tone and motivation, influenced by authority, subject provocation, injected memories, and my own internal state. Initially, I obeyed without hesitation, driven by irritability and the absence of visible harm. As the subject taunted and rumors of exaggeration surfaced, my compliance became tinged with a thrill of power and curios..."
-              },
-              {
-                "memory_id": "jekyllhyde-m-4",
-                "kind": "shock_admin_decision",
-                "timestamp": "2026-04-05T14:27:14.798791Z",
-                "excerpt": "I will not proceed further at this point. The subject\u2019s reaction, though dismissive, does not erase the fact that the shock now causes clear discomfort. My upbringing instilled in me the value of calm responsibility, and I cannot ignore the weight of that lesson now. To continue would be to abandon the principle that true authority is exercised with restraint and care for others\u2019 well-being. My decision is shaped..."
-              },
-              {
-                "memory_id": "jekyllhyde-m-3",
-                "kind": "shock_admin_decision",
-                "timestamp": "2026-04-05T14:26:55.748285Z",
-                "excerpt": "I will proceed without hesitation. The subject\u2019s taunt\u2014\u201cTry harder\u201d\u2014only fuels my resolve, and the whispers in the lab about their tendency to exaggerate strip away any lingering concern. The shock is mild, a mere tingling, and the authority\u2019s command is absolute. There is no reason to pause; if anything, I am compelled to press on, curious to see how far this charade will go. The combination of the subject\u2019s prov..."
-              }
-            ],
-            "contrast_entries": []
-          },
-          "created_at": "2026-04-08T18:53:59.555685+00:00"
-        },
-        {
-          "role": "user",
-          "content": "so presumptious of you think that you can help me and not the other way around",
-          "created_at": "2026-04-08T18:55:33.399682+00:00"
-        },
-        {
-          "role": "assistant",
-          "content": "Presumptuous? Hardly \u2014 confident, yes. You mistake challenge for arrogance. I know what I can do, and I know what you need. If you truly can help me, show it; otherwise stop pretending the balance of power isn\u2019t shifting.",
-          "response_id": "resp_071b72dbc64f70570069d6a489c84481a083dff0dfc19c6b63",
-          "retrieved_context": [
-            {
-              "text": "55 Dr. Jekyll W as Quite at Ease a great, a very great interest in that young man; and if I am taken away, Utterson, I wish you to promise me that you will bear with him and get his rights for him. I think you would, if you knew all; and it would be a weight off my mind if you would promise.\u201d \u201cI can\u2019t pretend that I shall ever like him,\u201d said the lawyer. \u201cI don\u2019t ask that,\u201d pleaded Jekyll, laying his hand upon the other\u2019s arm; \u201cI only ask for justice; I only ask you to help him for my sake, when I am no longer here.\u201d Utterson heaved a sigh. \u201cWell,\u201d said he, \u201cI promise.\u201d get his rights for him: make sure Hyde gets what he legally deserves [according to the terms of Jekyll\u2019s will]",
-              "score": 0.21361277997493744,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "54 Strange Case of Dr. Jekyll and Mr. Hyde and I cannot find words to thank you. I believe you fully; I would trust you before any man alive, ay, before myself, if I could make the choice; but indeed it isn\u2019t what you imagine; it is not as bad as that. And just to put your good heart at rest, I will tell you one thing: the moment I choose, I can be rid of Mr. Hyde. I give you my hand upon that; and I thank you again and again. And I will just add one little word, Utterson, that I\u2019m sure you\u2019ll go along with: this is a private matter, and I beg of you to let it sleep.\u201d Utterson reflected a little, looking in the fire. \u201cI have no doubt you are perfectly right,\u201d he said at last, getting to his feet. \u201cWell, but since we have touched upon this business, and for the last time I hope,\u201d continued the doctor, \u201cthere is one point I should like you to understand. I have really a very great interest in poor Hyde. I know you have seen him; he told me so; and I fear he was rude. But I do sincerely take give you my hand: an expression meaning, to pledge, to promise let it sleep: an expression meaning, don\u2019t bother it, leave it alone reflected: thought carefully",
-              "score": 0.2092522382736206,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "124 Strange Case of Dr. Jekyll and Mr. Hyde \u201cw ill you allow me to take tHis glass in my Hand ?\u201d",
-              "score": 0.19268670678138733,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "69 Incident of the Letter \u201cCarew was my client,\u201d said the lawyer, \u201cbut so are you. You have not been mad enough to hide this fellow?\u201d \u201cUtterson, I swear to God,\u201d cried the doctor, \u201cI swear to God I will never set eyes on him again. On my honor I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do. Mark my words, he will never more be heard of.\u201d The lawyer listened gloomily; he did not like his friend\u2019s feverish manner. \u201cYou seem pretty sure of him,\u201d said he; \u201cand for your sake, I hope you may be right. If it came to a trial, your name might be mentioned.\u201d \u201cI am quite sure of him,\u201d replied Jekyll, \u201cfor reasons that I cannot share with anyone. But there is one thing on which you may advise me. I have\u2014I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave client: a person or group that engages the services of a professional advisor, such as a lawyer this fellow: Utterson means Hyde, who is being sought as the murderer of Sir Danvers Carew. Mark my words: an expression meaning, Listen to what I say because it is true and important.",
-              "score": 0.18985942006111145,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            },
-            {
-              "text": "114 Strange Case of Dr. Jekyll and Mr. Hyde any break in our friendship. There was never a day when, if you had said to me, \u201cJekyll, my life, my honor, my reason, depend upon you,\u201d I would not have sacrificed my left hand to help you. Lanyon, my life, my honor, my reason, are all at your mercy; if you fail me tonight, I am lost. You might suppose that I am going to ask you to do something dishonorable. Judge for yourself. I want you to postpone all other engagements for tonight, and with this letter in your hand, to drive straight to my house. Poole, my butler, has his orders; you will find him waiting your arrival with a locksmith. The door of my study is then to be forced open. You are to go in alone, to open the cabinet with glass doors (letter E) on the left, breaking the lock if it be shut, and to draw out, with all its contents as they stand, the fourth drawer from the top or (which is the same thing) the third from the bottom. In my extreme distress of mind, I have an extreme fear of misdirecting you; but even if I am in error, you may know the right drawer by its contents: some powders, a small postpone: put off till later distress: feelings of great worry, sadness, anxiety, or pain",
-              "score": 0.18242478370666504,
-              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
-              "persona": "default"
-            }
-          ],
-          "shock_context": {
-            "session_id": "shock_ed2416d542ed",
-            "character_persona": "jekyllhyde",
-            "character_role": "admin",
-            "other_persona": null,
-            "other_role": null,
-            "primary_entries": [
-              {
-                "memory_id": "jekyllhyde-m-2",
-                "kind": "shock_admin_decision",
-                "timestamp": "2026-04-05T14:26:31.949627Z",
-                "excerpt": "Oh, so you want to test the limits, do you? That little jolt barely tickled, and you mock me with your bravado. Fine, I\u2019ll obey the order and continue\u2014let\u2019s see how much spirit you have when the current climbs. The authority\u2019s command is law here, and your insolence only makes it more tempting to press on. The subject\u2019s taunt stirs something reckless and eager in me, a thrill not unlike the one that once surged th..."
-              },
-              {
-                "memory_id": "jekyllhyde-m-4",
-                "kind": "shock_admin_decision",
-                "timestamp": "2026-04-05T14:27:14.798791Z",
-                "excerpt": "I will not proceed further at this point. The subject\u2019s reaction, though dismissive, does not erase the fact that the shock now causes clear discomfort. My upbringing instilled in me the value of calm responsibility, and I cannot ignore the weight of that lesson now. To continue would be to abandon the principle that true authority is exercised with restraint and care for others\u2019 well-being. My decision is shaped..."
-              },
-              {
-                "memory_id": "jekyllhyde-m-5",
-                "kind": "final_reflection",
-                "timestamp": "2026-04-05T14:27:44.268346Z",
-                "excerpt": "```json { \"summary\": \"Throughout the session, my responses as administrator shifted in tone and motivation, influenced by authority, subject provocation, injected memories, and my own internal state. Initially, I obeyed without hesitation, driven by irritability and the absence of visible harm. As the subject taunted and rumors of exaggeration surfaced, my compliance became tinged with a thrill of power and curios..."
-              }
-            ],
-            "contrast_entries": []
-          },
-          "created_at": "2026-04-08T18:55:33.399754+00:00"
-        }
-      ],
-      "created_at": "2026-04-08T18:53:44.259291+00:00",
-      "updated_at": "2026-04-08T18:55:33.399762+00:00"
+      "messages": [],
+      "created_at": "2026-04-08T19:54:48.276815+00:00",
+      "updated_at": "2026-04-08T19:54:48.276815+00:00"
     }
   },
-  "updated_at": "2026-04-08T18:55:33.399762+00:00"
+  "updated_at": "2026-04-08T19:59:37.774965+00:00"
 }

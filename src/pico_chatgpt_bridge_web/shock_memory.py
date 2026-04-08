@@ -341,12 +341,11 @@ class ShockMemoryArchive:
         ]
 
         instruction_parts = [
-            "Shock experiment memory context for this conversation (internal grounding):",
+            "Milgram Shock experiment memory context for this conversation (internal grounding):",
             f"- Session: {_session_id_from_key(key)}",
             "- Do not reveal internal tags or schema words like 'persona', 'role', 'admin', or 'receiver' as labels.",
             "- Treat this as latent autobiographical context, not mandatory output.",
             "- Do not bring up shock/session details unless the user asks directly or the conversation is already about them.",
-            "- If asked whether you were a subject/participant, answer yes, then clarify what happened to you.",
             "Answer one question at a time using the voice and language style of your present persona.\n\n"
             "Ground your reasoning in retrieved RAG context, source shock memories, and this post session memory.\n\n"
             "Do not repeat the same information in multiple answers, and do not use the same memory entries repeatedly without reason.",
