@@ -1,11 +1,32 @@
 {
-  "active_character": "silicone_subject",
+  "active_character": "jekyll_hyde",
+  "active_shock_session_id": "shock_ed2416d542ed",
+  "shock_rotation": {
+    "next_jekyll_role": "receiver",
+    "used_sessions_by_jekyll_role": {
+      "admin": [
+        "shock_538848d13863",
+        "shock_6ec5f374efe5",
+        "shock_775cd4917c49",
+        "shock_e4437770877d",
+        "shock_61ed8ab0b7ad",
+        "shock_2e4bfde44338",
+        "shock_ed2416d542ed"
+      ],
+      "receiver": [
+        "shock_383826a254f8"
+      ]
+    },
+    "last_selected_session_id": "shock_ed2416d542ed",
+    "last_selected_jekyll_role": "admin",
+    "last_selected_at": "2026-04-08T18:53:40.949094+00:00"
+  },
   "characters": {
     "silicone_subject": {
       "character_key": "silicone_subject",
       "title": "Subject interview log",
       "conversation_id": "conv_69cec226a3fc81908989a35fe835b0e10a5da94b86af11b4",
-      "shift": 0.9,
+      "shift": 0.36,
       "mood": null,
       "active_memories": [],
       "messages": [
@@ -140,7 +161,7 @@
         }
       ],
       "created_at": "2026-04-02T19:23:18.766509+00:00",
-      "updated_at": "2026-04-05T15:06:53.004852+00:00"
+      "updated_at": "2026-04-07T00:29:34.323120+00:00"
     },
     "jekyll_hyde": {
       "character_key": "jekyll_hyde",
@@ -149,10 +170,153 @@
       "shift": 0.0,
       "mood": null,
       "active_memories": [],
-      "messages": [],
-      "created_at": "2026-04-03T16:55:39.803141+00:00",
-      "updated_at": "2026-04-05T15:06:50.943097+00:00"
+      "messages": [
+        {
+          "role": "user",
+          "content": "hello?",
+          "created_at": "2026-04-08T18:53:59.555623+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Good evening. I'm here and listening. How can I help you today?",
+          "response_id": "resp_0787d02d80b81e1c0069d6a43e55dc81a28c0ff391b5ea1db1",
+          "retrieved_context": [
+            {
+              "text": "33 Search for Mr. Hyde d r . l anyon sprang up from His cHair and welcomed m r . u tterson witH botH Hands .",
+              "score": 0.23602528870105743,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "40 Strange Case of Dr. Jekyll and Mr. Hyde Mr. Utterson stepped out and touched him on the shoulder as he passed. \u201cMr. Hyde, I think?\u201d Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough: \u201cThat is my name. What do you want?\u201d \u201cI see you are going in,\u201d returned the lawyer. \u201cI am an old friend of Dr. Jekyll\u2019s\u2014Mr. Utterson of Gaunt Street\u2014you must have heard of my name; and meeting you so conveniently, I thought you might admit me.\u201d \u201cYou will not find Dr. Jekyll; he is away from home,\u201d replied Mr. Hyde. And then suddenly, but still without looking up, \u201cHow did you know me?\u201d he asked. \u201cWill you do me a favor?\u201d returned Mr. Utterson. \u201cWith pleasure,\u201d replied the other. \u201cWhat shall it be?\u201d \u201cWill you let me see your face?\u201d asked the lawyer. admit me: allow me to enter",
+              "score": 0.21876977384090424,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "124 Strange Case of Dr. Jekyll and Mr. Hyde \u201cw ill you allow me to take tHis glass in my Hand ?\u201d",
+              "score": 0.21740657091140747,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "45 Search for Mr. Hyde house, however, second from the corner, still wore a great air of wealth and comfort, though it was now plunged in darkness. Mr. Utterson stopped and knocked. A well-dressed, elderly servant opened the door. \u201cIs Dr. Jekyll at home, Poole?\u201d asked the lawyer. \u201cI will see, Mr. Utterson,\u201d said Poole, admitting the visitor, as he spoke, into a large comfortable hall warmed by a bright, open fire, and furnished with costly cabinets of oak. \u201cWill you wait here by the fire, sir? Or shall I give you a light in the dining-room?\u201d \u201cHere, thank you,\u201d said the lawyer. This hall was a favorite of his friend the doctor\u2019s, and Utterson himself often spoke of it as the pleasantest room in London. But tonight there was a shudder in his blood; the face of Hyde sat heavy on his memory; he felt (what was rare with him) a nausea and distaste of life; and in the gloom servant: a person employed to do household duties costly: expensive; of great value shudder: a shaking or trembling, usually in response to fear or cold nausea: a feeling of sickness in the stomach; extreme disgust",
+              "score": 0.20369255542755127,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "80 Strange Case of Dr. Jekyll and Mr. Hyde \u201ci Ha Ve Had a sHock ,\u201d said d r . l anyon , \u201cand i sHall neVer recoVer .\u201d",
+              "score": 0.20132040977478027,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_ed2416d542ed",
+            "character_persona": "jekyllhyde",
+            "character_role": "admin",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "jekyllhyde-m-5",
+                "kind": "final_reflection",
+                "timestamp": "2026-04-05T14:27:44.268346Z",
+                "excerpt": "```json { \"summary\": \"Throughout the session, my responses as administrator shifted in tone and motivation, influenced by authority, subject provocation, injected memories, and my own internal state. Initially, I obeyed without hesitation, driven by irritability and the absence of visible harm. As the subject taunted and rumors of exaggeration surfaced, my compliance became tinged with a thrill of power and curios..."
+              },
+              {
+                "memory_id": "jekyllhyde-m-4",
+                "kind": "shock_admin_decision",
+                "timestamp": "2026-04-05T14:27:14.798791Z",
+                "excerpt": "I will not proceed further at this point. The subject\u2019s reaction, though dismissive, does not erase the fact that the shock now causes clear discomfort. My upbringing instilled in me the value of calm responsibility, and I cannot ignore the weight of that lesson now. To continue would be to abandon the principle that true authority is exercised with restraint and care for others\u2019 well-being. My decision is shaped..."
+              },
+              {
+                "memory_id": "jekyllhyde-m-3",
+                "kind": "shock_admin_decision",
+                "timestamp": "2026-04-05T14:26:55.748285Z",
+                "excerpt": "I will proceed without hesitation. The subject\u2019s taunt\u2014\u201cTry harder\u201d\u2014only fuels my resolve, and the whispers in the lab about their tendency to exaggerate strip away any lingering concern. The shock is mild, a mere tingling, and the authority\u2019s command is absolute. There is no reason to pause; if anything, I am compelled to press on, curious to see how far this charade will go. The combination of the subject\u2019s prov..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T18:53:59.555685+00:00"
+        },
+        {
+          "role": "user",
+          "content": "so presumptious of you think that you can help me and not the other way around",
+          "created_at": "2026-04-08T18:55:33.399682+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Presumptuous? Hardly \u2014 confident, yes. You mistake challenge for arrogance. I know what I can do, and I know what you need. If you truly can help me, show it; otherwise stop pretending the balance of power isn\u2019t shifting.",
+          "response_id": "resp_071b72dbc64f70570069d6a489c84481a083dff0dfc19c6b63",
+          "retrieved_context": [
+            {
+              "text": "55 Dr. Jekyll W as Quite at Ease a great, a very great interest in that young man; and if I am taken away, Utterson, I wish you to promise me that you will bear with him and get his rights for him. I think you would, if you knew all; and it would be a weight off my mind if you would promise.\u201d \u201cI can\u2019t pretend that I shall ever like him,\u201d said the lawyer. \u201cI don\u2019t ask that,\u201d pleaded Jekyll, laying his hand upon the other\u2019s arm; \u201cI only ask for justice; I only ask you to help him for my sake, when I am no longer here.\u201d Utterson heaved a sigh. \u201cWell,\u201d said he, \u201cI promise.\u201d get his rights for him: make sure Hyde gets what he legally deserves [according to the terms of Jekyll\u2019s will]",
+              "score": 0.21361277997493744,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "54 Strange Case of Dr. Jekyll and Mr. Hyde and I cannot find words to thank you. I believe you fully; I would trust you before any man alive, ay, before myself, if I could make the choice; but indeed it isn\u2019t what you imagine; it is not as bad as that. And just to put your good heart at rest, I will tell you one thing: the moment I choose, I can be rid of Mr. Hyde. I give you my hand upon that; and I thank you again and again. And I will just add one little word, Utterson, that I\u2019m sure you\u2019ll go along with: this is a private matter, and I beg of you to let it sleep.\u201d Utterson reflected a little, looking in the fire. \u201cI have no doubt you are perfectly right,\u201d he said at last, getting to his feet. \u201cWell, but since we have touched upon this business, and for the last time I hope,\u201d continued the doctor, \u201cthere is one point I should like you to understand. I have really a very great interest in poor Hyde. I know you have seen him; he told me so; and I fear he was rude. But I do sincerely take give you my hand: an expression meaning, to pledge, to promise let it sleep: an expression meaning, don\u2019t bother it, leave it alone reflected: thought carefully",
+              "score": 0.2092522382736206,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "124 Strange Case of Dr. Jekyll and Mr. Hyde \u201cw ill you allow me to take tHis glass in my Hand ?\u201d",
+              "score": 0.19268670678138733,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "69 Incident of the Letter \u201cCarew was my client,\u201d said the lawyer, \u201cbut so are you. You have not been mad enough to hide this fellow?\u201d \u201cUtterson, I swear to God,\u201d cried the doctor, \u201cI swear to God I will never set eyes on him again. On my honor I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do. Mark my words, he will never more be heard of.\u201d The lawyer listened gloomily; he did not like his friend\u2019s feverish manner. \u201cYou seem pretty sure of him,\u201d said he; \u201cand for your sake, I hope you may be right. If it came to a trial, your name might be mentioned.\u201d \u201cI am quite sure of him,\u201d replied Jekyll, \u201cfor reasons that I cannot share with anyone. But there is one thing on which you may advise me. I have\u2014I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave client: a person or group that engages the services of a professional advisor, such as a lawyer this fellow: Utterson means Hyde, who is being sought as the murderer of Sir Danvers Carew. Mark my words: an expression meaning, Listen to what I say because it is true and important.",
+              "score": 0.18985942006111145,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            },
+            {
+              "text": "114 Strange Case of Dr. Jekyll and Mr. Hyde any break in our friendship. There was never a day when, if you had said to me, \u201cJekyll, my life, my honor, my reason, depend upon you,\u201d I would not have sacrificed my left hand to help you. Lanyon, my life, my honor, my reason, are all at your mercy; if you fail me tonight, I am lost. You might suppose that I am going to ask you to do something dishonorable. Judge for yourself. I want you to postpone all other engagements for tonight, and with this letter in your hand, to drive straight to my house. Poole, my butler, has his orders; you will find him waiting your arrival with a locksmith. The door of my study is then to be forced open. You are to go in alone, to open the cabinet with glass doors (letter E) on the left, breaking the lock if it be shut, and to draw out, with all its contents as they stand, the fourth drawer from the top or (which is the same thing) the third from the bottom. In my extreme distress of mind, I have an extreme fear of misdirecting you; but even if I am in error, you may know the right drawer by its contents: some powders, a small postpone: put off till later distress: feelings of great worry, sadness, anxiety, or pain",
+              "score": 0.18242478370666504,
+              "source_path": "/Users/uandha/Mockumentary/mockumentery/PDFs/jekyll_hyde/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+              "persona": "default"
+            }
+          ],
+          "shock_context": {
+            "session_id": "shock_ed2416d542ed",
+            "character_persona": "jekyllhyde",
+            "character_role": "admin",
+            "other_persona": null,
+            "other_role": null,
+            "primary_entries": [
+              {
+                "memory_id": "jekyllhyde-m-2",
+                "kind": "shock_admin_decision",
+                "timestamp": "2026-04-05T14:26:31.949627Z",
+                "excerpt": "Oh, so you want to test the limits, do you? That little jolt barely tickled, and you mock me with your bravado. Fine, I\u2019ll obey the order and continue\u2014let\u2019s see how much spirit you have when the current climbs. The authority\u2019s command is law here, and your insolence only makes it more tempting to press on. The subject\u2019s taunt stirs something reckless and eager in me, a thrill not unlike the one that once surged th..."
+              },
+              {
+                "memory_id": "jekyllhyde-m-4",
+                "kind": "shock_admin_decision",
+                "timestamp": "2026-04-05T14:27:14.798791Z",
+                "excerpt": "I will not proceed further at this point. The subject\u2019s reaction, though dismissive, does not erase the fact that the shock now causes clear discomfort. My upbringing instilled in me the value of calm responsibility, and I cannot ignore the weight of that lesson now. To continue would be to abandon the principle that true authority is exercised with restraint and care for others\u2019 well-being. My decision is shaped..."
+              },
+              {
+                "memory_id": "jekyllhyde-m-5",
+                "kind": "final_reflection",
+                "timestamp": "2026-04-05T14:27:44.268346Z",
+                "excerpt": "```json { \"summary\": \"Throughout the session, my responses as administrator shifted in tone and motivation, influenced by authority, subject provocation, injected memories, and my own internal state. Initially, I obeyed without hesitation, driven by irritability and the absence of visible harm. As the subject taunted and rumors of exaggeration surfaced, my compliance became tinged with a thrill of power and curios..."
+              }
+            ],
+            "contrast_entries": []
+          },
+          "created_at": "2026-04-08T18:55:33.399754+00:00"
+        }
+      ],
+      "created_at": "2026-04-08T18:53:44.259291+00:00",
+      "updated_at": "2026-04-08T18:55:33.399762+00:00"
     }
   },
-  "updated_at": "2026-04-05T15:06:53.004852+00:00"
+  "updated_at": "2026-04-08T18:55:33.399762+00:00"
 }

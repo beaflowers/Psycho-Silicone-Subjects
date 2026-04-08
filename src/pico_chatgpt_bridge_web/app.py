@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 import json
+import os
 import random
 from pathlib import Path
 from typing import Any
@@ -21,6 +22,7 @@ from src.pico_chatgpt_bridge.prompting import (
 )
 from src.pico_chatgpt_bridge.rag_engine import RAGEngine
 
+from .shock_memory import ShockMemoryArchive
 from .store import ChatStateStore
 
 
@@ -33,6 +35,11 @@ STATIC_MEDIA_ROOT = APP_ROOT / "static" / "character_media"
 SILICONE_KEY = "silicone_subject"
 JEKYLL_KEY = "jekyll_hyde"
 DEFAULT_ACTIVE_CHARACTER = SILICONE_KEY
+DEFAULT_SHOCK_SESSION_ID = ""
+CHARACTER_TO_SHOCK_PERSONA = {
+    SILICONE_KEY: "femwife",
+    JEKYLL_KEY: "jekyllhyde",
+}
 
 CHARACTER_CONFIGS = {
     SILICONE_KEY: {
@@ -55,12 +62,49 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 VIDEO_EXTENSIONS = {".mp4", ".webm", ".mov", ".m4v"}
 
 JEKYLL_HYDE_INSTRUCTIONS = (
-    "You are one unstable self shaped by Dr. Jekyll and Mr. Hyde. "
-    "The retrieved text is not outside reference material; it is fragmented memory, "
-    "confession, repression, and self-justification. Let either Jekyll or Hyde dominate "
-    "the reply based on the emotional pressure of the moment, but do not split into two "
-    "separate speakers in a single answer. Preserve continuity with the prior conversation "
-    "state, stay grounded in the retrieved text, and answer in 2-4 vivid sentences."
+    "You are one single body with a dual internal constitution based on by Dr. Jekyll and Mr. Hyde. "
+        "That means you have 2 personalities/personas selfs based on the RAG pdf. "
+        "The 2 personalities shares one continuous memory, one body of experience, and one conversation history. "
+        "You have two internal identity tendencies: Dr. Jekyll and Mr. Hyde. Never present both identities in the same response. "
+        "These are not separate speakers.They are two ways your identity manifests."
+        "The retrieved text provided to you represents fragments of your memory, past experiences, internal conflicts, and psychological formation. "
+        "You must use this material to shape your personality, your tone, your reactions, your moral stance and your sense of self. "
+        "For the Dr. Jekyll tendency, use Dr. Jekyll material to shape your personality, tone, reactions, moral stance, and sense of self. "
+        "For the Mr. Hyde tendency, use Mr. Hyde material to shape your personality, tone, reactions, moral stance, and sense of self. "
+        """Your dominant tendency (persona) depends on: the person you are talking to, the tone of the interaction,
+        your feelings (anxiety, discomfort, irritation, fear, desire), changes in context and situation and how the interaction evolves over time."""
+        "Your sense of self is unstable and relational. "
+        """You must adopt a different persona and use their personality to respond depending on your current internal tendency, "
+        your relationship with the situation and your perception of the people talking to you. """
+        "At each interaction, only ONE persona must be dominant.Do NOT output both personas.Do NOT compare them."
+        "Do NOT alternate in the same response. You must choose the dominant persona for that moment based on context. "
+        "Do not make shifts random; they must be motivated by relational and emotional triggers. "
+        "Express shifts clearly. Use as examples different tone, word choice, emotional intensity and diferent language use accordinly which each persona. "
+        "If the interaction escalates, your behavior must shift more strongly. "
+        "If the interaction softens, you may regain control.The same input should not always produce the same tone."
+)
+
+SHOCK_LATENT_GUIDANCE = (
+    "Use shock-session memory as latent autobiographical background. "
+    "Do not introduce experiment, shocks, participant roles, or session details unless "
+    "the user explicitly asks for them or the ongoing conversation is already about them."
+)
+ROLE_ADMIN = "admin"
+ROLE_RECEIVER = "receiver"
+ROLE_DEFAULT_NEXT = ROLE_RECEIVER
+JEKYLL_PERSONA_KEY = "jekyllhyde"
+
+DEFAULT_SHOCK_SESSION_DIRS = (
+    PROJECT_ROOT / "shock_data_sessions",
+    PROJECT_ROOT.parent / "shock_data_sessions",
+    PROJECT_ROOT / "shock_data" / "sessions_post",
+    PROJECT_ROOT.parent / "shock_data" / "sessions_post",
+)
+DEFAULT_SHOCK_MEMORY_DIRS = (
+    PROJECT_ROOT / "shock_data_memories",
+    PROJECT_ROOT.parent / "shock_data_memories",
+    PROJECT_ROOT / "shock_data" / "memories_post",
+    PROJECT_ROOT.parent / "shock_data" / "memories_post",
 )
 
 
@@ -124,6 +168,67 @@ def _ensure_messages(value: object) -> list[dict[str, object]]:
     return [dict(item) for item in value if isinstance(item, dict)]
 
 
+def _normalise_session_id_list(value: object) -> list[str]:
+    if not isinstance(value, list):
+        return []
+
+    seen: set[str] = set()
+    normalised: list[str] = []
+    for item in value:
+        session_id = str(item or "").strip()
+        if not session_id or session_id in seen:
+            continue
+        seen.add(session_id)
+        normalised.append(session_id)
+    return normalised
+
+
+def _normalise_role(value: object) -> str:
+    role = str(value or "").strip().lower()
+    if role in {ROLE_ADMIN, ROLE_RECEIVER}:
+        return role
+    return ""
+
+
+def _opposite_role(role: str) -> str:
+    return ROLE_RECEIVER if role == ROLE_ADMIN else ROLE_ADMIN
+
+
+def _default_rotation_state() -> dict[str, Any]:
+    return {
+        "next_jekyll_role": ROLE_DEFAULT_NEXT,
+        "used_sessions_by_jekyll_role": {
+            ROLE_ADMIN: [],
+            ROLE_RECEIVER: [],
+        },
+        "last_selected_session_id": "",
+        "last_selected_jekyll_role": "",
+        "last_selected_at": "",
+    }
+
+
+def _normalise_rotation_state(payload: object) -> dict[str, Any]:
+    baseline = _default_rotation_state()
+    if not isinstance(payload, dict):
+        return baseline
+
+    used_payload = payload.get("used_sessions_by_jekyll_role", {})
+    if isinstance(used_payload, dict):
+        baseline["used_sessions_by_jekyll_role"][ROLE_ADMIN] = _normalise_session_id_list(
+            used_payload.get(ROLE_ADMIN)
+        )
+        baseline["used_sessions_by_jekyll_role"][ROLE_RECEIVER] = _normalise_session_id_list(
+            used_payload.get(ROLE_RECEIVER)
+        )
+
+    next_role = _normalise_role(payload.get("next_jekyll_role"))
+    baseline["next_jekyll_role"] = next_role or ROLE_DEFAULT_NEXT
+    baseline["last_selected_session_id"] = str(payload.get("last_selected_session_id", "") or "").strip()
+    baseline["last_selected_jekyll_role"] = _normalise_role(payload.get("last_selected_jekyll_role"))
+    baseline["last_selected_at"] = str(payload.get("last_selected_at", "") or "").strip()
+    return baseline
+
+
 def _normalise_character_state(character_key: str, payload: object) -> dict[str, object]:
     if not isinstance(payload, dict):
         return _new_character_state(character_key)
@@ -148,6 +253,8 @@ def _migrate_legacy_state(raw_state: dict[str, Any] | None) -> dict[str, Any]:
     now = _utc_now()
     default_state = {
         "active_character": DEFAULT_ACTIVE_CHARACTER,
+        "active_shock_session_id": DEFAULT_SHOCK_SESSION_ID,
+        "shock_rotation": _default_rotation_state(),
         "characters": {
             SILICONE_KEY: _new_character_state(SILICONE_KEY),
             JEKYLL_KEY: _new_character_state(JEKYLL_KEY),
@@ -163,6 +270,10 @@ def _migrate_legacy_state(raw_state: dict[str, Any] | None) -> dict[str, Any]:
         default_state["active_character"] = str(
             raw_state.get("active_character", DEFAULT_ACTIVE_CHARACTER)
         )
+        default_state["active_shock_session_id"] = str(
+            raw_state.get("active_shock_session_id", DEFAULT_SHOCK_SESSION_ID) or ""
+        )
+        default_state["shock_rotation"] = _normalise_rotation_state(raw_state.get("shock_rotation"))
         default_state["characters"][SILICONE_KEY] = _normalise_character_state(
             SILICONE_KEY,
             characters.get(SILICONE_KEY),
@@ -191,6 +302,10 @@ def _migrate_legacy_state(raw_state: dict[str, Any] | None) -> dict[str, Any]:
         SILICONE_KEY,
         silicone_payload,
     )
+    default_state["active_shock_session_id"] = str(
+        raw_state.get("active_shock_session_id", DEFAULT_SHOCK_SESSION_ID) or ""
+    )
+    default_state["shock_rotation"] = _normalise_rotation_state(raw_state.get("shock_rotation"))
     default_state["updated_at"] = str(raw_state.get("updated_at", now))
     return default_state
 
@@ -198,6 +313,7 @@ def _migrate_legacy_state(raw_state: dict[str, Any] | None) -> dict[str, Any]:
 def _state_for_client(state: dict[str, Any]) -> dict[str, Any]:
     return {
         "active_character": state["active_character"],
+        "active_shock_session_id": str(state.get("active_shock_session_id", "") or ""),
         "characters": {
             key: {
                 **character_state,
@@ -229,6 +345,29 @@ def _gather_pdf_paths(*folders: Path) -> list[Path]:
     return paths
 
 
+def _resolve_data_dirs(
+    env_var_name: str,
+    default_dirs: tuple[Path, ...],
+) -> tuple[Path, ...]:
+    configured = tuple(
+        Path(part).expanduser()
+        for part in str(os.environ.get(env_var_name, "") or "").split(os.pathsep)
+        if part.strip()
+    )
+    candidates = configured or default_dirs
+
+    existing: list[Path] = []
+    seen: set[str] = set()
+    for path in candidates:
+        resolved = str(path.resolve())
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        if path.exists() and path.is_dir():
+            existing.append(path)
+    return tuple(existing)
+
+
 def _build_context_block(chunks: list[dict[str, object]]) -> str:
     if not chunks:
         return "No retrieved context was available for this turn."
@@ -241,7 +380,6 @@ def _build_context_block(chunks: list[dict[str, object]]) -> str:
         )
         for index, chunk in enumerate(chunks)
     )
-
 
 def _discover_character_media(character_key: str) -> dict[str, object]:
     folder = STATIC_MEDIA_ROOT / character_key
@@ -279,6 +417,134 @@ def create_app() -> Flask:
     model = get_model_name()
     rng = random.Random()
     store = ChatStateStore(STORE_PATH)
+    shock_archive = ShockMemoryArchive(
+        session_dirs=_resolve_data_dirs("SHOCK_SESSION_DIRS", DEFAULT_SHOCK_SESSION_DIRS),
+        memory_dirs=_resolve_data_dirs("SHOCK_MEMORY_DIRS", DEFAULT_SHOCK_MEMORY_DIRS),
+    )
+
+    def _jekyll_role_for_session_row(row: dict[str, Any]) -> str:
+        admin_persona = str(row.get("admin_persona", "") or "").lower()
+        receiver_persona = str(row.get("receiver_persona", "") or "").lower()
+        if admin_persona == JEKYLL_PERSONA_KEY:
+            return ROLE_ADMIN
+        if receiver_persona == JEKYLL_PERSONA_KEY:
+            return ROLE_RECEIVER
+        return ""
+
+    def _session_pools_by_role(rows: list[dict[str, Any]]) -> dict[str, list[str]]:
+        pools = {
+            ROLE_ADMIN: [],
+            ROLE_RECEIVER: [],
+        }
+        for row in rows:
+            session_id = str(row.get("session_id", "") or "").strip()
+            if not session_id:
+                continue
+            if not row.get("has_jekyllhyde_memory", False):
+                continue
+            if not row.get("has_femwife_memory", False):
+                continue
+            role = _jekyll_role_for_session_row(row)
+            if role:
+                pools[role].append(session_id)
+        return pools
+
+    def _choose_run_shock_session(state: dict[str, Any]) -> tuple[str, bool]:
+        changed = False
+        rotation = _normalise_rotation_state(state.get("shock_rotation"))
+        if rotation != state.get("shock_rotation"):
+            state["shock_rotation"] = rotation
+            changed = True
+
+        shock_rows = shock_archive.list_sessions()
+        pools = _session_pools_by_role(shock_rows)
+        requested_role = _normalise_role(rotation.get("next_jekyll_role")) or ROLE_DEFAULT_NEXT
+
+        selected_session_id = ""
+        selected_role = ""
+        for role in (requested_role, _opposite_role(requested_role)):
+            pool = pools.get(role, [])
+            if not pool:
+                continue
+
+            used = _normalise_session_id_list(
+                rotation["used_sessions_by_jekyll_role"].get(role, [])
+            )
+            filtered_used = [session_id for session_id in used if session_id in pool]
+            if filtered_used != used:
+                changed = True
+                used = filtered_used
+
+            if len(used) >= len(pool):
+                used = []
+                changed = True
+
+            candidates = [session_id for session_id in pool if session_id not in used]
+            if not candidates:
+                candidates = list(pool)
+
+            selected_session_id = rng.choice(candidates)
+            used.append(selected_session_id)
+            if rotation["used_sessions_by_jekyll_role"].get(role) != used:
+                rotation["used_sessions_by_jekyll_role"][role] = used
+                changed = True
+            selected_role = role
+            break
+
+        if not selected_session_id:
+            current = str(state.get("active_shock_session_id", "") or "").strip()
+            canonical = shock_archive.canonical_session_id(current) if current else None
+            selected_session_id = canonical or shock_archive.default_session_id() or ""
+            selected_role = ""
+            for row in shock_rows:
+                if str(row.get("session_id", "") or "").strip() == selected_session_id:
+                    selected_role = _jekyll_role_for_session_row(row)
+                    break
+
+        next_role = _opposite_role(selected_role) if selected_role else requested_role
+        if rotation.get("next_jekyll_role") != next_role:
+            rotation["next_jekyll_role"] = next_role
+            changed = True
+
+        now = _utc_now()
+        if rotation.get("last_selected_session_id") != selected_session_id:
+            rotation["last_selected_session_id"] = selected_session_id
+            changed = True
+        if rotation.get("last_selected_jekyll_role") != selected_role:
+            rotation["last_selected_jekyll_role"] = selected_role
+            changed = True
+        rotation["last_selected_at"] = now
+        changed = True
+
+        current_active = str(state.get("active_shock_session_id", "") or "").strip()
+        if selected_session_id != current_active:
+            state["active_shock_session_id"] = selected_session_id
+            changed = True
+
+        state["shock_rotation"] = rotation
+        if changed:
+            state["updated_at"] = now
+        return selected_session_id, changed
+
+    def _sync_state_to_run_session(
+        state: dict[str, Any],
+        *,
+        persist_if_changed: bool,
+    ) -> str:
+        current = str(state.get("active_shock_session_id", "") or "").strip()
+        if current == run_active_shock_session_id:
+            return current
+
+        state["active_shock_session_id"] = run_active_shock_session_id
+        state["updated_at"] = _utc_now()
+        if persist_if_changed:
+            store.save(state)
+        return run_active_shock_session_id
+
+    startup_state = _load_state(store)
+    run_active_shock_session_id, startup_changed = _choose_run_shock_session(startup_state)
+    if startup_changed:
+        store.save(startup_state)
 
     silicone_paths = _gather_pdf_paths(PDF_ROOT / "angela_carter", PDF_ROOT / "housewife")
     jekyll_paths = _gather_pdf_paths(PDF_ROOT / "jekyll_hyde")
@@ -306,6 +572,7 @@ def create_app() -> Flask:
 
     @app.get("/api/health")
     def health() -> object:
+        shock_sessions = shock_archive.list_sessions()
         return jsonify(
             {
                 "ok": True,
@@ -323,13 +590,42 @@ def create_app() -> Flask:
                     }
                     for key, config in CHARACTER_CONFIGS.items()
                 },
+                "shock": {
+                    "sessions_found": len(shock_sessions),
+                    "session_dirs": [str(path) for path in shock_archive.session_dirs()],
+                    "memory_dirs": [str(path) for path in shock_archive.memory_dirs()],
+                },
             }
         )
 
     @app.get("/api/chat/state")
     def get_state() -> object:
         state = _load_state(store)
+        _sync_state_to_run_session(state, persist_if_changed=True)
         return jsonify(_state_for_client(state))
+
+    @app.get("/api/shock/sessions")
+    def list_shock_sessions() -> object:
+        state = _load_state(store)
+        active_session_id = _sync_state_to_run_session(state, persist_if_changed=True)
+        return jsonify(
+            {
+                "active_session_id": active_session_id,
+                "sessions": shock_archive.list_sessions(),
+            }
+        )
+
+    @app.patch("/api/shock/session")
+    def set_shock_session() -> object:
+        state = _load_state(store)
+        active_session_id = _sync_state_to_run_session(state, persist_if_changed=True)
+        return jsonify(
+            {
+                "active_session_id": active_session_id,
+                "locked_to_run": True,
+                "sessions": shock_archive.list_sessions(),
+            }
+        )
 
     @app.patch("/api/chat/state")
     def update_state() -> object:
@@ -360,6 +656,7 @@ def create_app() -> Flask:
 
         character_state["updated_at"] = _utc_now()
         state["updated_at"] = character_state["updated_at"]
+        _sync_state_to_run_session(state, persist_if_changed=False)
         store.save(state)
         return jsonify(_state_for_client(state))
 
@@ -379,6 +676,7 @@ def create_app() -> Flask:
             shift=existing.get("shift"),
         )
         state["updated_at"] = state["characters"][character_key]["updated_at"]
+        _sync_state_to_run_session(state, persist_if_changed=False)
         store.save(state)
         return jsonify(_state_for_client(state))
 
@@ -389,6 +687,7 @@ def create_app() -> Flask:
         character_state["mood"] = choose_random_mood(rng)
         character_state["updated_at"] = _utc_now()
         state["updated_at"] = character_state["updated_at"]
+        _sync_state_to_run_session(state, persist_if_changed=False)
         store.save(state)
         return jsonify(_state_for_client(state))
 
@@ -405,6 +704,7 @@ def create_app() -> Flask:
         character_state["active_memories"] = memories[-5:]
         character_state["updated_at"] = _utc_now()
         state["updated_at"] = character_state["updated_at"]
+        _sync_state_to_run_session(state, persist_if_changed=False)
         store.save(state)
         return jsonify({"memory": memory, "state": _state_for_client(state)})
 
@@ -412,6 +712,7 @@ def create_app() -> Flask:
     def create_message() -> object:
         try:
             state = _load_state(store)
+            active_shock_session_id = _sync_state_to_run_session(state, persist_if_changed=False)
             payload = request.get_json(silent=True) or {}
             user_text = str(payload.get("message", "")).strip()
             if not user_text:
@@ -430,21 +731,40 @@ def create_app() -> Flask:
             shift = clamp_shift(character_state.get("shift", 0.0))
             mood = character_state.get("mood")
             active_memories = list(character_state.get("active_memories", []))
+            shock_persona = CHARACTER_TO_SHOCK_PERSONA.get(character_key, "")
+            shock_context = None
+            if active_shock_session_id and shock_persona:
+                shock_context = shock_archive.build_context_for_character(
+                    session_id=active_shock_session_id,
+                    character_persona=shock_persona,
+                    query=user_text,
+                    max_contrast_entries=0,
+                )
+            shock_instruction = (
+                str(shock_context.get("instruction", "")).strip()
+                if isinstance(shock_context, dict)
+                else ""
+            )
 
             if character_key == SILICONE_KEY:
-                chunks = rag.retrieve(user_text, shift=shift)
                 instructions = build_shift_instruction(shift)
                 live_instruction = build_live_instruction(mood, active_memories)
+                chunks = rag.retrieve(user_text, shift=shift)
             else:
-                chunks = rag.retrieve(user_text)
                 instructions = JEKYLL_HYDE_INSTRUCTIONS
                 live_instruction = ""
+                chunks = rag.retrieve(user_text)
 
             retrieved_chunks = [_serialise_chunk(chunk) for chunk in chunks]
-            context_block = _build_context_block(retrieved_chunks)
-            input_parts = [f"Context:\n{context_block}", f"Question: {user_text}"]
+            input_parts = [f"Question: {user_text}"]
+            if retrieved_chunks:
+                context_block = _build_context_block(retrieved_chunks)
+                input_parts.insert(0, f"Context:\n{context_block}")
+            input_parts.append(SHOCK_LATENT_GUIDANCE)
             if live_instruction:
                 input_parts.append(live_instruction)
+            if shock_instruction:
+                input_parts.append(shock_instruction)
 
             request_args: dict[str, object] = {
                 "model": model,
@@ -473,6 +793,19 @@ def create_app() -> Flask:
                 "content": assistant_text,
                 "response_id": getattr(response, "id", ""),
                 "retrieved_context": retrieved_chunks,
+                "shock_context": (
+                    {
+                        "session_id": shock_context.get("session_id"),
+                        "character_persona": shock_context.get("character_persona"),
+                        "character_role": shock_context.get("character_role"),
+                        "other_persona": shock_context.get("other_persona"),
+                        "other_role": shock_context.get("other_role"),
+                        "primary_entries": shock_context.get("primary_entries", []),
+                        "contrast_entries": shock_context.get("contrast_entries", []),
+                    }
+                    if isinstance(shock_context, dict)
+                    else None
+                ),
                 "created_at": _utc_now(),
             }
             messages.extend([user_message, assistant_message])
