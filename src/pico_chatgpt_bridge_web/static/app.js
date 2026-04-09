@@ -7,7 +7,6 @@ const shiftValueEl = document.getElementById("shiftValue");
 const chatTitleEl = document.getElementById("chatTitle");
 const chatSubtitleEl = document.getElementById("chatSubtitle");
 const chatLogEl = document.getElementById("chatLog");
-const memoryDebugLogEl = document.getElementById("memoryDebugLog");
 const resetBtn = document.getElementById("resetBtn");
 const composerEl = document.getElementById("composer");
 const messageInputEl = document.getElementById("messageInput");
@@ -101,112 +100,6 @@ function renderMessages() {
   chatLogEl.scrollTop = chatLogEl.scrollHeight;
 }
 
-function formatMemoryEntry(entry) {
-  const timestamp = entry?.timestamp ? `[${entry.timestamp}] ` : "";
-  const kind = entry?.kind ? `${entry.kind}: ` : "";
-  const excerpt = entry?.excerpt || "(empty excerpt)";
-  return `${timestamp}${kind}${excerpt}`;
-}
-
-function excerptText(value, maxLength = 220) {
-  const text = String(value || "").trim().replaceAll(/\s+/g, " ");
-  if (text.length <= maxLength) return text;
-  return `${text.slice(0, Math.max(0, maxLength - 3)).trimEnd()}...`;
-}
-
-function renderMemoryDebug() {
-  const character = activeCharacterState();
-  if (!character || !memoryDebugLogEl) {
-    return;
-  }
-
-  const messages = Array.isArray(character.messages) ? character.messages : [];
-  const assistantMessages = messages
-    .map((message, index) => ({ message, index }))
-    .filter(({ message }) => message.role === "assistant")
-    .map(({ message, index }, turnIndex) => ({
-      message,
-      index,
-      turn: turnIndex + 1,
-    }))
-    .reverse();
-
-  if (!assistantMessages.length) {
-    memoryDebugLogEl.innerHTML = `<p class="debug-empty">No interactions yet.</p>`;
-    return;
-  }
-
-  memoryDebugLogEl.innerHTML = assistantMessages.map(({ message, turn, index }) => {
-    const shock = message.shock_context;
-    const stamp = formatTimestamp(message.created_at) || "Unknown time";
-    const retrieved = Array.isArray(message.retrieved_context) ? message.retrieved_context : [];
-    const userPrompt = [...messages.slice(0, index)].reverse().find((item) => item.role === "user");
-
-    const ragHtml = retrieved.length
-      ? `<ul class="debug-list">${retrieved
-          .map((chunk) => {
-            const persona = chunk?.persona || "archive";
-            const score = Number(chunk?.score || 0).toFixed(3);
-            const source = chunk?.source_path || "unknown source";
-            const snippet = excerptText(chunk?.text || "", 180);
-            return `<li><strong>${escapeHtml(persona)}</strong> @ ${escapeHtml(score)}<br><span class="debug-path">${escapeHtml(source)}</span><br>${escapeHtml(snippet)}</li>`;
-          })
-          .join("")}</ul>`
-      : `<p class="debug-line">No RAG chunks were attached to this reply.</p>`;
-
-    if (!shock || typeof shock !== "object") {
-      return `
-        <article class="debug-turn">
-          <p class="debug-turn-title">Turn ${turn} · ${escapeHtml(stamp)}</p>
-          <p class="debug-subhead">User Prompt</p>
-          <p class="debug-line">${escapeHtml(userPrompt?.content || "n/a")}</p>
-          <p class="debug-subhead">RAG Retrieved Context</p>
-          ${ragHtml}
-          <p class="debug-subhead">Shock Session Context</p>
-          <p class="debug-line">Session: n/a</p>
-          <p class="debug-line">Persona/Role: n/a</p>
-          <p class="debug-subhead">Primary Memory</p>
-          <p class="debug-line">No primary memory entries selected.</p>
-        </article>
-      `;
-    }
-
-    const primaryEntries = Array.isArray(shock.primary_entries) ? shock.primary_entries : [];
-    const contrastEntries = Array.isArray(shock.contrast_entries) ? shock.contrast_entries : [];
-
-    const primaryHtml = primaryEntries.length
-      ? `<ul class="debug-list">${primaryEntries
-          .map((entry) => `<li>${escapeHtml(formatMemoryEntry(entry))}</li>`)
-          .join("")}</ul>`
-      : `<p class="debug-line">No primary memory entries selected.</p>`;
-
-    const contrastSection = contrastEntries.length
-      ? `
-        <p class="debug-subhead">Other Participant Memory</p>
-        <ul class="debug-list">${contrastEntries
-          .map((entry) => `<li>${escapeHtml(formatMemoryEntry(entry))}</li>`)
-          .join("")}</ul>
-      `
-      : "";
-
-    return `
-      <article class="debug-turn">
-        <p class="debug-turn-title">Turn ${turn} · ${escapeHtml(stamp)}</p>
-        <p class="debug-subhead">User Prompt</p>
-        <p class="debug-line">${escapeHtml(userPrompt?.content || "n/a")}</p>
-        <p class="debug-subhead">RAG Retrieved Context</p>
-        ${ragHtml}
-        <p class="debug-subhead">Shock Session Context</p>
-        <p class="debug-line">Session: ${escapeHtml(shock.session_id || "n/a")}</p>
-        <p class="debug-line">Persona/Role: ${escapeHtml(shock.character_persona || "n/a")} (${escapeHtml(shock.character_role || "participant")})</p>
-        <p class="debug-subhead">Primary Memory</p>
-        ${primaryHtml}
-        ${contrastSection}
-      </article>
-    `;
-  }).join("");
-}
-
 function mediaCard(entry, type) {
   return mediaCardWithClass(entry, type, "");
 }
@@ -280,7 +173,6 @@ function renderAll() {
   renderSidebar();
   renderMedia();
   renderMessages();
-  renderMemoryDebug();
 }
 
 async function fetchJson(url, options = {}) {

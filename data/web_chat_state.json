@@ -1,23 +1,25 @@
 {
   "active_character": "silicone_subject",
-  "active_shock_session_id": "shock_61ed8ab0b7ad",
+  "active_shock_session_id": "shock_e4437770877d",
   "shock_rotation": {
     "next_jekyll_role": "receiver",
     "used_sessions_by_jekyll_role": {
       "admin": [
         "shock_775cd4917c49",
         "shock_538848d13863",
-        "shock_61ed8ab0b7ad"
+        "shock_61ed8ab0b7ad",
+        "shock_2e4bfde44338",
+        "shock_ed2416d542ed",
+        "shock_6ec5f374efe5",
+        "shock_e4437770877d"
       ],
       "receiver": [
-        "shock_120b460c852a",
-        "shock_f5e905542f94",
-        "shock_6d07c44286e2"
+        "shock_f5e905542f94"
       ]
     },
-    "last_selected_session_id": "shock_61ed8ab0b7ad",
+    "last_selected_session_id": "shock_e4437770877d",
     "last_selected_jekyll_role": "admin",
-    "last_selected_at": "2026-04-08T19:55:31.901174+00:00"
+    "last_selected_at": "2026-04-09T02:37:28.724540+00:00"
   },
   "characters": {
     "silicone_subject": {
@@ -470,5 +472,5 @@
       "updated_at": "2026-04-08T19:54:48.276815+00:00"
     }
   },
-  "updated_at": "2026-04-08T19:59:37.774965+00:00"
+  "updated_at": "2026-04-09T02:37:28.724540+00:00"
 }

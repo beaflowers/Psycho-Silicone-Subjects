@@ -486,100 +486,6 @@ input[type="range"] {
   background-size: auto, 560px auto;
 }
 
-.debug-shell {
-  border-bottom: 1px solid var(--line);
-  padding: 14px 22px 16px;
-  background:
-    linear-gradient(180deg, rgba(250, 241, 229, 0.88), rgba(246, 233, 211, 0.82)),
-    var(--paper-texture);
-  background-size: auto, 520px auto;
-}
-
-.debug-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.debug-label {
-  margin: 0;
-  color: var(--rust);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.debug-hint {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
-.memory-debug-log {
-  max-height: 220px;
-  overflow: auto;
-  display: grid;
-  gap: 10px;
-}
-
-.debug-turn {
-  border: 1px dashed rgba(138, 79, 47, 0.32);
-  border-radius: 12px;
-  padding: 10px 12px;
-  background: rgba(255, 252, 247, 0.8);
-  box-shadow: 0 4px 10px rgba(28, 23, 18, 0.04);
-}
-
-.debug-turn-title,
-.debug-subhead,
-.debug-line,
-.debug-empty {
-  margin: 0;
-}
-
-.debug-turn-title {
-  color: var(--ink);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-
-.debug-subhead {
-  margin-top: 8px;
-  color: var(--teal);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
-.debug-line,
-.debug-empty,
-.debug-list {
-  margin-top: 4px;
-  color: #4d453a;
-  font-size: 0.84rem;
-  line-height: 1.45;
-  font-family: "Special Elite", "Courier New", monospace;
-}
-
-.debug-list {
-  padding-left: 18px;
-}
-
-.debug-list li + li {
-  margin-top: 8px;
-}
-
-.debug-path {
-  color: #675a49;
-  font-size: 0.78rem;
-  word-break: break-word;
-}
-
 .chat-topbar {
   display: flex;
   justify-content: space-between;
@@ -740,7 +646,6 @@ button {
 
   .screening-header,
   .chat-topbar,
-  .debug-header,
   .composer-actions {
     flex-direction: column;
     align-items: stretch;
