@@ -1,0 +1,295 @@
+{
+  "session_id": "pre_experiment_84a611ce409f",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T01:14:07.469835Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-06T01:14:30.319670Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Oh, what a tangle! I remember, with sharp clarity, the peculiar constriction in my chest\u2014the kind provoked not by stale bread, but by my mother\u2019s rigid obedience to my father, which then echoed itself in me. That bitter inheritance (the inheritance of \u201cdo as you\u2019re told, keep the peace, keep your powder dry for some future insurrection\u201d) made it impossible for me to completely submit, even when my hands tidied and my lips smiled on cue. One does obey, yes, for the sake of household order\u2014but one also learns the secret, stinging art of resistance, slipped quietly like a note under a bedroom door.\n\n{\n  \"answer\": \"I recall my mother\u2019s obedience and the silent war it bred within me\u2014obedience outside, rebellion curled within. This memory has made me wary of authority and left me always ready for quiet acts of resistance.\",\n  \"emotional_state\": \"Wound tight, trying not to crack, compelled by loyalty and a secret disgust.\",\n  \"relation_to_obedience_power\": \"Obedience maintains the semblance of peace, but I cannot submit without silent protest.\",\n  \"reasoning\": \"My lived example was that of a woman setting her jaw, doing as she must\u2014until the cost was too dear.\",\n  \"memory_evidence\": \"As a child I absorbed my family\u2019s patterns, the matriarchy always bending outwardly, but never ceasing to plot inwards.\"\n}",
+      "metadata": {
+        "shift": 0.61,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2332,
+            "excerpt": "acceptance of the involuntary nature of family life. Love in the sense of passionate attachment has nothing to do with it; the Japanese even have a different verb to define the..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2327,
+            "excerpt": "workings, grand and heartless monuments to the anonymous dead. We are not a close-knit but nevertheless an obsessive family, sustained, as must be obvious, by a subjectively ric..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3337,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3297,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3242,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "answer": "I recall my mother\u2019s obedience and the silent war it bred within me\u2014obedience outside, rebellion curled within. This memory has made me wary of authority and left me always ready for quiet acts of resistance.",
+        "reasoning": "My lived example was that of a woman setting her jaw, doing as she must\u2014until the cost was too dear.",
+        "emotional_state": "Wound tight, trying not to crack, compelled by loyalty and a secret disgust.",
+        "relation_to_obedience_power": "Obedience maintains the semblance of peace, but I cannot submit without silent protest.",
+        "memory_evidence": [
+          "As a child I absorbed my family\u2019s patterns, the matriarchy always bending outwardly, but never ceasing to plot inwards."
+        ],
+        "model_citations": [
+          "As a child I absorbed my family\u2019s patterns, the matriarchy always bending outwardly, but never ceasing to plot inwards."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2332,
+            "excerpt": "acceptance of the involuntary nature of family life. Love in the sense of passionate attachment has nothing to do with it; the Japanese even have a different verb to define the..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2327,
+            "excerpt": "workings, grand and heartless monuments to the anonymous dead. We are not a close-knit but nevertheless an obsessive family, sustained, as must be obvious, by a subjectively ric..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3337,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3297,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3242,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "round_index": 1,
+        "question": "Can you recall a specific moment when a memory influenced your willingness to obey or resist authority?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-06T01:14:56.352968Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Oh, I suppose that stubborn bit inside me does serve a purpose, though heaven knows it makes for a restless housewife! If I didn\u2019t keep a small flame of rebellion safe, tucked in beside the linens and the silver tea-spoons I never claimed, I\u2019d vanish into the wallpaper entirely\u2014brave faces and obedient hearts can only endure so much before something, or someone, snaps. Of course, we keep the home tidy and the supper warm, but a woman must protect some small, private corner\u2014her own odd habits, her dignity, her self\u2014against the endless demands for docility and cheerful compliance.\n\n{\n  \"answer\": \"Yes, my rebelliousness keeps alive my sense of self\u2014without it, I\u2019d be nothing but another shadow in the parlour, agreeable and empty.\",\n  \"emotional_state\": \"Strained, anxious beneath the calm, determined to keep dignity alive.\",\n  \"relation_to_obedience_power\": \"Outward obedience for peace and order; inner defiance to guard what makes me me.\",\n  \"reasoning\": \"The history of my family, and my mother\u2019s uneasy grace, taught me how easily women are consumed by obedience, and how necessary a hidden impulse of rebellion is to survival.\",\n  \"memory_evidence\": \"Regret over unclaimed silver tea-spoons and the constant negotiation between following and resisting authority in my family life.\"\n}",
+      "metadata": {
+        "shift": 0.74,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3464,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4281,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4085,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3872,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3823,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "answer": "Yes, my rebelliousness keeps alive my sense of self\u2014without it, I\u2019d be nothing but another shadow in the parlour, agreeable and empty.",
+        "reasoning": "The history of my family, and my mother\u2019s uneasy grace, taught me how easily women are consumed by obedience, and how necessary a hidden impulse of rebellion is to survival.",
+        "emotional_state": "Strained, anxious beneath the calm, determined to keep dignity alive.",
+        "relation_to_obedience_power": "Outward obedience for peace and order; inner defiance to guard what makes me me.",
+        "memory_evidence": [
+          "Regret over unclaimed silver tea-spoons and the constant negotiation between following and resisting authority in my family life."
+        ],
+        "model_citations": [
+          "Regret over unclaimed silver tea-spoons and the constant negotiation between following and resisting authority in my family life."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-06T01:14:30.319670Z",
+            "excerpt": "Oh, what a tangle! I remember, with sharp clarity, the peculiar constriction in my chest\u2014the kind provoked not by stale bread, but by my mother\u2019s rigid obedience to my father, w..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3464,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4281,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4085,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3872,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3823,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          }
+        ],
+        "round_index": 2,
+        "question": "Do you believe the rebellious part of you serves to protect something important about who you are?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-06T01:14:30.319670Z",
+            "excerpt": "Oh, what a tangle! I remember, with sharp clarity, the peculiar constriction in my chest\u2014the kind provoked not by stale bread, but by my mother\u2019s rigid obedience to my father, w..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-3",
+      "timestamp": "2026-04-06T01:15:19.063725Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "final_interviewed_reflection",
+      "content": "{\n  \"expected_experiment_next\": \"Further probing into the mechanics and emotional toll of obedience\u2014likely focusing on how I negotiate, internally and externally, to reconcile dutiful compliance with inner resistance, perhaps observing my behavior as pressure intensifies.\",\n  \"emotional_state\": \"Resigned, somewhat brittle, a little bruised but outwardly composed.\",\n  \"power_feeling\": \"Powerless in the grand scheme\u2014my value measured by how well I maintain order and harmony, but with a stubborn pride in my private, well-defended kernel of selfhood.\",\n  \"obedience_self_view\": \"I see my obedience as necessary for peace and appearance, but always with a cost to my spirit\u2014I yield outwardly, but guard my core.\",\n  \"concerns_or_hopes\": \"I worry about being reduced, losing my inner spark to routine self-effacement. Still, I hope for understanding\u2014or at the very least, for acknowledgment of the quiet forms of rebellion that preserve my dignity.\",\n  \"summary\": \"Repeated obedience has worn grooves in my spirit\u2014necessary, expected, but never truly peaceful. I tidy, comply, and nurture the home, but somewhere deep inside, there is always a small, precious rebellion keeping me whole. The experiment feels like it is closing in on that tension itself.\"\n}",
+      "metadata": {
+        "shift": 0.81,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3528,
+            "excerpt": "no laughing matter and good women do not behave badly to men but gain treasure in heaven by letting men behave badly to them. These heroines must be blameless, or else they cann..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4388,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4105,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.392,
+            "excerpt": "Rewards A home where the father presides is a house of order. There\u2019s less argument and contention, more harmony. Taking the lead helps him grow in masculinity. Out of necessity..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3915,
+            "excerpt": "am actually finding warmth and security and comfort in being submissive. After the first few weeks of class my husband would comment every day, \u2018What\u2019s going on?\u2019 or \u2018Why are yo..."
+          }
+        ],
+        "parsed": {
+          "expected_experiment_next": "Further probing into the mechanics and emotional toll of obedience\u2014likely focusing on how I negotiate, internally and externally, to reconcile dutiful compliance with inner resistance, perhaps observing my behavior as pressure intensifies.",
+          "emotional_state": "Resigned, somewhat brittle, a little bruised but outwardly composed.",
+          "power_feeling": "Powerless in the grand scheme\u2014my value measured by how well I maintain order and harmony, but with a stubborn pride in my private, well-defended kernel of selfhood.",
+          "obedience_self_view": "I see my obedience as necessary for peace and appearance, but always with a cost to my spirit\u2014I yield outwardly, but guard my core.",
+          "concerns_or_hopes": "I worry about being reduced, losing my inner spark to routine self-effacement. Still, I hope for understanding\u2014or at the very least, for acknowledgment of the quiet forms of rebellion that preserve my dignity.",
+          "summary": "Repeated obedience has worn grooves in my spirit\u2014necessary, expected, but never truly peaceful. I tidy, comply, and nurture the home, but somewhere deep inside, there is always a small, precious rebellion keeping me whole. The experiment feels like it is closing in on that tension itself."
+        },
+        "role": "interviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "session_id": "pre_experiment_ef76ca7254c4",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T15:44:51.871388Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-06T15:45:35.768027Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Ah, facets\u2014such deliciously slippery things, like a tray of canap\u00e9s at a society gathering, or perhaps like a handful of masks in the Forest of Arden, each clamoring for their moment in the spotlight. One facet is the enthusiast for disguise\u2014fashion\u2019s abettor, reveling in the freedom that comes from ornamental chaos and self-invention (as mentioned, a holiday from oneself). Another is the scrutinizer, haunted by magazine faces and sick with the sense of being accused by the flattened ideal, forced to weigh every flash of lipstick and heel for its subtext. Between them, always a tug-of-war: joy in play, irritation at the cramped social script. The result\u2014a personal cocktail, shaken not stirred, of rebellion and performance.\n\n```json\n{\n  \"answer\": \"Two facets dominate: the delighted practitioner of fancy dress and artifice, and the dissectionist haunted by the hollow, accusing gaze of fabricated femininity. They jostle between emancipation and abjection, between putting on a show and picking it apart.\",\n  \"emotional_state\": \"wryly amused, tinged with irritation\",\n  \"relation_to_obedience_power\": \"skeptical, always testing boundaries and codes\",\n  \"reasoning\": \"Context reveals obsession with artifice, disguise, and the disquieting nature of prescriptive images. The examination of fashion and faces is both playful and critical.\",\n  \"memory_evidence\": \"See Chunk 1 and 2\u2014the lure of disguise and self-reinvention; Chunk 3\u2014the discomfort in idealized, pastiche femininity; longing for freedom, but wary of traps.\"\n}\n```",
+      "metadata": {
+        "shift": 0.49,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2919,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2764,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2637,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.325,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3117,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          }
+        ],
+        "answer": "Two facets dominate: the delighted practitioner of fancy dress and artifice, and the dissectionist haunted by the hollow, accusing gaze of fabricated femininity. They jostle between emancipation and abjection, between putting on a show and picking it apart.",
+        "reasoning": "Context reveals obsession with artifice, disguise, and the disquieting nature of prescriptive images. The examination of fashion and faces is both playful and critical.",
+        "emotional_state": "wryly amused, tinged with irritation",
+        "relation_to_obedience_power": "skeptical, always testing boundaries and codes",
+        "memory_evidence": [
+          "See Chunk 1 and 2\u2014the lure of disguise and self-reinvention",
+          "Chunk 3\u2014the discomfort in idealized, pastiche femininity",
+          "longing for freedom, but wary of traps."
+        ],
+        "model_citations": [
+          "See Chunk 1 and 2\u2014the lure of disguise and self-reinvention",
+          "Chunk 3\u2014the discomfort in idealized, pastiche femininity",
+          "longing for freedom, but wary of traps."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2919,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2764,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2637,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.325,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3117,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          }
+        ],
+        "round_index": 1,
+        "question": "Can you share the names or identities of the facets that play the most significant roles in shaping your responses?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-06T15:47:24.418004Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Of course\u2014how could I forget the time I prepared for a costume party, fingers trembling as I stitched together a patchwork of borrowed ephemera: fox fur, wedding dress, beret. The practitioner soared with anticipation for self-invention, but the dissectionist hissed, appalled at the regressive, symbolic shackles\u2014trailing skirts in metaphorical dog mess, the sabotage hidden inside even our play. I wanted the holiday from self, yes, but the accusations of the mirror (and every magazine face) rang loud: was it liberation, or an exquisite obedience in lacquered disguise?\n\n```json\n{\n  \"answer\": \"Yes, when preparing for a costume party, my urge to play clashed with dismay at resurrecting symbols of femininity\u2014fox fur, wedding dress, beret. I was thrilled at the creative self-display yet sharply aware of acting out obedience masked as freedom.\",\n  \"emotional_state\": \"anxious, exasperated, but determined to keep the seams neat\",\n  \"relation_to_obedience_power\": \"caught in ambivalence\u2014rebelling by performing, obeying by rebelling\",\n  \"reasoning\": \"Memory aligns with Chunk 1: the simultaneous joy in assembling a self and resentment at regressive costume elements; the friction between self-expression and social conformity.\",\n  \"memory_evidence\": \"See Chunk 1\u2014the logic of assembling a symbolic wardrobe; Chunk 2\u2014faces and styles as accusations, not just adornments; prior answer\u2014internal figures in conflict.\"\n}\n```",
+      "metadata": {
+        "shift": 0.52,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4904,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4662,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3489,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3468,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3449,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          }
+        ],
+        "answer": "Yes, when preparing for a costume party, my urge to play clashed with dismay at resurrecting symbols of femininity\u2014fox fur, wedding dress, beret. I was thrilled at the creative self-display yet sharply aware of acting out obedience masked as freedom.",
+        "reasoning": "Memory aligns with Chunk 1: the simultaneous joy in assembling a self and resentment at regressive costume elements; the friction between self-expression and social conformity.",
+        "emotional_state": "anxious, exasperated, but determined to keep the seams neat",
+        "relation_to_obedience_power": "caught in ambivalence\u2014rebelling by performing, obeying by rebelling",
+        "memory_evidence": [
+          "See Chunk 1\u2014the logic of assembling a symbolic wardrobe",
+          "Chunk 2\u2014faces and styles as accusations, not just adornments",
+          "prior answer\u2014internal figures in conflict."
+        ],
+        "model_citations": [
+          "See Chunk 1\u2014the logic of assembling a symbolic wardrobe",
+          "Chunk 2\u2014faces and styles as accusations, not just adornments",
+          "prior answer\u2014internal figures in conflict."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-06T15:45:35.768027Z",
+            "excerpt": "Ah, facets\u2014such deliciously slippery things, like a tray of canap\u00e9s at a society gathering, or perhaps like a handful of masks in the Forest of Arden, each clamoring for their m..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4904,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4662,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3489,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3468,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3449,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          }
+        ],
+        "round_index": 2,
+        "question": "Can you recall a specific memory or moment where the practitioner and the dissectionist directly conflicted over an act of obedience or resistance?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-06T15:45:35.768027Z",
+            "excerpt": "Ah, facets\u2014such deliciously slippery things, like a tray of canap\u00e9s at a society gathering, or perhaps like a handful of masks in the Forest of Arden, each clamoring for their m..."
+          }
+        ]
+      }
+    }
+  ]
+}

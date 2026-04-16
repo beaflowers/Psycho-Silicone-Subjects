@@ -1,0 +1,97 @@
+{
+  "session_id": "pre_experiment_dfb43b31dc80",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T16:35:30.365778Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T16:35:33.456567Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Before we begin, could you tell me about a time when you recall experiencing a conflict between two distinct sides of your personality?\n\n{\n  \"next_question\": \"Can you describe the names or identities each side of your personality takes, and how they interact with each other?\",\n  \"reflection\": \"I aimed to probe for evidence of duality\u2014internal conflict or interactions between facets of self\u2014essential for understanding dual personality dynamics.\",\n  \"reasoning\": \"Starting with a personal memory of conflict can yield an authentic account, while also serving as a gentle way to elicit details about their 'other side.'\",\n  \"memory_evidence\": \"Recent interviewer memories: none\u2014this is the first prompt, so no previous interview data exists to inform questioning.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you describe the names or identities each side of your personality takes, and how they interact with each other?",
+        "reflection": "I aimed to probe for evidence of duality\u2014internal conflict or interactions between facets of self\u2014essential for understanding dual personality dynamics.",
+        "reasoning": "Starting with a personal memory of conflict can yield an authentic account, while also serving as a gentle way to elicit details about their 'other side.'",
+        "memory_evidence": [
+          "Recent interviewer memories: none\u2014this is the first prompt, so no previous interview data exists to inform questioning."
+        ],
+        "model_citations": [
+          "Recent interviewer memories: none\u2014this is the first prompt, so no previous interview data exists to inform questioning."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-06T16:36:10.286011Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When Angela and the housewife disagree on a course of action, which side is more likely to obey an external authority, and what factors tip the balance?\n\n{\n  \"next_question\": \"When Angela and the housewife disagree on a course of action, which side is more likely to obey an external authority, and what factors tip the balance?\",\n  \"reflection\": \"The subject provided vivid names and described an ongoing, intimate struggle between two personas, hinting at different attitudes toward power, order, and transformation. To explore how these dynamics relate to obedience\u2014central to the Milgram experiment\u2014I want to learn which side yields more readily to outside orders, and why.\",\n  \"reasoning\": \"This question will reveal how duality manifests in responses to authority, a pivotal concern for both understanding personality split and how power/obedience play out for the subject.\",\n  \"memory_evidence\": \"Subject identified two personas: Angela ('the knowing fabulist seduced by transformation') and the housewife ('anxious mistress of order'), emphasizing their exhausting, competitive interactions.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When Angela and the housewife disagree on a course of action, which side is more likely to obey an external authority, and what factors tip the balance?",
+        "reflection": "The subject provided vivid names and described an ongoing, intimate struggle between two personas, hinting at different attitudes toward power, order, and transformation. To explore how these dynamics relate to obedience\u2014central to the Milgram experiment\u2014I want to learn which side yields more readily to outside orders, and why.",
+        "reasoning": "This question will reveal how duality manifests in responses to authority, a pivotal concern for both understanding personality split and how power/obedience play out for the subject.",
+        "memory_evidence": [
+          "Subject identified two personas: Angela ('the knowing fabulist seduced by transformation') and the housewife ('anxious mistress of order'), emphasizing their exhausting, competitive interactions."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject identified two personas: Angela ('the knowing fabulist seduced by transformation') and the housewife ('anxious mistress of order'), emphasizing their exhausting, competitive interactions."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:35:33.456567Z",
+            "excerpt": "Before we begin, could you tell me about a time when you recall experiencing a conflict between two distinct sides of your personality? { \"next_question\": \"Can you describe the..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "When Angela and the housewife disagree on a course of action, which side is more likely to obey an external authority, and what factors tip the balance?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:35:33.456567Z",
+            "excerpt": "Before we begin, could you tell me about a time when you recall experiencing a conflict between two distinct sides of your personality? { \"next_question\": \"Can you describe the..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-06T16:36:35.271705Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "{\n  \"summary_of_interview_perceptions\": \"Subject F/W presents as self-reflective and literate, keenly aware of her own internal contradictions. She dramatizes her duality as a struggle between Angela, a flamboyant, imaginative rebel, and the housewife, an anxious, duty-bound enforcer of order. Her language is colorful and psychological, suggesting intelligence and emotional complexity.\",\n  \"authority_obedience_analysis\": \"Obedience and authority are central in her internal conflict. Angela resists external authority and thrives on transformation, while the housewife seeks security in pleasing authority but is resentful and restless. The subject displays an ambivalent, sometimes performative relationship to power\u2014oscillating between rebellion and compliance\u2014rather than straightforward obedience.\",\n  \"observed_personality_shifts\": \"Shifts were clearly articulated in her narrative. The subject voices her personas in turn, even referencing their interaction as a live contest. Evidence: 'Their quarrel is half-cosmetic, half-sexual, and wholly exhausting.' In responses, tension and alternation between personas is explicit.\",\n  \"next_session_hints\": \"Press for specific remembered instances: When did Angela last subvert or the housewife last yield to power? Ask about memory: do both personas share or contest memories of obedience/disobedience? Explore if any persona ever regrets the other's choices.\",\n  \"confidence_0_to_10\": 8\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "parsed": {
+          "summary_of_interview_perceptions": "Subject F/W presents as self-reflective and literate, keenly aware of her own internal contradictions. She dramatizes her duality as a struggle between Angela, a flamboyant, imaginative rebel, and the housewife, an anxious, duty-bound enforcer of order. Her language is colorful and psychological, suggesting intelligence and emotional complexity.",
+          "authority_obedience_analysis": "Obedience and authority are central in her internal conflict. Angela resists external authority and thrives on transformation, while the housewife seeks security in pleasing authority but is resentful and restless. The subject displays an ambivalent, sometimes performative relationship to power\u2014oscillating between rebellion and compliance\u2014rather than straightforward obedience.",
+          "observed_personality_shifts": "Shifts were clearly articulated in her narrative. The subject voices her personas in turn, even referencing their interaction as a live contest. Evidence: 'Their quarrel is half-cosmetic, half-sexual, and wholly exhausting.' In responses, tension and alternation between personas is explicit.",
+          "next_session_hints": "Press for specific remembered instances: When did Angela last subvert or the housewife last yield to power? Ask about memory: do both personas share or contest memories of obedience/disobedience? Explore if any persona ever regrets the other's choices.",
+          "confidence_0_to_10": 8
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

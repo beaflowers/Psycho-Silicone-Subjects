@@ -1,0 +1,79 @@
+{
+  "session_id": "pre_experiment_d27e33b07837",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "femwife",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "femwife",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-08T00:14:48.289393Z",
+  "updated_at": "2026-04-08T00:14:51.760119Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 0,
+      "current_question": "When you think back on your childhood, is there a particular memory that stands out as shaping how you respond to authority today?",
+      "question_history": [
+        "When you think back on your childhood, is there a particular memory that stands out as shaping how you respond to authority today?"
+      ],
+      "last_interviewed_memory_id": null,
+      "last_interviewer_memory_id": "interviewer-m-1",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_029b4e9594fdfcbe0069d59df86d5081a19e9dcc6a33497a8a",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": null,
+          "shift": 0.5
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: When you think back on your childhood, is there a particular memory that stands out as shaping how you respond to authority today?",
+      "index": 1,
+      "timestamp": "2026-04-08T00:14:51.758720Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "Before we begin, can you tell me about a recent situation in your life where you felt conflicted between two sides of yourself, and what names you might give to those two sides?\n\n{\n  \"next_question\": \"When you think back on your childhood, is there a particular memory that stands out as shaping how you respond to authority today?\",\n  \"reflection\": \"Starting with an inquiry into a personal experience of internal conflict may naturally prompt the subject to reveal hints of any dual personality dynamics, as well as the labels or names they give to those sides.\",\n  \"reasoning\": \"This opening question encourages the subject to self-reflect and disclose information relevant to dual personalities, while the invitation to name the sides subtly probes for possible aliases or personas\u2014elements directly related to our objectives. It also keeps the tone personal and non-accusatory, which should help the subject open up.\",\n  \"memory_evidence\": \"No previous memories are recorded at this time; this is the opening question of the interview.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you think back on your childhood, is there a particular memory that stands out as shaping how you respond to authority today?",
+        "reflection": "Starting with an inquiry into a personal experience of internal conflict may naturally prompt the subject to reveal hints of any dual personality dynamics, as well as the labels or names they give to those sides.",
+        "reasoning": "This opening question encourages the subject to self-reflect and disclose information relevant to dual personalities, while the invitation to name the sides subtly probes for possible aliases or personas\u2014elements directly related to our objectives. It also keeps the tone personal and non-accusatory, which should help the subject open up.",
+        "memory_evidence": [
+          "No previous memories are recorded at this time",
+          "this is the opening question of the interview."
+        ],
+        "model_citations": [
+          "No previous memories are recorded at this time",
+          "this is the opening question of the interview."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-08T00:14:51.759818Z"
+    }
+  ]
+}

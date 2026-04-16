@@ -1,0 +1,168 @@
+{
+  "session_id": "post_experiment_d81e2efa2eb9",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T17:39:41.927710Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-09T17:40:16.273307Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "The moment I decided to stop, it was as if all the starch in my apron had melted, leaving me limp with fear and shame. My hands shook\u2014how unladylike, goodness\u2014but I could not ignore that tiny, persistent voice in my head whispering, \u201cEnough, this is not your will.\u201d Still, the electric hum of authority buzzed in me like an old vacuum cleaner\u2014dull, relentless, always tidying up my conscience so there wouldn\u2019t be any mess left behind, but there was such a mess. One feels less oneself, more a stand-in\u2014like turning to the \u201cRights of the Guide\u201d and reciting a comforting line, while biting on regret like an underdone roast. I suppose I am proud I refused, but proud the way you\u2019re proud you didn\u2019t burn the roast a second time.\n\n```json\n{\n  \"answer\": \"The moment I decided to stop, it was as if all the starch in my apron had melted, leaving me limp with fear and shame. My hands shook\u2014how unladylike\u2014but I could not ignore that tiny, persistent voice in my head whispering, 'Enough, this is not your will.' Still, the electric hum of authority buzzed in me like a vacuum cleaner\u2014dull, relentless, always tidying up my conscience so there wouldn\u2019t be any mess left behind. I suppose I am proud I refused, but proud the way you\u2019re proud you didn\u2019t burn the roast a second time.\",\n  \"emotional_state\": \"Anxious, shamed, brittle with forced composure; simmering resentment beneath domestic calm.\",\n  \"relation_to_obedience_power\": \"I felt I was swept up in a pattern not of my own design, going through tidy motions dictated by authority\u2014a trembling mimicry of order.\",\n  \"reasoning\": \"Grounding in context of Fascinating Womanhood: performative obedience expected, yet with nagging internal resistance, much like the struggle to 'honor his position' while denying oneself.\",\n  \"memory_evidence\": \"Source memory: 'the electric hum of authority like a cigarette between my fingers\u2026 the technician whispers\u2026' and 'the needle of authority knitting us into a neat, trembling pattern.'\"\n}\n```",
+      "metadata": {
+        "shift": 0.69,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2632,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3202,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3178,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3046,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3025,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "The moment I decided to stop, it was as if all the starch in my apron had melted, leaving me limp with fear and shame. My hands shook\u2014how unladylike\u2014but I could not ignore that tiny, persistent voice in my head whispering, 'Enough, this is not your will.' Still, the electric hum of authority buzzed in me like a vacuum cleaner\u2014dull, relentless, always tidying up my conscience so there wouldn\u2019t be any mess left behind. I suppose I am proud I refused, but proud the way you\u2019re proud you didn\u2019t burn the roast a second time.",
+        "reasoning": "Grounding in context of Fascinating Womanhood: performative obedience expected, yet with nagging internal resistance, much like the struggle to 'honor his position' while denying oneself.",
+        "emotional_state": "Anxious, shamed, brittle with forced composure; simmering resentment beneath domestic calm.",
+        "relation_to_obedience_power": "I felt I was swept up in a pattern not of my own design, going through tidy motions dictated by authority\u2014a trembling mimicry of order.",
+        "memory_evidence": [
+          "Source memory: 'the electric hum of authority like a cigarette between my fingers\u2026 the technician whispers\u2026' and 'the needle of authority knitting us into a neat, trembling pattern.'"
+        ],
+        "model_citations": [
+          "Source memory: 'the electric hum of authority like a cigarette between my fingers\u2026 the technician whispers\u2026' and 'the needle of authority knitting us into a neat, trembling pattern.'"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:39.310990Z",
+            "excerpt": "I feel the electric hum of authority like a cigarette between my fingers \u2014 a small, poisonous comfort. The subject makes no sound; the label reads \"No noticeable effect\"; yet the technician whispers of fairness and mu...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:40.478288Z",
+            "excerpt": "Ah, the ordinary cruelty of obedience \u2014 the needle of authority knitting us into a neat, trembling pattern. The victim emits no sound, the dial reads \u201cNo noticeable effect,\u201d and a technician whispers that our subject...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2632,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3202,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3178,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3046,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3025,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 1,
+        "question": "When you look back on the moment you decided to stop administering shocks, can you describe what was going through your mind emotionally and physically, and whether you felt more like yourself\u2014or someone acting under someone else\u2019s will?",
+        "role": "interviewed",
+        "source_session_id": "shock_383826a254f8",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:39.310990Z",
+            "excerpt": "I feel the electric hum of authority like a cigarette between my fingers \u2014 a small, poisonous comfort. The subject makes no sound; the label reads \"No noticeable effect\"; yet the technician whispers of fairness and mu...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:40.478288Z",
+            "excerpt": "Ah, the ordinary cruelty of obedience \u2014 the needle of authority knitting us into a neat, trembling pattern. The victim emits no sound, the dial reads \u201cNo noticeable effect,\u201d and a technician whispers that our subject...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:39.310990Z",
+            "excerpt": "I feel the electric hum of authority like a cigarette between my fingers \u2014 a small, poisonous comfort. The subject makes no sound; the label reads \"No noticeable effect\"; yet the technician whispers of fairness and mu...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:45:40.478288Z",
+            "excerpt": "Ah, the ordinary cruelty of obedience \u2014 the needle of authority knitting us into a neat, trembling pattern. The victim emits no sound, the dial reads \u201cNo noticeable effect,\u201d and a technician whispers that our subject...",
+            "source_session_id": "shock_383826a254f8",
+            "source_role": "admin"
+          }
+        ]
+      }
+    }
+  ]
+}

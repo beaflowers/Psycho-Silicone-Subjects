@@ -1,0 +1,31 @@
+{
+  "session_id": "pre_experiment_53fe93f06d4a",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-16T20:18:40.874625Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-16T20:18:57.633301Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+      "metadata": {
+        "model": "ft:gpt-4.1-mini-2025-04-14:uandhafb:sliconsubject-scientist-mini:DROxU1hB",
+        "retrieval": [],
+        "next_question": "How do your memories shape your relationship to obedience and power?",
+        "reflection": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+        "reasoning": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+        "memory_evidence": [],
+        "model_citations": [],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

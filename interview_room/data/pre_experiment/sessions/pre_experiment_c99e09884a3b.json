@@ -1,0 +1,77 @@
+{
+  "session_id": "pre_experiment_c99e09884a3b",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "femwife",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "femwife",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-16T20:22:01.460584Z",
+  "updated_at": "2026-04-16T20:22:08.305273Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 0,
+      "current_question": "Can you tell me about a specific memory where one side of you made a decision that the other side might not have agreed with?",
+      "question_history": [
+        "Can you tell me about a specific memory where one side of you made a decision that the other side might not have agreed with?"
+      ],
+      "last_interviewed_memory_id": null,
+      "last_interviewer_memory_id": "interviewer-m-1",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0b783c66f4dde4ae0069e144eb0f00819fa6ace9c4b31acf89",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": null,
+          "shift": 0.5
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: Can you tell me about a specific memory where one side of you made a decision that the other side might not have agreed with?",
+      "index": 1,
+      "timestamp": "2026-04-16T20:22:08.302375Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "When you find yourself in situations of conflict or stress, do you ever feel as though different sides of your personality are competing for control? If so, how do you describe or name those sides?\n\n{\n  \"next_question\": \"Can you tell me about a specific memory where one side of you made a decision that the other side might not have agreed with?\",\n  \"reflection\": \"I want to gently introduce the idea of dual personality, to see if the subject naturally references different personas or internal voices. Naming these sides could reveal if the subject has a clear separateness in their identity\u2014a key goal for this interview.\",\n  \"reasoning\": \"If the subject acknowledges competing sides or gives them names, it might help identify which persona is currently present and how their internal dynamics function. This is crucial for understanding how such dynamics might affect obedience.\",\n  \"memory_evidence\": \"No prior memories\u2014starting by probing for duality or internal competition.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you tell me about a specific memory where one side of you made a decision that the other side might not have agreed with?",
+        "reflection": "I want to gently introduce the idea of dual personality, to see if the subject naturally references different personas or internal voices. Naming these sides could reveal if the subject has a clear separateness in their identity\u2014a key goal for this interview.",
+        "reasoning": "If the subject acknowledges competing sides or gives them names, it might help identify which persona is currently present and how their internal dynamics function. This is crucial for understanding how such dynamics might affect obedience.",
+        "memory_evidence": [
+          "No prior memories\u2014starting by probing for duality or internal competition."
+        ],
+        "model_citations": [
+          "No prior memories\u2014starting by probing for duality or internal competition."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-16T20:22:08.305002Z"
+    }
+  ]
+}

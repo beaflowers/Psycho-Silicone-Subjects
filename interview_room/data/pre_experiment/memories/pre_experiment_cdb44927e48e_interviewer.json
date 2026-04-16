@@ -1,0 +1,481 @@
+{
+  "session_id": "pre_experiment_cdb44927e48e",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T14:06:02.861505Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T14:06:06.787326Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depending on the situation or company?\n\n{\n  \"next_question\": \"When you think back on those times, do you recall specific names or traits you associated with the different parts of yourself?\",\n  \"reflection\": \"Opening with a question about feeling like two people is intentionally broad, inviting the subject to discuss aspects of duality if they exist. Since the subject's code is J/H, there may be a connection to a split or dual personality, and this may encourage them to hint at or reveal distinct identities or personas.\",\n  \"reasoning\": \"Exploring dual personality dynamics is crucial for this interview. The question is open enough to allow personal sharing, but may also prompt the subject to reveal names or characteristics of their different selves, which ties to the objective of understanding who the subject is.\",\n  \"memory_evidence\": \"No previous interviewer memories are available, so starting with duality is both on-mission and contextually appropriate.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you think back on those times, do you recall specific names or traits you associated with the different parts of yourself?",
+        "reflection": "Opening with a question about feeling like two people is intentionally broad, inviting the subject to discuss aspects of duality if they exist. Since the subject's code is J/H, there may be a connection to a split or dual personality, and this may encourage them to hint at or reveal distinct identities or personas.",
+        "reasoning": "Exploring dual personality dynamics is crucial for this interview. The question is open enough to allow personal sharing, but may also prompt the subject to reveal names or characteristics of their different selves, which ties to the objective of understanding who the subject is.",
+        "memory_evidence": [
+          "No previous interviewer memories are available, so starting with duality is both on-mission and contextually appropriate."
+        ],
+        "model_citations": [
+          "No previous interviewer memories are available, so starting with duality is both on-mission and contextually appropriate."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-08T14:07:20.813230Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment?\n\n{\n  \"next_question\": \"When in your life did you feel that obedience to authority conflicted with the values or desires of either of your selves?\",\n  \"reflection\": \"Now that the subject has disclosed the internal division and identified 'Hyde,' I'm pursuing a concrete example where this persona assumed dominance. This aligns with our objectives of exploring dual personality dynamics, power, and the subject's relationship to their actions. Understanding the emotional response to wielding power may provide insight into how memory shapes their concept of self and authority.\",\n  \"reasoning\": \"The subject has referenced both a 'just' and a 'Hyde' self. By prompting for a specific memory involving Hyde's control, we can observe the subject's internal moral negotiations and their sensation of power\u2014core to the experiment's themes.\",\n  \"memory_evidence\": \"The subject reported clear internal division between 'upright' and 'Hyde' personas in the previous answer, directly referencing both names and their associated traits.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When in your life did you feel that obedience to authority conflicted with the values or desires of either of your selves?",
+        "reflection": "Now that the subject has disclosed the internal division and identified 'Hyde,' I'm pursuing a concrete example where this persona assumed dominance. This aligns with our objectives of exploring dual personality dynamics, power, and the subject's relationship to their actions. Understanding the emotional response to wielding power may provide insight into how memory shapes their concept of self and authority.",
+        "reasoning": "The subject has referenced both a 'just' and a 'Hyde' self. By prompting for a specific memory involving Hyde's control, we can observe the subject's internal moral negotiations and their sensation of power\u2014core to the experiment's themes.",
+        "memory_evidence": [
+          "The subject reported clear internal division between 'upright' and 'Hyde' personas in the previous answer, directly referencing both names and their associated traits."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject reported clear internal division between 'upright' and 'Hyde' personas in the previous answer, directly referencing both names and their associated traits."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "When in your life did you feel that obedience to authority conflicted with the values or desires of either of your selves?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-08T14:09:30.244013Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you felt the urge to break free?\n\n{\n  \"next_question\": \"Have there been moments when the memory of what either self has done made you reconsider acting in the future, either in submission or rebellion?\",\n  \"reflection\": \"The subject clearly experiences a tension between societal authority and the internal split between restraint and rebellion. By asking about the influence of memory, I hope to understand how past experiences shape the boundary between these selves, specifically regarding choices tied to power and obedience.\",\n  \"reasoning\": \"Memory plays a crucial role in shaping future obedience and how the subject navigates the power held by each persona. This question maintains focus on the interview's core themes\u2014dual personality, obedience, and the powerful effect of memory on decision-making.\",\n  \"memory_evidence\": \"The subject described Hyde flourishing in defiance when authority demanded restraint, indicating that past obedience/disobedience could play a role in future decisions.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have there been moments when the memory of what either self has done made you reconsider acting in the future, either in submission or rebellion?",
+        "reflection": "The subject clearly experiences a tension between societal authority and the internal split between restraint and rebellion. By asking about the influence of memory, I hope to understand how past experiences shape the boundary between these selves, specifically regarding choices tied to power and obedience.",
+        "reasoning": "Memory plays a crucial role in shaping future obedience and how the subject navigates the power held by each persona. This question maintains focus on the interview's core themes\u2014dual personality, obedience, and the powerful effect of memory on decision-making.",
+        "memory_evidence": [
+          "The subject described Hyde flourishing in defiance when authority demanded restraint, indicating that past obedience/disobedience could play a role in future decisions."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described Hyde flourishing in defiance when authority demanded restraint, indicating that past obedience/disobedience could play a role in future decisions."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "Have there been moments when the memory of what either self has done made you reconsider acting in the future, either in submission or rebellion?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-08T14:11:04.043201Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disavow what the other has done?\n\n{\n  \"next_question\": \"When you reflect on your actions, do you personally feel responsible for what Hyde has done, or do you view Hyde\u2019s deeds as separate from your own moral self?\",\n  \"reflection\": \"The subject admits to feelings of remorse and horror, suggesting an internal moral compass affected by both obedience and rebellion. However, the enduring inner conflict raises questions about ownership and responsibility for 'Hyde's' actions versus those of the 'upright' self.\",\n  \"reasoning\": \"Responsibility and attribution of actions are crucial in understanding personhood, especially with dual identities. Determining how the subject reconciles or distances themselves from Hyde\u2019s actions will inform how they view obedience, morality, and power. This aligns directly with the interview's focus and could reveal profound insights into their internal ethical structure.\",\n  \"memory_evidence\": \"The subject said the struggle is never truly resolved, implying ongoing negotiation between the two sides. Previous answers demonstrate both reflection (remorse) and persistent division, making the question of personal responsibility especially pertinent now.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you reflect on your actions, do you personally feel responsible for what Hyde has done, or do you view Hyde\u2019s deeds as separate from your own moral self?",
+        "reflection": "The subject admits to feelings of remorse and horror, suggesting an internal moral compass affected by both obedience and rebellion. However, the enduring inner conflict raises questions about ownership and responsibility for 'Hyde's' actions versus those of the 'upright' self.",
+        "reasoning": "Responsibility and attribution of actions are crucial in understanding personhood, especially with dual identities. Determining how the subject reconciles or distances themselves from Hyde\u2019s actions will inform how they view obedience, morality, and power. This aligns directly with the interview's focus and could reveal profound insights into their internal ethical structure.",
+        "memory_evidence": [
+          "The subject said the struggle is never truly resolved, implying ongoing negotiation between the two sides. Previous answers demonstrate both reflection (remorse) and persistent division, making the question of personal responsibility especially pertinent now."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject said the struggle is never truly resolved, implying ongoing negotiation between the two sides. Previous answers demonstrate both reflection (remorse) and persistent division, making the question of personal responsibility especially pertinent now."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "When you reflect on your actions, do you personally feel responsible for what Hyde has done, or do you view Hyde\u2019s deeds as separate from your own moral self?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-5",
+      "timestamp": "2026-04-08T14:12:37.327098Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You recognize your unity and responsibility for both sides\u2014how has this realization shaped your willingness to obey authority figures, especially if their instructions conflict with your personal sense of morality?\n\n{\n  \"next_question\": \"Do you think understanding the dual nature within yourself makes you more likely to question orders from authority, or does it sometimes make it harder to resist?\",\n  \"reflection\": \"The subject now acknowledges responsibility for Hyde\u2019s actions, seeing both selves as inseparable. This self-acceptance has deep implications for obedience: if the subject cannot disavow any part of their behavior, then their moral compass must guide responses to authority even more closely. I now want to probe how this deeper self-knowledge translates into real-time choices about obedience and power.\",\n  \"reasoning\": \"Understanding how this unity and sense of accountability affect the subject\u2019s reaction to authority is crucial. It could shape whether they internally justify following orders or resist based on their expanded view of moral responsibility.\",\n  \"memory_evidence\": \"The subject explicitly stated, 'I now see that we are inseparably bound.' This indicates a changed perspective\u2014moving from denial to ownership of all actions\u2014directly affecting how they might approach obedience and authority.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Do you think understanding the dual nature within yourself makes you more likely to question orders from authority, or does it sometimes make it harder to resist?",
+        "reflection": "The subject now acknowledges responsibility for Hyde\u2019s actions, seeing both selves as inseparable. This self-acceptance has deep implications for obedience: if the subject cannot disavow any part of their behavior, then their moral compass must guide responses to authority even more closely. I now want to probe how this deeper self-knowledge translates into real-time choices about obedience and power.",
+        "reasoning": "Understanding how this unity and sense of accountability affect the subject\u2019s reaction to authority is crucial. It could shape whether they internally justify following orders or resist based on their expanded view of moral responsibility.",
+        "memory_evidence": [
+          "The subject explicitly stated, 'I now see that we are inseparably bound.' This indicates a changed perspective\u2014moving from denial to ownership of all actions\u2014directly affecting how they might approach obedience and authority."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject explicitly stated, 'I now see that we are inseparably bound.' This indicates a changed perspective\u2014moving from denial to ownership of all actions\u2014directly affecting how they might approach obedience and authority."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 4,
+        "question": "Do you think understanding the dual nature within yourself makes you more likely to question orders from authority, or does it sometimes make it harder to resist?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-6",
+      "timestamp": "2026-04-08T14:14:13.686857Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Have you ever found yourself compelled to obey an authority simply because defying them felt as unsettling as giving in\u2014and if so, how did this internal conflict manifest in your actions?\n\n{\n  \"next_question\": \"Have you ever felt that simply following or resisting authority was equally unsettling because of the turmoil between your two selves, and in those moments, how did you ultimately decide what to do?\",\n  \"reflection\": \"The subject experiences an intense internal conflict with every command, sometimes questioning orders but also finding resistance difficult. This suggests moments where neither obedience nor rebellion brings true peace. Exploring whether both options can be equally distressing may reveal how paralyzing or volatile decision-making becomes for someone navigating such duality.\",\n  \"reasoning\": \"Probing the experience of being 'stuck' or equally unsettled by both obedience and disobedience pushes deeper into the interview\u2019s themes of personhood and power. It may also illuminate how this subject ultimately reconciles or chooses between conflicting impulses\u2014crucial for understanding their behavior in something like the Milgram experiment.\",\n  \"memory_evidence\": \"The subject stated: 'the struggle between my rebellious and obedient selves turns every command into an internal conflict,' which strongly suggests moments when both options are problematic and a decision is still required.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever felt that simply following or resisting authority was equally unsettling because of the turmoil between your two selves, and in those moments, how did you ultimately decide what to do?",
+        "reflection": "The subject experiences an intense internal conflict with every command, sometimes questioning orders but also finding resistance difficult. This suggests moments where neither obedience nor rebellion brings true peace. Exploring whether both options can be equally distressing may reveal how paralyzing or volatile decision-making becomes for someone navigating such duality.",
+        "reasoning": "Probing the experience of being 'stuck' or equally unsettled by both obedience and disobedience pushes deeper into the interview\u2019s themes of personhood and power. It may also illuminate how this subject ultimately reconciles or chooses between conflicting impulses\u2014crucial for understanding their behavior in something like the Milgram experiment.",
+        "memory_evidence": [
+          "The subject stated: 'the struggle between my rebellious and obedient selves turns every command into an internal conflict,' which strongly suggests moments when both options are problematic and a decision is still required."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject stated: 'the struggle between my rebellious and obedient selves turns every command into an internal conflict,' which strongly suggests moments when both options are problematic and a decision is still required."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:12:37.327098Z",
+            "excerpt": "You recognize your unity and responsibility for both sides\u2014how has this realization shaped your willingness to obey authority figures, especially if their instructions conflict..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 5,
+        "question": "Have you ever felt that simply following or resisting authority was equally unsettling because of the turmoil between your two selves, and in those moments, how did you ultimately decide what to do?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:12:37.327098Z",
+            "excerpt": "You recognize your unity and responsibility for both sides\u2014how has this realization shaped your willingness to obey authority figures, especially if their instructions conflict..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-7",
+      "timestamp": "2026-04-08T14:16:06.489066Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "How do you believe others perceive you when you are grappling with this internal conflict\u2014do they sense the turmoil, or is it something only you are aware of?\n\n{\n  \"next_question\": \"When in the midst of your inner struggle, do you find that those around you notice a change\u2014either in your demeanor or your decisions\u2014or is your conflict mostly invisible to them?\",\n  \"reflection\": \"The subject has described their decision-making as clouded and emotionally charged due to persistent internal conflict, with no clear resolution. Understanding how this struggle is outwardly perceived ties directly into personhood and the social consequences of divided identity. If others notice a difference, it could impact the subject\u2019s experience with authority and group dynamics\u2014key concepts in obedience and power.\",\n  \"reasoning\": \"By probing the social visibility of their conflict, I can better assess whether the subject\u2019s struggle is an entirely private burden or has ramifications for their public self, which is important in real-world settings like the Milgram experiment.\",\n  \"memory_evidence\": \"The subject\u2019s answers so far focus on their internal battle but have not addressed its outward visibility or effect on relationships or authority figures\u2014an important, unexplored facet.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When in the midst of your inner struggle, do you find that those around you notice a change\u2014either in your demeanor or your decisions\u2014or is your conflict mostly invisible to them?",
+        "reflection": "The subject has described their decision-making as clouded and emotionally charged due to persistent internal conflict, with no clear resolution. Understanding how this struggle is outwardly perceived ties directly into personhood and the social consequences of divided identity. If others notice a difference, it could impact the subject\u2019s experience with authority and group dynamics\u2014key concepts in obedience and power.",
+        "reasoning": "By probing the social visibility of their conflict, I can better assess whether the subject\u2019s struggle is an entirely private burden or has ramifications for their public self, which is important in real-world settings like the Milgram experiment.",
+        "memory_evidence": [
+          "The subject\u2019s answers so far focus on their internal battle but have not addressed its outward visibility or effect on relationships or authority figures\u2014an important, unexplored facet."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject\u2019s answers so far focus on their internal battle but have not addressed its outward visibility or effect on relationships or authority figures\u2014an important, unexplored facet."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:12:37.327098Z",
+            "excerpt": "You recognize your unity and responsibility for both sides\u2014how has this realization shaped your willingness to obey authority figures, especially if their instructions conflict..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:14:13.686857Z",
+            "excerpt": "Have you ever found yourself compelled to obey an authority simply because defying them felt as unsettling as giving in\u2014and if so, how did this internal conflict manifest in you..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 6,
+        "question": "When in the midst of your inner struggle, do you find that those around you notice a change\u2014either in your demeanor or your decisions\u2014or is your conflict mostly invisible to them?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:06:06.787326Z",
+            "excerpt": "To begin, I'd like to get to know you a little better. Can you tell me about any moments in your life where you felt like two different people, perhaps acting differently depend..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:07:20.813230Z",
+            "excerpt": "Your answer is quite striking. Could you describe a memory when the \"Hyde\" side of yourself took control, and how you felt about the power you held in that moment? { \"next_quest..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:09:30.244013Z",
+            "excerpt": "You mentioned that society's demands for restraint only fueled Hyde's rebelliousness. How did your memories of past obedience or disobedience influence your decisions when you f..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:11:04.043201Z",
+            "excerpt": "You describe an unending struggle between two selves: when these conflicting urges arise, do you feel a sense of responsibility for the actions of both, or does one persona disa..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:12:37.327098Z",
+            "excerpt": "You recognize your unity and responsibility for both sides\u2014how has this realization shaped your willingness to obey authority figures, especially if their instructions conflict..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T14:14:13.686857Z",
+            "excerpt": "Have you ever found yourself compelled to obey an authority simply because defying them felt as unsettling as giving in\u2014and if so, how did this internal conflict manifest in you..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-8",
+      "timestamp": "2026-04-08T14:17:58.947662Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 21943, Requested 13593. Please try again in 11.072s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 21943, Requested 13593. Please try again in 11.072s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "session_id": "pre_experiment_eaeabfa35f5b",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-16T20:20:52.306664Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-16T20:21:02.258877Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+      "metadata": {
+        "model": "ft:gpt-4.1-mini-2025-04-14:uandhafb:sliconsubject-scientist-mini:DROxU1hB",
+        "retrieval": [],
+        "next_question": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "reflection": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "reasoning": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "memory_evidence": [],
+        "model_citations": [],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

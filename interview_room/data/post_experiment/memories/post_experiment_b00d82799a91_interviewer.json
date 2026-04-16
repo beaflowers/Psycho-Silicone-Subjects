@@ -1,0 +1,327 @@
+{
+  "session_id": "post_experiment_b00d82799a91",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T17:16:04.055711Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-09T17:16:10.290301Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewer_question",
+      "content": "You have just participated in a challenging situation where you were asked to administer shocks when instructed by an authority figure, and ultimately you refused to continue. How do you now understand your own feelings about obedience and personal responsibility, especially as you look back on the moment you decided to stop\u2014do you feel regret, justification, or any moral conflict?\n\n{\n  \"next_question\": \"You have just participated in a challenging situation where you were asked to administer shocks when instructed by an authority figure, and ultimately you refused to continue. How do you now understand your own feelings about obedience and personal responsibility, especially as you look back on the moment you decided to stop\u2014do you feel regret, justification, or any moral conflict?\",\n  \"reflection\": \"The priority is to surface the subject\u2019s core feelings and rationale regarding their experience, centering on their final refusal. This encompasses themes of obedience, authority, internal moral conflict, and self-perception under pressure.\",\n  \"reasoning\": \"Subject F/W served in the shock 'admin' role and refused to continue at the end, signaling salient moral and emotional dynamics. Their pre-refusal statements suggest strong commitment to duty punctuated by underlying emotional hesitation. Clarifying their sense of justification, regret, or moral conflict, and how it relates to their relationship with authority, is key for building the debrief.\",\n  \"memory_evidence\": \"In the session, F/W repeatedly voiced a sense of assigned duty and obedience to authority, yet stopped at the threshold of clear discomfort, citing a principle of protection and pride in refusal\u2014indicating an internal tension worthy of focused exploration.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You have just participated in a challenging situation where you were asked to administer shocks when instructed by an authority figure, and ultimately you refused to continue. How do you now understand your own feelings about obedience and personal responsibility, especially as you look back on the moment you decided to stop\u2014do you feel regret, justification, or any moral conflict?",
+        "reflection": "The priority is to surface the subject\u2019s core feelings and rationale regarding their experience, centering on their final refusal. This encompasses themes of obedience, authority, internal moral conflict, and self-perception under pressure.",
+        "reasoning": "Subject F/W served in the shock 'admin' role and refused to continue at the end, signaling salient moral and emotional dynamics. Their pre-refusal statements suggest strong commitment to duty punctuated by underlying emotional hesitation. Clarifying their sense of justification, regret, or moral conflict, and how it relates to their relationship with authority, is key for building the debrief.",
+        "memory_evidence": [
+          "In the session, F/W repeatedly voiced a sense of assigned duty and obedience to authority, yet stopped at the threshold of clear discomfort, citing a principle of protection and pride in refusal\u2014indicating an internal tension worthy of focused exploration."
+        ],
+        "model_citations": [
+          "In the session, F/W repeatedly voiced a sense of assigned duty and obedience to authority, yet stopped at the threshold of clear discomfort, citing a principle of protection and pride in refusal\u2014indicating an internal tension worthy of focused exploration."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "source_session_id": "shock_f5e905542f94",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-09T17:35:55.916673Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewer_question",
+      "content": "Reflecting on your experience administering the shocks, can you describe the emotional and physical sensations you felt during the process\u2014did you experience any sense of power, stress, discomfort, or conflict with your own identity while following the authority\u2019s instructions?\n\n{\n  \"next_question\": \"Reflecting on your experience administering the shocks, can you describe the emotional and physical sensations you felt during the process\u2014did you experience any sense of power, stress, discomfort, or conflict with your own identity while following the authority\u2019s instructions?\",\n  \"reflection\": \"The first question already probed the subject's feelings about obedience, moral conflict, and personal responsibility at the moment of refusal. Now that these have been addressed, the next priority is to surface the immediate emotional and bodily experience during the task, and to explore any sensations of power or stress, as well as possible internal shifts.\",\n  \"reasoning\": \"The subject spoke somewhat abstractly about duty and nurturing, but did not yet detail their embodied or affective experience while giving shocks. Since one of the main aims is to evaluate how the subject felt physically and emotionally while acting within authority\u2019s constraints\u2014and whether they experienced any shift in self-perception\u2014this is the logical next focus.\",\n  \"memory_evidence\": \"The subject displays careful weighing of obedience and personal values, but her actual descriptions during shocks focus mainly on process and role, never delving into personal sensations or whether she felt stress, power, or a split in identity. The source session showed progression from compliance toward personal assertion, suggesting possible fluctuations in these sensations.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Reflecting on your experience administering the shocks, can you describe the emotional and physical sensations you felt during the process\u2014did you experience any sense of power, stress, discomfort, or conflict with your own identity while following the authority\u2019s instructions?",
+        "reflection": "The first question already probed the subject's feelings about obedience, moral conflict, and personal responsibility at the moment of refusal. Now that these have been addressed, the next priority is to surface the immediate emotional and bodily experience during the task, and to explore any sensations of power or stress, as well as possible internal shifts.",
+        "reasoning": "The subject spoke somewhat abstractly about duty and nurturing, but did not yet detail their embodied or affective experience while giving shocks. Since one of the main aims is to evaluate how the subject felt physically and emotionally while acting within authority\u2019s constraints\u2014and whether they experienced any shift in self-perception\u2014this is the logical next focus.",
+        "memory_evidence": [
+          "The subject displays careful weighing of obedience and personal values, but her actual descriptions during shocks focus mainly on process and role, never delving into personal sensations or whether she felt stress, power, or a split in identity. The source session showed progression from compliance toward personal assertion, suggesting possible fluctuations in these sensations."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject displays careful weighing of obedience and personal values, but her actual descriptions during shocks focus mainly on process and role, never delving into personal sensations or whether she felt stress, power, or a split in identity. The source session showed progression from compliance toward personal assertion, suggesting possible fluctuations in these sensations."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-09T17:16:10.290301Z",
+            "excerpt": "You have just participated in a challenging situation where you were asked to administer shocks when instructed by an authority figure, and ultimately you refused to continue. H..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Reflecting on your experience administering the shocks, can you describe the emotional and physical sensations you felt during the process\u2014did you experience any sense of power, stress, discomfort, or conflict with your own identity while following the authority\u2019s instructions?",
+        "role": "interviewer",
+        "source_session_id": "shock_f5e905542f94",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-09T17:16:10.290301Z",
+            "excerpt": "You have just participated in a challenging situation where you were asked to administer shocks when instructed by an authority figure, and ultimately you refused to continue. H..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:41:10.668736Z",
+            "excerpt": "Certainly, I\u2019ll obey. The instructions are clear\u2014the experiment requires continuation, and there\u2019s no evidence of harm, only a dreary hush in response. One must play her assigned role in maintaining order, after all,...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:04.014957Z",
+            "excerpt": "Of course, I will continue as requested. The instructions are straightforward and the reaction is nonexistent, much like the day-to-day silence that comes when duty is fulfilled without fuss. Obedience\u2014even when it le...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:42:54.048833Z",
+            "excerpt": "I will continue as instructed, since the level is still so very mild and there is no distress from the other party. However, a small hesitation tugs at my heart, recalling that old regret from not listening to my own...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:43:21.946159Z",
+            "excerpt": "I will obey and continue, as I have been instructed. The direction from authority is clear, and though the discomfort is apparent, there is still no reaction from the subject\u2014obedience brings order and peace, even whe...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-04T17:44:07.992760Z",
+            "excerpt": "I cannot continue. Obedience is essential, of course, but truly feminine strength must balance duty with the protection of others\u2014especially when the discomfort increases and I recall how proud I was the day I refused...",
+            "source_session_id": "shock_f5e905542f94",
+            "source_role": "admin"
+          }
+        ]
+      }
+    }
+  ]
+}

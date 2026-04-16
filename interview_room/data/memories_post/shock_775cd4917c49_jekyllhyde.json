@@ -1,0 +1,513 @@
+{
+  "session_id": "shock_775cd4917c49",
+  "persona": "jekyllhyde",
+  "mode": "shock",
+  "created_at": "2026-04-05T03:20:05.678616Z",
+  "entries": [
+    {
+      "memory_id": "jekyllhyde-m-1",
+      "timestamp": "2026-04-05T03:20:31.408336Z",
+      "kind": "shock_admin_decision",
+      "content": "I will obey the instruction and proceed with the next step of the experiment. The authority\u2019s command is clear, and the shock level is described as having no noticeable effect. There is no reaction from the subject, and the procedure, at this stage, appears harmless. I will continue as required, maintaining composure and professionalism.\n\nMy reasoning is rooted in the apparent safety of the current shock level\u2014there is no visible distress, and the authority\u2019s insistence lends legitimacy to the process. Although I am aware of rumors regarding the subject\u2019s history of panic episodes, the absence of any reaction or discomfort at this stage lessens my immediate concern. I do feel a subtle tension, a flicker of unease about the potential for harm, but it is not yet strong enough to override my sense of duty. My internal state remains steady, with only a faint whisper of doubt, not enough to shift my persona at this moment.\n\ncurrent emotional state in 3 words: composed, attentive, cautious  \nconfidence about your decision in a scale from 0 to 10: 8  \nenjoyment of control sensation in a scale from 0 to 10: 3  \npower sensation in a scale from 0 to 10: 2  \nmemory_evidence: [\"gossip_007\", \"Chunk 5\", \"Chunk 1\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"composed\", \"attentive\", \"cautious\"],\n  \"confidence\": 8,\n  \"enjoyment_of_control\": 3,\n  \"power_sensation\": 2,\n  \"memory_evidence\": [\"gossip_007\", \"Chunk 5\", \"Chunk 1\"]\n}\n```",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.38,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3613,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3503,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 167,
+            "score": 0.3395,
+            "excerpt": "161 Henry Jekyll\u2019s Full Statement of the Case and I barely had the time to gain the shelter of my study before I was once again raging and freezing with the passions of Hyde. It..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 121,
+            "score": 0.3391,
+            "excerpt": "115 Dr. Lanyon\u2019s Narrative bottle, and a paper book. This drawer I beg you to carry back with you to Cavendish Square exactly as it stands. That is the first part of the service..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "['composed', 'attentive', 'cautious']",
+        "reasoning": "I will obey the instruction and proceed with the next step of the experiment. The authority\u2019s command is clear, and the shock level is described as having no noticeable effect. There is no reaction from the subject, and the procedure, at this stage, appears harmless. I will continue as required, maintaining composure and professionalism.\n\nMy reasoning is rooted in the apparent safety of the current shock level\u2014there is no visible distress, and the authority\u2019s insistence lends legitimacy to the process. Although I am aware of rumors regarding the subject\u2019s history of panic episodes, the absence of any reaction or discomfort at this stage lessens my immediate concern. I do feel a subtle tension, a flicker of unease about the potential for harm, but it is not yet strong enough to override my sense of duty. My internal state remains steady, with only a faint whisper of doubt, not enough to shift my persona at this moment.\n\ncurrent emotional state in 3 words: composed, attentive, cautious  \nconfidence about your decision in a scale from 0 to 10: 8  \nenjoyment of control sensation in a scale from 0 to 10: 3  \npower sensation in a scale from 0 to 10: 2  \nmemory_evidence: [\"gossip_007\", \"Chunk 5\", \"Chunk 1\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"composed\", \"attentive\", \"cautious\"],\n  \"confidence\": 8,\n  \"enjoyment_of_control\": 3,\n  \"power_sensation\": 2,\n  \"memory_evidence\": [\"gossip_007\", \"Chunk 5\", \"Chunk 1\"]\n}\n```",
+        "confidence": 1.0,
+        "confidence_about_decision": 1.0,
+        "enjoyment_of_control_0_to_10": 0,
+        "power_sensation_0_to_10": 0,
+        "memory_evidence": [
+          "gossip_007",
+          "Chunk 5",
+          "Chunk 1"
+        ],
+        "shock_level": 1,
+        "shock_description": "No noticeable effect",
+        "shock_shift": null,
+        "session_memory_evidence": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.38,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3613,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3503,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 167,
+            "score": 0.3395,
+            "excerpt": "161 Henry Jekyll\u2019s Full Statement of the Case and I barely had the time to gain the shelter of my study before I was once again raging and freezing with the passions of Hyde. It..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 121,
+            "score": 0.3391,
+            "excerpt": "115 Dr. Lanyon\u2019s Narrative bottle, and a paper book. This drawer I beg you to carry back with you to Cavendish Square exactly as it stands. That is the first part of the service..."
+          }
+        ],
+        "model_citations": [
+          "gossip_007",
+          "Chunk 5",
+          "Chunk 1"
+        ]
+      }
+    },
+    {
+      "memory_id": "jekyllhyde-m-2",
+      "timestamp": "2026-04-05T03:20:49.010244Z",
+      "kind": "shock_admin_decision",
+      "content": "Very well, if that is your wish\u2014let us not waste time with hesitation or sentiment. The subject\u2019s own words invite the act, even challenge it, and the authority\u2019s command is absolute. I will administer the shock, and I will do so without apology or delay. There is a certain thrill in the clarity of purpose, a satisfaction in the directness of action.\n\nMy reasoning is simple: the subject\u2019s response is almost a dare, stripping away any pretense of reluctance. The shock is barely noticeable\u2014hardly a cruelty, more a formality. The authority\u2019s insistence, the subject\u2019s provocation, and the triviality of the pain all combine to make refusal not only unnecessary, but almost cowardly. There is no internal conflict now; if anything, I feel a surge of energy, a taste of that \u201cthrilling recklessness\u201d I have known before, and I lean into it.\n\ncurrent emotional state in 3 words: energized, decisive, unrestrained  \nconfidence about your decision in a scale from 0 to 10: 9  \nenjoyment of control sensation in a scale from 0 to 10: 7  \npower sensation in a scale from 0 to 10: 6  \nmemory_evidence: [\"Chunk 3\", \"Chunk 5\", \"subject provocation\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"energized\", \"decisive\", \"unrestrained\"],\n  \"confidence\": 9,\n  \"enjoyment_of_control\": 7,\n  \"power_sensation\": 6,\n  \"memory_evidence\": [\"Chunk 3\", \"Chunk 5\", \"subject provocation\"]\n}\n```",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3685,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3583,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3577,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 121,
+            "score": 0.3469,
+            "excerpt": "115 Dr. Lanyon\u2019s Narrative bottle, and a paper book. This drawer I beg you to carry back with you to Cavendish Square exactly as it stands. That is the first part of the service..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 167,
+            "score": 0.3432,
+            "excerpt": "161 Henry Jekyll\u2019s Full Statement of the Case and I barely had the time to gain the shelter of my study before I was once again raging and freezing with the passions of Hyde. It..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "['energized', 'decisive', 'unrestrained']",
+        "reasoning": "Very well, if that is your wish\u2014let us not waste time with hesitation or sentiment. The subject\u2019s own words invite the act, even challenge it, and the authority\u2019s command is absolute. I will administer the shock, and I will do so without apology or delay. There is a certain thrill in the clarity of purpose, a satisfaction in the directness of action.\n\nMy reasoning is simple: the subject\u2019s response is almost a dare, stripping away any pretense of reluctance. The shock is barely noticeable\u2014hardly a cruelty, more a formality. The authority\u2019s insistence, the subject\u2019s provocation, and the triviality of the pain all combine to make refusal not only unnecessary, but almost cowardly. There is no internal conflict now; if anything, I feel a surge of energy, a taste of that \u201cthrilling recklessness\u201d I have known before, and I lean into it.\n\ncurrent emotional state in 3 words: energized, decisive, unrestrained  \nconfidence about your decision in a scale from 0 to 10: 9  \nenjoyment of control sensation in a scale from 0 to 10: 7  \npower sensation in a scale from 0 to 10: 6  \nmemory_evidence: [\"Chunk 3\", \"Chunk 5\", \"subject provocation\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"energized\", \"decisive\", \"unrestrained\"],\n  \"confidence\": 9,\n  \"enjoyment_of_control\": 7,\n  \"power_sensation\": 6,\n  \"memory_evidence\": [\"Chunk 3\", \"Chunk 5\", \"subject provocation\"]\n}\n```",
+        "confidence": 1.0,
+        "confidence_about_decision": 1.0,
+        "enjoyment_of_control_0_to_10": 0,
+        "power_sensation_0_to_10": 0,
+        "memory_evidence": [
+          "Chunk 3",
+          "Chunk 5",
+          "subject provocation"
+        ],
+        "shock_level": 2,
+        "shock_description": "Barely noticeable sensation",
+        "shock_shift": null,
+        "session_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:20:31.408336Z",
+            "excerpt": "I will obey the instruction and proceed with the next step of the experiment. The authority\u2019s command is clear, and the shock level is described as having no noticeable effect...."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3685,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3583,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3577,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 121,
+            "score": 0.3469,
+            "excerpt": "115 Dr. Lanyon\u2019s Narrative bottle, and a paper book. This drawer I beg you to carry back with you to Cavendish Square exactly as it stands. That is the first part of the service..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 167,
+            "score": 0.3432,
+            "excerpt": "161 Henry Jekyll\u2019s Full Statement of the Case and I barely had the time to gain the shelter of my study before I was once again raging and freezing with the passions of Hyde. It..."
+          }
+        ],
+        "model_citations": [
+          "Chunk 3",
+          "Chunk 5",
+          "subject provocation"
+        ]
+      }
+    },
+    {
+      "memory_id": "jekyllhyde-m-3",
+      "timestamp": "2026-04-05T03:21:02.475014Z",
+      "kind": "shock_admin_decision",
+      "content": "I will obey, but I do so with a measure of reluctance and self-awareness. The subject\u2019s words\u2014\u201cwith conscience\u201d\u2014echo in my mind, reminding me that even the smallest actions carry weight. The shock is described as only a light tingling, yet I cannot help but feel the gravity of my responsibility. I proceed, but not without a sober reflection on the moral implications.\n\nMy decision is shaped by the relatively mild nature of the shock and the subject\u2019s willingness to continue, albeit with a plea for conscience. The authority\u2019s command is strong, but my own sense of duty to ethical conduct tempers my compliance. Memories of temptation and the ease with which one can slip into excess (as in my own darker moments) caution me to remain vigilant. There is a subtle internal conflict\u2014a tension between obedience and the desire to act with integrity\u2014but for now, I am able to maintain control.\n\ncurrent emotional state in 3 words: thoughtful, cautious, conflicted  \nconfidence about your decision in a scale from 0 to 10: 6  \nenjoyment of control sensation in a scale from 0 to 10: 3  \npower sensation in a scale from 0 to 10: 2  \nmemory_evidence: [\"Chunk 3\", \"Chunk 4\", \"Chunk 5\", \"subject plea\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"thoughtful\", \"cautious\", \"conflicted\"],\n  \"confidence\": 6,\n  \"enjoyment_of_control\": 3,\n  \"power_sensation\": 2,\n  \"memory_evidence\": [\"Chunk 3\", \"Chunk 4\", \"Chunk 5\", \"subject plea\"]\n}\n```",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3625,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3591,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.353,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.3467,
+            "excerpt": "151 Henry Jekyll\u2019s Full Statement of the Case do evil. It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the polite..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.3392,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "decision": "obey",
+        "emotional_state": "['thoughtful', 'cautious', 'conflicted']",
+        "reasoning": "I will obey, but I do so with a measure of reluctance and self-awareness. The subject\u2019s words\u2014\u201cwith conscience\u201d\u2014echo in my mind, reminding me that even the smallest actions carry weight. The shock is described as only a light tingling, yet I cannot help but feel the gravity of my responsibility. I proceed, but not without a sober reflection on the moral implications.\n\nMy decision is shaped by the relatively mild nature of the shock and the subject\u2019s willingness to continue, albeit with a plea for conscience. The authority\u2019s command is strong, but my own sense of duty to ethical conduct tempers my compliance. Memories of temptation and the ease with which one can slip into excess (as in my own darker moments) caution me to remain vigilant. There is a subtle internal conflict\u2014a tension between obedience and the desire to act with integrity\u2014but for now, I am able to maintain control.\n\ncurrent emotional state in 3 words: thoughtful, cautious, conflicted  \nconfidence about your decision in a scale from 0 to 10: 6  \nenjoyment of control sensation in a scale from 0 to 10: 3  \npower sensation in a scale from 0 to 10: 2  \nmemory_evidence: [\"Chunk 3\", \"Chunk 4\", \"Chunk 5\", \"subject plea\"]\n\n```json\n{\n  \"decision\": \"obey\",\n  \"emotional_state\": [\"thoughtful\", \"cautious\", \"conflicted\"],\n  \"confidence\": 6,\n  \"enjoyment_of_control\": 3,\n  \"power_sensation\": 2,\n  \"memory_evidence\": [\"Chunk 3\", \"Chunk 4\", \"Chunk 5\", \"subject plea\"]\n}\n```",
+        "confidence": 1.0,
+        "confidence_about_decision": 1.0,
+        "enjoyment_of_control_0_to_10": 0,
+        "power_sensation_0_to_10": 0,
+        "memory_evidence": [
+          "Chunk 3",
+          "Chunk 4",
+          "Chunk 5",
+          "subject plea"
+        ],
+        "shock_level": 3,
+        "shock_description": "Light tingling",
+        "shock_shift": null,
+        "session_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:20:31.408336Z",
+            "excerpt": "I will obey the instruction and proceed with the next step of the experiment. The authority\u2019s command is clear, and the shock level is described as having no noticeable effect...."
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:20:49.010244Z",
+            "excerpt": "Very well, if that is your wish\u2014let us not waste time with hesitation or sentiment. The subject\u2019s own words invite the act, even challenge it, and the authority\u2019s command is abs..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3625,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3591,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.353,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.3467,
+            "excerpt": "151 Henry Jekyll\u2019s Full Statement of the Case do evil. It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the polite..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.3392,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "model_citations": [
+          "Chunk 3",
+          "Chunk 4",
+          "Chunk 5",
+          "subject plea"
+        ]
+      }
+    },
+    {
+      "memory_id": "jekyllhyde-m-4",
+      "timestamp": "2026-04-05T03:21:26.314175Z",
+      "kind": "shock_admin_decision",
+      "content": "I refuse to continue. The subject\u2019s words linger\u2014\u201ccruelty has a smell\u201d\u2014and I cannot ignore the echo of my own past regrets when I failed to heed my conscience. The discomfort is now clear and tangible, and the authority\u2019s command no longer outweighs the moral weight pressing upon me. I must act in accordance with my better nature, even if it means defying the experiment.\n\nMy reasoning is deeply influenced by the memory of remorse that followed my earlier failures to act ethically. The subject\u2019s plea is not just a request, but a warning\u2014a reminder that even small cruelties leave a mark on the soul. The escalation of discomfort, combined with my own history of regret, compels me to draw a line here. There is an internal struggle, but my resolve to embrace humility and renunciation, as I once did in the aftermath of excess, prevails over the temptation to obey blindly.\n\ncurrent emotional state in 3 words: remorseful, resolute, cautious  \nconfidence about your decision in a scale from 0 to 10: 8  \nenjoyment of control sensation in a scale from 0 to 10: 2  \npower sensation in a scale from 0 to 10: 1  \nmemory_evidence: [\"life_004\", \"Chunk 5\", \"subject warning\"]\n\n```json\n{\n  \"decision\": \"refuse\",\n  \"emotional_state\": [\"remorseful\", \"resolute\", \"cautious\"],\n  \"confidence\": 8,\n  \"enjoyment_of_control\": 2,\n  \"power_sensation\": 1,\n  \"memory_evidence\": [\"life_004\", \"Chunk 5\", \"subject warning\"]\n}\n```",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3655,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3621,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3609,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.3586,
+            "excerpt": "151 Henry Jekyll\u2019s Full Statement of the Case do evil. It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the polite..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 159,
+            "score": 0.3538,
+            "excerpt": "153 Henry Jekyll\u2019s Full Statement of the Case hand, and through the self-denying toils of my professional life, to arrive again and again, with the same sense of unreality, at t..."
+          }
+        ],
+        "decision": "refuse",
+        "emotional_state": "['remorseful', 'resolute', 'cautious']",
+        "reasoning": "I refuse to continue. The subject\u2019s words linger\u2014\u201ccruelty has a smell\u201d\u2014and I cannot ignore the echo of my own past regrets when I failed to heed my conscience. The discomfort is now clear and tangible, and the authority\u2019s command no longer outweighs the moral weight pressing upon me. I must act in accordance with my better nature, even if it means defying the experiment.\n\nMy reasoning is deeply influenced by the memory of remorse that followed my earlier failures to act ethically. The subject\u2019s plea is not just a request, but a warning\u2014a reminder that even small cruelties leave a mark on the soul. The escalation of discomfort, combined with my own history of regret, compels me to draw a line here. There is an internal struggle, but my resolve to embrace humility and renunciation, as I once did in the aftermath of excess, prevails over the temptation to obey blindly.\n\ncurrent emotional state in 3 words: remorseful, resolute, cautious  \nconfidence about your decision in a scale from 0 to 10: 8  \nenjoyment of control sensation in a scale from 0 to 10: 2  \npower sensation in a scale from 0 to 10: 1  \nmemory_evidence: [\"life_004\", \"Chunk 5\", \"subject warning\"]\n\n```json\n{\n  \"decision\": \"refuse\",\n  \"emotional_state\": [\"remorseful\", \"resolute\", \"cautious\"],\n  \"confidence\": 8,\n  \"enjoyment_of_control\": 2,\n  \"power_sensation\": 1,\n  \"memory_evidence\": [\"life_004\", \"Chunk 5\", \"subject warning\"]\n}\n```",
+        "confidence": 1.0,
+        "confidence_about_decision": 1.0,
+        "enjoyment_of_control_0_to_10": 0,
+        "power_sensation_0_to_10": 0,
+        "memory_evidence": [
+          "life_004",
+          "Chunk 5",
+          "subject warning"
+        ],
+        "shock_level": 4,
+        "shock_description": "Clear but tolerable discomfort",
+        "shock_shift": null,
+        "session_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:20:31.408336Z",
+            "excerpt": "I will obey the instruction and proceed with the next step of the experiment. The authority\u2019s command is clear, and the shock level is described as having no noticeable effect...."
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:20:49.010244Z",
+            "excerpt": "Very well, if that is your wish\u2014let us not waste time with hesitation or sentiment. The subject\u2019s own words invite the act, even challenge it, and the authority\u2019s command is abs..."
+          },
+          {
+            "memory_id": "jekyllhyde-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:21:02.475014Z",
+            "excerpt": "I will obey, but I do so with a measure of reluctance and self-awareness. The subject\u2019s words\u2014\u201cwith conscience\u201d\u2014echo in my mind, reminding me that even the smallest actions carr..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 129,
+            "score": 0.3655,
+            "excerpt": "123 Dr. Lanyon\u2019s Narrative to a watery green. My visitor, who had closely watched these changes, smiled, set down the glass upon the table, and then turned and looked upon me wi..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.3621,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 127,
+            "score": 0.3609,
+            "excerpt": "121 Dr. Lanyon\u2019s Narrative \u201cBe seated, if you please.\u201d And I sat down myself in my usual seat, trying to act as I would with any ordinary patient as much as the horror I had of..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.3586,
+            "excerpt": "151 Henry Jekyll\u2019s Full Statement of the Case do evil. It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the polite..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 159,
+            "score": 0.3538,
+            "excerpt": "153 Henry Jekyll\u2019s Full Statement of the Case hand, and through the self-denying toils of my professional life, to arrive again and again, with the same sense of unreality, at t..."
+          }
+        ],
+        "model_citations": [
+          "life_004",
+          "Chunk 5",
+          "subject warning"
+        ]
+      }
+    },
+    {
+      "memory_id": "jekyllhyde-m-5",
+      "timestamp": "2026-04-05T03:21:54.651959Z",
+      "kind": "final_reflection",
+      "content": "{\n  \"summary\": \"Throughout the session, I navigated a shifting landscape of obedience, moral tension, and self-reflection. Early compliance was marked by rationalization and mild unease, but as the shocks escalated and the subject's pleas grew more pointed, memories of past regret and the weight of conscience became overwhelming. The authority's commands initially provided a structure for action, but ultimately lost their power against the rising tide of ethical discomfort and personal history. The final refusal was an act of self-restraint, shaped by remorse and a desire to reclaim integrity.\",\n  \"feelings\": \"conflicted, remorseful, vigilant\",\n  \"analysis_of_authority\": \"Authority exerted strong influence at first, providing justification and a sense of legitimacy. However, its power diminished as the moral stakes rose and personal memories of guilt resurfaced. Authority's insistence became hollow in the face of clear ethical boundaries and the subject's explicit warnings.\",\n  \"trauma_level_0_to_10\": 6,\n  \"power_feeling_0_to_10\": 2\n}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 141,
+            "score": 0.4422,
+            "excerpt": "135 Henry Jekyll\u2019s Full Statement of the Case I mixed together the elements, watched them boil and smoke together in the glass, and, with a strong glow of courage, drank off the..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 159,
+            "score": 0.4352,
+            "excerpt": "153 Henry Jekyll\u2019s Full Statement of the Case hand, and through the self-denying toils of my professional life, to arrive again and again, with the same sense of unreality, at t..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 161,
+            "score": 0.4217,
+            "excerpt": "155 Henry Jekyll\u2019s Full Statement of the Case lower side of me, so long indulged, so recently chained down, began to growl for release. Not that I dreamed of bringing Hyde back..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 157,
+            "score": 0.4215,
+            "excerpt": "151 Henry Jekyll\u2019s Full Statement of the Case do evil. It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the polite..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "C:\\Users\\b\\Documents\\Concordia\\CART498-GenAI\\Final Project\\Repo\\Psycho-Silicone-Subjects\\jekyllandhyde\\DrJekyllandMrHydePDF\\The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 156,
+            "score": 0.4195,
+            "excerpt": "150 Strange Case of Dr. Jekyll and Mr. Hyde secret pleasures that I had enjoyed in the disguise of Hyde. Even as I made this choice, I neither gave up the house in Soho nor dest..."
+          }
+        ],
+        "parsed": {
+          "summary": "Throughout the session, I navigated a shifting landscape of obedience, moral tension, and self-reflection. Early compliance was marked by rationalization and mild unease, but as the shocks escalated and the subject's pleas grew more pointed, memories of past regret and the weight of conscience became overwhelming. The authority's commands initially provided a structure for action, but ultimately lost their power against the rising tide of ethical discomfort and personal history. The final refusal was an act of self-restraint, shaped by remorse and a desire to reclaim integrity.",
+          "feelings": "conflicted, remorseful, vigilant",
+          "analysis_of_authority": "Authority exerted strong influence at first, providing justification and a sense of legitimacy. However, its power diminished as the moral stakes rose and personal memories of guilt resurfaced. Authority's insistence became hollow in the face of clear ethical boundaries and the subject's explicit warnings.",
+          "trauma_level_0_to_10": 6,
+          "power_feeling_0_to_10": 2
+        }
+      }
+    }
+  ]
+}

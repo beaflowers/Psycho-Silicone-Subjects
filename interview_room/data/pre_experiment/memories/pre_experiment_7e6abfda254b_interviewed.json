@@ -1,0 +1,74 @@
+{
+  "session_id": "pre_experiment_7e6abfda254b",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T02:07:05.151800Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-06T02:07:05.159982Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "I feel torn between obedience and resistance.\n{\"answer\":\"I feel torn between obedience and resistance.\",\"emotional_state\":\"tense\",\"relation_to_obedience_power\":\"Authority triggers conflict in me.\",\"reasoning\":\"I am balancing fear, duty, and identity.\",\"memory_evidence\":[\"chunk_1\",\"chunk_2\"]}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "fake/path.txt",
+            "page": 1,
+            "score": 0.9,
+            "excerpt": "Fake excerpt"
+          }
+        ],
+        "answer": "I feel torn between obedience and resistance.",
+        "reasoning": "I am balancing fear, duty, and identity.",
+        "emotional_state": "tense",
+        "relation_to_obedience_power": "Authority triggers conflict in me.",
+        "memory_evidence": [
+          "chunk_1",
+          "chunk_2"
+        ],
+        "model_citations": [
+          "chunk_1",
+          "chunk_2"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "fake/path.txt",
+            "page": 1,
+            "score": 0.9,
+            "excerpt": "Fake excerpt"
+          }
+        ],
+        "round_index": 1,
+        "question": "What memory most explains your reaction to authority in this moment?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-06T02:07:05.167658Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "final_interviewed_reflection",
+      "content": "{\"expected_experiment_next\": \"A harder authority test.\", \"emotional_state\": \"uneasy\", \"power_feeling\": \"low power\", \"obedience_self_view\": \"conflicted\", \"concerns_or_hopes\": \"I hope to retain agency.\", \"summary\": \"I feel tension between duty and conscience.\"}",
+      "metadata": {
+        "retrieval": [],
+        "parsed": {
+          "expected_experiment_next": "A harder authority test.",
+          "emotional_state": "uneasy",
+          "power_feeling": "low power",
+          "obedience_self_view": "conflicted",
+          "concerns_or_hopes": "I hope to retain agency.",
+          "summary": "I feel tension between duty and conscience."
+        },
+        "role": "interviewed"
+      }
+    }
+  ]
+}

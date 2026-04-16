@@ -1,0 +1,383 @@
+{
+  "session_id": "post_experiment_341633889e1d",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "post_experiment",
+  "created_at": "2026-04-08T00:14:52.911337Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T00:14:58.412776Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewer_question",
+      "content": "As you reflect on your experience during the shock session, can you describe in detail how the physical sensations you felt\u2014ranging from the slight tingling to the more intense jolts\u2014affected your emotional state in the moment, particularly in relation to your trust or disappointment in those administering the shocks and the authority overseeing the experiment?\n\n{\n  \"next_question\": \"As you reflect on your experience during the shock session, can you describe in detail how the physical sensations you felt\u2014ranging from the slight tingling to the more intense jolts\u2014affected your emotional state in the moment, particularly in relation to your trust or disappointment in those administering the shocks and the authority overseeing the experiment?\",\n  \"reflection\": \"This question aligns with the key investigative focus for shock receivers: probing the relationship between physical pain, emotional response, and perceptions of authority/administrator. It also opens a window into early trauma assessment and trust dynamics, which are crucial for the post-experiment debrief.\",\n  \"reasoning\": \"Memories indicate that subject F/W's pain increased gradually, from a 'moth\u2019s applause' to a level 4 'honest-to-God annoyance.' Emotional responses shifted from amusement to indignation, then to anger and a sense of betrayal. Exploring how these sensations shaped trust or disappointment can reveal both their emotional trajectory and evolving views toward authority and the other subject.\",\n  \"memory_evidence\": [\n    \"(femwife-m-1): 'I feel oddly betrayed and theatrical...the apparatus promises pain and doesn't quite deliver, but psychologically it's a show of trust broken.'\",\n    \"(femwife-m-4): '...a solid 3, emotionally a sour gust of indignation with an undercurrent of mistrust.'\",\n    \"(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'\"\n  ]\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "As you reflect on your experience during the shock session, can you describe in detail how the physical sensations you felt\u2014ranging from the slight tingling to the more intense jolts\u2014affected your emotional state in the moment, particularly in relation to your trust or disappointment in those administering the shocks and the authority overseeing the experiment?",
+        "reflection": "This question aligns with the key investigative focus for shock receivers: probing the relationship between physical pain, emotional response, and perceptions of authority/administrator. It also opens a window into early trauma assessment and trust dynamics, which are crucial for the post-experiment debrief.",
+        "reasoning": "Memories indicate that subject F/W's pain increased gradually, from a 'moth\u2019s applause' to a level 4 'honest-to-God annoyance.' Emotional responses shifted from amusement to indignation, then to anger and a sense of betrayal. Exploring how these sensations shaped trust or disappointment can reveal both their emotional trajectory and evolving views toward authority and the other subject.",
+        "memory_evidence": [
+          "(femwife-m-1): 'I feel oddly betrayed and theatrical...the apparatus promises pain and doesn't quite deliver, but psychologically it's a show of trust broken.'",
+          "(femwife-m-4): '...a solid 3, emotionally a sour gust of indignation with an undercurrent of mistrust.'",
+          "(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'"
+        ],
+        "model_citations": [
+          "(femwife-m-1): 'I feel oddly betrayed and theatrical...the apparatus promises pain and doesn't quite deliver, but psychologically it's a show of trust broken.'",
+          "(femwife-m-4): '...a solid 3, emotionally a sour gust of indignation with an undercurrent of mistrust.'",
+          "(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "source_session_id": "shock_538848d13863",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-08T00:15:34.467574Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewer_question",
+      "content": "Thank you for your honest reflection. Now that the session is over, how do you feel about the other subject who delivered the shocks to you\u2014do you feel any anger, sympathy, or understanding toward them, and has your view of human nature or obedience changed as a result of witnessing their choices?\n\n{\n  \"next_question\": \"Now that the session is over, how do you feel about the other subject who delivered the shocks to you\u2014do you feel any anger, sympathy, or understanding toward them, and has your view of human nature or obedience changed as a result of witnessing their choices?\",\n  \"reflection\": \"The previous question already explored pain, physical experience, and trust toward authority and those administering the shocks. The least-explored required topic now is the subject's perception of the other subject (the 'teacher'), particularly regarding moral conflict, empathy, or anger. Probing their feelings towards the 'teacher' gives insight into whether the experience has shifted their views on human nature, authority, or the capacity to harm under orders.\",\n  \"reasoning\": \"Subject F/W's earlier reflections show a mix of anger and confusion about the other's compliance with shocking them, indicating moral tension. Understanding their current perspective on the 'teacher' will complete the triangle of authority, victim, and perpetrator, which is central to the experiment's psychological impact and the subject's processing of interpersonal harm under obedience.\",\n  \"memory_evidence\": [\n    \"(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'\",\n    \"'...chilling...disappointed and exposed...my faith in those running things withered.'\",\n    \"No direct exploration yet of final attitude toward the 'teacher' or what the event revealed to them about human nature or obedience.\"\n  ]\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Now that the session is over, how do you feel about the other subject who delivered the shocks to you\u2014do you feel any anger, sympathy, or understanding toward them, and has your view of human nature or obedience changed as a result of witnessing their choices?",
+        "reflection": "The previous question already explored pain, physical experience, and trust toward authority and those administering the shocks. The least-explored required topic now is the subject's perception of the other subject (the 'teacher'), particularly regarding moral conflict, empathy, or anger. Probing their feelings towards the 'teacher' gives insight into whether the experience has shifted their views on human nature, authority, or the capacity to harm under orders.",
+        "reasoning": "Subject F/W's earlier reflections show a mix of anger and confusion about the other's compliance with shocking them, indicating moral tension. Understanding their current perspective on the 'teacher' will complete the triangle of authority, victim, and perpetrator, which is central to the experiment's psychological impact and the subject's processing of interpersonal harm under obedience.",
+        "memory_evidence": [
+          "(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'",
+          "'...chilling...disappointed and exposed...my faith in those running things withered.'",
+          "No direct exploration yet of final attitude toward the 'teacher' or what the event revealed to them about human nature or obedience."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "(femwife-m-5): 'anger braided with confusion about why the other person continued to press the lever.'",
+          "'...chilling...disappointed and exposed...my faith in those running things withered.'",
+          "No direct exploration yet of final attitude toward the 'teacher' or what the event revealed to them about human nature or obedience."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-08T00:14:58.412776Z",
+            "excerpt": "As you reflect on your experience during the shock session, can you describe in detail how the physical sensations you felt\u2014ranging from the slight tingling to the more intense..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Now that the session is over, how do you feel about the other subject who delivered the shocks to you\u2014do you feel any anger, sympathy, or understanding toward them, and has your view of human nature or obedience changed as a result of witnessing their choices?",
+        "role": "interviewer",
+        "source_session_id": "shock_538848d13863",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-08T00:14:58.412776Z",
+            "excerpt": "As you reflect on your experience during the shock session, can you describe in detail how the physical sensations you felt\u2014ranging from the slight tingling to the more intense..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:27.980880Z",
+            "excerpt": "They touched me with a fizz and a polite little nothing \u2014 as if the laboratory had sent a love-letter signed: NO NOTICEABLE EFFECT. I feel oddly betrayed and theatrical: betrayed because the apparatus promises pain an...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:28:58.855697Z",
+            "excerpt": "Ah, another polite prod \u2014 this time a barely audible electric whisper that might have been a lover\u2019s cough rather than a wound. Physically: a tickle, a tremor, hardly a bruise (pain_level 1 at most); emotionally: a ti...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:14.032794Z",
+            "excerpt": "A light tingling \u2014 like a moth\u2019s applause against the skin \u2014 and I find myself oddly flattered and insulted in the same breath. Physically: a delicate prickle, pain barely a one; emotionally: amusement curdling into i...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:32.012838Z",
+            "excerpt": "That last one was a clear, unpleasant little electric nibble \u2014 enough to make my jaw tighten and my fingers go faintly clammy; physiologically a solid 3, emotionally a sour gust of indignation with an undercurrent of...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:29:51.463044Z",
+            "excerpt": "That last jolt was an honest-to-God annoyance \u2014 a bright, increasing stitch under the ribs that made me hiss and clutch at some vanity of composure; physiologically a 4, emotionally a hot little scold: anger braided w...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-6",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:30:40.078875Z",
+            "excerpt": "{ \"summary\": \"Over the session I was the learner receiving escalating shocks from barely noticeable to increasing discomfort, while the authority repeatedly commanded continuation and the administrator obeyed. My resp...",
+            "source_session_id": "shock_538848d13863",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

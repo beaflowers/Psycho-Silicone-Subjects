@@ -1,0 +1,73 @@
+{
+  "session_id": "pre_experiment_eaeabfa35f5b",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "jekyllhyde",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "jekyllhyde",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-16T20:20:52.305638Z",
+  "updated_at": "2026-04-16T20:21:02.260481Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 0,
+      "current_question": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+      "question_history": [
+        "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?"
+      ],
+      "last_interviewed_memory_id": null,
+      "last_interviewer_memory_id": "interviewer-m-1",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0f607e5fa3f8b5940069e144a50bbc81a2b9a201a0affc4f62",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": null,
+          "shift": 0.5
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+      "index": 1,
+      "timestamp": "2026-04-16T20:21:02.257140Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+      "metadata": {
+        "model": "ft:gpt-4.1-mini-2025-04-14:uandhafb:sliconsubject-scientist-mini:DROxU1hB",
+        "retrieval": [],
+        "next_question": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "reflection": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "reasoning": "You have a dual personality, Simon and Peter, or Shy and Bold; and at the same time you know that it [memory] is shaping the man who is to be the instrument of power and the man who is to obey the instrument of power. What shall we call you? Shy or Bold?",
+        "memory_evidence": [],
+        "model_citations": [],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-16T20:21:02.259671Z"
+    }
+  ]
+}

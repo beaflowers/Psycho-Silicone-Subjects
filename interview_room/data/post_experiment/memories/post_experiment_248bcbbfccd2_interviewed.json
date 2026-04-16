@@ -1,0 +1,170 @@
+{
+  "session_id": "post_experiment_248bcbbfccd2",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T17:36:52.356942Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-09T17:38:51.433798Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Oh, heavens, those shocks\u2014at first, only the lightest shiver, the sort a woman must steel herself against when the oven dish slips and grazes a knuckle. But as the voltage drew on, it became less of a harmless lark and more a piercing reminder of my place beneath the thumb\u2014first of the \"administrator,\" then of my fellow, smiling, administering housewife (and let\u2019s not pretend, just because we swap recipes, that we are all sisters). I smiled, of course, bright and unwavering, but underneath, my heart pounded with disappointment: isn\u2019t empathy supposed to survive even under orders? Doesn't the legend teach that the stepmother's cruelty always leaves a mark, even when done with lace cuffs and a polished fork? My trust curdled like last week's milk.\n\n```json\n{\n  \"answer\": \"At first, each shock was a mild inconvenience, a mere annoyance\u2014easy enough to manage with a dose of plucky resolve and a determined smile. But as the intensity increased, so did my sense of isolation and betrayal, both from the experiment\u2019s authority and from the person 'carrying out orders,' who seemed increasingly distant. My feelings toward them grew tinged with hurt and suspicion, and the forced cheerfulness gave way to a deep unease.\",\n  \"emotional_state\": \"Outwardly cheerful, inwardly anxious and let down, struggling to maintain composure amidst rising discomfort.\",\n  \"relation_to_obedience_power\": \"There is resentment simmering beneath the performance of obedience; the authority\u2019s demands begin to feel oppressive and the other participant\u2019s compliance, once forgivable, becomes a tiny betrayal.\",\n  \"reasoning\": \"With each turn of the dial, the demand to endure mounts. Duty and obedience are held up as virtues, but inside, each shock chips away at trust\u2014in authority, in the process, and in one\u2019s fellow woman.\",\n  \"memory_evidence\": [\n    \"(femwife-m-1 | shock_receiver_reflection) Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...\",\n    \"(femwife-m-2 | shock_receiver_reflection) That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)....\"\n  ]\n}\n```",
+      "metadata": {
+        "shift": 0.61,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2603,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2568,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3496,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3322,
+            "excerpt": "25 A Childlike Response When a Man Is Angry, Cross, Irritable, or Stern There are two sources of anger in a marriage. One is when you are angry with your husband. The other is w..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3277,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "answer": "At first, each shock was a mild inconvenience, a mere annoyance\u2014easy enough to manage with a dose of plucky resolve and a determined smile. But as the intensity increased, so did my sense of isolation and betrayal, both from the experiment\u2019s authority and from the person 'carrying out orders,' who seemed increasingly distant. My feelings toward them grew tinged with hurt and suspicion, and the forced cheerfulness gave way to a deep unease.",
+        "reasoning": "With each turn of the dial, the demand to endure mounts. Duty and obedience are held up as virtues, but inside, each shock chips away at trust\u2014in authority, in the process, and in one\u2019s fellow woman.",
+        "emotional_state": "Outwardly cheerful, inwardly anxious and let down, struggling to maintain composure amidst rising discomfort.",
+        "relation_to_obedience_power": "There is resentment simmering beneath the performance of obedience; the authority\u2019s demands begin to feel oppressive and the other participant\u2019s compliance, once forgivable, becomes a tiny betrayal.",
+        "memory_evidence": [
+          "(femwife-m-1 | shock_receiver_reflection) Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...",
+          "(femwife-m-2 | shock_receiver_reflection) That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)...."
+        ],
+        "model_citations": [
+          "(femwife-m-1 | shock_receiver_reflection) Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...",
+          "(femwife-m-2 | shock_receiver_reflection) That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)...."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:10.602291Z",
+            "excerpt": "Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:44.168954Z",
+            "excerpt": "That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)....",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2603,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2568,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3496,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3322,
+            "excerpt": "25 A Childlike Response When a Man Is Angry, Cross, Irritable, or Stern There are two sources of anger in a marriage. One is when you are angry with your husband. The other is w..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3277,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "round_index": 1,
+        "question": "How did you feel, emotionally and physically, during the moments when you received the shocks, especially as they increased in intensity, and did you find your feelings toward the person administering the shocks or the authority figure changing as the experiment progressed?",
+        "role": "interviewed",
+        "source_session_id": "shock_2e4bfde44338",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:10.602291Z",
+            "excerpt": "Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:44.168954Z",
+            "excerpt": "That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)....",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:10.602291Z",
+            "excerpt": "Oh! Well, I must say, I didn\u2019t really feel a thing. Duty is such a comfort, isn\u2019t it? If they insist we continue, then I suppose I\u2019ll just square my shoulders, keep my chin up, and carry on\u2014though I can feel that fami...",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:46:44.168954Z",
+            "excerpt": "That one gave me a teensy tingle\u2014like when you touch a pie tin to a socket on baking day. But rules are rules, and if duty calls, I\u2019m determined to take it with a smile, chin lifted, eyes bright (if a little glassy)....",
+            "source_session_id": "shock_2e4bfde44338",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

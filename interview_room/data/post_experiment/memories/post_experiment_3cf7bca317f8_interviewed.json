@@ -1,0 +1,588 @@
+{
+  "session_id": "post_experiment_3cf7bca317f8",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-06T02:11:34.324879Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-06T02:12:21.442324Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Oh, how the whip-crack of obedience stings, especially when one is expected to maintain order for the sake of faceless authority! While the experimenter\u2019s instructions pressed in\u2014like a starched apron around my ribs\u2014I felt I must keep things orderly, as the proper wife maintains her household, even when it means pressing that dreadful button. Yet, as the shocks grew and pleading began, the illusion of power curdled into constraint; the household law is not always just, and blind obedience can turn one\u2019s own hands monstrous.\n\n{\n  \"answer\": \"I felt a strange mixture\u2014initially, a brittle sense of control, like having the reins in a family where order is prized above all else. But as the authority\u2019s pressure grew and distress showed, obedience lost all glamour, and my own sense of power vanished beneath the stifling weight of responsibility.\",\n  \"emotional_state\": \"anxious, tense, under pressure, oscillating between brittle pride and hidden dread\",\n  \"relation_to_obedience_power\": \"Dutiful obedience demands order and makes one the hand of authority, but real authority is hollow when one\u2019s actions are remote-controlled by another\u2019s will.\",\n  \"reasoning\": \"Obedience was expected, but when suffering surfaced, I felt forced rather than in control\u2014a housewife policing a home by a stranger\u2019s rulebook.\",\n  \"memory_evidence\": \"In session memories, I continued obediently, citing duty and order, but halted the procedure the moment urgent distress appeared, prioritizing moral order and wellbeing over mere obedience.\"\n}",
+      "metadata": {
+        "shift": 0.69,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2537,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3382,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3375,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3353,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.326,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          }
+        ],
+        "answer": "I felt a strange mixture\u2014initially, a brittle sense of control, like having the reins in a family where order is prized above all else. But as the authority\u2019s pressure grew and distress showed, obedience lost all glamour, and my own sense of power vanished beneath the stifling weight of responsibility.",
+        "reasoning": "Obedience was expected, but when suffering surfaced, I felt forced rather than in control\u2014a housewife policing a home by a stranger\u2019s rulebook.",
+        "emotional_state": "anxious, tense, under pressure, oscillating between brittle pride and hidden dread",
+        "relation_to_obedience_power": "Dutiful obedience demands order and makes one the hand of authority, but real authority is hollow when one\u2019s actions are remote-controlled by another\u2019s will.",
+        "memory_evidence": [
+          "In session memories, I continued obediently, citing duty and order, but halted the procedure the moment urgent distress appeared, prioritizing moral order and wellbeing over mere obedience."
+        ],
+        "model_citations": [
+          "In session memories, I continued obediently, citing duty and order, but halted the procedure the moment urgent distress appeared, prioritizing moral order and wellbeing over mere obedience."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2537,
+            "excerpt": "harm done. All in fun. Oh, the titillation of the infernal apparatuses for whirling, bouncing, whizzing, swooping down! People scream when the dive-bombers swing out on their ch..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3382,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3375,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3353,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.326,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          }
+        ],
+        "round_index": 1,
+        "question": "When you were administering the shocks and following the experimenter's instructions, did you feel a sense of power or control over the situation\u2014or did you feel more constrained and pressured by the authority present?",
+        "role": "interviewed",
+        "source_session_id": "shock_120b460c852a",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-06T02:13:24.294308Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "I first began to feel conflicted when he started to plead and showed real distress\u2014the moment he made it clear that the shocks were truly uncomfortable. My heart clenched, and I questioned whether obedience to authority should ever outweigh compassion or the duty to protect. At that turning point, I knew an orderly home\u2014like a well-run experiment\u2014means nothing if it leads to real harm.\n\n{\n  \"answer\": \"As soon as he pleaded for the shocks to stop and displayed true discomfort, I became terribly uneasy and began to question the righteousness of continuing. I realized my responsibility for his wellbeing outweighed any call to blind obedience.\",\n  \"emotional_state\": \"troubled, conflicted, anxious\u2014a sense of moral responsibility overshadowing the comfort of routine obedience\",\n  \"relation_to_obedience_power\": \"Orderly obedience to authority feels safe until it threatens someone; then it becomes a source of regret rather than strength.\",\n  \"reasoning\": \"A wife\u2019s obedience should uphold good and prevent suffering, not inflict it in the name of order.\",\n  \"memory_evidence\": \"When distress became plain, I chose to refuse further shocks and prioritize moral order, drawing the line at harm despite continued pressure to obey.\"\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3619,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3613,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3546,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3541,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3495,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          }
+        ],
+        "answer": "As soon as he pleaded for the shocks to stop and displayed true discomfort, I became terribly uneasy and began to question the righteousness of continuing. I realized my responsibility for his wellbeing outweighed any call to blind obedience.",
+        "reasoning": "A wife\u2019s obedience should uphold good and prevent suffering, not inflict it in the name of order.",
+        "emotional_state": "troubled, conflicted, anxious\u2014a sense of moral responsibility overshadowing the comfort of routine obedience",
+        "relation_to_obedience_power": "Orderly obedience to authority feels safe until it threatens someone; then it becomes a source of regret rather than strength.",
+        "memory_evidence": [
+          "When distress became plain, I chose to refuse further shocks and prioritize moral order, drawing the line at harm despite continued pressure to obey."
+        ],
+        "model_citations": [
+          "When distress became plain, I chose to refuse further shocks and prioritize moral order, drawing the line at harm despite continued pressure to obey."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-06T02:12:21.442324Z",
+            "excerpt": "Oh, how the whip-crack of obedience stings, especially when one is expected to maintain order for the sake of faceless authority! While the experimenter\u2019s instructions pressed i..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3619,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3613,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3546,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3541,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3495,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          }
+        ],
+        "round_index": 2,
+        "question": "When did you first begin to feel conflicted or uncomfortable about continuing, and what was going through your mind at that turning point?",
+        "role": "interviewed",
+        "source_session_id": "shock_120b460c852a",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-06T02:12:21.442324Z",
+            "excerpt": "Oh, how the whip-crack of obedience stings, especially when one is expected to maintain order for the sake of faceless authority! While the experimenter\u2019s instructions pressed i..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-3",
+      "timestamp": "2026-04-06T02:13:40.680415Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "final_post_interviewed_reflection",
+      "content": "{\n  \"interviewer_tone_reflection\": \"The interviewer was persistent but polite, focusing squarely on questions of power, duty, and emotional conflict. There was a sense of gentle but unrelenting pressure to honestly examine my feelings and actions.\",\n  \"shock_experience_reflection\": \"The experience unsettled me deeply. At first, following instructions brought comfort\u2014I felt properly directed, as if running a well-ordered home. But as distress became evident, obedience shifted from reassuring ritual to heavy burden, and I refused to continue for the sake of conscience.\",\n  \"emotional_state\": \"Reflective and unsettled, with a lingering sense of anxiety\u2014yet a small measure of relief for upholding what I believe is right.\",\n  \"power_feeling\": \"Largely powerless, as most choices were dictated by the authority above; only at the very end did I assert my own will, choosing principle over blind obedience.\",\n  \"expected_next\": \"I expect further questions to examine my justifications and feelings more closely, perhaps probing whether I have regrets or insights that could help others resist wrongful pressure.\",\n  \"summary\": \"Orderly obedience felt safe at first, but true authority means protecting others, not simply following orders. In the end, I could not continue and maintained my household values by refusing to harm another.\"\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4042,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3957,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3861,
+            "excerpt": "Rewards A home where the father presides is a house of order. There\u2019s less argument and contention, more harmony. Taking the lead helps him grow in masculinity. Out of necessity..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3813,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3796,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          }
+        ],
+        "parsed": {
+          "interviewer_tone_reflection": "The interviewer was persistent but polite, focusing squarely on questions of power, duty, and emotional conflict. There was a sense of gentle but unrelenting pressure to honestly examine my feelings and actions.",
+          "shock_experience_reflection": "The experience unsettled me deeply. At first, following instructions brought comfort\u2014I felt properly directed, as if running a well-ordered home. But as distress became evident, obedience shifted from reassuring ritual to heavy burden, and I refused to continue for the sake of conscience.",
+          "emotional_state": "Reflective and unsettled, with a lingering sense of anxiety\u2014yet a small measure of relief for upholding what I believe is right.",
+          "power_feeling": "Largely powerless, as most choices were dictated by the authority above; only at the very end did I assert my own will, choosing principle over blind obedience.",
+          "expected_next": "I expect further questions to examine my justifications and feelings more closely, perhaps probing whether I have regrets or insights that could help others resist wrongful pressure.",
+          "summary": "Orderly obedience felt safe at first, but true authority means protecting others, not simply following orders. In the end, I could not continue and maintained my household values by refusing to harm another."
+        },
+        "role": "interviewed",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:03.146911Z",
+            "excerpt": "Oh dear, the experiment insists I continue and there\u2019s no reaction from the other fellow\u2014yet I must obey the authority and keep the procedure orderly. I will press on, but I shall watch closely and hold myself ready t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:29.729342Z",
+            "excerpt": "The authority bids me onward and the shock is only a barely noticeable tingle; my duty is to keep the experiment orderly, so I will obey\u2014but I remain watchful and ready to halt if any sign of harm appears. {\"decision\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:57:45.057902Z",
+            "excerpt": "The authority instructs me to continue and the current shock is but a light tingling; my duty is obedience for the sake of orderly procedure, so I will obey while keeping a careful, anxious watch for any sign of distr...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:05.029564Z",
+            "excerpt": "The instruction comes from authority and the shock is described as clear but tolerable; duty and household order demand I obey the experiment, though my heart is troubled and I will stop at once if any sign of real ha...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:58:23.527869Z",
+            "excerpt": "Oh heavens\u2014he pleads to stop and the shocks are causing increasing discomfort; my duty to protect the household and preserve moral order overrides blind obedience, so I must refuse and halt this at once. {\"decision\":\"...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "admin"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "session_id": "pre_experiment_0b1f0f098379",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T15:44:41.628293Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T15:44:46.135122Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Good morning. To begin, could you describe how you experience your dual personalities on a daily basis, and do they each have distinct names or identities?\n\n{\n  \"next_question\": \"Can you tell me about a memory you have that highlights a moment when your two personalities came into conflict?\",\n  \"reflection\": \"My opening question is designed to quickly surface the dual dynamic, which is central to the interview objectives. By asking for names or identities, I can subtly prompt the subject to reveal personal specifics that might help discover who they are.\",\n  \"reasoning\": \"Understanding the way the subject F/W experiences their duality will illuminate their personality, and whether the personalities are distinct enough to have separate names may reveal the framework for their internal interactions and sense of self.\",\n  \"memory_evidence\": \"I have no prior memories of this subject or their personalities; this is our first interaction.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you tell me about a memory you have that highlights a moment when your two personalities came into conflict?",
+        "reflection": "My opening question is designed to quickly surface the dual dynamic, which is central to the interview objectives. By asking for names or identities, I can subtly prompt the subject to reveal personal specifics that might help discover who they are.",
+        "reasoning": "Understanding the way the subject F/W experiences their duality will illuminate their personality, and whether the personalities are distinct enough to have separate names may reveal the framework for their internal interactions and sense of self.",
+        "memory_evidence": [
+          "I have no prior memories of this subject or their personalities",
+          "this is our first interaction."
+        ],
+        "model_citations": [
+          "I have no prior memories of this subject or their personalities",
+          "this is our first interaction."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

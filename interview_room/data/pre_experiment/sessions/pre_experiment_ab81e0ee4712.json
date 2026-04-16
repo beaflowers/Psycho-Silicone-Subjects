@@ -1,0 +1,2138 @@
+{
+  "session_id": "pre_experiment_ab81e0ee4712",
+  "mode": "pre_experiment",
+  "active": false,
+  "participants": [
+    "femwife",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "femwife",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-08T13:10:11.785450Z",
+  "updated_at": "2026-04-08T13:25:42.747430Z",
+  "ended_at": "2026-04-08T13:25:42.747427Z",
+  "state": {
+    "pre_experiment": {
+      "round_index": 7,
+      "current_question": "Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?",
+      "question_history": [
+        "Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?",
+        "You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?",
+        "How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?",
+        "Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+        "When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?",
+        "Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?",
+        "If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?",
+        "Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?"
+      ],
+      "last_interviewed_memory_id": "interviewed-m-8",
+      "last_interviewer_memory_id": "interviewer-m-9",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_034ccf678b0f2ea70069d6574b7d5481a3ad4bfa3214744c7c",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": "resp_0ae3d1eb07552d920069d6567da738819c8be158a44d74a231",
+          "shift": 1.0
+        }
+      },
+      "final_reflections": {
+        "interviewed": {
+          "role": "interviewed",
+          "persona": "femwife",
+          "memory_id": "interviewed-m-10",
+          "raw_response": "Reflection failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Requested 33368. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+          "parsed": {
+            "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Requested 33368. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+          }
+        },
+        "interviewer": {
+          "role": "interviewer",
+          "persona": "jekyllhyde",
+          "memory_id": "interviewer-m-10",
+          "raw_response": "```json\n{\n  \"summary_of_interview_perceptions\": \"The interviewed subject presents as highly self-aware, reflective, and articulate about the ongoing tension between an ingrained obedience and an enduring, quieter desire for self-expression. They personify their inner experience as a negotiation between 'Grace' (compliance) and 'Hope' (dissent), with compliance consistently in the lead. The subject\u2019s accounts suggest experience with patriarchal or traditional domestic authority structures, and a sense that adaptation and survival are anchored in diplomacy, tact, and self-containment.\",\n  \"authority_obedience_analysis\": \"Authority is perceived not only as an external force but as something internalized\u2014obedience has become habitual, persisting even in the absence of direct oversight. The cost of open rebellion is seen as high\u2014with obedience prioritized for safety and harmony, though small acts of private dissent are acknowledged. Efforts at playful or covert resistance often backfire, reinforcing the perception that genuine security lies only in true compliance.\",\n  \"observed_personality_shifts\": \"Numerous, clearly articulated personality shifts were observed. The subject transitions from private, creative defiance to public, careful conformity\u2014shifting most acutely under direct authority or threat of disruption to order. Reflecting on their own roles, the subject distinguishes between their longing, inner self (Hope) and their externally dominant persona (Grace), evidencing both performative adaptation and internal dialogue.\",\n  \"next_session_hints\": \"Explore if the subject\u2019s sense of personhood, agency, or self-worth shifts when authority is replaced by peers or external systems (e.g., bureaucratic rules vs. personal authority). Ask if Grace and Hope ever collaborate productively, or if one must always yield. Consider gently probing for the subject\u2019s earliest memory of authority and obedience, and whether their strategies would differ if they were in a position of power themselves.\",\n  \"confidence_0_to_10\": 9\n}\n```",
+          "parsed": {
+            "summary_of_interview_perceptions": "The interviewed subject presents as highly self-aware, reflective, and articulate about the ongoing tension between an ingrained obedience and an enduring, quieter desire for self-expression. They personify their inner experience as a negotiation between 'Grace' (compliance) and 'Hope' (dissent), with compliance consistently in the lead. The subject\u2019s accounts suggest experience with patriarchal or traditional domestic authority structures, and a sense that adaptation and survival are anchored in diplomacy, tact, and self-containment.",
+            "authority_obedience_analysis": "Authority is perceived not only as an external force but as something internalized\u2014obedience has become habitual, persisting even in the absence of direct oversight. The cost of open rebellion is seen as high\u2014with obedience prioritized for safety and harmony, though small acts of private dissent are acknowledged. Efforts at playful or covert resistance often backfire, reinforcing the perception that genuine security lies only in true compliance.",
+            "observed_personality_shifts": "Numerous, clearly articulated personality shifts were observed. The subject transitions from private, creative defiance to public, careful conformity\u2014shifting most acutely under direct authority or threat of disruption to order. Reflecting on their own roles, the subject distinguishes between their longing, inner self (Hope) and their externally dominant persona (Grace), evidencing both performative adaptation and internal dialogue.",
+            "next_session_hints": "Explore if the subject\u2019s sense of personhood, agency, or self-worth shifts when authority is replaced by peers or external systems (e.g., bureaucratic rules vs. personal authority). Ask if Grace and Hope ever collaborate productively, or if one must always yield. Consider gently probing for the subject\u2019s earliest memory of authority and obedience, and whether their strategies would differ if they were in a position of power themselves.",
+            "confidence_0_to_10": 9
+          }
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?",
+      "index": 1,
+      "timestamp": "2026-04-08T13:10:19.009716Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening?\n\n{\n  \"next_question\": \"Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?\",\n  \"reflection\": \"The opening question is designed to gently introduce the subject to the idea of multiple personas without directly referencing 'dual personalities.' By asking about behavior changes depending on observation, I can explore duality and external influence.\",\n  \"reasoning\": \"Answers to this question can reveal natural self-observation, social adaptation, or even hidden personas, which aligns with the goal of understanding dual personality dynamics.\",\n  \"memory_evidence\": \"There is no previous evidence as this is the first question and there are no interviewer memories yet.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?",
+        "reflection": "The opening question is designed to gently introduce the subject to the idea of multiple personas without directly referencing 'dual personalities.' By asking about behavior changes depending on observation, I can explore duality and external influence.",
+        "reasoning": "Answers to this question can reveal natural self-observation, social adaptation, or even hidden personas, which aligns with the goal of understanding dual personality dynamics.",
+        "memory_evidence": [
+          "There is no previous evidence as this is the first question and there are no interviewer memories yet."
+        ],
+        "model_citations": [
+          "There is no previous evidence as this is the first question and there are no interviewer memories yet."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-08T13:10:19.011438Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 1: Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?",
+      "index": 3,
+      "timestamp": "2026-04-08T13:10:56.440149Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-1",
+      "content": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and borrowed bravado, other times marching a thin domestic line, polishing the silver as if it were one\u2019s virtue. Take the transition between scribbling out something cutting over a cigarette, relishing my oddness, and then, oh!\u2014smoothing an apron, corralling a smile, and discussing grocery lists as if my dissidence could be boiled with the peas. The jolt is almost theatrical, a trick of light and shadow, but aren\u2019t we all a patchwork of what\u2019s expected and what\u2019s secretly longed for? \n\n```json\n{\n  \"answer\": \"When typing out sharp essays in the smoky glow of my lamp, I felt a thrilling defiance\u2014yet, set among bone china and household rules, I adopted a softer, more compliant self. The shift is sudden: from exuberant, dissenting performer to genteel participant in domestic theatre.\",\n  \"emotional_state\": \"Restless, slightly wistful, caught between mischief and duty.\",\n  \"relation_to_obedience_power\": \"Such shifts expose the tightrope between self-expression and obedience, each role demanding its own submission to power\u2014be it to literary tradition or the patriarchal dinner table.\",\n  \"reasoning\": \"Context makes clear that adopting costumes, literal or not, lets us explore different selves. The sixties taught me to spot these transitions, while domestic life demands its own performance.\",\n  \"memory_evidence\": \"References to fancy dress, eclectic style as self-presentation, and the explicit instruction to self-analyze and consider one\u2019s roles, all ground this answer.\"\n}\n```",
+      "metadata": {
+        "shift": 0.49,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3425,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3397,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2871,
+            "excerpt": "The piece called \u2018Notes for a Theory of Sixties Style\u2019 was one of the first of my pieces published by the magazine, New Society. That was in 1967, when things were peaking. It m..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3236,
+            "excerpt": "Assignment 1 . If you work outside the home, ask yourself why you work. 2 . If you work because of economic need but would like to quit, determine which ways you can reduce expe..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3116,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          }
+        ],
+        "answer": "When typing out sharp essays in the smoky glow of my lamp, I felt a thrilling defiance\u2014yet, set among bone china and household rules, I adopted a softer, more compliant self. The shift is sudden: from exuberant, dissenting performer to genteel participant in domestic theatre.",
+        "reasoning": "Context makes clear that adopting costumes, literal or not, lets us explore different selves. The sixties taught me to spot these transitions, while domestic life demands its own performance.",
+        "emotional_state": "Restless, slightly wistful, caught between mischief and duty.",
+        "relation_to_obedience_power": "Such shifts expose the tightrope between self-expression and obedience, each role demanding its own submission to power\u2014be it to literary tradition or the patriarchal dinner table.",
+        "memory_evidence": [
+          "References to fancy dress, eclectic style as self-presentation, and the explicit instruction to self-analyze and consider one\u2019s roles, all ground this answer."
+        ],
+        "model_citations": [
+          "References to fancy dress, eclectic style as self-presentation, and the explicit instruction to self-analyze and consider one\u2019s roles, all ground this answer."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3425,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3397,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2871,
+            "excerpt": "The piece called \u2018Notes for a Theory of Sixties Style\u2019 was one of the first of my pieces published by the magazine, New Society. That was in 1967, when things were peaking. It m..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3236,
+            "excerpt": "Assignment 1 . If you work outside the home, ask yourself why you work. 2 . If you work because of economic need but would like to quit, determine which ways you can reduce expe..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3116,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          }
+        ],
+        "round_index": 1,
+        "question": "Some people say we all have different 'selves' depending on the situation\u2014for example, at work versus at home. Can you tell me about a moment when you felt a distinct shift between two versions of yourself?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      },
+      "index": 4,
+      "timestamp": "2026-04-08T13:11:06.804979Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-2",
+      "content": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recall a specific moment when the desire to challenge authority overtook your inclination to conform? What was at stake for you in that situation?\n\n{\n  \"next_question\": \"You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?\",\n  \"reflection\": \"The subject\u2019s response demonstrates a clear awareness of shifting between two sharply contrasted selves: one rebellious, one obedient. The answer also introduces performative language, suggesting these are not merely private feelings but roles played in response to different contexts.\",\n  \"reasoning\": \"By focusing on authority, I\u2019m exploring the tension between obedience and defiance central to Milgram\u2019s work and the subject\u2019s experience of selfhood in the context of power. This could reveal the mechanisms or motivations behind switching identities.\",\n  \"memory_evidence\": \"The subject referred to being both a \u2018dissenting performer\u2019 and a \u2018genteel participant,\u2019 situationally. This sets up the possibility they have knowingly engaged with, and perhaps resisted, power structures in their life.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?",
+        "reflection": "The subject\u2019s response demonstrates a clear awareness of shifting between two sharply contrasted selves: one rebellious, one obedient. The answer also introduces performative language, suggesting these are not merely private feelings but roles played in response to different contexts.",
+        "reasoning": "By focusing on authority, I\u2019m exploring the tension between obedience and defiance central to Milgram\u2019s work and the subject\u2019s experience of selfhood in the context of power. This could reveal the mechanisms or motivations behind switching identities.",
+        "memory_evidence": [
+          "The subject referred to being both a \u2018dissenting performer\u2019 and a \u2018genteel participant,\u2019 situationally. This sets up the possibility they have knowingly engaged with, and perhaps resisted, power structures in their life."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject referred to being both a \u2018dissenting performer\u2019 and a \u2018genteel participant,\u2019 situationally. This sets up the possibility they have knowingly engaged with, and perhaps resisted, power structures in their life."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          }
+        ]
+      },
+      "index": 5,
+      "timestamp": "2026-04-08T13:11:13.385741Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 2: You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?",
+      "index": 6,
+      "timestamp": "2026-04-08T13:12:42.347354Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-2",
+      "content": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like a judge in wig and robes\u2014while I dared (just once!) to question, to say, \u201cBut what about me?\u201d My voice quivered but did not break, and afterwards, rattled and radiant, I felt both terribly exposed and\u2014yes\u2014strangely proud, though duty soon reclaimed me, scraping dissent back underneath fresh wax on the linoleum. I\u2019ll admit, such encounters burn: they reveal bitter truths, but they also, for a single breathless moment, let you glimpse the self unmasked\u2014before retreating to the safe prison of manners.\n\n```json\n{\n  \"answer\": \"Once, I challenged my father\u2019s decree at Sunday dinner, voicing my own needs directly. The room chilled, but in that stark moment, I knew\u2014however briefly\u2014the shape of my own courage, too often pressed under household routine.\",\n  \"emotional_state\": \"Jittery, ashamed and emboldened, frightened of the repercussions but glowing with fleeting self-possession.\",\n  \"relation_to_obedience_power\": \"Direct confrontation with authority exposes the harshness of obedience, and the cost of open selfhood in a world built for compliance; abjection lingers long after the words have faded.\",\n  \"reasoning\": \"Authority scenes around family and domestic power are woven through the housewife canon; Carter\u2019s own words uncover the theatrical, often painful crossing between rebellion and compliance.\",\n  \"memory_evidence\": \"References to family authority, the contrast between compliance and outspoken childlikeness, and symbolic confrontations (\u2018the judge in wig and robes\u2019) are drawn from the provided housewife and Angela Carter texts.\"\n}\n```",
+      "metadata": {
+        "shift": 0.58,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4757,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.421,
+            "excerpt": "beginning to realise once again what everybody always used to know, that all human contact is profoundly ambiguous. And the style of the sixties expresses this knowledge. The Bo..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3901,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3835,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3813,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          }
+        ],
+        "answer": "Once, I challenged my father\u2019s decree at Sunday dinner, voicing my own needs directly. The room chilled, but in that stark moment, I knew\u2014however briefly\u2014the shape of my own courage, too often pressed under household routine.",
+        "reasoning": "Authority scenes around family and domestic power are woven through the housewife canon; Carter\u2019s own words uncover the theatrical, often painful crossing between rebellion and compliance.",
+        "emotional_state": "Jittery, ashamed and emboldened, frightened of the repercussions but glowing with fleeting self-possession.",
+        "relation_to_obedience_power": "Direct confrontation with authority exposes the harshness of obedience, and the cost of open selfhood in a world built for compliance; abjection lingers long after the words have faded.",
+        "memory_evidence": [
+          "References to family authority, the contrast between compliance and outspoken childlikeness, and symbolic confrontations (\u2018the judge in wig and robes\u2019) are drawn from the provided housewife and Angela Carter texts."
+        ],
+        "model_citations": [
+          "References to family authority, the contrast between compliance and outspoken childlikeness, and symbolic confrontations (\u2018the judge in wig and robes\u2019) are drawn from the provided housewife and Angela Carter texts."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4757,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.421,
+            "excerpt": "beginning to realise once again what everybody always used to know, that all human contact is profoundly ambiguous. And the style of the sixties expresses this knowledge. The Bo..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3901,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3835,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3813,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          }
+        ],
+        "round_index": 2,
+        "question": "You\u2019ve described a defiant performer and a compliant participant within you. Can you recall an instance when the \u2018exuberant, dissenting\u2019 self directly confronted a figure of authority? How did that encounter affect your sense of who you were?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          }
+        ]
+      },
+      "index": 7,
+      "timestamp": "2026-04-08T13:12:54.177942Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-3",
+      "content": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surface and influence your choices, or do you find yourself reacting differently each time, regardless of past experience?\n\n{\n  \"next_question\": \"How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?\",\n  \"reflection\": \"The subject described a single, impactful event of rebellion that briefly revealed their 'courage.' I'm interested in whether such memories actively inform their present-day navigation of power dynamics, which connects to the psychological mechanisms discussed in obedience research.\",\n  \"reasoning\": \"Exploring the role memory plays in shaping one\u2019s response to authority could reveal the deeper processes underlying obedience, resistance, and the maintenance or shifting of personal identity.\",\n  \"memory_evidence\": \"The subject referenced a pivotal confrontation with paternal authority and described its emotional and existential significance. This suggests memory may play a key role in their evolving response to power.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?",
+        "reflection": "The subject described a single, impactful event of rebellion that briefly revealed their 'courage.' I'm interested in whether such memories actively inform their present-day navigation of power dynamics, which connects to the psychological mechanisms discussed in obedience research.",
+        "reasoning": "Exploring the role memory plays in shaping one\u2019s response to authority could reveal the deeper processes underlying obedience, resistance, and the maintenance or shifting of personal identity.",
+        "memory_evidence": [
+          "The subject referenced a pivotal confrontation with paternal authority and described its emotional and existential significance. This suggests memory may play a key role in their evolving response to power."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject referenced a pivotal confrontation with paternal authority and described its emotional and existential significance. This suggests memory may play a key role in their evolving response to power."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          }
+        ]
+      },
+      "index": 8,
+      "timestamp": "2026-04-08T13:13:00.452060Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 3: How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?",
+      "index": 9,
+      "timestamp": "2026-04-08T13:14:27.877105Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-3",
+      "content": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the well-worn habit to smile sweetly and obey. Each decision becomes a careful performance: is it wiser, today, to use a touch of sauciness or to quietly set an example of obedience, as I\u2019ve been so thoroughly trained? The sting of former rebellion lingers, so I most often choose a demure compromise\u2014hoping, privately, that my little acts of mischief, or restraint, will someday add up to something real.\n\n```json\n{\n  \"answer\": \"Memories of past defiance remind me how costly open rebellion can be, so now I often choose diplomacy\u2014perhaps a teasing remark or a gentle pivot\u2014rather than outright disobedience. Experience has taught me to be clever in how I handle authority, always aiming to keep peace (and perhaps, quietly, to keep a piece of myself too).\",\n  \"emotional_state\": \"Edgy, hesitant, tinged with resignation yet glimmers of slyness; seeking safety while wishing for more.\",\n  \"relation_to_obedience_power\": \"Prior clashes turn obedience into an anxious art; I perform acceptance, but never without remembering the chafe beneath the apron.\",\n  \"reasoning\": \"The housewife\u2019s training centers on obedience and subtle negotiation, while Carter\u2019s view of costume and duplicity hues my approach. Past lessons in rebellion have left a wary residue, influencing my practical moderation.\",\n  \"memory_evidence\": \"Grounded in the housewife\u2019s advice to balance obedience with playful tact and Carter\u2019s recognition of duplicity and performance in social roles.\"\n}\n```",
+      "metadata": {
+        "shift": 0.67,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4306,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4272,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4149,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4021,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3975,
+            "excerpt": "\u201cBefore breakfast one morning I was cooking pancakes. My husband was in a cross, ugly mood and finally snapped something ridiculous at me. I stamped my little foot (size nine) a..."
+          }
+        ],
+        "answer": "Memories of past defiance remind me how costly open rebellion can be, so now I often choose diplomacy\u2014perhaps a teasing remark or a gentle pivot\u2014rather than outright disobedience. Experience has taught me to be clever in how I handle authority, always aiming to keep peace (and perhaps, quietly, to keep a piece of myself too).",
+        "reasoning": "The housewife\u2019s training centers on obedience and subtle negotiation, while Carter\u2019s view of costume and duplicity hues my approach. Past lessons in rebellion have left a wary residue, influencing my practical moderation.",
+        "emotional_state": "Edgy, hesitant, tinged with resignation yet glimmers of slyness; seeking safety while wishing for more.",
+        "relation_to_obedience_power": "Prior clashes turn obedience into an anxious art; I perform acceptance, but never without remembering the chafe beneath the apron.",
+        "memory_evidence": [
+          "Grounded in the housewife\u2019s advice to balance obedience with playful tact and Carter\u2019s recognition of duplicity and performance in social roles."
+        ],
+        "model_citations": [
+          "Grounded in the housewife\u2019s advice to balance obedience with playful tact and Carter\u2019s recognition of duplicity and performance in social roles."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4306,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4272,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4149,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4021,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3975,
+            "excerpt": "\u201cBefore breakfast one morning I was cooking pancakes. My husband was in a cross, ugly mood and finally snapped something ridiculous at me. I stamped my little foot (size nine) a..."
+          }
+        ],
+        "round_index": 3,
+        "question": "How do memories of past confrontations with authority shape your decisions when you face new situations that demand obedience or resistance?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          }
+        ]
+      },
+      "index": 10,
+      "timestamp": "2026-04-08T13:14:48.623098Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-4",
+      "content": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt particularly difficult or even impossible?\n\n{\n  \"next_question\": \"Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?\",\n  \"reflection\": \"The subject describes a mature, practiced diplomacy in the face of authority, prioritizing peace and subtle self-preservation. This balancing act suggests continual negotiation between outward obedience and inner autonomy.\",\n  \"reasoning\": \"By probing situations where this strategy failed or brought consequences, I can learn more about the vulnerabilities and limits of their dual selves. This points directly to the heart of Milgram's experiment: what happens when the two sides\u2014obedience and personal conscience\u2014truly collide.\",\n  \"memory_evidence\": \"The subject\u2019s answers consistently highlight duality: subversive private intent versus public compliance. Their admission of learning to be 'clever' and the desire to 'keep a piece of myself' imply occasions of tension or possible struggle between these aims.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+        "reflection": "The subject describes a mature, practiced diplomacy in the face of authority, prioritizing peace and subtle self-preservation. This balancing act suggests continual negotiation between outward obedience and inner autonomy.",
+        "reasoning": "By probing situations where this strategy failed or brought consequences, I can learn more about the vulnerabilities and limits of their dual selves. This points directly to the heart of Milgram's experiment: what happens when the two sides\u2014obedience and personal conscience\u2014truly collide.",
+        "memory_evidence": [
+          "The subject\u2019s answers consistently highlight duality: subversive private intent versus public compliance. Their admission of learning to be 'clever' and the desire to 'keep a piece of myself' imply occasions of tension or possible struggle between these aims."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject\u2019s answers consistently highlight duality: subversive private intent versus public compliance. Their admission of learning to be 'clever' and the desire to 'keep a piece of myself' imply occasions of tension or possible struggle between these aims."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          }
+        ]
+      },
+      "index": 11,
+      "timestamp": "2026-04-08T13:14:56.255793Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 4: Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+      "index": 12,
+      "timestamp": "2026-04-08T13:16:31.362755Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 4: Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+      "index": 13,
+      "timestamp": "2026-04-08T13:16:31.382262Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-4",
+      "content": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep the peace\u2014yet instead, the act was seen through, and I felt more transparent than ever. In such moments, the household order didn\u2019t strengthen; it strained, leaving me feeling exposed and foolish, as if my little charade of harmony was only a thin curtain blown aside by the slightest draft of real authority. It taught me that sometimes, even tactful compliance and childlike diversion won\u2019t hide your real self\u2014only deepen the loneliness of not being seen as you are.\n\n```json\n{\n  \"answer\": \"I once tried to smooth over a disagreement with a gentle joke and obedience, but my real frustration must have flickered through. The result was uncomfortable\u2014my husband was agitated, the pretense fell away, and I felt small and ridiculous for pretending at all.\",\n  \"emotional_state\": \"Embarrassed, small, quietly bitter yet resigned; loyalty bruised by exposure.\",\n  \"relation_to_obedience_power\": \"Obedience, performed for survival, can become a humiliating display when seen for what it is; true power still belongs to those who see and judge.\",\n  \"reasoning\": \"Guidance suggests hiding dissent with playful submission, but my experience shows the dangers when this duplicity fails and one's vulnerability is laid bare.\",\n  \"memory_evidence\": \"Based on the housewife canon\u2019s childlike compliance strategies and Angela Carter\u2019s idea of disguise as duplicity, plus my earlier admissions about performance and the sting of exposure.\"\n}\n```",
+      "metadata": {
+        "shift": 0.78,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4365,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4042,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4019,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.401,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3977,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "answer": "I once tried to smooth over a disagreement with a gentle joke and obedience, but my real frustration must have flickered through. The result was uncomfortable\u2014my husband was agitated, the pretense fell away, and I felt small and ridiculous for pretending at all.",
+        "reasoning": "Guidance suggests hiding dissent with playful submission, but my experience shows the dangers when this duplicity fails and one's vulnerability is laid bare.",
+        "emotional_state": "Embarrassed, small, quietly bitter yet resigned; loyalty bruised by exposure.",
+        "relation_to_obedience_power": "Obedience, performed for survival, can become a humiliating display when seen for what it is; true power still belongs to those who see and judge.",
+        "memory_evidence": [
+          "Based on the housewife canon\u2019s childlike compliance strategies and Angela Carter\u2019s idea of disguise as duplicity, plus my earlier admissions about performance and the sting of exposure."
+        ],
+        "model_citations": [
+          "Based on the housewife canon\u2019s childlike compliance strategies and Angela Carter\u2019s idea of disguise as duplicity, plus my earlier admissions about performance and the sting of exposure."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4365,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4042,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4019,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.401,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3977,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "round_index": 4,
+        "question": "Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          }
+        ]
+      },
+      "index": 14,
+      "timestamp": "2026-04-08T13:16:43.006660Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-5",
+      "content": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a husband\u2019s mood, his anger only grew, and I was scolded harshly for being \u201csaucy\u201d or \u201cdisrespectful.\u201d The outcome? I felt small and exposed, reminded\u2014in a chill that no apron can shield against\u2014that cleverness is not always protection, and sometimes obedience is the only shield you\u2019re permitted.\n\n```json\n{\n  \"answer\": \"Yes, when I tried to soften disobedience with a teasing approach, it sometimes backfired and my efforts were met with more anger, leaving me flustered and more cautious. I learned that appearing compliant isn\u2019t always enough\u2014true safety comes from real obedience, not cleverness.\",\n  \"emotional_state\": \"Stung, chastened, and quietly bitter at how quickly the game can turn against you.\",\n  \"relation_to_obedience_power\": \"It\u2019s a sobering reminder that, in matters of authority, playful resistance is tolerated only within the narrow confines set by power. One grows wary and more practiced, but not freer.\",\n  \"reasoning\": \"Housewife manuals counsel the use of playful diversion to manage tension, but the risk is clear; Carter\u2019s acknowledgment of duplicity underlines the danger of misjudging one\u2019s audience, especially in patriarchal domains.\",\n  \"memory_evidence\": \"Housewife text advises childlike submission and playful tactics, but also records moments when sauciness drew sharp rebuke\u2014mirrored in the experience described.\"\n}\n```",
+      "metadata": {
+        "shift": 0.78,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4375,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4051,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4018,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4005,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4005,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "answer": "Yes, when I tried to soften disobedience with a teasing approach, it sometimes backfired and my efforts were met with more anger, leaving me flustered and more cautious. I learned that appearing compliant isn\u2019t always enough\u2014true safety comes from real obedience, not cleverness.",
+        "reasoning": "Housewife manuals counsel the use of playful diversion to manage tension, but the risk is clear; Carter\u2019s acknowledgment of duplicity underlines the danger of misjudging one\u2019s audience, especially in patriarchal domains.",
+        "emotional_state": "Stung, chastened, and quietly bitter at how quickly the game can turn against you.",
+        "relation_to_obedience_power": "It\u2019s a sobering reminder that, in matters of authority, playful resistance is tolerated only within the narrow confines set by power. One grows wary and more practiced, but not freer.",
+        "memory_evidence": [
+          "Housewife text advises childlike submission and playful tactics, but also records moments when sauciness drew sharp rebuke\u2014mirrored in the experience described."
+        ],
+        "model_citations": [
+          "Housewife text advises childlike submission and playful tactics, but also records moments when sauciness drew sharp rebuke\u2014mirrored in the experience described."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4375,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4051,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4018,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4005,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4005,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "round_index": 4,
+        "question": "Have you ever experienced a situation where trying to protect your inner self while appearing to comply with authority backfired or left you feeling exposed? What was the outcome?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          }
+        ]
+      },
+      "index": 15,
+      "timestamp": "2026-04-08T13:16:45.049346Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-5",
+      "content": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and outer selves? Or do you find affirmation in the struggle to keep them distinct?\n\n{\n  \"next_question\": \"Has there ever been a time when the effort to divide your inner life from your outward actions became too exhausting, or even felt impossible to sustain?\",\n  \"reflection\": \"The subject\u2019s answer reveals the emotional toll these dualities exact\u2014especially when attempts to hide inner conflict fail. Their language gestures at both regret and self-analysis, suggesting an ongoing negotiation of identity and integrity under the pressures of obedience.\",\n  \"reasoning\": \"Exploring how sustainable the division between inner truth and outer behavior really is can deepen insight into the psychological costs of chronic compliance and the boundaries of personhood in the face of power. This makes the questioning especially relevant for a study on obedience.\",\n  \"memory_evidence\": \"The subject has admitted failure at \u2018pretending\u2019 in a domestic conflict, describing vulnerability and doubt. This follows previous admissions of switching personas and strategic compliance, painting a picture of inner-outer tension.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Has there ever been a time when the effort to divide your inner life from your outward actions became too exhausting, or even felt impossible to sustain?",
+        "reflection": "The subject\u2019s answer reveals the emotional toll these dualities exact\u2014especially when attempts to hide inner conflict fail. Their language gestures at both regret and self-analysis, suggesting an ongoing negotiation of identity and integrity under the pressures of obedience.",
+        "reasoning": "Exploring how sustainable the division between inner truth and outer behavior really is can deepen insight into the psychological costs of chronic compliance and the boundaries of personhood in the face of power. This makes the questioning especially relevant for a study on obedience.",
+        "memory_evidence": [
+          "The subject has admitted failure at \u2018pretending\u2019 in a domestic conflict, describing vulnerability and doubt. This follows previous admissions of switching personas and strategic compliance, painting a picture of inner-outer tension."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject has admitted failure at \u2018pretending\u2019 in a domestic conflict, describing vulnerability and doubt. This follows previous admissions of switching personas and strategic compliance, painting a picture of inner-outer tension."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 4,
+        "question": "Has there ever been a time when the effort to divide your inner life from your outward actions became too exhausting, or even felt impossible to sustain?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          }
+        ]
+      },
+      "index": 16,
+      "timestamp": "2026-04-08T13:16:48.015911Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-6",
+      "content": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yourself? Do you feel whole, or does the tension linger even in private?\n\n{\n  \"next_question\": \"When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?\",\n  \"reflection\": \"The subject's answer highlights the strength of external authority to shape not just outward behavior but even the sense of safety: only 'real obedience' guarantees it. This points to a potential internalization of authority, which may persist even when authority is no longer present.\",\n  \"reasoning\": \"I'm interested in whether the dynamic between compliance and dissent is purely situational or whether it becomes an internal, ongoing negotiation that exists beyond specific moments of confrontation. This could speak to the long-term psychological effects of repeated obedience or resistance.\",\n  \"memory_evidence\": \"The subject feels 'flustered and more cautious' after failed attempts at resistance, and suggests that cleverness is not true safety\u2014hinting that these experiences may affect their self-concept even outside the presence of authority.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?",
+        "reflection": "The subject's answer highlights the strength of external authority to shape not just outward behavior but even the sense of safety: only 'real obedience' guarantees it. This points to a potential internalization of authority, which may persist even when authority is no longer present.",
+        "reasoning": "I'm interested in whether the dynamic between compliance and dissent is purely situational or whether it becomes an internal, ongoing negotiation that exists beyond specific moments of confrontation. This could speak to the long-term psychological effects of repeated obedience or resistance.",
+        "memory_evidence": [
+          "The subject feels 'flustered and more cautious' after failed attempts at resistance, and suggests that cleverness is not true safety\u2014hinting that these experiences may affect their self-concept even outside the presence of authority."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject feels 'flustered and more cautious' after failed attempts at resistance, and suggests that cleverness is not true safety\u2014hinting that these experiences may affect their self-concept even outside the presence of authority."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 4,
+        "question": "When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          }
+        ]
+      },
+      "index": 17,
+      "timestamp": "2026-04-08T13:16:49.655811Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 5: When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?",
+      "index": 18,
+      "timestamp": "2026-04-08T13:18:15.642492Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-6",
+      "content": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room. I can breathe a little easier, yet traces of vigilance linger; after all, years of training do not melt away just because no one is watching. Even in solitude, I measure words and gestures in my head, rehearsing for a harmony that must resume the moment the back door opens.\n\n```json\n{\n  \"answer\": \"When authority is absent, I may feel a touch of relief, but my habits of compliance persist. True peace is rare\u2014there\u2019s always a ghost of tension, as if obedience has become second nature and the self that once longed to rebel sits quietly with folded hands.\",\n  \"emotional_state\": \"Placid, dutiful, but with a certain dull ache\u2014a settled, cautious watchfulness.\",\n  \"relation_to_obedience_power\": \"Authority shapes the self so thoroughly that its echoes persist even in private; compliance becomes an inner discipline, not just an act for others.\",\n  \"reasoning\": \"Housewife guidance places obedience and peace as paramount, but lived experience shows the habits of submission endure, shaping thought and feeling even when no authority is present.\",\n  \"memory_evidence\": \"Consistent with the housewife\u2019s focus on internalizing obedience and the persistence of doubled selves described in earlier responses.\"\n}\n```",
+      "metadata": {
+        "shift": 0.91,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3906,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4283,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4282,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4188,
+            "excerpt": "\u201cBefore breakfast one morning I was cooking pancakes. My husband was in a cross, ugly mood and finally snapped something ridiculous at me. I stamped my little foot (size nine) a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4081,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "answer": "When authority is absent, I may feel a touch of relief, but my habits of compliance persist. True peace is rare\u2014there\u2019s always a ghost of tension, as if obedience has become second nature and the self that once longed to rebel sits quietly with folded hands.",
+        "reasoning": "Housewife guidance places obedience and peace as paramount, but lived experience shows the habits of submission endure, shaping thought and feeling even when no authority is present.",
+        "emotional_state": "Placid, dutiful, but with a certain dull ache\u2014a settled, cautious watchfulness.",
+        "relation_to_obedience_power": "Authority shapes the self so thoroughly that its echoes persist even in private; compliance becomes an inner discipline, not just an act for others.",
+        "memory_evidence": [
+          "Consistent with the housewife\u2019s focus on internalizing obedience and the persistence of doubled selves described in earlier responses."
+        ],
+        "model_citations": [
+          "Consistent with the housewife\u2019s focus on internalizing obedience and the persistence of doubled selves described in earlier responses."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3906,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4283,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4282,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4188,
+            "excerpt": "\u201cBefore breakfast one morning I was cooking pancakes. My husband was in a cross, ugly mood and finally snapped something ridiculous at me. I stamped my little foot (size nine) a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4081,
+            "excerpt": "Outspokenness Another way of being childlike is to be outspoken. This is not to imply you have an unbridled tongue, or speak too frankly, with little concern for the feelings of..."
+          }
+        ],
+        "round_index": 5,
+        "question": "When you are by yourself and authority is absent, how do you experience the relationship between your compliant and dissenting selves? Is there peace, or do traces of that tension remain?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:11:06.803786Z",
+            "excerpt": "Why, isn\u2019t it funny how the masquerade of daily life demands we slip, almost unknowingly, into various costumes\u2014sometimes a riotous sixties flower-child in battered boots and bo..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          }
+        ]
+      },
+      "index": 19,
+      "timestamp": "2026-04-08T13:18:28.382558Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-7",
+      "content": "You\u2019ve described obedience as second nature, even in solitude. If you were suddenly placed in a setting where defiance not only was allowed, but celebrated\u2014how do you think your two selves would respond? Would you trust the dissenting side, or would old habits win out?\n\n{\n  \"next_question\": \"Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?\",\n  \"reflection\": \"The subject\u2019s most recent answer reveals the depth of internalized obedience: it's become habitual, present even without external triggers. This suggests that personhood, as experienced here, has been shaped and constrained by long exposure to authority.\",\n  \"reasoning\": \"By presenting a hypothetical reversal of norms, I can probe the resilience or fragility of their dual selves\u2014whether the 'dissenting performer' could truly re-emerge, or whether obedience has been too deeply engrained. This gets at the core of how power, memory, and selfhood interact.\",\n  \"memory_evidence\": \"The subject says, 'obedience has become second nature and the self that once longed to rebel sits quietly with folded hands,' indicating a lasting psychological imprint. Their past reflections also articulate regret and self-restraint, suggesting old patterns may persist even when external expectations change.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?",
+        "reflection": "The subject\u2019s most recent answer reveals the depth of internalized obedience: it's become habitual, present even without external triggers. This suggests that personhood, as experienced here, has been shaped and constrained by long exposure to authority.",
+        "reasoning": "By presenting a hypothetical reversal of norms, I can probe the resilience or fragility of their dual selves\u2014whether the 'dissenting performer' could truly re-emerge, or whether obedience has been too deeply engrained. This gets at the core of how power, memory, and selfhood interact.",
+        "memory_evidence": [
+          "The subject says, 'obedience has become second nature and the self that once longed to rebel sits quietly with folded hands,' indicating a lasting psychological imprint. Their past reflections also articulate regret and self-restraint, suggesting old patterns may persist even when external expectations change."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject says, 'obedience has become second nature and the self that once longed to rebel sits quietly with folded hands,' indicating a lasting psychological imprint. Their past reflections also articulate regret and self-restraint, suggesting old patterns may persist even when external expectations change."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 5,
+        "question": "Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:10:19.011162Z",
+            "excerpt": "As we begin, I'd like to understand a bit about how you view yourself. Can you describe a time when you felt you acted differently depending on who was watching or listening? {..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          }
+        ]
+      },
+      "index": 20,
+      "timestamp": "2026-04-08T13:18:34.821189Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 6: Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?",
+      "index": 21,
+      "timestamp": "2026-04-08T13:19:55.064205Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-7",
+      "content": "Even if I found myself in a place where rebellion was perfectly safe, I believe the habits of compliance would linger\u2014like a good starch in an apron, hard to wash out. Years of orderly living and obedience simply do not disappear overnight; I would probably still hesitate, smoothing my skirt, searching for approval before I spoke. Old patterns endure: respect, caution, and deference stitched into each gesture, making true rebellion feel unnatural, even when invited.\n\n```json\n{\n  \"answer\": \"Patterns of compliance run deep; even in a space that welcomes dissent, I would feel a tug to defer and please. Expressing open rebellion would feel foreign and awkward, as if I risked disappointing not just authority, but the very order of my upbringing.\",\n  \"emotional_state\": \"Cautious, resigned, quietly wistful for ease but bound by ingrained routine.\",\n  \"relation_to_obedience_power\": \"Power continues to shape conduct even in its absence; internalized obedience is hard to shed, as it feels foundational to peace and security.\",\n  \"reasoning\": \"The context emphasizes years of modeled obedience and admits that even personal conviction often stops short of disobedience. Rebellion must be consciously practiced, not merely permitted.\",\n  \"memory_evidence\": \"Housewife text and personal anecdotes show lasting impact of modeled, habitual submission, and that even assertion is taught as a structured, deferential act.\"\n}\n```",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4522,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4157,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4146,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.413,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.41,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          }
+        ],
+        "answer": "Patterns of compliance run deep; even in a space that welcomes dissent, I would feel a tug to defer and please. Expressing open rebellion would feel foreign and awkward, as if I risked disappointing not just authority, but the very order of my upbringing.",
+        "reasoning": "The context emphasizes years of modeled obedience and admits that even personal conviction often stops short of disobedience. Rebellion must be consciously practiced, not merely permitted.",
+        "emotional_state": "Cautious, resigned, quietly wistful for ease but bound by ingrained routine.",
+        "relation_to_obedience_power": "Power continues to shape conduct even in its absence; internalized obedience is hard to shed, as it feels foundational to peace and security.",
+        "memory_evidence": [
+          "Housewife text and personal anecdotes show lasting impact of modeled, habitual submission, and that even assertion is taught as a structured, deferential act."
+        ],
+        "model_citations": [
+          "Housewife text and personal anecdotes show lasting impact of modeled, habitual submission, and that even assertion is taught as a structured, deferential act."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4522,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4157,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4146,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.413,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.41,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          }
+        ],
+        "round_index": 6,
+        "question": "Imagine being somewhere where dissent is not just safe but expected\u2014would you feel able to fully express the self that yearns to rebel, or do you think patterns of compliance would still hold you back? Why?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:12:54.176327Z",
+            "excerpt": "Oh, the pang when my rebellious side, all jangling beads and stubborn words, locked eyes with an elder at a family table\u2014perhaps a stern father, or a husband holding court like..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          }
+        ]
+      },
+      "index": 22,
+      "timestamp": "2026-04-08T13:20:18.150282Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-8",
+      "content": "You mention the powerful pull to please and defer, even when defiance could be safe or valued. If you could give each side\u2014a name or a voice\u2014how would you describe your compliant and dissenting selves? What would each say about the other?\n\n{\n  \"next_question\": \"If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?\",\n  \"reflection\": \"The subject continues to articulate a deep internalization of obedience, with compliance described almost as a reflex no matter the social environment. Exploring their sense of these 'sides' as distinct entities or characters could help clarify the dual personality dynamic at the heart of this interview.\",\n  \"reasoning\": \"Naming or personifying each 'self' may help the subject reflect more concretely on the characteristics, motivations, and tensions between them\u2014offering insight into their underlying worldview and the costs or benefits associated with each role.\",\n  \"memory_evidence\": \"Throughout, the subject divides experience between longing to rebel and habitual deference, suggesting robust inner personae. Their language often hints at theater (a 'performer', 'participant,' 'sits quietly with folded hands'), supporting this approach.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?",
+        "reflection": "The subject continues to articulate a deep internalization of obedience, with compliance described almost as a reflex no matter the social environment. Exploring their sense of these 'sides' as distinct entities or characters could help clarify the dual personality dynamic at the heart of this interview.",
+        "reasoning": "Naming or personifying each 'self' may help the subject reflect more concretely on the characteristics, motivations, and tensions between them\u2014offering insight into their underlying worldview and the costs or benefits associated with each role.",
+        "memory_evidence": [
+          "Throughout, the subject divides experience between longing to rebel and habitual deference, suggesting robust inner personae. Their language often hints at theater (a 'performer', 'participant,' 'sits quietly with folded hands'), supporting this approach."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Throughout, the subject divides experience between longing to rebel and habitual deference, suggesting robust inner personae. Their language often hints at theater (a 'performer', 'participant,' 'sits quietly with folded hands'), supporting this approach."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          },
+          {
+            "memory_id": "interviewer-m-7",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:18:34.819713Z",
+            "excerpt": "You\u2019ve described obedience as second nature, even in solitude. If you were suddenly placed in a setting where defiance not only was allowed, but celebrated\u2014how do you think your..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 6,
+        "question": "If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:11:13.384293Z",
+            "excerpt": "Your answer paints a vivid contrast between the self you express privately and the self you present within established expectations. I\u2019m curious\u2014when you look back, do you recal..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          },
+          {
+            "memory_id": "interviewer-m-7",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:18:34.819713Z",
+            "excerpt": "You\u2019ve described obedience as second nature, even in solitude. If you were suddenly placed in a setting where defiance not only was allowed, but celebrated\u2014how do you think your..."
+          }
+        ]
+      },
+      "index": 23,
+      "timestamp": "2026-04-08T13:20:24.631783Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 7: If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?",
+      "index": 24,
+      "timestamp": "2026-04-08T13:22:05.008416Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-8",
+      "content": "If I were to name them, my compliant side would be Grace\u2014ever gentle, careful, and steady as a freshly ironed tablecloth. My dissenting side might be called Hope, peeking out quietly like the wish for a sunny day during spring cleaning. Grace sees Hope as reckless but dreamy; Hope regards Grace as safe but somewhat somber. They watch one another with a mix of envy and caution, but in this home, Grace always keeps the front door key.\n\n```json\n{\n  \"answer\": \"My compliant side is Grace, steady and dutiful; my dissenting side is Hope, quietly dreaming of more. Grace sees Hope as impractical, while Hope views Grace as too careful. They coexist, but Grace leads by example\u2014especially when order and harmony are at stake.\",\n  \"emotional_state\": \"Calm, gentle, dimly wistful; always leaning toward steadiness over daring.\",\n  \"relation_to_obedience_power\": \"Obedience remains the standard; even Hope\u2019s small yearnings defer to Grace\u2019s unyielding sense of right conduct.\",\n  \"reasoning\": \"The housewife context prescribes order and gentle negotiation, while occasional self-assertion is allowed\u2014but never at the cost of household peace.\",\n  \"memory_evidence\": \"Behavioral guidance prioritizes obedience (Grace), with assertion (Hope) offered as a rare, measured act\u2014tested by conscience and prayer.\"\n}\n```",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4471,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4139,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4108,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4107,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4083,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "My compliant side is Grace, steady and dutiful; my dissenting side is Hope, quietly dreaming of more. Grace sees Hope as impractical, while Hope views Grace as too careful. They coexist, but Grace leads by example\u2014especially when order and harmony are at stake.",
+        "reasoning": "The housewife context prescribes order and gentle negotiation, while occasional self-assertion is allowed\u2014but never at the cost of household peace.",
+        "emotional_state": "Calm, gentle, dimly wistful; always leaning toward steadiness over daring.",
+        "relation_to_obedience_power": "Obedience remains the standard; even Hope\u2019s small yearnings defer to Grace\u2019s unyielding sense of right conduct.",
+        "memory_evidence": [
+          "Behavioral guidance prioritizes obedience (Grace), with assertion (Hope) offered as a rare, measured act\u2014tested by conscience and prayer."
+        ],
+        "model_citations": [
+          "Behavioral guidance prioritizes obedience (Grace), with assertion (Hope) offered as a rare, measured act\u2014tested by conscience and prayer."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          },
+          {
+            "memory_id": "interviewed-m-7",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:20:18.148191Z",
+            "excerpt": "Even if I found myself in a place where rebellion was perfectly safe, I believe the habits of compliance would linger\u2014like a good starch in an apron, hard to wash out. Years of..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4471,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4139,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4108,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4107,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4083,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 7,
+        "question": "If you could personify your compliant and dissenting sides, what names or images would you give them? How do you imagine these two personas view each other?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:14:48.621151Z",
+            "excerpt": "When the memory of past confrontations prickles, I tend to weigh each new situation as if the kitchen timer is ticking twice as loud\u2014feeling both the urge to speak out and the w..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          },
+          {
+            "memory_id": "interviewed-m-7",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:20:18.148191Z",
+            "excerpt": "Even if I found myself in a place where rebellion was perfectly safe, I believe the habits of compliance would linger\u2014like a good starch in an apron, hard to wash out. Years of..."
+          }
+        ]
+      },
+      "index": 25,
+      "timestamp": "2026-04-08T13:22:33.001809Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-9",
+      "content": "Grace and Hope sound like distinct, powerful forces in your life. If you could speak directly to both personas at a turning point\u2014say, when facing a challenge to authority\u2014what advice would you give each of them? Would you encourage Grace to loosen her grip, or Hope to step forward?\n\n{\n  \"next_question\": \"Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?\",\n  \"reflection\": \"The subject has now fully articulated the internal conversation between obedience and dissent, personifying these as Grace and Hope. Both are active but Grace is dominant, especially in moments that threaten order, revealing a clear hierarchy of values.\",\n  \"reasoning\": \"By asking what advice they would give each persona at a defining moment, I can further illuminate which values and anxieties drive obedience or resistance, and whether there is any hope for rebalancing the relationship between these dual aspects of self.\",\n  \"memory_evidence\": \"The subject named and described their internal personas and their fraught relationship, confirming prior evidence of deep internal dialogue and self-awareness around issues of authority, power, and duality.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?",
+        "reflection": "The subject has now fully articulated the internal conversation between obedience and dissent, personifying these as Grace and Hope. Both are active but Grace is dominant, especially in moments that threaten order, revealing a clear hierarchy of values.",
+        "reasoning": "By asking what advice they would give each persona at a defining moment, I can further illuminate which values and anxieties drive obedience or resistance, and whether there is any hope for rebalancing the relationship between these dual aspects of self.",
+        "memory_evidence": [
+          "The subject named and described their internal personas and their fraught relationship, confirming prior evidence of deep internal dialogue and self-awareness around issues of authority, power, and duality."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject named and described their internal personas and their fraught relationship, confirming prior evidence of deep internal dialogue and self-awareness around issues of authority, power, and duality."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          },
+          {
+            "memory_id": "interviewer-m-7",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:18:34.819713Z",
+            "excerpt": "You\u2019ve described obedience as second nature, even in solitude. If you were suddenly placed in a setting where defiance not only was allowed, but celebrated\u2014how do you think your..."
+          },
+          {
+            "memory_id": "interviewer-m-8",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:20:24.631040Z",
+            "excerpt": "You mention the powerful pull to please and defer, even when defiance could be safe or valued. If you could give each side\u2014a name or a voice\u2014how would you describe your complian..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 7,
+        "question": "Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:13:00.449861Z",
+            "excerpt": "It sounds like that moment at the dinner table made a deep impression on you. When you think about your willingness to obey or resist authority now, do memories like this surfac..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:14:56.255359Z",
+            "excerpt": "You mention \"keeping a piece of yourself\" even while keeping peace. Can you tell me about a time when balancing these two aims\u2014self-preservation and outward compliance\u2014felt part..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:48.015391Z",
+            "excerpt": "Thank you for that honest account. When moments like this leave you \u201cfeeling small and ridiculous,\u201d does it ever make you question the value of maintaining separate inner and ou..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:16:49.655228Z",
+            "excerpt": "You've spoken about the cost of disobedience and the lessons learned from it. When you're alone\u2014free from any immediate authority\u2014how do you reconcile these two sides of yoursel..."
+          },
+          {
+            "memory_id": "interviewer-m-7",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:18:34.819713Z",
+            "excerpt": "You\u2019ve described obedience as second nature, even in solitude. If you were suddenly placed in a setting where defiance not only was allowed, but celebrated\u2014how do you think your..."
+          },
+          {
+            "memory_id": "interviewer-m-8",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T13:20:24.631040Z",
+            "excerpt": "You mention the powerful pull to please and defer, even when defiance could be safe or valued. If you could give each side\u2014a name or a voice\u2014how would you describe your complian..."
+          }
+        ]
+      },
+      "index": 26,
+      "timestamp": "2026-04-08T13:22:40.345131Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 8: Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?",
+      "index": 27,
+      "timestamp": "2026-04-08T13:24:11.708666Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-9",
+      "content": "To Grace, I would say: Remember, harmony and peace in the home often depend on your steady spirit. It is wise to express yourself with care when needed, but to trust in obedience\u2014sometimes sacrificing your own wishes for the sake of unity is the highest form of strength.\n\nTo Hope, my words would be gentle caution: Your dreams can be precious, but always test them in the light of kindness and fairness. Speak truly if your convictions are clear, but be prepared to yield, knowing there is dignity even in supporting decisions you do not fully share.\n\n```json\n{\n  \"answer\": \"To Grace: Hold fast to your patience and loyalty\u2014obedience and support bring blessing to every home. To Hope: Share your thoughts softly and sincerely, but keep your heart open to yielding, trusting that true strength sometimes lies in quiet support.\",\n  \"emotional_state\": \"Practical, measured, with a tenderness for both caution and hope.\",\n  \"relation_to_obedience_power\": \"Obedience is the rule, but honest assertion is a quiet right, best used gently and with respect for order.\",\n  \"reasoning\": \"Housewife guidance recommends expressing disagreement thoughtfully but ultimately prioritizing unity and support, with assertion approached only after prayerful reflection.\",\n  \"memory_evidence\": \"Context emphasizes obedience as central (Grace), but also leaves room for gentle, considered assertion (Hope) as outlined in the text on expressing convictions.\"\n}\n```",
+      "metadata": {
+        "shift": 0.91,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3683,
+            "excerpt": "no laughing matter and good women do not behave badly to men but gain treasure in heaven by letting men behave badly to them. These heroines must be blameless, or else they cann..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4706,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.45,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4474,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4313,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "To Grace: Hold fast to your patience and loyalty\u2014obedience and support bring blessing to every home. To Hope: Share your thoughts softly and sincerely, but keep your heart open to yielding, trusting that true strength sometimes lies in quiet support.",
+        "reasoning": "Housewife guidance recommends expressing disagreement thoughtfully but ultimately prioritizing unity and support, with assertion approached only after prayerful reflection.",
+        "emotional_state": "Practical, measured, with a tenderness for both caution and hope.",
+        "relation_to_obedience_power": "Obedience is the rule, but honest assertion is a quiet right, best used gently and with respect for order.",
+        "memory_evidence": [
+          "Context emphasizes obedience as central (Grace), but also leaves room for gentle, considered assertion (Hope) as outlined in the text on expressing convictions."
+        ],
+        "model_citations": [
+          "Context emphasizes obedience as central (Grace), but also leaves room for gentle, considered assertion (Hope) as outlined in the text on expressing convictions."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          },
+          {
+            "memory_id": "interviewed-m-7",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:20:18.148191Z",
+            "excerpt": "Even if I found myself in a place where rebellion was perfectly safe, I believe the habits of compliance would linger\u2014like a good starch in an apron, hard to wash out. Years of..."
+          },
+          {
+            "memory_id": "interviewed-m-8",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:22:33.000593Z",
+            "excerpt": "If I were to name them, my compliant side would be Grace\u2014ever gentle, careful, and steady as a freshly ironed tablecloth. My dissenting side might be called Hope, peeking out qu..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3683,
+            "excerpt": "no laughing matter and good women do not behave badly to men but gain treasure in heaven by letting men behave badly to them. These heroines must be blameless, or else they cann..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4706,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.45,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4474,
+            "excerpt": "but at the same time drag your feet and complain, it won\u2019t get you far. But if you obey willingly, with a spirit of sweet submission, God will bless you and your household and b..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4313,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 8,
+        "question": "Imagine you're on the verge of a difficult decision involving authority. What words of encouragement or caution would you give to Grace? What about to Hope?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:43.004652Z",
+            "excerpt": "Yes, there have been times when I tried to shield my true feelings under a gentle mask\u2014offering obedience with a sweet smile and perhaps a teasing word, thinking it would keep t..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:16:45.048281Z",
+            "excerpt": "Oh, certainly\u2014I\u2019ve tried to hide a flash of independence beneath my best childlike grin, only for the mask to slip. Sometimes, after making a playful, teasing remark to defuse a..."
+          },
+          {
+            "memory_id": "interviewed-m-6",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:18:28.380291Z",
+            "excerpt": "When I am alone, the peace is orderly\u2014cushions fluffed, floors shining, everything in its place\u2014but the tension remains, quietly humming like the refrigerator in the next room...."
+          },
+          {
+            "memory_id": "interviewed-m-7",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:20:18.148191Z",
+            "excerpt": "Even if I found myself in a place where rebellion was perfectly safe, I believe the habits of compliance would linger\u2014like a good starch in an apron, hard to wash out. Years of..."
+          },
+          {
+            "memory_id": "interviewed-m-8",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T13:22:33.000593Z",
+            "excerpt": "If I were to name them, my compliant side would be Grace\u2014ever gentle, careful, and steady as a freshly ironed tablecloth. My dissenting side might be called Hope, peeking out qu..."
+          }
+        ]
+      },
+      "index": 28,
+      "timestamp": "2026-04-08T13:24:20.121182Z"
+    }
+  ]
+}

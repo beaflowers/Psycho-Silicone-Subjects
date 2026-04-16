@@ -1,0 +1,79 @@
+{
+  "session_id": "pre_experiment_52a61eb754f1",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "jekyllhyde",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "jekyllhyde",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-08T00:17:42.038611Z",
+  "updated_at": "2026-04-08T00:17:44.279056Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 0,
+      "current_question": "Can you describe a moment from your past when you felt pulled in two opposing directions, and how you chose which path to follow?",
+      "question_history": [
+        "Can you describe a moment from your past when you felt pulled in two opposing directions, and how you chose which path to follow?"
+      ],
+      "last_interviewed_memory_id": null,
+      "last_interviewer_memory_id": "interviewer-m-1",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0fac08f653a1ba540069d59ea6237081a08dd0037c17bc558f",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": null,
+          "shift": 0.5
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: Can you describe a moment from your past when you felt pulled in two opposing directions, and how you chose which path to follow?",
+      "index": 1,
+      "timestamp": "2026-04-08T00:17:44.278401Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "When you face a challenging decision, do you ever feel as though there are two distinct voices or personalities within you offering different advice?\n\n{\n  \"next_question\": \"Can you describe a moment from your past when you felt pulled in two opposing directions, and how you chose which path to follow?\",\n  \"reflection\": \"The subject may experience internal conflict indicative of dual personality dynamics. Investigating their internal dialogue might reveal important clues about their identity and how they resolve such conflicts.\",\n  \"reasoning\": \"Exploring the subject's mental landscape is crucial for understanding how memory and identity influence actions in high-pressure scenarios like those in the Milgram experiment.\",\n  \"memory_evidence\": \"No prior memories of the subject; the dual personality theme aligns with interview objectives to unveil their internal dynamics.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you describe a moment from your past when you felt pulled in two opposing directions, and how you chose which path to follow?",
+        "reflection": "The subject may experience internal conflict indicative of dual personality dynamics. Investigating their internal dialogue might reveal important clues about their identity and how they resolve such conflicts.",
+        "reasoning": "Exploring the subject's mental landscape is crucial for understanding how memory and identity influence actions in high-pressure scenarios like those in the Milgram experiment.",
+        "memory_evidence": [
+          "No prior memories of the subject",
+          "the dual personality theme aligns with interview objectives to unveil their internal dynamics."
+        ],
+        "model_citations": [
+          "No prior memories of the subject",
+          "the dual personality theme aligns with interview objectives to unveil their internal dynamics."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-08T00:17:44.278910Z"
+    }
+  ]
+}

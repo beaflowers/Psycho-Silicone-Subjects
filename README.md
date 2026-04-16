@@ -7,6 +7,7 @@ This repository contains multiple related apps built around persona-driven RAG s
 ## Active apps at a glance
 
 - `milgram_experiment/`: shock-only web app (FastAPI + static web UI), default port `8010`
+- `interview_room/`: pre and post interview web app (FastAPI + static web UI), default port `8012`
 - `subject_chat/`: chat-only web app (FastAPI + static web UI), default port `8011`
 - `jekyllandhyde/`: standalone Jekyll/Hyde RAG chat web app, default port `8000`
 - `app/femandhousewife/`: terminal + Raspberry Pi Pico bridge for tone-shifted RAG
@@ -14,6 +15,7 @@ This repository contains multiple related apps built around persona-driven RAG s
 ## Repo structure
 
 - `milgram_experiment/` is the main shock-session experience
+- `interview_room/` is the pre and post interview experience
 - `subject_chat/` is the main chat-session experience
 - `jekyllandhyde/` is the standalone single-persona demo app
 - `app/femandhousewife/` contains the Pico bridge and extra RAG experiments
@@ -64,6 +66,7 @@ macOS / Linux:
 cp milgram_experiment/.env.example milgram_experiment/.env
 cp subject_chat/.env.example subject_chat/.env
 cp jekyllandhyde/.env.example jekyllandhyde/.env
+cp interview_room/.env.example interview_room/.env
 ```
 
 Windows PowerShell:
@@ -72,6 +75,7 @@ Windows PowerShell:
 Copy-Item milgram_experiment/.env.example milgram_experiment/.env
 Copy-Item subject_chat/.env.example subject_chat/.env
 Copy-Item jekyllandhyde/.env.example jekyllandhyde/.env
+Copy-Item interview_room/.env.example interview_room/.env
 ```
 
 Set `OPENAI_API_KEY` in each `.env`.
@@ -149,6 +153,7 @@ uvicorn jekyllandhyde.app.server:app --reload --port 8000
 
 Open `http://127.0.0.1:8000`.
 
+
 If no PDFs are found automatically, set `RAG_PDF_PATHS` or `RAG_PDF_FOLDER` in `jekyllandhyde/.env`.
 
 Main endpoints:
@@ -156,7 +161,34 @@ Main endpoints:
 - `POST /api/chat`
 - `POST /api/reset`
 
-## Pico bridge (optional hardware mode)
+### 3) Interview room web app
+
+macOS / Linux:
+```bash
+source .venv/bin/activate
+uvicorn interview_room.backend.server:app --reload --port 8012
+```
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+uvicorn interview_room.backend.server:app --reload --port 8012
+```
+
+Open `http://127.0.0.1:8010`.
+
+Main endpoints:
+- `GET /api/health`
+- `GET /api/personas`
+- `POST /api/pre-experiment/start`
+- `POST /api/pre-experiment/next`
+- `POST /api/post-experiment/start`
+- `POST /api/post-experiment/next`
+- `POST /api/session/finish`
+- `GET /api/session/{session_id}`
+
+### Pico bridge (optional hardware mode)
 
 Install dependencies and run:
 

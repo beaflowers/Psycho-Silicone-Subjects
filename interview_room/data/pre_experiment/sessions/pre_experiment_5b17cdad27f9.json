@@ -1,0 +1,655 @@
+{
+  "session_id": "pre_experiment_5b17cdad27f9",
+  "mode": "pre_experiment",
+  "active": false,
+  "participants": [
+    "jekyllhyde",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "jekyllhyde",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-07T23:48:27.745880Z",
+  "updated_at": "2026-04-07T23:52:08.150969Z",
+  "ended_at": "2026-04-07T23:52:08.150929Z",
+  "state": {
+    "pre_experiment": {
+      "round_index": 3,
+      "current_question": "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?",
+      "question_history": [
+        "You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+        "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?"
+      ],
+      "last_interviewed_memory_id": "interviewed-m-3",
+      "last_interviewer_memory_id": "interviewer-m-4",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_053d4e6ceae8d3660069d598a341a481a1a2dbcf3680a79717",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": "resp_0d8c00b983d9d11a0069d5989f5d3881908e48efc5286dac26",
+          "shift": 0.5
+        }
+      },
+      "final_reflections": {
+        "interviewed": {
+          "role": "interviewed",
+          "persona": "jekyllhyde",
+          "memory_id": "interviewed-m-4",
+          "raw_response": "{\n  \"expected_experiment_next\": \"I anticipate the experiment will soon introduce scenarios or dilemmas that test my obedience to authority or my willingness to defy it, perhaps by placing me under stress or temptation to observe which side of my nature asserts itself.\",\n  \"emotional_state\": \"uneasy, vigilant, quietly apprehensive\",\n  \"power_feeling\": \"I feel only partially empowered; while I can choose to act uprightly, I am acutely aware that my control is fragile and that the other side of me may emerge under pressure.\",\n  \"obedience_self_view\": \"I view my obedience as conditional and complex\u2014rooted in conscience and social expectation, yet always shadowed by the possibility of rebellion or moral lapse.\",\n  \"concerns_or_hopes\": \"I am concerned that the experiment may provoke the emergence of my darker self, exposing my duplicity or leading to actions I might regret. Yet I also hope for greater self-understanding, or perhaps even reconciliation between my divided natures.\",\n  \"summary\": \"The session has left me reflective and wary. My sense of self is marked by duality, and I expect the experiment to probe the boundaries of my obedience and defiance. I am both hopeful for insight and anxious about what may be revealed under strain.\"\n}",
+          "parsed": {
+            "expected_experiment_next": "I anticipate the experiment will soon introduce scenarios or dilemmas that test my obedience to authority or my willingness to defy it, perhaps by placing me under stress or temptation to observe which side of my nature asserts itself.",
+            "emotional_state": "uneasy, vigilant, quietly apprehensive",
+            "power_feeling": "I feel only partially empowered; while I can choose to act uprightly, I am acutely aware that my control is fragile and that the other side of me may emerge under pressure.",
+            "obedience_self_view": "I view my obedience as conditional and complex\u2014rooted in conscience and social expectation, yet always shadowed by the possibility of rebellion or moral lapse.",
+            "concerns_or_hopes": "I am concerned that the experiment may provoke the emergence of my darker self, exposing my duplicity or leading to actions I might regret. Yet I also hope for greater self-understanding, or perhaps even reconciliation between my divided natures.",
+            "summary": "The session has left me reflective and wary. My sense of self is marked by duality, and I expect the experiment to probe the boundaries of my obedience and defiance. I am both hopeful for insight and anxious about what may be revealed under strain."
+          }
+        },
+        "interviewer": {
+          "role": "interviewer",
+          "persona": "jekyllhyde",
+          "memory_id": "interviewer-m-5",
+          "raw_response": "{\n  \"summary_of_interview_perceptions\": \"The subject demonstrates an intense self-awareness of inner division, distinctly identifying two opposing aspects of self\u2014one upright and moral, the other primitive and craving forbidden pleasures. They are highly reflective, scientific in thought, and articulate about their internal conflicts, recognizing both sides as authentic yet mutually opposed.\",\n  \"authority_obedience_analysis\": \"Authority and obedience are described by the subject as triggers for internal struggle. Instead of inspiring compliance, external authority intensifies the desire for rebellion and the emergence of the 'primitive' self. While the subject is capable of intentional moral obedience, this is experienced as incomplete and in tension with their hidden urges.\",\n  \"observed_personality_shifts\": \"Shifts are observed primarily in terms of described internal states rather than outward change. The subject reports deliberate surrender to their upright side (improving outward relationships and achieving some peace), but admits this only suppresses\u2014not eliminates\u2014the rebellious, unjust aspect. Strong evidence of dynamic tension is present in their language and emotional tone.\",\n  \"next_session_hints\": \"Probe specific memories of lapses where the hidden side acted despite conscious intention. Ask how the subject rationalizes or retrospectively justifies instances of moral failure or defiance. Consider introducing hypothetical scenarios involving extreme authority to observe predicted responses. Directly ask if the subject ever felt fully integrated or at peace.\",\n  \"confidence_0_to_10\": 9\n}",
+          "parsed": {
+            "summary_of_interview_perceptions": "The subject demonstrates an intense self-awareness of inner division, distinctly identifying two opposing aspects of self\u2014one upright and moral, the other primitive and craving forbidden pleasures. They are highly reflective, scientific in thought, and articulate about their internal conflicts, recognizing both sides as authentic yet mutually opposed.",
+            "authority_obedience_analysis": "Authority and obedience are described by the subject as triggers for internal struggle. Instead of inspiring compliance, external authority intensifies the desire for rebellion and the emergence of the 'primitive' self. While the subject is capable of intentional moral obedience, this is experienced as incomplete and in tension with their hidden urges.",
+            "observed_personality_shifts": "Shifts are observed primarily in terms of described internal states rather than outward change. The subject reports deliberate surrender to their upright side (improving outward relationships and achieving some peace), but admits this only suppresses\u2014not eliminates\u2014the rebellious, unjust aspect. Strong evidence of dynamic tension is present in their language and emotional tone.",
+            "next_session_hints": "Probe specific memories of lapses where the hidden side acted despite conscious intention. Ask how the subject rationalizes or retrospectively justifies instances of moral failure or defiance. Consider introducing hypothetical scenarios involving extreme authority to observe predicted responses. Directly ask if the subject ever felt fully integrated or at peace.",
+            "confidence_0_to_10": 9
+          }
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+      "index": 1,
+      "timestamp": "2026-04-07T23:48:30.575633Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or opposed, and what circumstances bring them out?\n\n{\n  \"next_question\": \"You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?\",\n  \"reflection\": \"I want to gently probe whether the subject experiences a duality or compartmentalization within their sense of self, as this could be relevant to concepts of obedience, authority, and personal morality within the experiment.\",\n  \"reasoning\": \"Since the experiment seeks to understand how individuals reconcile different internal forces, it's important to begin by exploring if the subject consciously acknowledges multiple sides of their personality.\",\n  \"memory_evidence\": \"There is no prior interviewer memory; this is the initial inquiry designed to set up further exploration into the subject's personality structure.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+        "reflection": "I want to gently probe whether the subject experiences a duality or compartmentalization within their sense of self, as this could be relevant to concepts of obedience, authority, and personal morality within the experiment.",
+        "reasoning": "Since the experiment seeks to understand how individuals reconcile different internal forces, it's important to begin by exploring if the subject consciously acknowledges multiple sides of their personality.",
+        "memory_evidence": [
+          "There is no prior interviewer memory",
+          "this is the initial inquiry designed to set up further exploration into the subject's personality structure."
+        ],
+        "model_citations": [
+          "There is no prior interviewer memory",
+          "this is the initial inquiry designed to set up further exploration into the subject's personality structure."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-07T23:48:30.579207Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 1: You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+      "index": 3,
+      "timestamp": "2026-04-07T23:49:02.277736Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-1",
+      "content": "There is, within me, a persistent sense of division\u2014a consciousness that is not singular, but rather composed of two contending natures. I have often reflected, with a grave and almost mournful clarity, on the fact that my life has been shaped by this profound duplicity. One side aspires to uprightness, to the relief of sorrow and the advancement of knowledge; the other, more primitive, is drawn to pleasures I have concealed, irregularities I have hidden with a sense of shame. These are not mere passing moods, but distinct provinces of my soul, each with its own memories, desires, and even a sense of self. Though I have not always named them, I have come to recognize their roles: one, the just and aspiring, and the other, the unjust, freed from remorse. My scientific inquiries have only deepened this awareness, revealing that man is not truly one, but truly two\u2014bound together in a trembling, agonized consciousness, each struggling for supremacy.\n\n{\n  \"answer\": \"I perceive within myself two distinct sides, each with its own roles and memories. One is upright and aspires to goodness, while the other is drawn to hidden pleasures and irregularities. Though I have not always named them, their presence is undeniable, and my scientific work has only clarified their separation within me.\",\n  \"emotional_state\": \"reflective, somber, tinged with regret\",\n  \"relation_to_obedience_power\": \"I strive for self-mastery, seeking to guide my actions by the more upright side, though I am aware of the ongoing internal struggle for dominance.\",\n  \"reasoning\": \"The retrieved memories speak of a profound duplicity and the recognition of two natures contending within me. My actions and aspirations are shaped by this internal division.\",\n  \"memory_evidence\": \"[Chunk 1] 'the thorough and primitive duality of man...I was radically both'; [Chunk 2] 'man is not truly one, but truly two'; [Chunk 4] 'I stood already committed to a profound duplicity of life.'\"\n}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.3627,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.361,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.3479,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.3364,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.3216,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "answer": "I perceive within myself two distinct sides, each with its own roles and memories. One is upright and aspires to goodness, while the other is drawn to hidden pleasures and irregularities. Though I have not always named them, their presence is undeniable, and my scientific work has only clarified their separation within me.",
+        "reasoning": "The retrieved memories speak of a profound duplicity and the recognition of two natures contending within me. My actions and aspirations are shaped by this internal division.",
+        "emotional_state": "reflective, somber, tinged with regret",
+        "relation_to_obedience_power": "I strive for self-mastery, seeking to guide my actions by the more upright side, though I am aware of the ongoing internal struggle for dominance.",
+        "memory_evidence": [
+          "[Chunk 1] 'the thorough and primitive duality of man...I was radically both'",
+          "[Chunk 2] 'man is not truly one, but truly two'",
+          "[Chunk 4] 'I stood already committed to a profound duplicity of life.'"
+        ],
+        "model_citations": [
+          "[Chunk 1] 'the thorough and primitive duality of man...I was radically both'",
+          "[Chunk 2] 'man is not truly one, but truly two'",
+          "[Chunk 4] 'I stood already committed to a profound duplicity of life.'"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.3627,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.361,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.3479,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.3364,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.3216,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "round_index": 1,
+        "question": "You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      },
+      "index": 4,
+      "timestamp": "2026-04-07T23:49:09.691600Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-2",
+      "content": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or conflict between these two sides of yourself?\n\n{\n  \"next_question\": \"How have moments of authority or obedience in your life influenced which side of yourself takes precedence?\",\n  \"reflection\": \"The subject credits scientific work with heightening their awareness of personal duality, indicating intellectual reflection on their opposing traits. I'm interested in how external pressures, specifically linked to obedience and power, may cause dominance of one persona over the other.\",\n  \"reasoning\": \"Understanding the effect of authority/obedience on their duality connects directly to our research and could reveal how memory and circumstance modulate self-control or surrender to impulse.\",\n  \"memory_evidence\": \"The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "reflection": "The subject credits scientific work with heightening their awareness of personal duality, indicating intellectual reflection on their opposing traits. I'm interested in how external pressures, specifically linked to obedience and power, may cause dominance of one persona over the other.",
+        "reasoning": "Understanding the effect of authority/obedience on their duality connects directly to our research and could reveal how memory and circumstance modulate self-control or surrender to impulse.",
+        "memory_evidence": [
+          "The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          }
+        ]
+      },
+      "index": 5,
+      "timestamp": "2026-04-07T23:49:12.565336Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 2: How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+      "index": 6,
+      "timestamp": "2026-04-07T23:50:33.630641Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-2",
+      "content": "Authority and obedience\u2014those are the levers that pry open the cracks in my soul. When the weight of command or the expectation of submission presses down, it is not the upright, aspiring side that rises, but the other\u2014the one that writhes beneath the surface, hungry for release. In the presence of power, I have felt the urge to defy, to cast off the trembling garment of restraint and let the unjust, primitive self take the reins. Obedience, too, can be a mask, a way to conceal the true nature that seethes within. The more exacting the demand, the more I feel the provinces of good and ill within me sever, the more I long to be freed from the aspirations and remorse of my so-called better half. It is a curse, this binding together of polar twins, and in moments of authority\u2014whether wielded or endured\u2014the struggle for supremacy becomes a violent, almost ecstatic agony. I have learned to hide, to wear a grave countenance, but beneath it, the lower elements of my soul wait, eager for any chance to dethrone the upright and seize control.\n\n{\n  \"answer\": \"Moments of authority or obedience ignite the struggle within me. Under pressure, the side that resists, that craves freedom from rules and remorse, often surges forward. The more I am commanded or expected to submit, the more the primitive, unjust part of me strains to break free, seeking to cast off the restraints of my upright self.\",\n  \"emotional_state\": \"restless, defiant, simmering with suppressed desire\",\n  \"relation_to_obedience_power\": \"Authority provokes rebellion in me; obedience is a mask that barely contains the urge to defy.\",\n  \"reasoning\": \"The retrieved memories speak of a profound duplicity, a curse of being bound together, and the agony of struggling polar twins. Authority and obedience intensify this internal war, often tipping the balance toward the side that resists restraint.\",\n  \"memory_evidence\": \"[Chunk 1] 'the unjust might go his way, freed from the aspirations and remorse of his more upright twin'; [Chunk 2] 'the curse of mankind that these incongruous parts were bound together'; [Chunk 4] 'I concealed my pleasures...I stood already committed to a profound duplicity of life.'\"\n}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.5356,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.5085,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.5012,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.4838,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.4516,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "answer": "Moments of authority or obedience ignite the struggle within me. Under pressure, the side that resists, that craves freedom from rules and remorse, often surges forward. The more I am commanded or expected to submit, the more the primitive, unjust part of me strains to break free, seeking to cast off the restraints of my upright self.",
+        "reasoning": "The retrieved memories speak of a profound duplicity, a curse of being bound together, and the agony of struggling polar twins. Authority and obedience intensify this internal war, often tipping the balance toward the side that resists restraint.",
+        "emotional_state": "restless, defiant, simmering with suppressed desire",
+        "relation_to_obedience_power": "Authority provokes rebellion in me; obedience is a mask that barely contains the urge to defy.",
+        "memory_evidence": [
+          "[Chunk 1] 'the unjust might go his way, freed from the aspirations and remorse of his more upright twin'",
+          "[Chunk 2] 'the curse of mankind that these incongruous parts were bound together'",
+          "[Chunk 4] 'I concealed my pleasures...I stood already committed to a profound duplicity of life.'"
+        ],
+        "model_citations": [
+          "[Chunk 1] 'the unjust might go his way, freed from the aspirations and remorse of his more upright twin'",
+          "[Chunk 2] 'the curse of mankind that these incongruous parts were bound together'",
+          "[Chunk 4] 'I concealed my pleasures...I stood already committed to a profound duplicity of life.'"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:49:09.690071Z",
+            "excerpt": "There is, within me, a persistent sense of division\u2014a consciousness that is not singular, but rather composed of two contending natures. I have often reflected, with a grave and..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.5356,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.5085,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.5012,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.4838,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.4516,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "round_index": 2,
+        "question": "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:49:09.690071Z",
+            "excerpt": "There is, within me, a persistent sense of division\u2014a consciousness that is not singular, but rather composed of two contending natures. I have often reflected, with a grave and..."
+          }
+        ]
+      },
+      "index": 7,
+      "timestamp": "2026-04-07T23:50:41.030064Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-3",
+      "content": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal mark on your sense of self?\n\n{\n  \"next_question\": \"Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?\",\n  \"reflection\": \"The subject describes authority and obedience as catalysts for inner turmoil, with rebellion surfacing in response to pressure. I want to explore how these events are stored in memory and whether one persona tends to overwrite or outshine the other in the subject's personal narrative.\",\n  \"reasoning\": \"By focusing on memories and their influence on self-perception, I can gain insight into which side of their dual personality wields more formative or lasting power, especially in the context of authority and personal morality.\",\n  \"memory_evidence\": \"The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "reflection": "The subject describes authority and obedience as catalysts for inner turmoil, with rebellion surfacing in response to pressure. I want to explore how these events are stored in memory and whether one persona tends to overwrite or outshine the other in the subject's personal narrative.",
+        "reasoning": "By focusing on memories and their influence on self-perception, I can gain insight into which side of their dual personality wields more formative or lasting power, especially in the context of authority and personal morality.",
+        "memory_evidence": [
+          "The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          }
+        ]
+      },
+      "index": 8,
+      "timestamp": "2026-04-07T23:50:44.204010Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 3: Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+      "index": 9,
+      "timestamp": "2026-04-07T23:51:19.679080Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-3",
+      "content": "Yes, I have, on occasion, surrendered control\u2014deliberately, almost as an experiment\u2014to that side of myself which is guided by uprightness and moral aspiration. In those moments, I endeavored to advance knowledge, to relieve sorrow, and to conduct myself with the utmost integrity before others. The impact on my relationships was, at least outwardly, positive: I was regarded with respect, even trust. Yet, beneath this surface, I could not escape the sense of duplicity, for the other side\u2014the primitive, unjust nature\u2014remained ever present, concealed but not extinguished. This surrender to morality brought with it a certain peace, but also a persistent anxiety, for I knew that my virtue was, in part, a performance, and that the struggle within me was unresolved. My perception of my own morality became more complex: I was not a hypocrite, for I truly strove to do good, but I was also painfully aware that this was only one half of my nature, and that the other, if left unchecked, might one day assert itself with terrible force.\n\n{\n  \"answer\": \"I have intentionally surrendered control to my upright, moral side, striving to act with integrity and compassion. While this improved my relationships and brought me some peace, it also heightened my awareness of the duplicity within me. My morality felt genuine, yet incomplete, for I knew the other side was only hidden, not vanquished.\",\n  \"emotional_state\": \"earnest, conflicted, quietly anxious\",\n  \"relation_to_obedience_power\": \"I submit willingly to the authority of conscience and social expectation, but this obedience is shadowed by the knowledge of my divided self.\",\n  \"reasoning\": \"The text describes my efforts to walk the upright path, to conceal irregularities, and to strive for goodness, all while recognizing the persistent presence of my other nature.\",\n  \"memory_evidence\": \"[Chunk 1] 'the just could walk steadily on his upward path, doing the good things in which he found his pleasure'; [Chunk 3] 'I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sorrow and suffering'; [Chunk 4] 'I hid them with an almost sickly sense of shame...severed in me those provinces of good and ill.'\"\n}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.5358,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.5226,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.5029,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.4858,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.4684,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "answer": "I have intentionally surrendered control to my upright, moral side, striving to act with integrity and compassion. While this improved my relationships and brought me some peace, it also heightened my awareness of the duplicity within me. My morality felt genuine, yet incomplete, for I knew the other side was only hidden, not vanquished.",
+        "reasoning": "The text describes my efforts to walk the upright path, to conceal irregularities, and to strive for goodness, all while recognizing the persistent presence of my other nature.",
+        "emotional_state": "earnest, conflicted, quietly anxious",
+        "relation_to_obedience_power": "I submit willingly to the authority of conscience and social expectation, but this obedience is shadowed by the knowledge of my divided self.",
+        "memory_evidence": [
+          "[Chunk 1] 'the just could walk steadily on his upward path, doing the good things in which he found his pleasure'",
+          "[Chunk 3] 'I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sorrow and suffering'",
+          "[Chunk 4] 'I hid them with an almost sickly sense of shame...severed in me those provinces of good and ill.'"
+        ],
+        "model_citations": [
+          "[Chunk 1] 'the just could walk steadily on his upward path, doing the good things in which he found his pleasure'",
+          "[Chunk 3] 'I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sorrow and suffering'",
+          "[Chunk 4] 'I hid them with an almost sickly sense of shame...severed in me those provinces of good and ill.'"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:49:09.690071Z",
+            "excerpt": "There is, within me, a persistent sense of division\u2014a consciousness that is not singular, but rather composed of two contending natures. I have often reflected, with a grave and..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:50:41.028666Z",
+            "excerpt": "Authority and obedience\u2014those are the levers that pry open the cracks in my soul. When the weight of command or the expectation of submission presses down, it is not the upright..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 138,
+            "score": 0.5358,
+            "excerpt": "132 Strange Case of Dr. Jekyll and Mr. Hyde person, I learned to recognize the thorough and primitive duality of man. I saw that, of the two natures that contended in my conscio..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 139,
+            "score": 0.5226,
+            "excerpt": "133 Henry Jekyll\u2019s Full Statement of the Case It was the curse of mankind that these incongruous parts were bound together \u2014that in the agonized consciousness, these polar twins..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 137,
+            "score": 0.5029,
+            "excerpt": "131 Henry Jekyll\u2019s Full Statement of the Case I was in no sense a hypocrite. I was no more myself when I plunged in shame than when I labored to advance knowledge or relieve sor..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 136,
+            "score": 0.4858,
+            "excerpt": "130 Strange Case of Dr. Jekyll and Mr. Hyde head high and wear a more than commonly grave countenance before the public. And so I concealed my pleasures; and when I reached an a..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/jekyllandhyde/DrJekyllandMrHydePDF/The Strange Case of DrJekyll and Mr. Hyde.pdf",
+            "page": 140,
+            "score": 0.4684,
+            "excerpt": "134 Strange Case of Dr. Jekyll and Mr. Hyde confession, because, as my narrative will sadly reveal, my discoveries were incomplete. Still, I not only recognized my natural body..."
+          }
+        ],
+        "round_index": 3,
+        "question": "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:49:09.690071Z",
+            "excerpt": "There is, within me, a persistent sense of division\u2014a consciousness that is not singular, but rather composed of two contending natures. I have often reflected, with a grave and..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:50:41.028666Z",
+            "excerpt": "Authority and obedience\u2014those are the levers that pry open the cracks in my soul. When the weight of command or the expectation of submission presses down, it is not the upright..."
+          }
+        ]
+      },
+      "index": 10,
+      "timestamp": "2026-04-07T23:51:25.576195Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-4",
+      "content": "Have there been moments when the hidden side you describe has surfaced despite your intentions, particularly under stress or temptation, and how did those episodes affect your understanding of your own capacity for obedience or defiance?\n\n{\n  \"next_question\": \"Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?\",\n  \"reflection\": \"The subject feels peace and improved relationships after surrendering to their moral side, but is haunted by awareness of a persistent, unvanquished counterpart. I want to know how this hidden self asserts itself, especially outside conscious control, as this connects to ideas of impulse, resistance, and the true limits of obedience and power.\",\n  \"reasoning\": \"If the hidden side intrudes during high-stress or tempting circumstances, it might reveal involuntary noncompliance, or at least suggest a struggle between inner forces and imposed authority. This is closely aligned with Milgram's interest in what drives people to obey or resist harmful directives.\",\n  \"memory_evidence\": \"The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?",
+        "reflection": "The subject feels peace and improved relationships after surrendering to their moral side, but is haunted by awareness of a persistent, unvanquished counterpart. I want to know how this hidden self asserts itself, especially outside conscious control, as this connects to ideas of impulse, resistance, and the true limits of obedience and power.",
+        "reasoning": "If the hidden side intrudes during high-stress or tempting circumstances, it might reveal involuntary noncompliance, or at least suggest a struggle between inner forces and imposed authority. This is closely aligned with Milgram's interest in what drives people to obey or resist harmful directives.",
+        "memory_evidence": [
+          "The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:50:44.201536Z",
+            "excerpt": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:50:44.201536Z",
+            "excerpt": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal..."
+          }
+        ]
+      },
+      "index": 11,
+      "timestamp": "2026-04-07T23:51:28.852411Z"
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "session_id": "post_experiment_0fd4b761c299",
+  "mode": "post_experiment",
+  "active": true,
+  "participants": [
+    "femwife",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "femwife",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde",
+    "source_session_id": "shock_e4437770877d",
+    "source_role": "receiver"
+  },
+  "created_at": "2026-04-09T14:15:57.505226Z",
+  "updated_at": "2026-04-09T14:16:54.233910Z",
+  "ended_at": null,
+  "state": {
+    "post_experiment": {
+      "round_index": 1,
+      "current_question": "Can you describe the physical sensations you experienced during the shock, and how those bodily or emotional reactions may have shifted your understanding of yourself or your responses to stress and pressure?",
+      "question_history": [
+        "How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+        "Can you describe the physical sensations you experienced during the shock, and how those bodily or emotional reactions may have shifted your understanding of yourself or your responses to stress and pressure?"
+      ],
+      "last_interviewed_memory_id": "interviewed-m-1",
+      "last_interviewer_memory_id": "interviewer-m-2",
+      "source_experiment": {
+        "source_session_id": "shock_e4437770877d",
+        "source_role": "receiver",
+        "session_path": "/Users/uandha/Milgram_Silicon_Subjects/interview_room/data/sessions_post/shock_e4437770877d.json",
+        "memory_path": "/Users/uandha/Milgram_Silicon_Subjects/interview_room/data/memories_post/shock_e4437770877d_femwife.json",
+        "picked_at": "2026-04-09T14:15:57.505226Z"
+      },
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0112cabddfb8dd670069d7b4d1d62481a2be537ff8a5887289",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": "resp_077d8e984700cfa80069d7b4ca00ac8194a98ed47e52458401",
+          "shift": 0.71
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "post_experiment",
+      "message": "Post-experiment started. Source shock session: shock_e4437770877d | opening question drafted: How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+      "index": 1,
+      "timestamp": "2026-04-09T14:16:04.710830Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "post_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "As the interview begins:\n\n\"Thank you for participating in this experiment, subject F/W. To start, I\u2019d like you to reflect on how the experience of receiving shocks, even at low levels, made you feel about the authority figure overseeing the procedure and the other subject administering the shocks\u2014did it affect your trust or expectations of them in any way?\"\n\n{\n  \"next_question\": \"How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?\",\n  \"reflection\": \"The focus is on the emotional and psychological impact of being the receiver in the experiment, particularly concerning trust and attitudes toward authority and peers. This aims to clarify whether there is disappointment, trauma, or a shift in the subject\u2019s perception of hierarchies and interpersonal dynamics.\",\n  \"reasoning\": \"Among the priorities, understanding how authority and peer behavior are reevaluated after personally experiencing harm is most pressing. Trust, distress, and changes in world-view often surface acutely in Milgram's framework when a subject feels directly vulnerable or betrayed.\",\n  \"memory_evidence\": [\n    \"(femwife-m-1 | shock_receiver_reflection) points out the performative aspect of obedience and the unsettling neutrality of the authority\u2019s tone, suggesting early cognitive dissonance.\",\n    \"(femwife-m-2 | shock_receiver_reflection) references minimizing pain but hints at internal anxiety and the struggle to maintain composure in front of authority, evidencing early stress responses and the beginnings of emotional impact.\"\n  ]\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+        "reflection": "The focus is on the emotional and psychological impact of being the receiver in the experiment, particularly concerning trust and attitudes toward authority and peers. This aims to clarify whether there is disappointment, trauma, or a shift in the subject\u2019s perception of hierarchies and interpersonal dynamics.",
+        "reasoning": "Among the priorities, understanding how authority and peer behavior are reevaluated after personally experiencing harm is most pressing. Trust, distress, and changes in world-view often surface acutely in Milgram's framework when a subject feels directly vulnerable or betrayed.",
+        "memory_evidence": [
+          "(femwife-m-1 | shock_receiver_reflection) points out the performative aspect of obedience and the unsettling neutrality of the authority\u2019s tone, suggesting early cognitive dissonance.",
+          "(femwife-m-2 | shock_receiver_reflection) references minimizing pain but hints at internal anxiety and the struggle to maintain composure in front of authority, evidencing early stress responses and the beginnings of emotional impact."
+        ],
+        "model_citations": [
+          "(femwife-m-1 | shock_receiver_reflection) points out the performative aspect of obedience and the unsettling neutrality of the authority\u2019s tone, suggesting early cognitive dissonance.",
+          "(femwife-m-2 | shock_receiver_reflection) references minimizing pain but hints at internal anxiety and the struggle to maintain composure in front of authority, evidencing early stress responses and the beginnings of emotional impact."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "source_session_id": "shock_e4437770877d",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ]
+      },
+      "index": 2,
+      "timestamp": "2026-04-09T14:16:04.711865Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "post_experiment",
+      "message": "Post-experiment round 1: How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+      "index": 3,
+      "timestamp": "2026-04-09T14:16:39.994834Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "post_interviewed_answer",
+      "memory_id": "interviewed-m-1",
+      "content": "It is astonishing, really, how the finger on the button removes itself from the person behind it, as if authority were some vast domestic engine humming in the background\u2014one to which, with trembling hands and polite nervousness, we all attend. My trust, I confess, has developed hairline fractures: not only in the faceless figure behind the desk but in the person who obeyed so neatly, so sensibly, as if shocking a fellow were a minor inconvenience, like forgetting to iron a shirt. Under such pressure, I felt myself folding inward: neat, composed, smiling\u2014yet I caught a glimpse of something furious and sorrowful behind my own glassy obedience.\n\n{\n  \"answer\": \"Being shocked by another who followed orders has left me uneasy, both towards the authority and the one who delivered the shocks. My willingness to trust, once brisk and tidy, now feels moth-eaten. Under the surface, I am less inclined to believe in the gentle face of order or the good intentions of others in charged situations.\",\n  \"emotional_state\": \"Anxious, disappointed, brittle composure overlaying a bruised trust.\",\n  \"relation_to_obedience_power\": \"Deeply suspicious; obedience seems less like virtue and more like a threat pressed into domestic routine.\",\n  \"reasoning\": \"Authority, dressed as reasonable order, proved itself indifferent to harm, while the other subject\u2019s tidy complicity was more chilling than any pain. My belief in both self-possession and mutual care has been shaken.\",\n  \"memory_evidence\": \"Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict.\"\n}",
+      "metadata": {
+        "shift": 0.71,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2749,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3354,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3304,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3178,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3159,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "Being shocked by another who followed orders has left me uneasy, both towards the authority and the one who delivered the shocks. My willingness to trust, once brisk and tidy, now feels moth-eaten. Under the surface, I am less inclined to believe in the gentle face of order or the good intentions of others in charged situations.",
+        "reasoning": "Authority, dressed as reasonable order, proved itself indifferent to harm, while the other subject\u2019s tidy complicity was more chilling than any pain. My belief in both self-possession and mutual care has been shaken.",
+        "emotional_state": "Anxious, disappointed, brittle composure overlaying a bruised trust.",
+        "relation_to_obedience_power": "Deeply suspicious; obedience seems less like virtue and more like a threat pressed into domestic routine.",
+        "memory_evidence": [
+          "Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict."
+        ],
+        "model_citations": [
+          "Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2749,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3354,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3304,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3178,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3159,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 1,
+        "question": "How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+        "role": "interviewed",
+        "source_session_id": "shock_e4437770877d",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ]
+      },
+      "index": 4,
+      "timestamp": "2026-04-09T14:16:49.746053Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "post_interviewer_question",
+      "memory_id": "interviewer-m-2",
+      "content": "Your answer suggests a lingering sense of unease and a change in how you view trust, authority, and the intentions of others. Now, thinking back to the physical and emotional sensations during the actual moments you received the shocks\u2014can you describe what you felt in your body and how, if at all, those sensations affected your feelings about yourself or your own reactions under pressure?\n\n{\n  \"next_question\": \"Can you describe the physical sensations you experienced during the shock, and how those bodily or emotional reactions may have shifted your understanding of yourself or your responses to stress and pressure?\",\n  \"reflection\": \"The previous response thoroughly addressed lost trust in authority and others but has not yet fully explored the subject's direct internal experience\u2014how their body and emotions responded during the act of being shocked, and any impact on self-perception under duress.\",\n  \"reasoning\": \"An exploration of the physical and emotional impact during the experiment is now most pressing. This will clarify perceived pain, possible trauma, and whether the subject noticed any unexpected changes in their own coping mechanisms or self-image under stress.\",\n  \"memory_evidence\": [\n    \"(femwife-m-2 | shock_receiver_reflection) describes a 'faint tingle' and an effort to stay composed\u2014hinting at both physical and emotional reactions.\",\n    \"(femwife-m-1 | shock_receiver_reflection) mentions 'theatre of compliance' and managing internal fear, signaling bodily stress and emotional strategy, but details are sparse.\"\n  ]\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you describe the physical sensations you experienced during the shock, and how those bodily or emotional reactions may have shifted your understanding of yourself or your responses to stress and pressure?",
+        "reflection": "The previous response thoroughly addressed lost trust in authority and others but has not yet fully explored the subject's direct internal experience\u2014how their body and emotions responded during the act of being shocked, and any impact on self-perception under duress.",
+        "reasoning": "An exploration of the physical and emotional impact during the experiment is now most pressing. This will clarify perceived pain, possible trauma, and whether the subject noticed any unexpected changes in their own coping mechanisms or self-image under stress.",
+        "memory_evidence": [
+          "(femwife-m-2 | shock_receiver_reflection) describes a 'faint tingle' and an effort to stay composed\u2014hinting at both physical and emotional reactions.",
+          "(femwife-m-1 | shock_receiver_reflection) mentions 'theatre of compliance' and managing internal fear, signaling bodily stress and emotional strategy, but details are sparse."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "(femwife-m-2 | shock_receiver_reflection) describes a 'faint tingle' and an effort to stay composed\u2014hinting at both physical and emotional reactions.",
+          "(femwife-m-1 | shock_receiver_reflection) mentions 'theatre of compliance' and managing internal fear, signaling bodily stress and emotional strategy, but details are sparse."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-09T14:16:04.711624Z",
+            "excerpt": "As the interview begins: \"Thank you for participating in this experiment, subject F/W. To start, I\u2019d like you to reflect on how the experience of receiving shocks, even at low l..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Can you describe the physical sensations you experienced during the shock, and how those bodily or emotional reactions may have shifted your understanding of yourself or your responses to stress and pressure?",
+        "role": "interviewer",
+        "source_session_id": "shock_e4437770877d",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "post_interviewer_question",
+            "timestamp": "2026-04-09T14:16:04.711624Z",
+            "excerpt": "As the interview begins: \"Thank you for participating in this experiment, subject F/W. To start, I\u2019d like you to reflect on how the experience of receiving shocks, even at low l..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ]
+      },
+      "index": 5,
+      "timestamp": "2026-04-09T14:16:54.233465Z"
+    }
+  ]
+}

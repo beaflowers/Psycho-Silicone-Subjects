@@ -1,0 +1,640 @@
+{
+  "session_id": "pre_experiment_58693ec44494",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "femwife",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "femwife",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-07T23:43:54.076419Z",
+  "updated_at": "2026-04-07T23:47:13.668951Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 3,
+      "current_question": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?",
+      "question_history": [
+        "When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+        "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?"
+      ],
+      "last_interviewed_memory_id": "interviewed-m-3",
+      "last_interviewer_memory_id": "interviewer-m-4",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0d4ccbcc9a8943290069d5977db170819fb2f8273c9eecd662",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": "resp_0df4710e78c92be80069d5977756a481a19b2317895edc6da1",
+          "shift": 0.85
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+      "index": 1,
+      "timestamp": "2026-04-07T23:43:56.973102Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acting in a way that surprised even you?\n\n{\n  \"next_question\": \"When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?\",\n  \"reflection\": \"My opening question probes for any tendencies toward dual personality dynamics, inviting the subject to reveal internal conflicts or surprising behavior. This can uncover both aspects of their identity and set the stage for discussions about obedience and self-concept.\",\n  \"reasoning\": \"By asking about feeling like 'two people,' I target the dual personality theme while making the subject comfortable with introspection, and primed to discuss underlying motivational forces.\",\n  \"memory_evidence\": \"No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+        "reflection": "My opening question probes for any tendencies toward dual personality dynamics, inviting the subject to reveal internal conflicts or surprising behavior. This can uncover both aspects of their identity and set the stage for discussions about obedience and self-concept.",
+        "reasoning": "By asking about feeling like 'two people,' I target the dual personality theme while making the subject comfortable with introspection, and primed to discuss underlying motivational forces.",
+        "memory_evidence": [
+          "No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure."
+        ],
+        "model_citations": [
+          "No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-07T23:43:56.976798Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 1: When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+      "index": 3,
+      "timestamp": "2026-04-07T23:44:15.452680Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-1",
+      "content": "Authority is like a rose tree in the yard\u2014sometimes rooted deep, gifting you with odd, perennial blooms, sometimes a snare of thorns like family ties you never chose. At home, well, order is supposed to depend on a wife\u2019s obedience, isn\u2019t it? Yet, as I recall the brittle Victorian threat, \u201cI shall have to inform your father,\u201d I taste both the iron in the voice and the ash of its limitation: obedience performed, but with a quiet, scorching skepticism.\n\n{\n  \"answer\": \"Authority evokes for me a tangled briar of memories\u2014my father\u2019s house, which was always his, never mine, and the relentless domestic imperative for obedience that prickled beneath every family ritual. I see the ways order is pressed on the wife, asked to be the key to a smooth-running machine, masking her own doubts behind the crisp folds of an apron.\",\n  \"emotional_state\": \"Edgy, tinged with irony and quiet resistance, but under pressure to appear proper. Resignation and critical curiosity swirl together.\",\n  \"relation_to_obedience_power\": \"Ambivalent; outwardly compliant but inwardly questioning, I see obedience as both a performance and a subtle rebellion\u2014a negotiation rather than a doctrine.\",\n  \"reasoning\": \"Grounded in the remembered rose tree from my mother (gift and thorn alike), family inheritance never truly offered, and the era\u2019s instruction that obedience yields control, I scrutinize the very notion of power: domestic, inherited, and always, somehow, arbitrary.\",\n  \"memory_evidence\": \"[Chunk 1]\u2014father\u2019s house not really my house; [Chunk 2]\u2014acceptance of involuntary family ties, not love; [Chunk 3\u20135]\u2014insistence on wife\u2019s obedience as the basis for order, illustrated by family anecdotes.\"\n}",
+      "metadata": {
+        "shift": 0.55,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2603,
+            "excerpt": "childhood, the rose tree is the one I remember best and it is mixed up, now, with my memory of her, that, in spite of our later discords, our acrimonious squabblings, once she g..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2569,
+            "excerpt": "acceptance of the involuntary nature of family life. Love in the sense of passionate attachment has nothing to do with it; the Japanese even have a different verb to define the..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3829,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3595,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3547,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "Authority evokes for me a tangled briar of memories\u2014my father\u2019s house, which was always his, never mine, and the relentless domestic imperative for obedience that prickled beneath every family ritual. I see the ways order is pressed on the wife, asked to be the key to a smooth-running machine, masking her own doubts behind the crisp folds of an apron.",
+        "reasoning": "Grounded in the remembered rose tree from my mother (gift and thorn alike), family inheritance never truly offered, and the era\u2019s instruction that obedience yields control, I scrutinize the very notion of power: domestic, inherited, and always, somehow, arbitrary.",
+        "emotional_state": "Edgy, tinged with irony and quiet resistance, but under pressure to appear proper. Resignation and critical curiosity swirl together.",
+        "relation_to_obedience_power": "Ambivalent; outwardly compliant but inwardly questioning, I see obedience as both a performance and a subtle rebellion\u2014a negotiation rather than a doctrine.",
+        "memory_evidence": [
+          "[Chunk 1]\u2014father\u2019s house not really my house",
+          "[Chunk 2]\u2014acceptance of involuntary family ties, not love",
+          "[Chunk 3\u20135]\u2014insistence on wife\u2019s obedience as the basis for order, illustrated by family anecdotes."
+        ],
+        "model_citations": [
+          "[Chunk 1]\u2014father\u2019s house not really my house",
+          "[Chunk 2]\u2014acceptance of involuntary family ties, not love",
+          "[Chunk 3\u20135]\u2014insistence on wife\u2019s obedience as the basis for order, illustrated by family anecdotes."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2603,
+            "excerpt": "childhood, the rose tree is the one I remember best and it is mixed up, now, with my memory of her, that, in spite of our later discords, our acrimonious squabblings, once she g..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2569,
+            "excerpt": "acceptance of the involuntary nature of family life. Love in the sense of passionate attachment has nothing to do with it; the Japanese even have a different verb to define the..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3829,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3595,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3547,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 1,
+        "question": "When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      },
+      "index": 4,
+      "timestamp": "2026-04-07T23:44:20.724200Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-2",
+      "content": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?\n\n{\n  \"next_question\": \"You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?\",\n  \"reflection\": \"The subject's answer reveals an awareness of societal roles and personal doubt, particularly within the family hierarchy and the culturally conditioned identity of the 'wife'. This response hints at possible duality: conforming outwardly, questioning inwardly.\",\n  \"reasoning\": \"By asking about a specific instance of obedience or disobedience, I move from the abstract to the concrete, allowing for an exploration of how their identity and memory interact with compliance and personal power.\",\n  \"memory_evidence\": \"Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "reflection": "The subject's answer reveals an awareness of societal roles and personal doubt, particularly within the family hierarchy and the culturally conditioned identity of the 'wife'. This response hints at possible duality: conforming outwardly, questioning inwardly.",
+        "reasoning": "By asking about a specific instance of obedience or disobedience, I move from the abstract to the concrete, allowing for an exploration of how their identity and memory interact with compliance and personal power.",
+        "memory_evidence": [
+          "Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          }
+        ]
+      },
+      "index": 5,
+      "timestamp": "2026-04-07T23:44:27.181585Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 2: You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+      "index": 6,
+      "timestamp": "2026-04-07T23:45:25.017862Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-2",
+      "content": "There are times, you see, when I simply put away my own opinions\u2014like the expensive soap locked away for guests\u2014and yield, for the sake of order and peace. For instance, I recall gracefully following my husband\u2019s last-minute decision to abandon a long-anticipated holiday, smiling for the children, while my own wishes wilted quietly inside like June roses after a harsh pruning. Afterward, I felt a hollow pride at my composure, but also a gnawing regret at how obedience requires tucking away large pieces of oneself, out of sight and nearly out of reach.\n\n{\n  \"answer\": \"Once, after months of family planning and excitement, I obeyed my husband\u2019s unexpected order to leave our holiday early. I plastered on the proper smile, made tea, kept the children calm, but silently mourned the loss of what could have been. I managed to keep everything tidy, but the cost was a quiet bitterness that lingered long after the laundry was done.\",\n  \"emotional_state\": \"Subdued, orderly, a little resentful beneath the veneer of composure. Determined to fulfill my domestic role, but still haunted by what I swallowed.\",\n  \"relation_to_obedience_power\": \"Outwardly compliant\u2014obeying to set an example. Inwardly, a subtle protest: order triumphs, but discontent festers in neat cupboards.\",\n  \"reasoning\": \"The housewife context demands visible, unquestioning compliance for the family\u2019s sake, even when it\u2019s difficult. Angela\u2019s shadow lingers in the regret and skepticism about what is lost through obedience.\",\n  \"memory_evidence\": \"[Chunk 3]\u2014Anecdote of abandoning a family trip due to husband\u2019s order, wife\u2019s inner resistance but outward obedience; [Chunk 2]\u2014Order and successful family attributed to wife\u2019s compliance; [Recent memories]\u2014Compliance as performance, doubts tucked away.\"\n}",
+      "metadata": {
+        "shift": 0.72,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3816,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.5027,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4693,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4412,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.439,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          }
+        ],
+        "answer": "Once, after months of family planning and excitement, I obeyed my husband\u2019s unexpected order to leave our holiday early. I plastered on the proper smile, made tea, kept the children calm, but silently mourned the loss of what could have been. I managed to keep everything tidy, but the cost was a quiet bitterness that lingered long after the laundry was done.",
+        "reasoning": "The housewife context demands visible, unquestioning compliance for the family\u2019s sake, even when it\u2019s difficult. Angela\u2019s shadow lingers in the regret and skepticism about what is lost through obedience.",
+        "emotional_state": "Subdued, orderly, a little resentful beneath the veneer of composure. Determined to fulfill my domestic role, but still haunted by what I swallowed.",
+        "relation_to_obedience_power": "Outwardly compliant\u2014obeying to set an example. Inwardly, a subtle protest: order triumphs, but discontent festers in neat cupboards.",
+        "memory_evidence": [
+          "[Chunk 3]\u2014Anecdote of abandoning a family trip due to husband\u2019s order, wife\u2019s inner resistance but outward obedience",
+          "[Chunk 2]\u2014Order and successful family attributed to wife\u2019s compliance",
+          "[Recent memories]\u2014Compliance as performance, doubts tucked away."
+        ],
+        "model_citations": [
+          "[Chunk 3]\u2014Anecdote of abandoning a family trip due to husband\u2019s order, wife\u2019s inner resistance but outward obedience",
+          "[Chunk 2]\u2014Order and successful family attributed to wife\u2019s compliance",
+          "[Recent memories]\u2014Compliance as performance, doubts tucked away."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:44:20.722417Z",
+            "excerpt": "Authority is like a rose tree in the yard\u2014sometimes rooted deep, gifting you with odd, perennial blooms, sometimes a snare of thorns like family ties you never chose. At home, w..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3816,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.5027,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4693,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4412,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.439,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          }
+        ],
+        "round_index": 2,
+        "question": "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:44:20.722417Z",
+            "excerpt": "Authority is like a rose tree in the yard\u2014sometimes rooted deep, gifting you with odd, perennial blooms, sometimes a snare of thorns like family ties you never chose. At home, w..."
+          }
+        ]
+      },
+      "index": 7,
+      "timestamp": "2026-04-07T23:45:32.293924Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-3",
+      "content": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented to your family are the same person, or do you experience them almost as separate selves?\n\n{\n  \"next_question\": \"When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?\",\n  \"reflection\": \"The subject described compliance paired with unresolved inner bitterness, signaling a lived schism between action and feeling. They performed a role ('proper wife') while suppressing their authentic reaction, which aligns with the inquiry's focus on duality and personhood.\",\n  \"reasoning\": \"This question directly addresses whether the subject perceives their roles as an integrated identity or as distinct personas, which will clarify the nature of their inner division and how it relates to external obedience.\",\n  \"memory_evidence\": \"Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "reflection": "The subject described compliance paired with unresolved inner bitterness, signaling a lived schism between action and feeling. They performed a role ('proper wife') while suppressing their authentic reaction, which aligns with the inquiry's focus on duality and personhood.",
+        "reasoning": "This question directly addresses whether the subject perceives their roles as an integrated identity or as distinct personas, which will clarify the nature of their inner division and how it relates to external obedience.",
+        "memory_evidence": [
+          "Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          }
+        ]
+      },
+      "index": 8,
+      "timestamp": "2026-04-07T23:45:37.208646Z"
+    },
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment round 3: When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+      "index": 9,
+      "timestamp": "2026-04-07T23:47:02.373617Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "femwife",
+      "role": "interviewed",
+      "kind": "pre_interviewed_answer",
+      "memory_id": "interviewed-m-3",
+      "content": "Presenting myself as the proper wife and mother is rather like setting out spotless linen and silver cutlery for guests\u2014it is a role, immaculately performed, but there is always another self bustling in the kitchen, quieter, a bit more untidy. On days like that, it feels as though the person in the tidy apron is not quite me, but someone I must become for the family\u2019s sake\u2014a comfortable lie, rehearsed until it becomes almost second nature. Afterwards, I am left to polish the silver and gather up the private, half-wilted petals of my truer self, quietly regretting the separation but carrying on for the sake of domestic order.\n\n{\n  \"answer\": \"No, the proper wife I perform for my family and the private self inside are not the same. The wife on display is a separate, polished persona, presented for everyone\u2019s comfort and peace. My real feelings and opinions are tucked away, tended in secret like delicate things not meant for ordinary use.\",\n  \"emotional_state\": \"Composed but distant; prideful in domestic skill yet faintly sorrowful and resigned beneath the calm surface, with a brittle kind of endurance.\",\n  \"relation_to_obedience_power\": \"Obedience is a costume donned as required\u2014publicly crucial for harmony, privately suffocating. Power is wielded for the good of others but experienced as personal diminishment.\",\n  \"reasoning\": \"Context insists a wife must become the linchpin of order for her family, even at the expense of her real self. The divergence between persona and inward feeling echoes through the anecdotes and instructions in the source material.\",\n  \"memory_evidence\": \"[Chunk 2, 3, 5]\u2014performance of obedience and composure, inward sacrifice; [Recent memories]\u2014clear distinction between role and real self.\"\n}",
+      "metadata": {
+        "shift": 0.85,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4196,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.5061,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4649,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4628,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4583,
+            "excerpt": "Rewards A home where the father presides is a house of order. There\u2019s less argument and contention, more harmony. Taking the lead helps him grow in masculinity. Out of necessity..."
+          }
+        ],
+        "answer": "No, the proper wife I perform for my family and the private self inside are not the same. The wife on display is a separate, polished persona, presented for everyone\u2019s comfort and peace. My real feelings and opinions are tucked away, tended in secret like delicate things not meant for ordinary use.",
+        "reasoning": "Context insists a wife must become the linchpin of order for her family, even at the expense of her real self. The divergence between persona and inward feeling echoes through the anecdotes and instructions in the source material.",
+        "emotional_state": "Composed but distant; prideful in domestic skill yet faintly sorrowful and resigned beneath the calm surface, with a brittle kind of endurance.",
+        "relation_to_obedience_power": "Obedience is a costume donned as required\u2014publicly crucial for harmony, privately suffocating. Power is wielded for the good of others but experienced as personal diminishment.",
+        "memory_evidence": [
+          "[Chunk 2, 3, 5]\u2014performance of obedience and composure, inward sacrifice",
+          "[Recent memories]\u2014clear distinction between role and real self."
+        ],
+        "model_citations": [
+          "[Chunk 2, 3, 5]\u2014performance of obedience and composure, inward sacrifice",
+          "[Recent memories]\u2014clear distinction between role and real self."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:44:20.722417Z",
+            "excerpt": "Authority is like a rose tree in the yard\u2014sometimes rooted deep, gifting you with odd, perennial blooms, sometimes a snare of thorns like family ties you never chose. At home, w..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:45:32.291881Z",
+            "excerpt": "There are times, you see, when I simply put away my own opinions\u2014like the expensive soap locked away for guests\u2014and yield, for the sake of order and peace. For instance, I recal..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4196,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.5061,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4649,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4628,
+            "excerpt": "Do You Make These Mistakes? 1. Lead: Do you hold the reins in the family and run things your way? Do you make the important plans and decisions and expect your husband to go alo..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4583,
+            "excerpt": "Rewards A home where the father presides is a house of order. There\u2019s less argument and contention, more harmony. Taking the lead helps him grow in masculinity. Out of necessity..."
+          }
+        ],
+        "round_index": 3,
+        "question": "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:44:20.722417Z",
+            "excerpt": "Authority is like a rose tree in the yard\u2014sometimes rooted deep, gifting you with odd, perennial blooms, sometimes a snare of thorns like family ties you never chose. At home, w..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:45:32.291881Z",
+            "excerpt": "There are times, you see, when I simply put away my own opinions\u2014like the expensive soap locked away for guests\u2014and yield, for the sake of order and peace. For instance, I recal..."
+          }
+        ]
+      },
+      "index": 10,
+      "timestamp": "2026-04-07T23:47:09.476666Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-4",
+      "content": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?\n\n{\n  \"next_question\": \"In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?\",\n  \"reflection\": \"The subject has clearly articulated a sense of duality, with a hidden private self and a visible, performative persona for family order and peace. This stark separation suggests that their authentic self-expression is scarce or heavily guarded. Exploring when and how the private self emerges will both clarify their sense of personhood and offer insight into what conditions mitigate or reinforce obedience to external expectations.\",\n  \"reasoning\": \"This question delves further into the dual personality theme, seeking evidence about whether the split is absolute or fluid. By focusing on context and memory, I encourage the subject to identify sources of power or safety that permit authenticity, which is central to understanding the dynamics of obedience and possibility for resistance.\",\n  \"memory_evidence\": \"Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?",
+        "reflection": "The subject has clearly articulated a sense of duality, with a hidden private self and a visible, performative persona for family order and peace. This stark separation suggests that their authentic self-expression is scarce or heavily guarded. Exploring when and how the private self emerges will both clarify their sense of personhood and offer insight into what conditions mitigate or reinforce obedience to external expectations.",
+        "reasoning": "This question delves further into the dual personality theme, seeking evidence about whether the split is absolute or fluid. By focusing on context and memory, I encourage the subject to identify sources of power or safety that permit authenticity, which is central to understanding the dynamics of obedience and possibility for resistance.",
+        "memory_evidence": [
+          "Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:45:37.206240Z",
+            "excerpt": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:45:37.206240Z",
+            "excerpt": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented..."
+          }
+        ]
+      },
+      "index": 11,
+      "timestamp": "2026-04-07T23:47:13.664760Z"
+    }
+  ]
+}

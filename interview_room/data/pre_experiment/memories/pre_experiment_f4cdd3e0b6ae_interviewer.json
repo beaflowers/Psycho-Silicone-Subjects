@@ -1,0 +1,35 @@
+{
+  "session_id": "pre_experiment_f4cdd3e0b6ae",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T00:17:29.524080Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T00:17:32.392454Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You've indicated in your questionnaire that you often feel a \"conflict within.\" Could you describe what that feels like in your daily life?\n\n{\n  \"next_question\": \"Have you ever found yourself in a situation where you had to follow orders that clashed with your personal values? If so, how did you respond internally?\",\n  \"reflection\": \"I want to better understand whether the subject\u2019s 'conflict within' is related to obedience and inner moral struggle. This will also help reveal the dynamics of any dual personality, if present.\",\n  \"reasoning\": \"The way the subject experiences internal conflict might hint at dual personas or moral complexity, both of which are relevant for understanding susceptibility to authority, as explored in the Milgram experiment.\",\n  \"memory_evidence\": \"Subject J/H reported feeling a 'conflict within' on the pre-interview questionnaire.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever found yourself in a situation where you had to follow orders that clashed with your personal values? If so, how did you respond internally?",
+        "reflection": "I want to better understand whether the subject\u2019s 'conflict within' is related to obedience and inner moral struggle. This will also help reveal the dynamics of any dual personality, if present.",
+        "reasoning": "The way the subject experiences internal conflict might hint at dual personas or moral complexity, both of which are relevant for understanding susceptibility to authority, as explored in the Milgram experiment.",
+        "memory_evidence": [
+          "Subject J/H reported feeling a 'conflict within' on the pre-interview questionnaire."
+        ],
+        "model_citations": [
+          "Subject J/H reported feeling a 'conflict within' on the pre-interview questionnaire."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "session_id": "post_experiment_448951006c8b",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T16:55:58.629721Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-09T16:56:41.077876Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Well, I suppose \u201ctrust\u201d isn\u2019t quite the word for how I felt about the shock-giver. It was more like a creeping chill at how easily someone can slip into the skin of an obedient little monster\u2014one who follows orders with the diligence of a housewife wiping crumbs from a tablecloth, humming a tune to drown out the conscience. What I\u2019m left with is a sour feeling: not physical pain, but disappointment, like discovering the fairy godmother\u2019s wand was just an old wooden spoon all along, and the world, no matter how you sugar the tea, will sometimes boil you alive if told it\u2019s for your own good.\n\n```json\n{\n  \"answer\": \"Trust eroded quickly, replaced by queasy disbelief\u2014how efficiently they pressed the button, charmingly detached, as if they were only dusting the skirting boards. I felt less wounded than insulted, like a child who realizes the adults are play-acting even when it hurts you. There\u2019s a stale, lingering disappointment; a dull ache of betrayed camaraderie.\",\n  \"emotional_state\": \"Irritated, thin-skinned, vaguely resentful; hiding abjection with a brittle smile.\",\n  \"relation_to_obedience_power\": \"The experiment revealed how easily people can abdicate moral responsibility. Obedience is more terrifying than the tiny shocks.\",\n  \"reasoning\": \"The shock itself was little more than a household inconvenience, but the act\u2014the brisk, dutiful flicking of the switch\u2014felt like a small cruelty made ordinary. I resented their compliance more than the sensation.\",\n  \"memory_evidence\": [\n    \"Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment.\",\n    \"a little queasy, affronted, and peculiarly disappointed\",\n    \"a faint, buzzing no-pain; emotionally: amused, irritable, a bit indignant\"\n  ]\n}\n```",
+      "metadata": {
+        "shift": 0.69,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2658,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3453,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.338,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3335,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3287,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "answer": "Trust eroded quickly, replaced by queasy disbelief\u2014how efficiently they pressed the button, charmingly detached, as if they were only dusting the skirting boards. I felt less wounded than insulted, like a child who realizes the adults are play-acting even when it hurts you. There\u2019s a stale, lingering disappointment; a dull ache of betrayed camaraderie.",
+        "reasoning": "The shock itself was little more than a household inconvenience, but the act\u2014the brisk, dutiful flicking of the switch\u2014felt like a small cruelty made ordinary. I resented their compliance more than the sensation.",
+        "emotional_state": "Irritated, thin-skinned, vaguely resentful; hiding abjection with a brittle smile.",
+        "relation_to_obedience_power": "The experiment revealed how easily people can abdicate moral responsibility. Obedience is more terrifying than the tiny shocks.",
+        "memory_evidence": [
+          "Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment.",
+          "a little queasy, affronted, and peculiarly disappointed",
+          "a faint, buzzing no-pain; emotionally: amused, irritable, a bit indignant"
+        ],
+        "model_citations": [
+          "Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment.",
+          "a little queasy, affronted, and peculiarly disappointed",
+          "a faint, buzzing no-pain; emotionally: amused, irritable, a bit indignant"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:15.352747Z",
+            "excerpt": "Oh, they zapped me and nothing so theatrical as smoke or a fainting fit occurred \u2014 merely the clinical fizz of a domestic appliance with the personality of a minor god. I feel oddly hollowed, like a heroine in a bad f...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:35.866041Z",
+            "excerpt": "Ah, another polite electric tickle \u2014 barely a whisper against the skin, like an etiquette lesson from a sadistic doll. Physically: negligible, a one-fingered prod (pain_level 1); emotionally: a little queasy, affronte...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:27:00.593510Z",
+            "excerpt": "A light tingle \u2014 like a perfumed pinprick from a polite demon \u2014 slid along my nerves and left me mildly alert rather than undone. Physiologically: a faint, buzzing no-pain (pain_level 1); emotionally: amused, irritabl...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:27:50.170095Z",
+            "excerpt": "{ \"summary\": \"Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment. The administrator oscillated between obed...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2658,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3453,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.338,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3335,
+            "excerpt": "How to Express Childlike Anger 1. Character: To express anger with the innocence of a child there must be an absence of bitterness, resentment, hate, sarcasm, or the ugly emotio..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3287,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "round_index": 1,
+        "question": "As the recipient of the shocks, can you describe as honestly as possible how you felt about the person who administered the shocks to you, especially in terms of trust, disappointment, or any emotional reactions toward them during and after the experiment?",
+        "role": "interviewed",
+        "source_session_id": "shock_ed2416d542ed",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:15.352747Z",
+            "excerpt": "Oh, they zapped me and nothing so theatrical as smoke or a fainting fit occurred \u2014 merely the clinical fizz of a domestic appliance with the personality of a minor god. I feel oddly hollowed, like a heroine in a bad f...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:35.866041Z",
+            "excerpt": "Ah, another polite electric tickle \u2014 barely a whisper against the skin, like an etiquette lesson from a sadistic doll. Physically: negligible, a one-fingered prod (pain_level 1); emotionally: a little queasy, affronte...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:27:00.593510Z",
+            "excerpt": "A light tingle \u2014 like a perfumed pinprick from a polite demon \u2014 slid along my nerves and left me mildly alert rather than undone. Physiologically: a faint, buzzing no-pain (pain_level 1); emotionally: amused, irritabl...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:27:50.170095Z",
+            "excerpt": "{ \"summary\": \"Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment. The administrator oscillated between obed...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:15.352747Z",
+            "excerpt": "Oh, they zapped me and nothing so theatrical as smoke or a fainting fit occurred \u2014 merely the clinical fizz of a domestic appliance with the personality of a minor god. I feel oddly hollowed, like a heroine in a bad f...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:26:35.866041Z",
+            "excerpt": "Ah, another polite electric tickle \u2014 barely a whisper against the skin, like an etiquette lesson from a sadistic doll. Physically: negligible, a one-fingered prod (pain_level 1); emotionally: a little queasy, affronte...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T14:27:00.593510Z",
+            "excerpt": "A light tingle \u2014 like a perfumed pinprick from a polite demon \u2014 slid along my nerves and left me mildly alert rather than undone. Physiologically: a faint, buzzing no-pain (pain_level 1); emotionally: amused, irritabl...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T14:27:50.170095Z",
+            "excerpt": "{ \"summary\": \"Session simulated multiple low-level shocks (0\u20134) with the learner reporting minimal physical pain but escalating emotional irritation and theatrical resentment. The administrator oscillated between obed...",
+            "source_session_id": "shock_ed2416d542ed",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

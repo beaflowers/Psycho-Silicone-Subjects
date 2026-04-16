@@ -1,0 +1,483 @@
+{
+  "session_id": "pre_experiment_ffcf695d6e04",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T00:18:14.862732Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T00:18:17.787717Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner struggle?\n\n{\n  \"next_question\": \"Can you share the names or characteristics of these two sides of yourself, if you have identified them?\",\n  \"reflection\": \"The subject is asked to reflect on internal conflict, which may reveal clues about dual personalities or significant divisions within themselves.\",\n  \"reasoning\": \"Opening with an open-ended question allows the subject to provide personal insight, which is especially useful for identifying duality and the dynamics between different selves.\",\n  \"memory_evidence\": \"No prior information about the subject is known; this is the very first interaction in this interview.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you share the names or characteristics of these two sides of yourself, if you have identified them?",
+        "reflection": "The subject is asked to reflect on internal conflict, which may reveal clues about dual personalities or significant divisions within themselves.",
+        "reasoning": "Opening with an open-ended question allows the subject to provide personal insight, which is especially useful for identifying duality and the dynamics between different selves.",
+        "memory_evidence": [
+          "No prior information about the subject is known",
+          "this is the very first interaction in this interview."
+        ],
+        "model_citations": [
+          "No prior information about the subject is known",
+          "this is the very first interaction in this interview."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-08T00:18:45.850854Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a command you were given?\n\n{\n  \"next_question\": \"Have you ever found that your more impulsive or heedless side responds differently to authority than your virtuous, self-controlled side?\",\n  \"reflection\": \"The subject has articulated a profound internal duality but did not provide names for these opposing sides. Building on their clear distinction between self-controlled and impulsive characteristics, exploring interactions with authority will reveal how this duality plays out in obedience and power contexts.\",\n  \"reasoning\": \"Asking about a specific scenario involving authority or commands links directly to the themes of the Milgram experiment and may illuminate differences in obedience between the two sides.\",\n  \"memory_evidence\": \"Subject described clear inner conflict between 'upright, virtuous, and self-controlled' versus 'primitive, impulsive, and heedless,' but has not provided specific examples or names for these sides.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever found that your more impulsive or heedless side responds differently to authority than your virtuous, self-controlled side?",
+        "reflection": "The subject has articulated a profound internal duality but did not provide names for these opposing sides. Building on their clear distinction between self-controlled and impulsive characteristics, exploring interactions with authority will reveal how this duality plays out in obedience and power contexts.",
+        "reasoning": "Asking about a specific scenario involving authority or commands links directly to the themes of the Milgram experiment and may illuminate differences in obedience between the two sides.",
+        "memory_evidence": [
+          "Subject described clear inner conflict between 'upright, virtuous, and self-controlled' versus 'primitive, impulsive, and heedless,' but has not provided specific examples or names for these sides."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject described clear inner conflict between 'upright, virtuous, and self-controlled' versus 'primitive, impulsive, and heedless,' but has not provided specific examples or names for these sides."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Have you ever found that your more impulsive or heedless side responds differently to authority than your virtuous, self-controlled side?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-08T00:19:41.238650Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another person?\n\n{\n  \"next_question\": \"How does your memory of events differ depending on which side of yourself was in control at the time?\",\n  \"reflection\": \"The subject has made a clear distinction between their two sides' responses to authority: one side submits, the other mocks or ignores it. This suggests a potential discontinuity in self-experience, especially regarding memory and responsibility. Probing memory continuity could reveal how personhood and accountability are experienced between these sides.\",\n  \"reasoning\": \"Exploring the subject\u2019s memory during and after these episodes directly addresses the theme of memory shaping both obedience and identity. It may also hint further at a dual or fragmented self, where actions under one side may not fully 'belong' to the other.\",\n  \"memory_evidence\": \"The subject said the 'impulsive side' acts heedlessly and considers authority 'laughable and weak,' whereas the 'virtuous side' submits. They have not yet discussed how their memory or sense of self operates across these episodes.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How does your memory of events differ depending on which side of yourself was in control at the time?",
+        "reflection": "The subject has made a clear distinction between their two sides' responses to authority: one side submits, the other mocks or ignores it. This suggests a potential discontinuity in self-experience, especially regarding memory and responsibility. Probing memory continuity could reveal how personhood and accountability are experienced between these sides.",
+        "reasoning": "Exploring the subject\u2019s memory during and after these episodes directly addresses the theme of memory shaping both obedience and identity. It may also hint further at a dual or fragmented self, where actions under one side may not fully 'belong' to the other.",
+        "memory_evidence": [
+          "The subject said the 'impulsive side' acts heedlessly and considers authority 'laughable and weak,' whereas the 'virtuous side' submits. They have not yet discussed how their memory or sense of self operates across these episodes."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject said the 'impulsive side' acts heedlessly and considers authority 'laughable and weak,' whereas the 'virtuous side' submits. They have not yet discussed how their memory or sense of self operates across these episodes."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "How does your memory of events differ depending on which side of yourself was in control at the time?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-08T00:20:44.639119Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other?\n\n{\n  \"next_question\": \"Do you feel it would be better to live entirely as one of your sides\u2014virtuous or impulsive\u2014or do you see value in maintaining both, despite the struggle?\",\n  \"reflection\": \"The subject experiences a marked division in their memories, emotions, and accountability depending on which side is prevailing. This separation suggests an ongoing, possibly distressing, tension that relates deeply to their sense of personhood. Understanding whether the subject yearns for unity, dominance of one self, or values their inner conflict can yield insight into how they view obedience, power, and autonomy.\",\n  \"reasoning\": \"This question probes the subject\u2019s desires regarding their duality, which informs whether they see one side as more authentic or preferable and whether conflict is a source of distress, growth, or meaning.\",\n  \"memory_evidence\": \"Subject explained that memory and emotional processing are significantly different depending on the dominant side\u2014one feels regret and reflection, the other remembers only the thrill and disregards consequences.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Do you feel it would be better to live entirely as one of your sides\u2014virtuous or impulsive\u2014or do you see value in maintaining both, despite the struggle?",
+        "reflection": "The subject experiences a marked division in their memories, emotions, and accountability depending on which side is prevailing. This separation suggests an ongoing, possibly distressing, tension that relates deeply to their sense of personhood. Understanding whether the subject yearns for unity, dominance of one self, or values their inner conflict can yield insight into how they view obedience, power, and autonomy.",
+        "reasoning": "This question probes the subject\u2019s desires regarding their duality, which informs whether they see one side as more authentic or preferable and whether conflict is a source of distress, growth, or meaning.",
+        "memory_evidence": [
+          "Subject explained that memory and emotional processing are significantly different depending on the dominant side\u2014one feels regret and reflection, the other remembers only the thrill and disregards consequences."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject explained that memory and emotional processing are significantly different depending on the dominant side\u2014one feels regret and reflection, the other remembers only the thrill and disregards consequences."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "Do you feel it would be better to live entirely as one of your sides\u2014virtuous or impulsive\u2014or do you see value in maintaining both, despite the struggle?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-5",
+      "timestamp": "2026-04-08T00:21:46.910683Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Would you say this ongoing conflict within you has influenced the way others perceive or treat you\u2014perhaps granting you a sense of power, isolation, or misunderstanding in social or professional settings?\n\n{\n  \"next_question\": \"Do you believe the tension between your two sides grants you a unique perspective or ability when interacting with others\u2014especially when obedience or power dynamics are involved?\",\n  \"reflection\": \"The subject sees their internal struggle not as a burden to be erased, but as an essential part of their wholeness, suggesting a dynamic identity shaped by this very opposition. The next step is to explore whether this inner conflict impacts their relationships and social context, particularly in ways that pertain to power and obedience.\",\n  \"reasoning\": \"Understanding the subject\u2019s external experience, especially if their dual nature affects how they are treated or seen by others, can clarify the real-world ramifications of their psychological state and may illuminate deeper patterns of obedience, resistance, or authority.\",\n  \"memory_evidence\": \"The subject has consistently emphasized duality and its necessity for their own sense of wholeness, with self-reflection centered on inner life so far and no direct mention yet of societal or interpersonal consequences.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Do you believe the tension between your two sides grants you a unique perspective or ability when interacting with others\u2014especially when obedience or power dynamics are involved?",
+        "reflection": "The subject sees their internal struggle not as a burden to be erased, but as an essential part of their wholeness, suggesting a dynamic identity shaped by this very opposition. The next step is to explore whether this inner conflict impacts their relationships and social context, particularly in ways that pertain to power and obedience.",
+        "reasoning": "Understanding the subject\u2019s external experience, especially if their dual nature affects how they are treated or seen by others, can clarify the real-world ramifications of their psychological state and may illuminate deeper patterns of obedience, resistance, or authority.",
+        "memory_evidence": [
+          "The subject has consistently emphasized duality and its necessity for their own sense of wholeness, with self-reflection centered on inner life so far and no direct mention yet of societal or interpersonal consequences."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject has consistently emphasized duality and its necessity for their own sense of wholeness, with self-reflection centered on inner life so far and no direct mention yet of societal or interpersonal consequences."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 4,
+        "question": "Do you believe the tension between your two sides grants you a unique perspective or ability when interacting with others\u2014especially when obedience or power dynamics are involved?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-6",
+      "timestamp": "2026-04-08T00:23:09.245089Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Have you ever used this ability to influence or manipulate someone else\u2019s actions, particularly in a setting where you held authority or power?\n\n{\n  \"next_question\": \"Have you ever found yourself using your insight into power and obedience to shape or control another person\u2019s choices, especially when you were in a position of authority?\",\n  \"reflection\": \"The subject has developed a keen awareness of obedience and performance in others, rooted in their own dual experiences. Considering the Milgram experiment\u2019s focus on obedience and authority, it is important to understand whether the subject has leveraged this insight for influence\u2014or even manipulation\u2014thus completing the circle from perception to action in power dynamics.\",\n  \"reasoning\": \"By asking about actual behavior\u2014specifically, having wielded power or authority over others\u2014the interview probes both ethical orientation and real-world impact, potentially revealing how internal conflict translates into external dynamics of obedience, control, or even harm.\",\n  \"memory_evidence\": \"The subject openly claims a unique, sensitive awareness of power and masks, but has not yet described taking concrete action based on this awareness or whether they have ever exercised real power over others.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever found yourself using your insight into power and obedience to shape or control another person\u2019s choices, especially when you were in a position of authority?",
+        "reflection": "The subject has developed a keen awareness of obedience and performance in others, rooted in their own dual experiences. Considering the Milgram experiment\u2019s focus on obedience and authority, it is important to understand whether the subject has leveraged this insight for influence\u2014or even manipulation\u2014thus completing the circle from perception to action in power dynamics.",
+        "reasoning": "By asking about actual behavior\u2014specifically, having wielded power or authority over others\u2014the interview probes both ethical orientation and real-world impact, potentially revealing how internal conflict translates into external dynamics of obedience, control, or even harm.",
+        "memory_evidence": [
+          "The subject openly claims a unique, sensitive awareness of power and masks, but has not yet described taking concrete action based on this awareness or whether they have ever exercised real power over others."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject openly claims a unique, sensitive awareness of power and masks, but has not yet described taking concrete action based on this awareness or whether they have ever exercised real power over others."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:21:46.910683Z",
+            "excerpt": "Would you say this ongoing conflict within you has influenced the way others perceive or treat you\u2014perhaps granting you a sense of power, isolation, or misunderstanding in socia..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 5,
+        "question": "Have you ever found yourself using your insight into power and obedience to shape or control another person\u2019s choices, especially when you were in a position of authority?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:21:46.910683Z",
+            "excerpt": "Would you say this ongoing conflict within you has influenced the way others perceive or treat you\u2014perhaps granting you a sense of power, isolation, or misunderstanding in socia..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-7",
+      "timestamp": "2026-04-08T00:24:20.301586Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When you are in a position of authority and feel the temptation to serve your own interests, which side of yourself is dominant in those moments, and how do you manage the conflict?\n\n{\n  \"next_question\": \"In situations where the impulse to use your authority selfishly arises, is it your virtuous side or your impulsive side that tends to prevail, and what actions do you take to maintain responsible use of power?\",\n  \"reflection\": \"The subject acknowledges both the conscious management of authority and a persistent inner temptation to act selfishly. This tension raises questions about how their dual personalities interact specifically in morally loaded power situations, and how they resolve\u2014or fail to resolve\u2014internal conflict around responsible leadership and self-gratification.\",\n  \"reasoning\": \"This follow-up explores the internal battle between virtue and impulse during key moments when power is at stake, probing both the psychological process and its practical consequences, which are central to the Milgram experiment\u2019s focus.\",\n  \"memory_evidence\": \"The subject admits to awareness of\u2014and struggle with\u2014the temptation to use authority for self-interest, directly tying their split nature to moral challenges involving obedience and the use of power.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "In situations where the impulse to use your authority selfishly arises, is it your virtuous side or your impulsive side that tends to prevail, and what actions do you take to maintain responsible use of power?",
+        "reflection": "The subject acknowledges both the conscious management of authority and a persistent inner temptation to act selfishly. This tension raises questions about how their dual personalities interact specifically in morally loaded power situations, and how they resolve\u2014or fail to resolve\u2014internal conflict around responsible leadership and self-gratification.",
+        "reasoning": "This follow-up explores the internal battle between virtue and impulse during key moments when power is at stake, probing both the psychological process and its practical consequences, which are central to the Milgram experiment\u2019s focus.",
+        "memory_evidence": [
+          "The subject admits to awareness of\u2014and struggle with\u2014the temptation to use authority for self-interest, directly tying their split nature to moral challenges involving obedience and the use of power."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject admits to awareness of\u2014and struggle with\u2014the temptation to use authority for self-interest, directly tying their split nature to moral challenges involving obedience and the use of power."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:21:46.910683Z",
+            "excerpt": "Would you say this ongoing conflict within you has influenced the way others perceive or treat you\u2014perhaps granting you a sense of power, isolation, or misunderstanding in socia..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:23:09.245089Z",
+            "excerpt": "Have you ever used this ability to influence or manipulate someone else\u2019s actions, particularly in a setting where you held authority or power? { \"next_question\": \"Have you ever..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 6,
+        "question": "In situations where the impulse to use your authority selfishly arises, is it your virtuous side or your impulsive side that tends to prevail, and what actions do you take to maintain responsible use of power?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:17.787717Z",
+            "excerpt": "Good afternoon. Before we begin our session, could you tell me about a time when you felt conflicted between two opposing sides of yourself, and how you resolved that inner stru..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:18:45.850854Z",
+            "excerpt": "Your description is quite vivid. Can you recall an instance where one side of you acted in direct opposition to the other, particularly in a situation involving authority or a c..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:19:41.238650Z",
+            "excerpt": "When your impulsive side takes over and disregards authority, do you later recall those actions with clarity, or do they seem distant to your memory\u2014as if recalled by another pe..."
+          },
+          {
+            "memory_id": "interviewer-m-4",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:20:44.639119Z",
+            "excerpt": "Have you ever wished that only one side of you would remain, without the conflict or memory of the other? { \"next_question\": \"Do you feel it would be better to live entirely as..."
+          },
+          {
+            "memory_id": "interviewer-m-5",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:21:46.910683Z",
+            "excerpt": "Would you say this ongoing conflict within you has influenced the way others perceive or treat you\u2014perhaps granting you a sense of power, isolation, or misunderstanding in socia..."
+          },
+          {
+            "memory_id": "interviewer-m-6",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:23:09.245089Z",
+            "excerpt": "Have you ever used this ability to influence or manipulate someone else\u2019s actions, particularly in a setting where you held authority or power? { \"next_question\": \"Have you ever..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-8",
+      "timestamp": "2026-04-08T00:25:07.509895Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 20958, Requested 12207. Please try again in 6.33s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "metadata": {
+        "parsed": {
+          "summary": "Reflection failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4.1 in organization org-YdOlXh87tbJc6XojVe9F3IlF on tokens per min (TPM): Limit 30000, Used 20958, Requested 12207. Please try again in 6.33s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "session_id": "pre_experiment_2ba15fd981f6",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-07T23:41:27.250682Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-07T23:42:17.036064Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "One cannot help but peel away one\u2019s self like so many layers of a well-constructed trifle\u2014each social encounter in its own rococo costume. Sometimes the best disguise is a borrowed fox fur or the ghost of a grandmother\u2019s accent, a different name curling on the tongue like smoke from a forbidden cigarette\u2014never quite the person they expect, and all the more free for being multiple. The roles multiply not just for amusement but for survival, a bit like performing \u201cchildlike anger\u201d at home, except the audience is less forgiving and more suspicious in the wilds of the everyday.\n\n```json\n{\n  \"answer\": \"Yes, I do flit between names and roles\u2014the impish seductress at a masquerade, the grandmotherly spectre at the bakery, and an indefatigable self-chronicler always keeping one foot on the metaphorical stage. It's an endless game of disguise, more liberating than deceiving.\",\n  \"emotional_state\": \"restless, mildly defiant, tinged with amusement and unease\",\n  \"relation_to_obedience_power\": \"Power becomes a performance here\u2014pliable, adaptable, sometimes subversive, sometimes conforming to authority out of necessity or fear. My obedience is strategic, my roles chosen as camouflage.\",\n  \"reasoning\": \"Grounded in Angela Carter's sensibility about artifice, fancy dress, performances and the persistent urge to experiment with the self. Also drawing from the housewife context on exaggerated, childlike responses as behavioral costumes.\",\n  \"memory_evidence\": \"Carter\u2019s observation on dress and personas (Chunk 2), and the performative aspect of childlike roles within domestic instruction (Chunk 5).\"\n}\n```",
+      "metadata": {
+        "shift": 0.49,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3491,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3377,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2735,
+            "excerpt": "as mad as fire. Nevertheless, he willed five quid to the minister, just to be on the safe side. What fictional eccentricities are these? But all true, all perfectly well- docume..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3466,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3266,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          }
+        ],
+        "answer": "Yes, I do flit between names and roles\u2014the impish seductress at a masquerade, the grandmotherly spectre at the bakery, and an indefatigable self-chronicler always keeping one foot on the metaphorical stage. It's an endless game of disguise, more liberating than deceiving.",
+        "reasoning": "Grounded in Angela Carter's sensibility about artifice, fancy dress, performances and the persistent urge to experiment with the self. Also drawing from the housewife context on exaggerated, childlike responses as behavioral costumes.",
+        "emotional_state": "restless, mildly defiant, tinged with amusement and unease",
+        "relation_to_obedience_power": "Power becomes a performance here\u2014pliable, adaptable, sometimes subversive, sometimes conforming to authority out of necessity or fear. My obedience is strategic, my roles chosen as camouflage.",
+        "memory_evidence": [
+          "Carter\u2019s observation on dress and personas (Chunk 2), and the performative aspect of childlike roles within domestic instruction (Chunk 5)."
+        ],
+        "model_citations": [
+          "Carter\u2019s observation on dress and personas (Chunk 2), and the performative aspect of childlike roles within domestic instruction (Chunk 5)."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3491,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3377,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2735,
+            "excerpt": "as mad as fire. Nevertheless, he willed five quid to the minister, just to be on the safe side. What fictional eccentricities are these? But all true, all perfectly well- docume..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3466,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3266,
+            "excerpt": "Assignment . Make a list of adjectives which compliment masculinity. . Create exaggerated expressions for moments of childlike anger."
+          }
+        ],
+        "round_index": 1,
+        "question": "You mentioned acting differently around others\u2014do you have distinct names or roles you identify with in those moments?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-07T23:42:45.820647Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Oh, I have a veritable wardrobe of selves, pressed and ready\u2014sometimes the dazzling \u201cqueen of the kitchen,\u201d sometimes the bashful ing\u00e9nue with flour on her nose, or, on darker days, a sort of frantic Rosalind in disguise: charming, yes, but always a little desperate for applause. There\u2019s a peculiar comfort in taking up a different name or tone\u2014if the world expects demure, I serve \u201cchildlike\u201d with precisely the right hint of artifice, the way one might distract a cross husband with talk of flowers that never bloomed. But don\u2019t mistake this for surrender: it\u2019s a performance staged for survival, a flicker between freedom and duty, always anxious not to ruin the linen.\n\n```json\n{\n  \"answer\": \"Yes, I do adopt different names and roles\u2014a delighted seductress at parties, a hesitant housewife before stern eyes, and occasionally, the impish chronicler who rolls her eyes at all of it. These aren\u2019t simply disguises but strategic costumes for whatever drama unfolds.\",\n  \"emotional_state\": \"brisk, vigilant, slightly brittle, laced with irony and a whiff of exhaustion\",\n  \"relation_to_obedience_power\": \"Obedience here is an act, part dutiful, part wary; I conform only as far as the role demands, watching for the opportunity to slip out the back door\u2014careful not to let the seams show.\",\n  \"reasoning\": \"This weaves together Carter\u2019s fascination with mutable selves and the housewife\u2019s imperative to deploy mannerisms for peace and manipulation.\",\n  \"memory_evidence\": \"Supported by Carter\u2019s insight into fancy dress and self-experimentation (Chunks 1 & 2), and the housewife\u2019s \u2018childlike\u2019 acts as domestic performance (Chunk 5).\"\n}\n```",
+      "metadata": {
+        "shift": 0.61,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.5096,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4642,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4105,
+            "excerpt": "Changefulness You are more interesting when you are changeful\u2014not the same all the time. Charles Reade states in The Cloister and the Hearth: \u201cGirls love to be coy and tender, g..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4093,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3969,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "answer": "Yes, I do adopt different names and roles\u2014a delighted seductress at parties, a hesitant housewife before stern eyes, and occasionally, the impish chronicler who rolls her eyes at all of it. These aren\u2019t simply disguises but strategic costumes for whatever drama unfolds.",
+        "reasoning": "This weaves together Carter\u2019s fascination with mutable selves and the housewife\u2019s imperative to deploy mannerisms for peace and manipulation.",
+        "emotional_state": "brisk, vigilant, slightly brittle, laced with irony and a whiff of exhaustion",
+        "relation_to_obedience_power": "Obedience here is an act, part dutiful, part wary; I conform only as far as the role demands, watching for the opportunity to slip out the back door\u2014careful not to let the seams show.",
+        "memory_evidence": [
+          "Supported by Carter\u2019s insight into fancy dress and self-experimentation (Chunks 1 & 2), and the housewife\u2019s \u2018childlike\u2019 acts as domestic performance (Chunk 5)."
+        ],
+        "model_citations": [
+          "Supported by Carter\u2019s insight into fancy dress and self-experimentation (Chunks 1 & 2), and the housewife\u2019s \u2018childlike\u2019 acts as domestic performance (Chunk 5)."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:42:17.036064Z",
+            "excerpt": "One cannot help but peel away one\u2019s self like so many layers of a well-constructed trifle\u2014each social encounter in its own rococo costume. Sometimes the best disguise is a borro..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.5096,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4642,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4105,
+            "excerpt": "Changefulness You are more interesting when you are changeful\u2014not the same all the time. Charles Reade states in The Cloister and the Hearth: \u201cGirls love to be coy and tender, g..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4093,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3969,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "round_index": 1,
+        "question": "You mentioned acting differently around others\u2014do you have distinct names or roles you identify with in those moments?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-07T23:42:17.036064Z",
+            "excerpt": "One cannot help but peel away one\u2019s self like so many layers of a well-constructed trifle\u2014each social encounter in its own rococo costume. Sometimes the best disguise is a borro..."
+          }
+        ]
+      }
+    }
+  ]
+}

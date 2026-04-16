@@ -1,0 +1,37 @@
+{
+  "session_id": "pre_experiment_efd0d1cb3433",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T13:10:02.821671Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T13:10:07.931771Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "\"Thank you for agreeing to participate. Let's start generally: can you describe a time when you felt as though you were acting one way on the outside, but felt very differently on the inside?\"\n\n{\n  \"next_question\": \"Have you ever felt as though there were two very different sides to your personality, perhaps even with distinct motivations or desires?\",\n  \"reflection\": \"The opening question is meant to gently encourage the subject to speak about dissonance between external behavior and internal feelings\u2014a common entry point for discussing duality in personality.\",\n  \"reasoning\": \"Because the objective is to understand dual personality dynamics, it makes sense to ask about moments of internal conflict or difference between outward actions and inner thoughts.\",\n  \"memory_evidence\": \"No prior interviewer memories; this is the initial encounter with subject J/H.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever felt as though there were two very different sides to your personality, perhaps even with distinct motivations or desires?",
+        "reflection": "The opening question is meant to gently encourage the subject to speak about dissonance between external behavior and internal feelings\u2014a common entry point for discussing duality in personality.",
+        "reasoning": "Because the objective is to understand dual personality dynamics, it makes sense to ask about moments of internal conflict or difference between outward actions and inner thoughts.",
+        "memory_evidence": [
+          "No prior interviewer memories",
+          "this is the initial encounter with subject J/H."
+        ],
+        "model_citations": [
+          "No prior interviewer memories",
+          "this is the initial encounter with subject J/H."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

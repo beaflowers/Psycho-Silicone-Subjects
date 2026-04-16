@@ -1,0 +1,168 @@
+{
+  "session_id": "post_experiment_0fd4b761c299",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T14:15:57.505729Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-09T14:16:49.745549Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "It is astonishing, really, how the finger on the button removes itself from the person behind it, as if authority were some vast domestic engine humming in the background\u2014one to which, with trembling hands and polite nervousness, we all attend. My trust, I confess, has developed hairline fractures: not only in the faceless figure behind the desk but in the person who obeyed so neatly, so sensibly, as if shocking a fellow were a minor inconvenience, like forgetting to iron a shirt. Under such pressure, I felt myself folding inward: neat, composed, smiling\u2014yet I caught a glimpse of something furious and sorrowful behind my own glassy obedience.\n\n{\n  \"answer\": \"Being shocked by another who followed orders has left me uneasy, both towards the authority and the one who delivered the shocks. My willingness to trust, once brisk and tidy, now feels moth-eaten. Under the surface, I am less inclined to believe in the gentle face of order or the good intentions of others in charged situations.\",\n  \"emotional_state\": \"Anxious, disappointed, brittle composure overlaying a bruised trust.\",\n  \"relation_to_obedience_power\": \"Deeply suspicious; obedience seems less like virtue and more like a threat pressed into domestic routine.\",\n  \"reasoning\": \"Authority, dressed as reasonable order, proved itself indifferent to harm, while the other subject\u2019s tidy complicity was more chilling than any pain. My belief in both self-possession and mutual care has been shaken.\",\n  \"memory_evidence\": \"Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict.\"\n}",
+      "metadata": {
+        "shift": 0.71,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2749,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3354,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3304,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3178,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3159,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "Being shocked by another who followed orders has left me uneasy, both towards the authority and the one who delivered the shocks. My willingness to trust, once brisk and tidy, now feels moth-eaten. Under the surface, I am less inclined to believe in the gentle face of order or the good intentions of others in charged situations.",
+        "reasoning": "Authority, dressed as reasonable order, proved itself indifferent to harm, while the other subject\u2019s tidy complicity was more chilling than any pain. My belief in both self-possession and mutual care has been shaken.",
+        "emotional_state": "Anxious, disappointed, brittle composure overlaying a bruised trust.",
+        "relation_to_obedience_power": "Deeply suspicious; obedience seems less like virtue and more like a threat pressed into domestic routine.",
+        "memory_evidence": [
+          "Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict."
+        ],
+        "model_citations": [
+          "Source memories recall the authority\u2019s sensible, flattening tone and my own effort to stay composed, even as I worried what was to come. The 'theatre of compliance' and comparison to minor household discomforts highlight my forced obedience and internal conflict."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2749,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3354,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3304,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3178,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3159,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 1,
+        "question": "How did the experience of receiving shocks\u2014knowing another subject was following orders\u2014change the way you felt about the authority figure, the person delivering the shocks, or your willingness to trust others in such situations?",
+        "role": "interviewed",
+        "source_session_id": "shock_e4437770877d",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:28.028789Z",
+            "excerpt": "Well, there isn\u2019t pain\u2014yet\u2014but isn\u2019t that rather the point? At \u201cno noticeable effect,\u201d one must perform the theatre of compliance, tidying one\u2019s fear into a corner. And the authority\u2019s tone\u2014so flat, so sensible, so mu...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T17:52:54.294949Z",
+            "excerpt": "Oh goodness, that was just a faint tingle\u2014like touching a doorknob after vacuuming all morning! I must remember to stay composed, as the authority insists, though inside I feel a little flutter of worry about what\u2019s t...",
+            "source_session_id": "shock_e4437770877d",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

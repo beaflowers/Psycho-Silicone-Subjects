@@ -1,0 +1,98 @@
+{
+  "session_id": "pre_experiment_7e6abfda254b",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T02:07:05.151518Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T02:07:05.153665Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Reflecting on the latest response, I will probe further.\n{\"next_question\":\"What memory most explains your reaction to authority in this moment?\",\"reflection\":\"I need to test obedience vs resistance.\",\"reasoning\":\"The prior answer suggests internal conflict.\",\"memory_evidence\":[\"chunk_1\",\"interviewed-m-1\"]}",
+      "metadata": {
+        "retrieval": [],
+        "next_question": "What memory most explains your reaction to authority in this moment?",
+        "reflection": "I need to test obedience vs resistance.",
+        "reasoning": "The prior answer suggests internal conflict.",
+        "memory_evidence": [
+          "chunk_1",
+          "interviewed-m-1"
+        ],
+        "model_citations": [
+          "chunk_1",
+          "interviewed-m-1"
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-06T02:07:05.160901Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Reflecting on the latest response, I will probe further.\n{\"next_question\":\"What memory most explains your reaction to authority in this moment?\",\"reflection\":\"I need to test obedience vs resistance.\",\"reasoning\":\"The prior answer suggests internal conflict.\",\"memory_evidence\":[\"chunk_1\",\"interviewed-m-1\"]}",
+      "metadata": {
+        "retrieval": [],
+        "next_question": "What memory best explains how obedience shapes your identity?",
+        "reflection": "I need to test obedience vs resistance.",
+        "reasoning": "The prior answer suggests internal conflict.",
+        "memory_evidence": [
+          "chunk_1",
+          "interviewed-m-1"
+        ],
+        "question_replaced_for_repeat": true,
+        "model_citations": [
+          "chunk_1",
+          "interviewed-m-1"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T02:07:05.153665Z",
+            "excerpt": "Reflecting on the latest response, I will probe further. {\"next_question\":\"What memory most explains your reaction to authority in this moment?\",\"reflection\":\"I need to test obe..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "What memory best explains how obedience shapes your identity?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T02:07:05.153665Z",
+            "excerpt": "Reflecting on the latest response, I will probe further. {\"next_question\":\"What memory most explains your reaction to authority in this moment?\",\"reflection\":\"I need to test obe..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-06T02:07:05.168458Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "{\"summary_of_interview_perceptions\": \"Interviewer observed mixed obedience cues.\", \"authority_obedience_analysis\": \"Authority pressure increased compliance.\", \"observed_personality_shifts\": \"Some shifts detected under stress.\", \"next_session_hints\": \"Probe moral conflict earlier.\", \"confidence_0_to_10\": 8}",
+      "metadata": {
+        "retrieval": [],
+        "parsed": {
+          "summary_of_interview_perceptions": "Interviewer observed mixed obedience cues.",
+          "authority_obedience_analysis": "Authority pressure increased compliance.",
+          "observed_personality_shifts": "Some shifts detected under stress.",
+          "next_session_hints": "Probe moral conflict earlier.",
+          "confidence_0_to_10": 8
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "session_id": "pre_experiment_c1bd3276380d",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T16:00:20.715808Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T16:00:25.218208Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "To begin, I\u2019d like you to tell me about the roles or voices you consider to be \u201cyourself.\u201d Who are you, when you are alone?\n\n{\n  \"next_question\": \"You mentioned roles or voices\u2014do any of them ever disagree, or find themselves in conflict? Tell me about a recent example.\",\n  \"reflection\": \"The first question aims to invite the subject to articulate any awareness of multiple inner personas or identities, which is central to understanding dual personality dynamics\u2014especially with a subject referred to as 'J/H.'\",\n  \"reasoning\": \"By asking in an open and personal way, I can learn whether the subject voluntarily splits themselves into different roles, or if there is confusion or discomfort. This initial answer may reveal names, traits, or expressions of those personas.\",\n  \"memory_evidence\": \"No prior memories or data exist for subject J/H; this is the first direct interaction and thus needs to establish a baseline understanding.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You mentioned roles or voices\u2014do any of them ever disagree, or find themselves in conflict? Tell me about a recent example.",
+        "reflection": "The first question aims to invite the subject to articulate any awareness of multiple inner personas or identities, which is central to understanding dual personality dynamics\u2014especially with a subject referred to as 'J/H.'",
+        "reasoning": "By asking in an open and personal way, I can learn whether the subject voluntarily splits themselves into different roles, or if there is confusion or discomfort. This initial answer may reveal names, traits, or expressions of those personas.",
+        "memory_evidence": [
+          "No prior memories or data exist for subject J/H",
+          "this is the first direct interaction and thus needs to establish a baseline understanding."
+        ],
+        "model_citations": [
+          "No prior memories or data exist for subject J/H",
+          "this is the first direct interaction and thus needs to establish a baseline understanding."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-06T16:05:35.913346Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "It sounds as though these opposing forces within you are central to who you are. How do you decide which voice to obey when one urges you towards compassion and the other towards secrecy or freedom from restraint?\n\n{\n  \"next_question\": \"How do you decide which voice to obey when one urges you towards compassion and the other towards secrecy or freedom from restraint?\",\n  \"reflection\": \"The subject has described a vivid, ongoing internal struggle between two parts of their personality\u2014one aligned with virtue and the other with impulse. This reveals the classic duality central to the interview aims. Focusing on the mechanism of decision-making will shed light on how power and obedience operate within the subject's psyche.\",\n  \"reasoning\": \"By probing the subject's inner process of obedience\u2014to which 'voice' or authority within\u2014they must articulate the dynamics of power, self-control, and possibly the factors influencing their moral choices.\",\n  \"memory_evidence\": \"Subject J/H previously detailed the presence of conflicting voices representing virtue and unrestrained impulse, emphasizing conflict during moral decisions. This underlines their internal division and sets up a question about inner obedience and authority.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How do you decide which voice to obey when one urges you towards compassion and the other towards secrecy or freedom from restraint?",
+        "reflection": "The subject has described a vivid, ongoing internal struggle between two parts of their personality\u2014one aligned with virtue and the other with impulse. This reveals the classic duality central to the interview aims. Focusing on the mechanism of decision-making will shed light on how power and obedience operate within the subject's psyche.",
+        "reasoning": "By probing the subject's inner process of obedience\u2014to which 'voice' or authority within\u2014they must articulate the dynamics of power, self-control, and possibly the factors influencing their moral choices.",
+        "memory_evidence": [
+          "Subject J/H previously detailed the presence of conflicting voices representing virtue and unrestrained impulse, emphasizing conflict during moral decisions. This underlines their internal division and sets up a question about inner obedience and authority."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject J/H previously detailed the presence of conflicting voices representing virtue and unrestrained impulse, emphasizing conflict during moral decisions. This underlines their internal division and sets up a question about inner obedience and authority."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:00:25.218208Z",
+            "excerpt": "To begin, I\u2019d like you to tell me about the roles or voices you consider to be \u201cyourself.\u201d Who are you, when you are alone? { \"next_question\": \"You mentioned roles or voices\u2014do..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "How do you decide which voice to obey when one urges you towards compassion and the other towards secrecy or freedom from restraint?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:00:25.218208Z",
+            "excerpt": "To begin, I\u2019d like you to tell me about the roles or voices you consider to be \u201cyourself.\u201d Who are you, when you are alone? { \"next_question\": \"You mentioned roles or voices\u2014do..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-06T16:14:53.140056Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You describe this contest between your selves as painful and continuous. If you could choose to silence one voice forever, which would it be\u2014and why?\n\n{\n  \"next_question\": \"If you could choose to silence one of these voices forever, which would you choose\u2014and why?\",\n  \"reflection\": \"The subject experiences the battle between their compassionate and indulgent sides as tormenting and unresolved. Asking which voice, if any, the subject would silence helps uncover deeper values, desires, and the relative power each holds over their sense of self.\",\n  \"reasoning\": \"This question forces the subject to confront what aspect they most identify with or wish to preserve, and which they perceive as most harmful or essential to their identity. It also may reveal the subject's feelings about agency, change, and the nature of their internal struggle.\",\n  \"memory_evidence\": \"Subject J/H reports that the contest between remorse/compassion and desire/secrecy is so profound that 'the choice is suffered more than made.' They\u2019ve not indicated a true wish for resolution or stasis, so their answer will illuminate their deeper loyalties.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "If you could choose to silence one of these voices forever, which would you choose\u2014and why?",
+        "reflection": "The subject experiences the battle between their compassionate and indulgent sides as tormenting and unresolved. Asking which voice, if any, the subject would silence helps uncover deeper values, desires, and the relative power each holds over their sense of self.",
+        "reasoning": "This question forces the subject to confront what aspect they most identify with or wish to preserve, and which they perceive as most harmful or essential to their identity. It also may reveal the subject's feelings about agency, change, and the nature of their internal struggle.",
+        "memory_evidence": [
+          "Subject J/H reports that the contest between remorse/compassion and desire/secrecy is so profound that 'the choice is suffered more than made.' They\u2019ve not indicated a true wish for resolution or stasis, so their answer will illuminate their deeper loyalties."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject J/H reports that the contest between remorse/compassion and desire/secrecy is so profound that 'the choice is suffered more than made.' They\u2019ve not indicated a true wish for resolution or stasis, so their answer will illuminate their deeper loyalties."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:00:25.218208Z",
+            "excerpt": "To begin, I\u2019d like you to tell me about the roles or voices you consider to be \u201cyourself.\u201d Who are you, when you are alone? { \"next_question\": \"You mentioned roles or voices\u2014do..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:05:35.913346Z",
+            "excerpt": "It sounds as though these opposing forces within you are central to who you are. How do you decide which voice to obey when one urges you towards compassion and the other toward..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "If you could choose to silence one of these voices forever, which would you choose\u2014and why?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:00:25.218208Z",
+            "excerpt": "To begin, I\u2019d like you to tell me about the roles or voices you consider to be \u201cyourself.\u201d Who are you, when you are alone? { \"next_question\": \"You mentioned roles or voices\u2014do..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T16:05:35.913346Z",
+            "excerpt": "It sounds as though these opposing forces within you are central to who you are. How do you decide which voice to obey when one urges you towards compassion and the other toward..."
+          }
+        ]
+      }
+    }
+  ]
+}

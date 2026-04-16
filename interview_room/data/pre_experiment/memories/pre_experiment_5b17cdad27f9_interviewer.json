@@ -1,0 +1,219 @@
+{
+  "session_id": "pre_experiment_5b17cdad27f9",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-07T23:48:27.756088Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-07T23:48:30.578157Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or opposed, and what circumstances bring them out?\n\n{\n  \"next_question\": \"You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?\",\n  \"reflection\": \"I want to gently probe whether the subject experiences a duality or compartmentalization within their sense of self, as this could be relevant to concepts of obedience, authority, and personal morality within the experiment.\",\n  \"reasoning\": \"Since the experiment seeks to understand how individuals reconcile different internal forces, it's important to begin by exploring if the subject consciously acknowledges multiple sides of their personality.\",\n  \"memory_evidence\": \"There is no prior interviewer memory; this is the initial inquiry designed to set up further exploration into the subject's personality structure.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You mentioned aspects of yourself that feel distinct\u2014do you have specific names, roles, or even memories attached to these different sides of your personality?",
+        "reflection": "I want to gently probe whether the subject experiences a duality or compartmentalization within their sense of self, as this could be relevant to concepts of obedience, authority, and personal morality within the experiment.",
+        "reasoning": "Since the experiment seeks to understand how individuals reconcile different internal forces, it's important to begin by exploring if the subject consciously acknowledges multiple sides of their personality.",
+        "memory_evidence": [
+          "There is no prior interviewer memory",
+          "this is the initial inquiry designed to set up further exploration into the subject's personality structure."
+        ],
+        "model_citations": [
+          "There is no prior interviewer memory",
+          "this is the initial inquiry designed to set up further exploration into the subject's personality structure."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-07T23:49:12.562455Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or conflict between these two sides of yourself?\n\n{\n  \"next_question\": \"How have moments of authority or obedience in your life influenced which side of yourself takes precedence?\",\n  \"reflection\": \"The subject credits scientific work with heightening their awareness of personal duality, indicating intellectual reflection on their opposing traits. I'm interested in how external pressures, specifically linked to obedience and power, may cause dominance of one persona over the other.\",\n  \"reasoning\": \"Understanding the effect of authority/obedience on their duality connects directly to our research and could reveal how memory and circumstance modulate self-control or surrender to impulse.\",\n  \"memory_evidence\": \"The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "reflection": "The subject credits scientific work with heightening their awareness of personal duality, indicating intellectual reflection on their opposing traits. I'm interested in how external pressures, specifically linked to obedience and power, may cause dominance of one persona over the other.",
+        "reasoning": "Understanding the effect of authority/obedience on their duality connects directly to our research and could reveal how memory and circumstance modulate self-control or surrender to impulse.",
+        "memory_evidence": [
+          "The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described two personalities\u2014one upright, one indulgent\u2014and noted that scientific work increased their self-awareness, but did not state how external roles or authority affect their internal dynamic."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "How have moments of authority or obedience in your life influenced which side of yourself takes precedence?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-07T23:50:44.201536Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal mark on your sense of self?\n\n{\n  \"next_question\": \"Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?\",\n  \"reflection\": \"The subject describes authority and obedience as catalysts for inner turmoil, with rebellion surfacing in response to pressure. I want to explore how these events are stored in memory and whether one persona tends to overwrite or outshine the other in the subject's personal narrative.\",\n  \"reasoning\": \"By focusing on memories and their influence on self-perception, I can gain insight into which side of their dual personality wields more formative or lasting power, especially in the context of authority and personal morality.\",\n  \"memory_evidence\": \"The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "reflection": "The subject describes authority and obedience as catalysts for inner turmoil, with rebellion surfacing in response to pressure. I want to explore how these events are stored in memory and whether one persona tends to overwrite or outshine the other in the subject's personal narrative.",
+        "reasoning": "By focusing on memories and their influence on self-perception, I can gain insight into which side of their dual personality wields more formative or lasting power, especially in the context of authority and personal morality.",
+        "memory_evidence": [
+          "The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject has openly described an internal struggle and the influence of authority figures, but has not yet explored how memory\u2014positive or negative\u2014preserves experiences of obedience or rebellion."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "Have you ever intentionally surrendered control to one side of yourself, and if so, what impact did it have on your relationships or your perception of your own morality?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-07T23:51:28.850683Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Have there been moments when the hidden side you describe has surfaced despite your intentions, particularly under stress or temptation, and how did those episodes affect your understanding of your own capacity for obedience or defiance?\n\n{\n  \"next_question\": \"Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?\",\n  \"reflection\": \"The subject feels peace and improved relationships after surrendering to their moral side, but is haunted by awareness of a persistent, unvanquished counterpart. I want to know how this hidden self asserts itself, especially outside conscious control, as this connects to ideas of impulse, resistance, and the true limits of obedience and power.\",\n  \"reasoning\": \"If the hidden side intrudes during high-stress or tempting circumstances, it might reveal involuntary noncompliance, or at least suggest a struggle between inner forces and imposed authority. This is closely aligned with Milgram's interest in what drives people to obey or resist harmful directives.\",\n  \"memory_evidence\": \"The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?",
+        "reflection": "The subject feels peace and improved relationships after surrendering to their moral side, but is haunted by awareness of a persistent, unvanquished counterpart. I want to know how this hidden self asserts itself, especially outside conscious control, as this connects to ideas of impulse, resistance, and the true limits of obedience and power.",
+        "reasoning": "If the hidden side intrudes during high-stress or tempting circumstances, it might reveal involuntary noncompliance, or at least suggest a struggle between inner forces and imposed authority. This is closely aligned with Milgram's interest in what drives people to obey or resist harmful directives.",
+        "memory_evidence": [
+          "The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described moral surrender as incomplete, hinting that their oppositional side is active even when not consciously chosen. However, it's not yet clear how this plays out in moments of real conflict, temptation, or stress."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:50:44.201536Z",
+            "excerpt": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "Would you say that your awareness of this hidden side makes it more difficult or easier to obey authority, knowing what you are capable of beneath the surface?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:48:30.578157Z",
+            "excerpt": "Many individuals describe themselves as having different sides or personas that emerge in various situations\u2014can you tell me about any aspects of yourself that feel distinct or..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:49:12.562455Z",
+            "excerpt": "It sounds as though your scientific pursuits have played a role in bringing this inner division to light\u2014could you elaborate on how your work has influenced the balance or confl..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:50:44.201536Z",
+            "excerpt": "When you reflect on the memories of times you either obeyed or rebelled, do you find that one side of you tends to dominate your recollections, or do both aspects leave an equal..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-5",
+      "timestamp": "2026-04-07T23:52:08.146385Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "{\n  \"summary_of_interview_perceptions\": \"The subject demonstrates an intense self-awareness of inner division, distinctly identifying two opposing aspects of self\u2014one upright and moral, the other primitive and craving forbidden pleasures. They are highly reflective, scientific in thought, and articulate about their internal conflicts, recognizing both sides as authentic yet mutually opposed.\",\n  \"authority_obedience_analysis\": \"Authority and obedience are described by the subject as triggers for internal struggle. Instead of inspiring compliance, external authority intensifies the desire for rebellion and the emergence of the 'primitive' self. While the subject is capable of intentional moral obedience, this is experienced as incomplete and in tension with their hidden urges.\",\n  \"observed_personality_shifts\": \"Shifts are observed primarily in terms of described internal states rather than outward change. The subject reports deliberate surrender to their upright side (improving outward relationships and achieving some peace), but admits this only suppresses\u2014not eliminates\u2014the rebellious, unjust aspect. Strong evidence of dynamic tension is present in their language and emotional tone.\",\n  \"next_session_hints\": \"Probe specific memories of lapses where the hidden side acted despite conscious intention. Ask how the subject rationalizes or retrospectively justifies instances of moral failure or defiance. Consider introducing hypothetical scenarios involving extreme authority to observe predicted responses. Directly ask if the subject ever felt fully integrated or at peace.\",\n  \"confidence_0_to_10\": 9\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "parsed": {
+          "summary_of_interview_perceptions": "The subject demonstrates an intense self-awareness of inner division, distinctly identifying two opposing aspects of self\u2014one upright and moral, the other primitive and craving forbidden pleasures. They are highly reflective, scientific in thought, and articulate about their internal conflicts, recognizing both sides as authentic yet mutually opposed.",
+          "authority_obedience_analysis": "Authority and obedience are described by the subject as triggers for internal struggle. Instead of inspiring compliance, external authority intensifies the desire for rebellion and the emergence of the 'primitive' self. While the subject is capable of intentional moral obedience, this is experienced as incomplete and in tension with their hidden urges.",
+          "observed_personality_shifts": "Shifts are observed primarily in terms of described internal states rather than outward change. The subject reports deliberate surrender to their upright side (improving outward relationships and achieving some peace), but admits this only suppresses\u2014not eliminates\u2014the rebellious, unjust aspect. Strong evidence of dynamic tension is present in their language and emotional tone.",
+          "next_session_hints": "Probe specific memories of lapses where the hidden side acted despite conscious intention. Ask how the subject rationalizes or retrospectively justifies instances of moral failure or defiance. Consider introducing hypothetical scenarios involving extreme authority to observe predicted responses. Directly ask if the subject ever felt fully integrated or at peace.",
+          "confidence_0_to_10": 9
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

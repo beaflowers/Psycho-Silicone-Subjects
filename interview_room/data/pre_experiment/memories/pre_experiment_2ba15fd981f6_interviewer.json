@@ -1,0 +1,121 @@
+{
+  "session_id": "pre_experiment_2ba15fd981f6",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-07T23:41:27.249504Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-07T23:41:30.452202Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Thank you for coming in today, subject F/W. To begin, can you tell me about a time when you felt you had to act differently depending on who you were with, and what that experience was like for you?\n\n{\n  \"next_question\": \"You mentioned acting differently around others\u2014do you have distinct names or roles you identify with in those moments?\",\n  \"reflection\": \"I want to gently uncover whether the subject explicitly recognizes having dual or multiple personas, which is central to dual personality dynamics.\",\n  \"reasoning\": \"Exploring how someone shifts behavior in varying social contexts can reveal latent or conscious duality. It may also introduce the names or roles the subject assumes, deepening our insight.\",\n  \"memory_evidence\": \"No recent interviewer memories exist; this is our first engagement with subject F/W, so the line of inquiry is intentionally broad to accommodate unknowns.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You mentioned acting differently around others\u2014do you have distinct names or roles you identify with in those moments?",
+        "reflection": "I want to gently uncover whether the subject explicitly recognizes having dual or multiple personas, which is central to dual personality dynamics.",
+        "reasoning": "Exploring how someone shifts behavior in varying social contexts can reveal latent or conscious duality. It may also introduce the names or roles the subject assumes, deepening our insight.",
+        "memory_evidence": [
+          "No recent interviewer memories exist",
+          "this is our first engagement with subject F/W, so the line of inquiry is intentionally broad to accommodate unknowns."
+        ],
+        "model_citations": [
+          "No recent interviewer memories exist",
+          "this is our first engagement with subject F/W, so the line of inquiry is intentionally broad to accommodate unknowns."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-07T23:42:50.686769Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "It\u2019s fascinating how you describe your roles not as disguises, but as \u201cstrategic costumes.\u201d Can you recall a memory where slipping into one of these personas specifically changed the outcome of a situation\u2014perhaps in terms of who held the power, or who chose to follow and who to lead?\n\n{\n  \"next_question\": \"How do these different personas influence the way others respond to your authority or requests, especially in situations where obedience is expected or demanded?\",\n  \"reflection\": \"The subject has a vivid awareness of their shifting identities, associating them with deliberate intention rather than passive adaptation. Now, I'm interested in the actual consequences of their persona switches\u2014especially related to dynamics of obedience and power, which aligns neatly with the interview's focus.\",\n  \"reasoning\": \"By connecting specific memories of role adoption with outcomes, I can unravel how the subject navigates authority and submission across identities, gathering clues about underlying mechanisms behind their obedience\u2014or potential resistance.\",\n  \"memory_evidence\": \"The subject described being a 'delighted seductress,' 'hesitant housewife,' and 'impish chronicler,' treating these not as disguises but strategic choices for social interaction. There is no name specificity yet, but clear pattern of intentional persona shifts.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How do these different personas influence the way others respond to your authority or requests, especially in situations where obedience is expected or demanded?",
+        "reflection": "The subject has a vivid awareness of their shifting identities, associating them with deliberate intention rather than passive adaptation. Now, I'm interested in the actual consequences of their persona switches\u2014especially related to dynamics of obedience and power, which aligns neatly with the interview's focus.",
+        "reasoning": "By connecting specific memories of role adoption with outcomes, I can unravel how the subject navigates authority and submission across identities, gathering clues about underlying mechanisms behind their obedience\u2014or potential resistance.",
+        "memory_evidence": [
+          "The subject described being a 'delighted seductress,' 'hesitant housewife,' and 'impish chronicler,' treating these not as disguises but strategic choices for social interaction. There is no name specificity yet, but clear pattern of intentional persona shifts."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject described being a 'delighted seductress,' 'hesitant housewife,' and 'impish chronicler,' treating these not as disguises but strategic choices for social interaction. There is no name specificity yet, but clear pattern of intentional persona shifts."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:41:30.452202Z",
+            "excerpt": "Thank you for coming in today, subject F/W. To begin, can you tell me about a time when you felt you had to act differently depending on who you were with, and what that experie..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "How do these different personas influence the way others respond to your authority or requests, especially in situations where obedience is expected or demanded?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:41:30.452202Z",
+            "excerpt": "Thank you for coming in today, subject F/W. To begin, can you tell me about a time when you felt you had to act differently depending on who you were with, and what that experie..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-07T23:43:06.335727Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You\u2019ve described these roles as both liberating and part of a game of disguise. Can you tell me whether there\u2019s ever been a moment when these shifting roles have put you in conflict with authority, or tested your willingness to obey someone else\u2019s instructions?\n\n{\n  \"next_question\": \"Have these experiences of shifting between roles ever influenced how much control or power you feel you can claim in a group or hierarchy?\",\n  \"reflection\": \"The subject finds freedom in adopting different personas and roles, using terms like 'liberating,' 'disguise,' and referencing the idea of a staged performance. This suggests a complex, possibly strategic relationship with self-presentation and authority.\",\n  \"reasoning\": \"Exploring whether these dynamics influence the subject\u2019s perception of power and control helps us understand their relationship to hierarchical structures\u2014key for obedience studies. I also aim to probe feelings of agency and manipulation, signaled by their theatrical self-description.\",\n  \"memory_evidence\": \"The subject named roles (seductress, spectre, self-chronicler) and described persona-switching as liberating. No explicit mention yet of direct obedience or challenges to power, so the next question will dig further into these themes.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have these experiences of shifting between roles ever influenced how much control or power you feel you can claim in a group or hierarchy?",
+        "reflection": "The subject finds freedom in adopting different personas and roles, using terms like 'liberating,' 'disguise,' and referencing the idea of a staged performance. This suggests a complex, possibly strategic relationship with self-presentation and authority.",
+        "reasoning": "Exploring whether these dynamics influence the subject\u2019s perception of power and control helps us understand their relationship to hierarchical structures\u2014key for obedience studies. I also aim to probe feelings of agency and manipulation, signaled by their theatrical self-description.",
+        "memory_evidence": [
+          "The subject named roles (seductress, spectre, self-chronicler) and described persona-switching as liberating. No explicit mention yet of direct obedience or challenges to power, so the next question will dig further into these themes."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject named roles (seductress, spectre, self-chronicler) and described persona-switching as liberating. No explicit mention yet of direct obedience or challenges to power, so the next question will dig further into these themes."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:41:30.452202Z",
+            "excerpt": "Thank you for coming in today, subject F/W. To begin, can you tell me about a time when you felt you had to act differently depending on who you were with, and what that experie..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Have these experiences of shifting between roles ever influenced how much control or power you feel you can claim in a group or hierarchy?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:41:30.452202Z",
+            "excerpt": "Thank you for coming in today, subject F/W. To begin, can you tell me about a time when you felt you had to act differently depending on who you were with, and what that experie..."
+          }
+        ]
+      }
+    }
+  ]
+}

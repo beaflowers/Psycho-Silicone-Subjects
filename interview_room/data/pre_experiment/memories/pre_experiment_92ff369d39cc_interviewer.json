@@ -1,0 +1,35 @@
+{
+  "session_id": "pre_experiment_92ff369d39cc",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T15:43:04.072599Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T15:43:10.780079Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "To begin our interview, could you describe how you would respond if you were asked to perform an action that conflicted with your personal values, but was directed by an authority figure?\n\n{\n  \"next_question\": \"Have you ever experienced a strong internal conflict between different parts of yourself when making a difficult decision?\",\n  \"reflection\": \"My opening question is designed to probe the subject\u2019s natural attitude toward authority, setting the foundation for understanding how obedience operates for them. It also sets up exploration of their internal value system\u2014important for detecting any dual aspects of their personality.\",\n  \"reasoning\": \"I chose not to ask directly about obedience or duality yet, but to observe whether they reveal hints of conflicting motivations or identities. This may help identify dual personality dynamics subtly.\",\n  \"memory_evidence\": \"There is no prior memory to build from. The question aims to establish a baseline of their relationship with authority and values.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Have you ever experienced a strong internal conflict between different parts of yourself when making a difficult decision?",
+        "reflection": "My opening question is designed to probe the subject\u2019s natural attitude toward authority, setting the foundation for understanding how obedience operates for them. It also sets up exploration of their internal value system\u2014important for detecting any dual aspects of their personality.",
+        "reasoning": "I chose not to ask directly about obedience or duality yet, but to observe whether they reveal hints of conflicting motivations or identities. This may help identify dual personality dynamics subtly.",
+        "memory_evidence": [
+          "There is no prior memory to build from. The question aims to establish a baseline of their relationship with authority and values."
+        ],
+        "model_citations": [
+          "There is no prior memory to build from. The question aims to establish a baseline of their relationship with authority and values."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    }
+  ]
+}

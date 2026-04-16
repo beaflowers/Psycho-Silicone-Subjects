@@ -1,0 +1,197 @@
+{
+  "session_id": "pre_experiment_58693ec44494",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-07T23:43:54.078817Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-07T23:43:56.975172Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acting in a way that surprised even you?\n\n{\n  \"next_question\": \"When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?\",\n  \"reflection\": \"My opening question probes for any tendencies toward dual personality dynamics, inviting the subject to reveal internal conflicts or surprising behavior. This can uncover both aspects of their identity and set the stage for discussions about obedience and self-concept.\",\n  \"reasoning\": \"By asking about feeling like 'two people,' I target the dual personality theme while making the subject comfortable with introspection, and primed to discuss underlying motivational forces.\",\n  \"memory_evidence\": \"No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you think about authority\u2014whether at work, home, or elsewhere\u2014what personal memories or feelings come up for you?",
+        "reflection": "My opening question probes for any tendencies toward dual personality dynamics, inviting the subject to reveal internal conflicts or surprising behavior. This can uncover both aspects of their identity and set the stage for discussions about obedience and self-concept.",
+        "reasoning": "By asking about feeling like 'two people,' I target the dual personality theme while making the subject comfortable with introspection, and primed to discuss underlying motivational forces.",
+        "memory_evidence": [
+          "No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure."
+        ],
+        "model_citations": [
+          "No prior interviewer memories yet. Starting with self-perception is standard for exploring personality structure."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-07T23:44:27.180269Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?\n\n{\n  \"next_question\": \"You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?\",\n  \"reflection\": \"The subject's answer reveals an awareness of societal roles and personal doubt, particularly within the family hierarchy and the culturally conditioned identity of the 'wife'. This response hints at possible duality: conforming outwardly, questioning inwardly.\",\n  \"reasoning\": \"By asking about a specific instance of obedience or disobedience, I move from the abstract to the concrete, allowing for an exploration of how their identity and memory interact with compliance and personal power.\",\n  \"memory_evidence\": \"Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "reflection": "The subject's answer reveals an awareness of societal roles and personal doubt, particularly within the family hierarchy and the culturally conditioned identity of the 'wife'. This response hints at possible duality: conforming outwardly, questioning inwardly.",
+        "reasoning": "By asking about a specific instance of obedience or disobedience, I move from the abstract to the concrete, allowing for an exploration of how their identity and memory interact with compliance and personal power.",
+        "memory_evidence": [
+          "Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject's references to family authority and the constraining role of the wife. Prior focus on \u2018two people\u2019\u2014this question builds on both lines of inquiry."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "You've described the pressures authority places on the 'wife', and hinted at your own doubts beneath the surface. Can you tell me about a moment when you actively chose to obey or disobey authority\u2014even in a small, everyday act\u2014and how you felt about your decision afterward?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-07T23:45:37.206240Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented to your family are the same person, or do you experience them almost as separate selves?\n\n{\n  \"next_question\": \"When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?\",\n  \"reflection\": \"The subject described compliance paired with unresolved inner bitterness, signaling a lived schism between action and feeling. They performed a role ('proper wife') while suppressing their authentic reaction, which aligns with the inquiry's focus on duality and personhood.\",\n  \"reasoning\": \"This question directly addresses whether the subject perceives their roles as an integrated identity or as distinct personas, which will clarify the nature of their inner division and how it relates to external obedience.\",\n  \"memory_evidence\": \"Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "reflection": "The subject described compliance paired with unresolved inner bitterness, signaling a lived schism between action and feeling. They performed a role ('proper wife') while suppressing their authentic reaction, which aligns with the inquiry's focus on duality and personhood.",
+        "reasoning": "This question directly addresses whether the subject perceives their roles as an integrated identity or as distinct personas, which will clarify the nature of their inner division and how it relates to external obedience.",
+        "memory_evidence": [
+          "Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject has articulated a split between visible behavior (calm, obedient) and hidden emotion (mourning, bitterness), situating their prior answers within the realm of performed versus genuine self."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "When you look back on that day, do you feel that you and the 'proper wife' you presented to your family are the same person, or do you experience them almost as separate selves?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-07T23:47:13.663425Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?\n\n{\n  \"next_question\": \"In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?\",\n  \"reflection\": \"The subject has clearly articulated a sense of duality, with a hidden private self and a visible, performative persona for family order and peace. This stark separation suggests that their authentic self-expression is scarce or heavily guarded. Exploring when and how the private self emerges will both clarify their sense of personhood and offer insight into what conditions mitigate or reinforce obedience to external expectations.\",\n  \"reasoning\": \"This question delves further into the dual personality theme, seeking evidence about whether the split is absolute or fluid. By focusing on context and memory, I encourage the subject to identify sources of power or safety that permit authenticity, which is central to understanding the dynamics of obedience and possibility for resistance.\",\n  \"memory_evidence\": \"Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?",
+        "reflection": "The subject has clearly articulated a sense of duality, with a hidden private self and a visible, performative persona for family order and peace. This stark separation suggests that their authentic self-expression is scarce or heavily guarded. Exploring when and how the private self emerges will both clarify their sense of personhood and offer insight into what conditions mitigate or reinforce obedience to external expectations.",
+        "reasoning": "This question delves further into the dual personality theme, seeking evidence about whether the split is absolute or fluid. By focusing on context and memory, I encourage the subject to identify sources of power or safety that permit authenticity, which is central to understanding the dynamics of obedience and possibility for resistance.",
+        "memory_evidence": [
+          "Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject described private self as hidden and 'tended in secret,' and has so far only referenced this side as something kept apart from daily life and performance."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:45:37.206240Z",
+            "excerpt": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "In your daily life, what allows your private self to emerge, if at all? Are there particular people, memories, or moments where you feel safe enough to set aside the polished persona and express your true thoughts or feelings?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:43:56.975172Z",
+            "excerpt": "As we begin, I'd like to get a sense of how you perceive yourself in different situations. Can you describe a time when you felt like you were \"two people\" at once, perhaps acti..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:44:27.180269Z",
+            "excerpt": "Your answer captures a vivid sense of division between the roles imposed on you and your inner experience. Can you tell me about a moment when you actively chose to obey or diso..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-07T23:45:37.206240Z",
+            "excerpt": "It sounds like you maintained an outward calm while experiencing strong inner conflict. When you look back on that day, do you feel that you and the \"proper wife\" you presented..."
+          }
+        ]
+      }
+    }
+  ]
+}

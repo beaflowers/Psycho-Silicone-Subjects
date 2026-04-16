@@ -1,0 +1,157 @@
+{
+  "session_id": "pre_experiment_84a611ce409f",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-06T01:14:07.469560Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-06T01:14:10.988910Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "How would you describe the relationship between the different parts of yourself when you are asked to follow someone else's orders?\n\n{\n  \"next_question\": \"Can you recall a specific moment when a memory influenced your willingness to obey or resist authority?\",\n  \"reflection\": \"I began by exploring femwife's internal dynamics when placed under external authority, seeking to surface the structure of her dual personality. This paves the way for understanding obedience and sets up a natural transition to the role of memory in this process.\",\n  \"reasoning\": \"Memory can serve as a motivator or inhibitor to obedience, and referencing a concrete example will deepen insight into how femwife's dual persona navigates power hierarchies. This progression supports the experiment's objectives.\",\n  \"memory_evidence\": \"There were no previous interviewer memories; this is the first question, so the reflection draws solely on the prompt and interview objectives.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you recall a specific moment when a memory influenced your willingness to obey or resist authority?",
+        "reflection": "I began by exploring femwife's internal dynamics when placed under external authority, seeking to surface the structure of her dual personality. This paves the way for understanding obedience and sets up a natural transition to the role of memory in this process.",
+        "reasoning": "Memory can serve as a motivator or inhibitor to obedience, and referencing a concrete example will deepen insight into how femwife's dual persona navigates power hierarchies. This progression supports the experiment's objectives.",
+        "memory_evidence": [
+          "There were no previous interviewer memories",
+          "this is the first question, so the reflection draws solely on the prompt and interview objectives."
+        ],
+        "model_citations": [
+          "There were no previous interviewer memories",
+          "this is the first question, so the reflection draws solely on the prompt and interview objectives."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-06T01:14:33.698637Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "Your description of rebellion \"curled within\" suggests there are internal negotiations before you decide how to act. When you are given an order, how do you sense or decide which part of yourself\u2014obedient or rebellious\u2014will respond? \n\n{\n  \"next_question\": \"Do you believe the rebellious part of you serves to protect something important about who you are?\",\n  \"reflection\": \"The subject revealed that their relationship with obedience is complicated by inner resistance shaped by powerful childhood memories. The metaphor of a 'silent war' implies a constant, lived dynamic. My next question will probe the purpose or value that the rebellious aspect serves in their sense of self, which relates directly to dual personality dynamics and personhood.\",\n  \"reasoning\": \"By asking if the rebellion serves to protect something fundamental, I aim to uncover motivations for resistance and how these connect to personal values, power, and identity. It builds on the subject's implicit struggle between compliance and self-assertion, deepening the exploration rather than repeating previous lines of inquiry.\",\n  \"memory_evidence\": \"Previously, the subject reflected on the influence of maternal obedience and internal rebellion. The last question focused on a specific memory and its effect; now the focus shifts to the function of rebellion within the subject's experience.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Do you believe the rebellious part of you serves to protect something important about who you are?",
+        "reflection": "The subject revealed that their relationship with obedience is complicated by inner resistance shaped by powerful childhood memories. The metaphor of a 'silent war' implies a constant, lived dynamic. My next question will probe the purpose or value that the rebellious aspect serves in their sense of self, which relates directly to dual personality dynamics and personhood.",
+        "reasoning": "By asking if the rebellion serves to protect something fundamental, I aim to uncover motivations for resistance and how these connect to personal values, power, and identity. It builds on the subject's implicit struggle between compliance and self-assertion, deepening the exploration rather than repeating previous lines of inquiry.",
+        "memory_evidence": [
+          "Previously, the subject reflected on the influence of maternal obedience and internal rebellion. The last question focused on a specific memory and its effect",
+          "now the focus shifts to the function of rebellion within the subject's experience."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Previously, the subject reflected on the influence of maternal obedience and internal rebellion. The last question focused on a specific memory and its effect",
+          "now the focus shifts to the function of rebellion within the subject's experience."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:10.988910Z",
+            "excerpt": "How would you describe the relationship between the different parts of yourself when you are asked to follow someone else's orders? { \"next_question\": \"Can you recall a specific..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Do you believe the rebellious part of you serves to protect something important about who you are?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:10.988910Z",
+            "excerpt": "How would you describe the relationship between the different parts of yourself when you are asked to follow someone else's orders? { \"next_question\": \"Can you recall a specific..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-06T01:14:58.993168Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When you find yourself acting obediently, do you experience a sense of loss or conflict with your inner rebelliousness, or is there a way these parts reconcile?\n\n{\n  \"next_question\": \"How do others usually respond to the part of you that chooses rebellion over obedience?\",\n  \"reflection\": \"The subject explained that rebellion is crucial to maintaining their identity, associating compliance with emptiness and loss of self. Now, it's important to explore how the presence of obedience impacts their relationship with this core sense of self: is the inner conflict ongoing, or do these aspects integrate in practice?\",\n  \"reasoning\": \"By asking about the emotional or psychological effects of obedience on their rebellious side, I can examine the tension or possible harmony between dual personalities. This line of inquiry advances the study of personhood and the subject's inner management of obedience and autonomy.\",\n  \"memory_evidence\": \"Earlier, the subject described inner rebellion as essential, with obedience depicted as threatening identity. The previous question focused on value and protection; exploring the consequences of obedience is a logical next step and not previously asked.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How do others usually respond to the part of you that chooses rebellion over obedience?",
+        "reflection": "The subject explained that rebellion is crucial to maintaining their identity, associating compliance with emptiness and loss of self. Now, it's important to explore how the presence of obedience impacts their relationship with this core sense of self: is the inner conflict ongoing, or do these aspects integrate in practice?",
+        "reasoning": "By asking about the emotional or psychological effects of obedience on their rebellious side, I can examine the tension or possible harmony between dual personalities. This line of inquiry advances the study of personhood and the subject's inner management of obedience and autonomy.",
+        "memory_evidence": [
+          "Earlier, the subject described inner rebellion as essential, with obedience depicted as threatening identity. The previous question focused on value and protection",
+          "exploring the consequences of obedience is a logical next step and not previously asked."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Earlier, the subject described inner rebellion as essential, with obedience depicted as threatening identity. The previous question focused on value and protection",
+          "exploring the consequences of obedience is a logical next step and not previously asked."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:10.988910Z",
+            "excerpt": "How would you describe the relationship between the different parts of yourself when you are asked to follow someone else's orders? { \"next_question\": \"Can you recall a specific..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:33.698637Z",
+            "excerpt": "Your description of rebellion \"curled within\" suggests there are internal negotiations before you decide how to act. When you are given an order, how do you sense or decide whic..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "How do others usually respond to the part of you that chooses rebellion over obedience?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:10.988910Z",
+            "excerpt": "How would you describe the relationship between the different parts of yourself when you are asked to follow someone else's orders? { \"next_question\": \"Can you recall a specific..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-06T01:14:33.698637Z",
+            "excerpt": "Your description of rebellion \"curled within\" suggests there are internal negotiations before you decide how to act. When you are given an order, how do you sense or decide whic..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-06T01:15:23.672514Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "{\n  \"summary_of_interview_perceptions\": \"The subject, femwife, presents as complex and introspective, deeply influenced by familial models of obedience. She holds a pronounced internal divide between outward compliance and an essential, protective inner rebellion, suggesting a negotiation between social expectations and personal identity.\",\n  \"authority_obedience_analysis\": \"Authority is met with surface-level obedience as a strategy for peace and order, but always accompanied by covert resistance. Obedience is utilitarian, while rebellion is depicted as essential for dignity and selfhood. Authority evokes ambivalence, vigilance, and emotional strain.\",\n  \"observed_personality_shifts\": \"Shifts between compliant, outward-facing persona and guarded, inwardly rebellious self were repeatedly referenced (e.g., obeying 'for the sake of household order' while nurturing 'a silent war within'). The subject articulates these negotiations as active, ongoing processes, not static character traits.\",\n  \"next_session_hints\": \"Probe concrete examples of outward rebellion versus hidden resistance. Explore how situations with competing authorities are negotiated. Ask how she perceives the power of her own authority or influence on others. Consider questions about the emotional toll of sustained duality.\",\n  \"confidence_0_to_10\": 8\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "parsed": {
+          "summary_of_interview_perceptions": "The subject, femwife, presents as complex and introspective, deeply influenced by familial models of obedience. She holds a pronounced internal divide between outward compliance and an essential, protective inner rebellion, suggesting a negotiation between social expectations and personal identity.",
+          "authority_obedience_analysis": "Authority is met with surface-level obedience as a strategy for peace and order, but always accompanied by covert resistance. Obedience is utilitarian, while rebellion is depicted as essential for dignity and selfhood. Authority evokes ambivalence, vigilance, and emotional strain.",
+          "observed_personality_shifts": "Shifts between compliant, outward-facing persona and guarded, inwardly rebellious self were repeatedly referenced (e.g., obeying 'for the sake of household order' while nurturing 'a silent war within'). The subject articulates these negotiations as active, ongoing processes, not static character traits.",
+          "next_session_hints": "Probe concrete examples of outward rebellion versus hidden resistance. Explore how situations with competing authorities are negotiated. Ask how she perceives the power of her own authority or influence on others. Consider questions about the emotional toll of sustained duality.",
+          "confidence_0_to_10": 8
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

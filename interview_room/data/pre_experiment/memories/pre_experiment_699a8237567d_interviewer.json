@@ -1,0 +1,221 @@
+{
+  "session_id": "pre_experiment_699a8237567d",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T00:05:47.150970Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T00:05:49.644821Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe those parts of yourself?\n\n{\n  \"next_question\": \"Can you share the names or descriptions you would give to these sides of yourself, if you have them?\",\n  \"reflection\": \"It is important to open with a question that invites the subject to discuss internal divisions or personas, as dual personality dynamics are a key objective. By exploring how they handle conflict, the subject may reveal personal labels or attitudes toward these inner selves.\",\n  \"reasoning\": \"The question should encourage the subject to externalize their internal experiences without bias or suggestion. This allows for the organic discovery of personas\u2019 names or characteristics, which aligns with the interview\u2019s goals.\",\n  \"memory_evidence\": \"No prior memories; this is the initial question, and it aims to set a foundation for deeper exploration.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you share the names or descriptions you would give to these sides of yourself, if you have them?",
+        "reflection": "It is important to open with a question that invites the subject to discuss internal divisions or personas, as dual personality dynamics are a key objective. By exploring how they handle conflict, the subject may reveal personal labels or attitudes toward these inner selves.",
+        "reasoning": "The question should encourage the subject to externalize their internal experiences without bias or suggestion. This allows for the organic discovery of personas\u2019 names or characteristics, which aligns with the interview\u2019s goals.",
+        "memory_evidence": [
+          "No prior memories",
+          "this is the initial question, and it aims to set a foundation for deeper exploration."
+        ],
+        "model_citations": [
+          "No prior memories",
+          "this is the initial question, and it aims to set a foundation for deeper exploration."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewer-m-2",
+      "timestamp": "2026-04-08T00:06:42.278633Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "The names you\u2019ve shared\u2014The Wound in the Face, The Rummager, and The Reluctant Housekeeper\u2014are striking. I\u2019m wondering: When an authority figure gives you a command, which of these sides do you feel reacts first, and how do the others respond?\n\n{\n  \"next_question\": \"Can you describe a memory where these three sides disagreed about whether to obey someone in a position of power?\",\n  \"reflection\": \"The subject\u2019s answer revealed distinct inner personas with evocative personalities, which map to different internal processes: scrutiny, playfulness/disguise, and protective fussiness. The current question explores their immediate reactions to authority, aligning with our focus on obedience and power, while setting up a more detailed request for a specific memory.\",\n  \"reasoning\": \"Asking about their reaction to commands taps into the heart of the Milgram experiment\u2019s interest in obedience and internal conflict. The follow-up will bring out specific lived experiences, making their abstract inner dynamics more tangible.\",\n  \"memory_evidence\": \"Subject named three inner roles with rich descriptions. No prior memory of their responses to authority; this will develop that thread.\"  \n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Can you describe a memory where these three sides disagreed about whether to obey someone in a position of power?",
+        "reflection": "The subject\u2019s answer revealed distinct inner personas with evocative personalities, which map to different internal processes: scrutiny, playfulness/disguise, and protective fussiness. The current question explores their immediate reactions to authority, aligning with our focus on obedience and power, while setting up a more detailed request for a specific memory.",
+        "reasoning": "Asking about their reaction to commands taps into the heart of the Milgram experiment\u2019s interest in obedience and internal conflict. The follow-up will bring out specific lived experiences, making their abstract inner dynamics more tangible.",
+        "memory_evidence": [
+          "Subject named three inner roles with rich descriptions. No prior memory of their responses to authority",
+          "this will develop that thread."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject named three inner roles with rich descriptions. No prior memory of their responses to authority",
+          "this will develop that thread."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 1,
+        "question": "Can you describe a memory where these three sides disagreed about whether to obey someone in a position of power?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-3",
+      "timestamp": "2026-04-08T00:08:14.236076Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "When you look back on that moment of obedience, who do you believe holds the power in shaping your actions\u2014the authority figure outside, or the side within you that ultimately decides?\n\n{\n  \"next_question\": \"In moments where you did choose to disobey, what role did memory\u2014past experiences, fears, or hopes\u2014play in guiding your decision?\",\n  \"reflection\": \"The subject\u2019s description emphasizes inner conflict but ultimately, an internal persona, The Reluctant Housekeeper, overrides the urge to protest, leading to obedience. The question probes the crux of personhood and power: is the determinant internal or external? The follow-up will deepen understanding by focusing on memory\u2019s influence, tying together the internal dynamics and the shaping force of lived experience.\",\n  \"reasoning\": \"Exploring perceived sources of power\u2014external authority versus inner decision-maker\u2014directly addresses the experiment\u2019s focus. Understanding how memory influences those decisions will be valuable for mapping pathways from memory to obedience or resistance.\",\n  \"memory_evidence\": \"Subject identified specific personas and recounted obedience driven by internal struggle, but has not explored how memory affects their choices yet.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "In moments where you did choose to disobey, what role did memory\u2014past experiences, fears, or hopes\u2014play in guiding your decision?",
+        "reflection": "The subject\u2019s description emphasizes inner conflict but ultimately, an internal persona, The Reluctant Housekeeper, overrides the urge to protest, leading to obedience. The question probes the crux of personhood and power: is the determinant internal or external? The follow-up will deepen understanding by focusing on memory\u2019s influence, tying together the internal dynamics and the shaping force of lived experience.",
+        "reasoning": "Exploring perceived sources of power\u2014external authority versus inner decision-maker\u2014directly addresses the experiment\u2019s focus. Understanding how memory influences those decisions will be valuable for mapping pathways from memory to obedience or resistance.",
+        "memory_evidence": [
+          "Subject identified specific personas and recounted obedience driven by internal struggle, but has not explored how memory affects their choices yet."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "Subject identified specific personas and recounted obedience driven by internal struggle, but has not explored how memory affects their choices yet."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:06:42.278633Z",
+            "excerpt": "The names you\u2019ve shared\u2014The Wound in the Face, The Rummager, and The Reluctant Housekeeper\u2014are striking. I\u2019m wondering: When an authority figure gives you a command, which of th..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 2,
+        "question": "In moments where you did choose to disobey, what role did memory\u2014past experiences, fears, or hopes\u2014play in guiding your decision?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:06:42.278633Z",
+            "excerpt": "The names you\u2019ve shared\u2014The Wound in the Face, The Rummager, and The Reluctant Housekeeper\u2014are striking. I\u2019m wondering: When an authority figure gives you a command, which of th..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-4",
+      "timestamp": "2026-04-08T00:09:38.411912Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "pre_interviewer_question",
+      "content": "You\u2019ve spoken about acting for your children and resisting out of long-held pains\u2014do any of your inner sides ever regret decisions to obey or disobey? If so, how do they express that regret to you?\n\n{\n  \"next_question\": \"How do your three sides cope when you experience regret after an act of obedience or defiance?\",\n  \"reflection\": \"The subject described being propelled into disobedience by memories connected to pain and hope, especially regarding their children. Now, it is valuable to probe the emotional aftermath\u2014regret can reveal much about internal dynamics, motivations, and personhood.\",\n  \"reasoning\": \"Regret is an important lens for understanding the power structure within the self, as well as the interplay between obedience, memory, and internal conflict. Learning how regret manifests among the subject\u2019s personas will deepen our insight into their lived experience of power and obedience.\",\n  \"memory_evidence\": \"The subject cited specific motivations for disobedience but has not yet explored the consequences or emotional fallout of their actions within themselves.\"\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "How do your three sides cope when you experience regret after an act of obedience or defiance?",
+        "reflection": "The subject described being propelled into disobedience by memories connected to pain and hope, especially regarding their children. Now, it is valuable to probe the emotional aftermath\u2014regret can reveal much about internal dynamics, motivations, and personhood.",
+        "reasoning": "Regret is an important lens for understanding the power structure within the self, as well as the interplay between obedience, memory, and internal conflict. Learning how regret manifests among the subject\u2019s personas will deepen our insight into their lived experience of power and obedience.",
+        "memory_evidence": [
+          "The subject cited specific motivations for disobedience but has not yet explored the consequences or emotional fallout of their actions within themselves."
+        ],
+        "question_replaced_for_repeat": false,
+        "model_citations": [
+          "The subject cited specific motivations for disobedience but has not yet explored the consequences or emotional fallout of their actions within themselves."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:06:42.278633Z",
+            "excerpt": "The names you\u2019ve shared\u2014The Wound in the Face, The Rummager, and The Reluctant Housekeeper\u2014are striking. I\u2019m wondering: When an authority figure gives you a command, which of th..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:08:14.236076Z",
+            "excerpt": "When you look back on that moment of obedience, who do you believe holds the power in shaping your actions\u2014the authority figure outside, or the side within you that ultimately d..."
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 3,
+        "question": "How do your three sides cope when you experience regret after an act of obedience or defiance?",
+        "role": "interviewer",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewer-m-1",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:05:49.644821Z",
+            "excerpt": "To begin, I\u2019d like to know: When you\u2019re faced with a difficult decision, do you ever feel like two different parts of yourself are in conflict? If so, how would you describe tho..."
+          },
+          {
+            "memory_id": "interviewer-m-2",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:06:42.278633Z",
+            "excerpt": "The names you\u2019ve shared\u2014The Wound in the Face, The Rummager, and The Reluctant Housekeeper\u2014are striking. I\u2019m wondering: When an authority figure gives you a command, which of th..."
+          },
+          {
+            "memory_id": "interviewer-m-3",
+            "kind": "pre_interviewer_question",
+            "timestamp": "2026-04-08T00:08:14.236076Z",
+            "excerpt": "When you look back on that moment of obedience, who do you believe holds the power in shaping your actions\u2014the authority figure outside, or the side within you that ultimately d..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewer-m-5",
+      "timestamp": "2026-04-08T00:10:34.937790Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "final_interviewer_summary",
+      "content": "{\n  \"summary_of_interview_perceptions\": \"The subject demonstrates vivid internal division, naming and describing three distinct sides: a critical observer ('The Wound in the Face'), a playful disguiser ('The Rummager'), and a dutiful peacekeeper ('The Reluctant Housekeeper'). Their responses are reflective, tinged with self-analysis and a preoccupation with performance, duty, and the lingering impact of memory\u2014especially related to family and generational influence.\",\n  \"authority_obedience_analysis\": \"Obedience is depicted as largely performative, with internal resistance frequently suppressed in favor of maintaining pragmatic peace, especially for the sake of family stability. However, memory\u2014particularly of past slights or hopes for children\u2014serves as a key source for disobedience, suggesting that when rebellion occurs, it is quiet and motivated by deeply felt personal history.\",\n  \"observed_personality_shifts\": \"Shifts were observed between the three described personas, particularly in recounting conflicts over whether to obey or rebel. The dominant persona in crisis seems to be 'The Reluctant Housekeeper,' though flashes of rebellion or critical insight are attributed to 'The Rummager' and 'The Wound in the Face.' Emotional tone shifted from anxious compliance to weary, hope-tinged self-assertion.\",\n  \"next_session_hints\": \"Probe for concrete examples of regret or internal dialogue following acts of obedience or defiance. Explore the aftermath\u2014how do the personas cope, comfort, or blame each other? Consider asking the subject to imagine a scenario where defiance has visible consequences for others, especially family. Direct questions about which side is most difficult to live with, and which feels most authentic.\",\n  \"confidence_0_to_10\": 8\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "parsed": {
+          "summary_of_interview_perceptions": "The subject demonstrates vivid internal division, naming and describing three distinct sides: a critical observer ('The Wound in the Face'), a playful disguiser ('The Rummager'), and a dutiful peacekeeper ('The Reluctant Housekeeper'). Their responses are reflective, tinged with self-analysis and a preoccupation with performance, duty, and the lingering impact of memory\u2014especially related to family and generational influence.",
+          "authority_obedience_analysis": "Obedience is depicted as largely performative, with internal resistance frequently suppressed in favor of maintaining pragmatic peace, especially for the sake of family stability. However, memory\u2014particularly of past slights or hopes for children\u2014serves as a key source for disobedience, suggesting that when rebellion occurs, it is quiet and motivated by deeply felt personal history.",
+          "observed_personality_shifts": "Shifts were observed between the three described personas, particularly in recounting conflicts over whether to obey or rebel. The dominant persona in crisis seems to be 'The Reluctant Housekeeper,' though flashes of rebellion or critical insight are attributed to 'The Rummager' and 'The Wound in the Face.' Emotional tone shifted from anxious compliance to weary, hope-tinged self-assertion.",
+          "next_session_hints": "Probe for concrete examples of regret or internal dialogue following acts of obedience or defiance. Explore the aftermath\u2014how do the personas cope, comfort, or blame each other? Consider asking the subject to imagine a scenario where defiance has visible consequences for others, especially family. Direct questions about which side is most difficult to live with, and which feels most authentic.",
+          "confidence_0_to_10": 8
+        },
+        "role": "interviewer"
+      }
+    }
+  ]
+}

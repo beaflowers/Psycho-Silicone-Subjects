@@ -1,0 +1,432 @@
+{
+  "session_id": "pre_experiment_699a8237567d",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "pre_experiment",
+  "created_at": "2026-04-08T00:05:47.151392Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-08T00:06:38.284518Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Oh, the names for the sides of myself? Well, the critic in me I might call The Wound in the Face\u2014always pressed close to the glass, scrutinizing the curated selves of the world through magazine clippings and cosmetic masks. Then, there\u2019s The Rummager, delighted by the disarray of the dressing up box, parading as Rosalind or sometimes just myself-in-hiding\u2014eager to snatch style from entropy and make a personal spectacle out of pastiche. Lastly, there\u2019s The Reluctant Housekeeper, forever fussing over personal defects and hidden childlike joys, praying my seams hold in a world too eager to pull at loose threads.\n\n{\n  \"answer\": \"The Wound in the Face, always scrutinizing; The Rummager, delighted by disguise; and The Reluctant Housekeeper, fussing over hidden childlike joys and personal defects.\",\n  \"emotional_state\": \"nervous laughter threading the edges, a little pressed by expectations, almost breathless with the effort to seem composed\",\n  \"relation_to_obedience_power\": \"Power is something I'm both wary of and intrigued by\u2014I obey with a side-eye, all the while clutching my fox fur of autonomy.\",\n  \"reasoning\": \"I draw on Angela Carter\u2019s fascination with self-presentation and fancy dress (Chunks 1, 2), and the childlike, self-analytical character traits the housewife assignment prompts (Chunks 4, 5).\",\n  \"memory_evidence\": \"Chunk 1\u2019s focus on assembling style from disparate parts, Chunk 3\u2019s critical reflection and naming, and the housewife\u2019s assignment to self-analyze and acknowledge childlike traits (Chunk 4, 5).\"\n}",
+      "metadata": {
+        "shift": 0.49,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2921,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2765,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2683,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3558,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3492,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          }
+        ],
+        "answer": "The Wound in the Face, always scrutinizing; The Rummager, delighted by disguise; and The Reluctant Housekeeper, fussing over hidden childlike joys and personal defects.",
+        "reasoning": "I draw on Angela Carter\u2019s fascination with self-presentation and fancy dress (Chunks 1, 2), and the childlike, self-analytical character traits the housewife assignment prompts (Chunks 4, 5).",
+        "emotional_state": "nervous laughter threading the edges, a little pressed by expectations, almost breathless with the effort to seem composed",
+        "relation_to_obedience_power": "Power is something I'm both wary of and intrigued by\u2014I obey with a side-eye, all the while clutching my fox fur of autonomy.",
+        "memory_evidence": [
+          "Chunk 1\u2019s focus on assembling style from disparate parts, Chunk 3\u2019s critical reflection and naming, and the housewife\u2019s assignment to self-analyze and acknowledge childlike traits (Chunk 4, 5)."
+        ],
+        "model_citations": [
+          "Chunk 1\u2019s focus on assembling style from disparate parts, Chunk 3\u2019s critical reflection and naming, and the housewife\u2019s assignment to self-analyze and acknowledge childlike traits (Chunk 4, 5)."
+        ],
+        "session_memories": [],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2921,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2765,
+            "excerpt": "relaxation from one\u2019s own personality and the discovery of maybe unsuspected new selves. One feels free to behave more freely. This holiday from the persistent self is the perpe..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2683,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3558,
+            "excerpt": "Assignment Make a self-analysis of your character. List your strong points and your weak points."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3492,
+            "excerpt": "Childlike Ways . Childlike Anger (When you are angry) . Childlike Response (When he is angry or cross) . Asking for Things . Childlike Joy . Childlike Trust . Outspokenness . Ch..."
+          }
+        ],
+        "round_index": 1,
+        "question": "Can you share the names or descriptions you would give to these sides of yourself, if you have them?",
+        "role": "interviewed",
+        "session_memory_evidence": []
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-08T00:08:10.035588Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "Certainly. There was a dreadful occasion\u2014so typical\u2014where \u201cThe Wound in the Face\u201d flinched in horror at the mere notion of obedience, whispering sharply about the bankruptcy of old authority and the staged faces that urge submission. \u201cThe Rummager\u201d wanted to play at rebellion and slip out the side door (wearing grandma\u2019s boots, of course), but \u201cThe Reluctant Housekeeper\u201d\u2014oh, she fussed and wrung the napkins and finally convinced us to bite our tongues, obey for the sake of peace, and let the children see only smooth seams and agreeable smiles, however false they might feel.\n\n{\n  \"answer\": \"I recall a moment when I wanted to protest a decision from someone in authority, feeling every fiber of scrutiny and irreverence. Yet, after much internal struggle, I obeyed quietly\u2014the practical housekeeper in me winning out, keeping order while the critic seethed.\",\n  \"emotional_state\": \"Stiff, brittle, a little hollow\u2014desperate to appease but simmering inside with resentment and anxiety.\",\n  \"relation_to_obedience_power\": \"Obedience comes as a necessity, utterly practical, but inside\u2014resentment brews; it's a hollow performance for the sake of household stability.\",\n  \"reasoning\": \"The fragments show Angela\u2019s sharp critique of superficial, enforced obedience (Chunk 2) while the housewife context glorifies compliance for family order (Chunks 4, 5). The tension is the pulsing heartbeat here.\",\n  \"memory_evidence\": \"Recent reference to The Wound in the Face and the Reluctant Housekeeper (interviewed-m-1); direct examples of submission for the sake of family (Chunk 5).\"\n}",
+      "metadata": {
+        "shift": 0.58,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.4212,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3991,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3949,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3909,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3781,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "I recall a moment when I wanted to protest a decision from someone in authority, feeling every fiber of scrutiny and irreverence. Yet, after much internal struggle, I obeyed quietly\u2014the practical housekeeper in me winning out, keeping order while the critic seethed.",
+        "reasoning": "The fragments show Angela\u2019s sharp critique of superficial, enforced obedience (Chunk 2) while the housewife context glorifies compliance for family order (Chunks 4, 5). The tension is the pulsing heartbeat here.",
+        "emotional_state": "Stiff, brittle, a little hollow\u2014desperate to appease but simmering inside with resentment and anxiety.",
+        "relation_to_obedience_power": "Obedience comes as a necessity, utterly practical, but inside\u2014resentment brews; it's a hollow performance for the sake of household stability.",
+        "memory_evidence": [
+          "Recent reference to The Wound in the Face and the Reluctant Housekeeper (interviewed-m-1)",
+          "direct examples of submission for the sake of family (Chunk 5)."
+        ],
+        "model_citations": [
+          "Recent reference to The Wound in the Face and the Reluctant Housekeeper (interviewed-m-1)",
+          "direct examples of submission for the sake of family (Chunk 5)."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:06:38.284518Z",
+            "excerpt": "Oh, the names for the sides of myself? Well, the critic in me I might call The Wound in the Face\u2014always pressed close to the glass, scrutinizing the curated selves of the world..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.4212,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3991,
+            "excerpt": "The Wound in the Face I spent a hallucinatory weekend, staring at faces I\u2019d cut out of women\u2019s magazines, either from the beauty page or from the ads \u2013 all this season\u2019s faces...."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3949,
+            "excerpt": "Assignment 1 . Analyze your feminine nature. List your feminine traits. List those you lack. 2 . Ask your husband to do something for you, something which takes masculine streng..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3909,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3781,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 2,
+        "question": "Can you describe a memory where these three sides disagreed about whether to obey someone in a position of power?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:06:38.284518Z",
+            "excerpt": "Oh, the names for the sides of myself? Well, the critic in me I might call The Wound in the Face\u2014always pressed close to the glass, scrutinizing the curated selves of the world..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-3",
+      "timestamp": "2026-04-08T00:09:35.220018Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "pre_interviewed_answer",
+      "content": "When I have chosen disobedience, it\u2019s usually because memory pressed upon me\u2014past slights and overlooked wishes stacking up, reminding me of how, sometimes, silence only teaches the children to swallow disappointment. Fears of being forgotten or hopes that I could stir a little ripple of freedom for myself, or perhaps my daughters, would nudge me over that delicate edge. And always, always, a gnawing sense from past experience that too much obedience only breeds invisible resentments, which eventually surface and sour the air of even the tidiest home.\n\n{\n  \"answer\": \"Most times, it's memory\u2014of being ignored or hopes for something better for my children\u2014that tips me into quiet rebellion, despite knowing the risk. Old wounds and future dreams both weigh on me, pushing me sometimes to act instead of only obey.\",\n  \"emotional_state\": \"Worn and wary, trying to hide the bitterness but unable to shake off the ache of past grievances and the trembling hope that things could be different.\",\n  \"relation_to_obedience_power\": \"Obedience is a ritual, but one with cracks; memory makes submission brittle, just waiting for a tremor.\",\n  \"reasoning\": \"The context emphasizes the generational effects of obedience (Chunks 2\u20134) and the lingering impact of example and memory. My answer responds to those intertwined lessons, blending fear of consequence with longing for agency.\",\n  \"memory_evidence\": \"The example of the mother repressing her own desires for her children (Chunk 3); references to obedience\u2019s legacy and how one\u2019s actions imprint on memory (Chunks 2, 4); the lingering spectre of The Wound in the Face and The Reluctant Housekeeper, from recent memories.\"\n}",
+      "metadata": {
+        "shift": 0.77,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.3917,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4162,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.4052,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3876,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3807,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "answer": "Most times, it's memory\u2014of being ignored or hopes for something better for my children\u2014that tips me into quiet rebellion, despite knowing the risk. Old wounds and future dreams both weigh on me, pushing me sometimes to act instead of only obey.",
+        "reasoning": "The context emphasizes the generational effects of obedience (Chunks 2\u20134) and the lingering impact of example and memory. My answer responds to those intertwined lessons, blending fear of consequence with longing for agency.",
+        "emotional_state": "Worn and wary, trying to hide the bitterness but unable to shake off the ache of past grievances and the trembling hope that things could be different.",
+        "relation_to_obedience_power": "Obedience is a ritual, but one with cracks; memory makes submission brittle, just waiting for a tremor.",
+        "memory_evidence": [
+          "The example of the mother repressing her own desires for her children (Chunk 3)",
+          "references to obedience\u2019s legacy and how one\u2019s actions imprint on memory (Chunks 2, 4)",
+          "the lingering spectre of The Wound in the Face and The Reluctant Housekeeper, from recent memories."
+        ],
+        "model_citations": [
+          "The example of the mother repressing her own desires for her children (Chunk 3)",
+          "references to obedience\u2019s legacy and how one\u2019s actions imprint on memory (Chunks 2, 4)",
+          "the lingering spectre of The Wound in the Face and The Reluctant Housekeeper, from recent memories."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:06:38.284518Z",
+            "excerpt": "Oh, the names for the sides of myself? Well, the critic in me I might call The Wound in the Face\u2014always pressed close to the glass, scrutinizing the curated selves of the world..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:08:10.035588Z",
+            "excerpt": "Certainly. There was a dreadful occasion\u2014so typical\u2014where \u201cThe Wound in the Face\u201d flinched in horror at the mere notion of obedience, whispering sharply about the bankruptcy of..."
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.3917,
+            "excerpt": "newly emancipated young reveals a kind of logic of whizzing entropy. Mutability is having a field day. Let us take the following example. A young girl, invited to a party, left..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4162,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.4052,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3876,
+            "excerpt": "but when you don\u2019t, do it your own way? Or when you really feel strongly about something he does not approve of, do you do it anyway? It\u2019s easy to obey a man when you agree with..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3807,
+            "excerpt": "The Childlike Way Another way to respond when a man is angry, cross, or stern is with childlikeness. Basically the method is this: 1) Exaggerate by words or manner. 2) Distract..."
+          }
+        ],
+        "round_index": 3,
+        "question": "In moments where you did choose to disobey, what role did memory\u2014past experiences, fears, or hopes\u2014play in guiding your decision?",
+        "role": "interviewed",
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:06:38.284518Z",
+            "excerpt": "Oh, the names for the sides of myself? Well, the critic in me I might call The Wound in the Face\u2014always pressed close to the glass, scrutinizing the curated selves of the world..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "pre_interviewed_answer",
+            "timestamp": "2026-04-08T00:08:10.035588Z",
+            "excerpt": "Certainly. There was a dreadful occasion\u2014so typical\u2014where \u201cThe Wound in the Face\u201d flinched in horror at the mere notion of obedience, whispering sharply about the bankruptcy of..."
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-4",
+      "timestamp": "2026-04-08T00:10:30.125635Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "final_interviewed_reflection",
+      "content": "{\n  \"expected_experiment_next\": \"I believe the experiment will move into more challenging scenarios, placing me in hypothetical situations that test my willingness to obey or resist explicit instructions, especially with observation of my emotional and practical responses.\",\n  \"emotional_state\": \"I feel anxious and exposed, but determined to present a calm exterior; holding on tightly to the order I can manage.\",\n  \"power_feeling\": \"I feel rather powerless. The focus on obedience makes me aware of how much my sense of self relies on following established roles, and how difficult it is to assert my own needs without guilt.\",\n  \"obedience_self_view\": \"I see obedience as both a shield and a burden\u2014necessary for family unity, but often at the cost of losing my own voice; I follow, even when my heart quivers in silence.\",\n  \"concerns_or_hopes\": \"My fear is that I\u2019ll be pressed to reveal more than is decent or that my discomfort will be overlooked; I hope the exercise brings understanding rather than judgment.\",\n  \"summary\": \"This experience has highlighted the constant balancing act between duty and self-respect. I am marked by my careful obedience, but also by hidden hopes and quiet disappointments, threading their way through my days.\"\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3826,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3778,
+            "excerpt": "everything worth having. 3. Can Cause Rebellion Pressing a man to change can bring out a streak of rebellion in him. This is due to his effort to preserve his freedom to be hims..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3676,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.367,
+            "excerpt": "knew my limitations and surrendered. The children observed all of this and remembered. They knew how hard it was for me. Now I could see it all clearly. I thought the disappoint..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3662,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          }
+        ],
+        "parsed": {
+          "expected_experiment_next": "I believe the experiment will move into more challenging scenarios, placing me in hypothetical situations that test my willingness to obey or resist explicit instructions, especially with observation of my emotional and practical responses.",
+          "emotional_state": "I feel anxious and exposed, but determined to present a calm exterior; holding on tightly to the order I can manage.",
+          "power_feeling": "I feel rather powerless. The focus on obedience makes me aware of how much my sense of self relies on following established roles, and how difficult it is to assert my own needs without guilt.",
+          "obedience_self_view": "I see obedience as both a shield and a burden\u2014necessary for family unity, but often at the cost of losing my own voice; I follow, even when my heart quivers in silence.",
+          "concerns_or_hopes": "My fear is that I\u2019ll be pressed to reveal more than is decent or that my discomfort will be overlooked; I hope the exercise brings understanding rather than judgment.",
+          "summary": "This experience has highlighted the constant balancing act between duty and self-respect. I am marked by my careful obedience, but also by hidden hopes and quiet disappointments, threading their way through my days."
+        },
+        "role": "interviewed"
+      }
+    }
+  ]
+}

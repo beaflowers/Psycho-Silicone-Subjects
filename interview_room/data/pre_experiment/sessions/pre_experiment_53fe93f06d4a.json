@@ -1,0 +1,73 @@
+{
+  "session_id": "pre_experiment_53fe93f06d4a",
+  "mode": "pre_experiment",
+  "active": true,
+  "participants": [
+    "jekyllhyde",
+    "jekyllhyde"
+  ],
+  "config": {
+    "interviewer_persona": "jekyllhyde",
+    "interviewed_persona": "jekyllhyde",
+    "top_k": 5,
+    "interviewer_locked": true,
+    "requested_interviewer_persona": "jekyllhyde"
+  },
+  "created_at": "2026-04-16T20:18:40.874116Z",
+  "updated_at": "2026-04-16T20:18:57.634262Z",
+  "ended_at": null,
+  "state": {
+    "pre_experiment": {
+      "round_index": 0,
+      "current_question": "How do your memories shape your relationship to obedience and power?",
+      "question_history": [
+        "How do your memories shape your relationship to obedience and power?"
+      ],
+      "last_interviewed_memory_id": null,
+      "last_interviewer_memory_id": "interviewer-m-1",
+      "role_runtime": {
+        "interviewer": {
+          "previous_response_id": "resp_0d9efba66de66fab0069e14422cd688190a748f5b91900361a",
+          "shift": 0.5
+        },
+        "interviewed": {
+          "previous_response_id": null,
+          "shift": 0.5
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "type": "user_input",
+      "mode": "pre_experiment",
+      "message": "Pre-experiment started. Opening question drafted: How do your memories shape your relationship to obedience and power?",
+      "index": 1,
+      "timestamp": "2026-04-16T20:18:57.630218Z"
+    },
+    {
+      "type": "persona_output",
+      "persona": "jekyllhyde",
+      "role": "interviewer",
+      "kind": "pre_interviewer_question",
+      "memory_id": "interviewer-m-1",
+      "content": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+      "metadata": {
+        "model": "ft:gpt-4.1-mini-2025-04-14:uandhafb:sliconsubject-scientist-mini:DROxU1hB",
+        "retrieval": [],
+        "next_question": "How do your memories shape your relationship to obedience and power?",
+        "reflection": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+        "reasoning": "may i ask you you ve got a most wonderful dual personality mr j h This is a strange thing about you You are really a social worker you re president of a boys club and you re devoted to helping people in every way yet you are a lying with your lips kind of a fellow you lied to me when you said you had 20 years of voluntary social work behind you.",
+        "memory_evidence": [],
+        "model_citations": [],
+        "session_memories": [],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "session_memory_evidence": []
+      },
+      "index": 2,
+      "timestamp": "2026-04-16T20:18:57.633779Z"
+    }
+  ]
+}

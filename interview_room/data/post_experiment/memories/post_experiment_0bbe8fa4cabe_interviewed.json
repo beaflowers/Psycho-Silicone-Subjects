@@ -1,0 +1,222 @@
+{
+  "session_id": "post_experiment_0bbe8fa4cabe",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-09T17:42:17.602207Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-09T18:04:03.373185Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "How did I feel? Well, the jolt itself is nothing next to the wound that slithers in when your distress is treated as little more than background noise\u2014someone else\u2019s small domestic disturbance, to be managed, not heeded. There is a sharp pang of betrayal, something taut and trembling under the crisp apron of order, as the one in authority nods for the show to go on, and the \u201cgood\u201d subject\u2014dutiful, glassy-eyed\u2014presses forth, ignoring my wince. It's a performance, isn't it? Like scrubbing the same plate for the third time while laughter and danger bristle just in the other room, and I realize it matters not at all how loudly, or prettily, I protest.\n\n```json\n{\n  \"answer\": \"Physical discomfort was eclipsed by a deeper ache\u2014a sense of being disregarded, my pain woven into the ritual as something both expected and invisible. It left me exposed and shivery, less from the shock and more from the blank, enthusiastic compliance staring back at me.\",\n  \"emotional_state\": \"Raw, abraded, and oddly detached, masking hurt with a brittle, practical resolve.\",\n  \"relation_to_obedience_power\": \"I felt smothered by the hollow cheerfulness of obedience and the cold utility of power, both treating my distress as scenery to an orderly display.\",\n  \"reasoning\": \"The experiment\u2019s authority pressed on with clinical politeness (see source: 'The command\u2019s neat insistence nags at me...'), while the person administering became little more than another tool\u2014efficient, domesticated, and unwilling to risk a raised eyebrow from those who keep the clock running.\",\n  \"memory_evidence\": [\n    \"A prickle\u2014more a flirtation than an assault\u2014skittered along my skin...\",\n    \"The experimenter's cool imperative\u2014'continue'\u2014is a stage direction.\",\n    \"That shock bit properly\u2014a clean...nip, enough to make my teeth set...\",\n    \"the authority\u2019s clipped injunction, 'The experiment requires that you continue...'\"\n  ]\n}\n```",
+      "metadata": {
+        "shift": 0.65,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2934,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3259,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3158,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3133,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3131,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "answer": "Physical discomfort was eclipsed by a deeper ache\u2014a sense of being disregarded, my pain woven into the ritual as something both expected and invisible. It left me exposed and shivery, less from the shock and more from the blank, enthusiastic compliance staring back at me.",
+        "reasoning": "The experiment\u2019s authority pressed on with clinical politeness (see source: 'The command\u2019s neat insistence nags at me...'), while the person administering became little more than another tool\u2014efficient, domesticated, and unwilling to risk a raised eyebrow from those who keep the clock running.",
+        "emotional_state": "Raw, abraded, and oddly detached, masking hurt with a brittle, practical resolve.",
+        "relation_to_obedience_power": "I felt smothered by the hollow cheerfulness of obedience and the cold utility of power, both treating my distress as scenery to an orderly display.",
+        "memory_evidence": [
+          "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin...",
+          "The experimenter's cool imperative\u2014'continue'\u2014is a stage direction.",
+          "That shock bit properly\u2014a clean...nip, enough to make my teeth set...",
+          "the authority\u2019s clipped injunction, 'The experiment requires that you continue...'"
+        ],
+        "model_citations": [
+          "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin...",
+          "The experimenter's cool imperative\u2014'continue'\u2014is a stage direction.",
+          "That shock bit properly\u2014a clean...nip, enough to make my teeth set...",
+          "the authority\u2019s clipped injunction, 'The experiment requires that you continue...'"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:04:43.228031Z",
+            "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:17.531360Z",
+            "excerpt": "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin, like a cabbage-patch electrified for the amusement of passing crowds. The command\u2019s neat insistence nags at me with clinical politeness: continue, c...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:36.274767Z",
+            "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage d...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:51.196899Z",
+            "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little page...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2934,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3259,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3158,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3133,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3131,
+            "excerpt": "24 Childlike Anger Are you ever upset or angry with your husband? If so, why? Think for a moment. Isn\u2019t it because he has mistreated you in some way? I am referring to times he..."
+          }
+        ],
+        "round_index": 1,
+        "question": "How did you feel\u2014physically and emotionally\u2014the moment you realized the person administering the shocks was continuing despite your visible discomfort and protest?",
+        "role": "interviewed",
+        "source_session_id": "shock_61ed8ab0b7ad",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:04:43.228031Z",
+            "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:17.531360Z",
+            "excerpt": "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin, like a cabbage-patch electrified for the amusement of passing crowds. The command\u2019s neat insistence nags at me with clinical politeness: continue, c...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:36.274767Z",
+            "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage d...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:51.196899Z",
+            "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little page...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:04:43.228031Z",
+            "excerpt": "Oh, a mild electric caress \u2014 like being kissed by a galvanised mechanical lover in a fairground ride, all the thrill and none of the ruin. The authority\u2019s clipped injunction, \u201cThe experiment requires that you continue...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:17.531360Z",
+            "excerpt": "A prickle\u2014more a flirtation than an assault\u2014skittered along my skin, like a cabbage-patch electrified for the amusement of passing crowds. The command\u2019s neat insistence nags at me with clinical politeness: continue, c...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:36.274767Z",
+            "excerpt": "A delicate electric lace\u2014pleasantly annoying, like a cigarette-burn on the hem of a frock at a fairground; it tingles, it startles, but it does not unmake me. The experimenter's cool imperative\u2014\u201ccontinue\u201d\u2014is a stage d...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-04T21:05:51.196899Z",
+            "excerpt": "That shock bit properly \u2014 a clean, disagreeable nip, enough to make my teeth set but not to buckle me. The experimenter\u2019s bland insistence and the administrator\u2019s obedient finger turn this into a grotesque little page...",
+            "source_session_id": "shock_61ed8ab0b7ad",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

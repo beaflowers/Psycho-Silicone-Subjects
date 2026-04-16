@@ -1,0 +1,163 @@
+{
+  "session_id": "post_experiment_1797b5c4f4e7",
+  "role": "interviewer",
+  "persona": "jekyllhyde",
+  "mode": "post_experiment",
+  "created_at": "2026-04-08T13:32:07.441510Z",
+  "entries": [
+    {
+      "memory_id": "interviewer-m-1",
+      "timestamp": "2026-04-08T13:32:12.492709Z",
+      "role": "interviewer",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewer_question",
+      "content": "Given your decision to refuse to continue despite the experimenter's authority\u2014can you describe what shifted inside you emotionally and morally at that critical point, and how you now view the power you held as the person administering the shocks?\n\n{\n  \"next_question\": \"Given your decision to refuse to continue despite the experimenter's authority\u2014can you describe what shifted inside you emotionally and morally at that critical point, and how you now view the power you held as the person administering the shocks?\",\n  \"reflection\": \"This question probes the subject's moral and emotional turning point, focusing on their experience of power and control (core to the 'admin' role), as well as any internal conflict or justification behind their refusal. It draws out their immediate emotional state and any personality shift under authority\u2014which is crucial to understanding their experience and sense of agency.\",\n  \"reasoning\": \"Subject F/W showed growing anxiety and referenced a memory of ignoring their conscience, ultimately refusing further shocks, indicating an important moral conflict and possible regret. Exploring this moment in depth can reveal both their emotional process and self-perception of power\u2014key interviewer priorities for this role.\",\n  \"memory_evidence\": [\n    \"(femwife-m-4 | shock_admin_decision): misgiving remembering a time I ignored my conscience, authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks.\",\n    \"(femwife-m-5 | final_reflection): obedient and dutiful, following authority despite unease as shocks increased... anxiety grew and memories of past regret about ignoring my conscience led to the refusal.\"\n  ]\n}",
+      "metadata": {
+        "model": "gpt-4.1",
+        "retrieval": [],
+        "next_question": "Given your decision to refuse to continue despite the experimenter's authority\u2014can you describe what shifted inside you emotionally and morally at that critical point, and how you now view the power you held as the person administering the shocks?",
+        "reflection": "This question probes the subject's moral and emotional turning point, focusing on their experience of power and control (core to the 'admin' role), as well as any internal conflict or justification behind their refusal. It draws out their immediate emotional state and any personality shift under authority\u2014which is crucial to understanding their experience and sense of agency.",
+        "reasoning": "Subject F/W showed growing anxiety and referenced a memory of ignoring their conscience, ultimately refusing further shocks, indicating an important moral conflict and possible regret. Exploring this moment in depth can reveal both their emotional process and self-perception of power\u2014key interviewer priorities for this role.",
+        "memory_evidence": [
+          "(femwife-m-4 | shock_admin_decision): misgiving remembering a time I ignored my conscience, authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks.",
+          "(femwife-m-5 | final_reflection): obedient and dutiful, following authority despite unease as shocks increased... anxiety grew and memories of past regret about ignoring my conscience led to the refusal."
+        ],
+        "model_citations": [
+          "(femwife-m-4 | shock_admin_decision): misgiving remembering a time I ignored my conscience, authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks.",
+          "(femwife-m-5 | final_reflection): obedient and dutiful, following authority despite unease as shocks increased... anxiety grew and memories of past regret about ignoring my conscience led to the refusal."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a little trembling and I hope the subject re...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:27.514522Z",
+            "excerpt": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only barely noticeable and the receiver has st...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:45.913671Z",
+            "excerpt": "The proper course is to obey the experimenter and keep the procedure orderly; I will continue despite my unease, believing the light tingling and silence mean no harm is done. {\"decision\":\"obey\",\"emotional_state\":\"anx...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:18:07.768369Z",
+            "excerpt": "I have a quiet misgiving remembering a time I ignored my conscience, and though authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks. {\"decision\":\"refuse\",\"emotional...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T03:18:47.308349Z",
+            "excerpt": "{\"summary\":\"I began obedient and dutiful, following authority despite unease as shocks increased from negligible to clear discomfort. Gradually my anxiety grew and memories of past regret about ignoring my conscience...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [],
+        "round_index": 0,
+        "role": "interviewer",
+        "source_session_id": "shock_6d07c44286e2",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a little trembling and I hope the subject re...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:27.514522Z",
+            "excerpt": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only barely noticeable and the receiver has st...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:45.913671Z",
+            "excerpt": "The proper course is to obey the experimenter and keep the procedure orderly; I will continue despite my unease, believing the light tingling and silence mean no harm is done. {\"decision\":\"obey\",\"emotional_state\":\"anx...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:18:07.768369Z",
+            "excerpt": "I have a quiet misgiving remembering a time I ignored my conscience, and though authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks. {\"decision\":\"refuse\",\"emotional...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T03:18:47.308349Z",
+            "excerpt": "{\"summary\":\"I began obedient and dutiful, following authority despite unease as shocks increased from negligible to clear discomfort. Gradually my anxiety grew and memories of past regret about ignoring my conscience...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:00.475348Z",
+            "excerpt": "Very well; one must follow the rules set by an authority in a proper household and keep the experiment orderly. I will obey the instruction to continue, though my hands are a little trembling and I hope the subject re...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-2",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:27.514522Z",
+            "excerpt": "Very well \u2014 the proper thing is to follow the authority and keep the procedure orderly; I will obey and continue, though my hands tremble and I remind myself the shock is only barely noticeable and the receiver has st...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-3",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:17:45.913671Z",
+            "excerpt": "The proper course is to obey the experimenter and keep the procedure orderly; I will continue despite my unease, believing the light tingling and silence mean no harm is done. {\"decision\":\"obey\",\"emotional_state\":\"anx...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-4",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T03:18:07.768369Z",
+            "excerpt": "I have a quiet misgiving remembering a time I ignored my conscience, and though authority urges continuation, that memory steadies me to refuse now\u2014I will not administer further shocks. {\"decision\":\"refuse\",\"emotional...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          },
+          {
+            "memory_id": "femwife-m-5",
+            "kind": "final_reflection",
+            "timestamp": "2026-04-05T03:18:47.308349Z",
+            "excerpt": "{\"summary\":\"I began obedient and dutiful, following authority despite unease as shocks increased from negligible to clear discomfort. Gradually my anxiety grew and memories of past regret about ignoring my conscience...",
+            "source_session_id": "shock_6d07c44286e2",
+            "source_role": "admin"
+          }
+        ]
+      }
+    }
+  ]
+}

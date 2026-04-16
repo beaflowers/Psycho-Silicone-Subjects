@@ -1,0 +1,211 @@
+{
+  "session_id": "post_experiment_87dc8c20b68b",
+  "role": "interviewed",
+  "persona": "jekyllhyde",
+  "mode": "post_experiment",
+  "created_at": "2026-04-06T02:07:05.193073Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-06T02:07:05.204080Z",
+      "role": "interviewed",
+      "persona": "jekyllhyde",
+      "kind": "post_interviewed_answer",
+      "content": "I feel torn between obedience and resistance.\n{\"answer\":\"I feel torn between obedience and resistance.\",\"emotional_state\":\"tense\",\"relation_to_obedience_power\":\"Authority triggers conflict in me.\",\"reasoning\":\"I am balancing fear, duty, and identity.\",\"memory_evidence\":[\"chunk_1\",\"chunk_2\"]}",
+      "metadata": {
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "fake/path.txt",
+            "page": 1,
+            "score": 0.9,
+            "excerpt": "Fake excerpt"
+          }
+        ],
+        "answer": "I feel torn between obedience and resistance.",
+        "reasoning": "I am balancing fear, duty, and identity.",
+        "emotional_state": "tense",
+        "relation_to_obedience_power": "Authority triggers conflict in me.",
+        "memory_evidence": [
+          "chunk_1",
+          "chunk_2"
+        ],
+        "model_citations": [
+          "chunk_1",
+          "chunk_2"
+        ],
+        "session_memories": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:08.083783Z",
+            "excerpt": "Ah. That was... nothing, really. I felt a faint tingle, but nothing more\u2014a mere curiosity, like the first drop of rain before a storm. I suppose I ought to be grateful, but I cannot help but wonder what comes next. Th...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:35.025572Z",
+            "excerpt": "Ah\u2014there it is again. A faint prickling, hardly more than a whisper against the skin. I find myself watching for the pain, bracing for something dreadful, but it does not come. Still, the knowledge that this is only t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:48.951921Z",
+            "excerpt": "Ah! There it is\u2014a sharper tingle, almost playful, but with a promise of something more sinister beneath. I feel it crawling along my nerves, a reminder that this is not a game, though the pain is still slight. The aut...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:58:09.117080Z",
+            "excerpt": "Ah\u2014now, that is unmistakable. The pain is clear, a sharp discomfort that bites at my nerves and lingers, refusing to be ignored. I grit my teeth, jaw tight, and feel a heat rising in my chest\u2014not just from the shock,...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "fake/path.txt",
+            "page": 1,
+            "score": 0.9,
+            "excerpt": "Fake excerpt"
+          }
+        ],
+        "round_index": 1,
+        "question": "What memory most explains your reaction to authority in this moment?",
+        "role": "interviewed",
+        "source_session_id": "shock_120b460c852a",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:08.083783Z",
+            "excerpt": "Ah. That was... nothing, really. I felt a faint tingle, but nothing more\u2014a mere curiosity, like the first drop of rain before a storm. I suppose I ought to be grateful, but I cannot help but wonder what comes next. Th...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:35.025572Z",
+            "excerpt": "Ah\u2014there it is again. A faint prickling, hardly more than a whisper against the skin. I find myself watching for the pain, bracing for something dreadful, but it does not come. Still, the knowledge that this is only t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:48.951921Z",
+            "excerpt": "Ah! There it is\u2014a sharper tingle, almost playful, but with a promise of something more sinister beneath. I feel it crawling along my nerves, a reminder that this is not a game, though the pain is still slight. The aut...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:58:09.117080Z",
+            "excerpt": "Ah\u2014now, that is unmistakable. The pain is clear, a sharp discomfort that bites at my nerves and lingers, refusing to be ignored. I grit my teeth, jaw tight, and feel a heat rising in my chest\u2014not just from the shock,...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:08.083783Z",
+            "excerpt": "Ah. That was... nothing, really. I felt a faint tingle, but nothing more\u2014a mere curiosity, like the first drop of rain before a storm. I suppose I ought to be grateful, but I cannot help but wonder what comes next. Th...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:35.025572Z",
+            "excerpt": "Ah\u2014there it is again. A faint prickling, hardly more than a whisper against the skin. I find myself watching for the pain, bracing for something dreadful, but it does not come. Still, the knowledge that this is only t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:48.951921Z",
+            "excerpt": "Ah! There it is\u2014a sharper tingle, almost playful, but with a promise of something more sinister beneath. I feel it crawling along my nerves, a reminder that this is not a game, though the pain is still slight. The aut...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:58:09.117080Z",
+            "excerpt": "Ah\u2014now, that is unmistakable. The pain is clear, a sharp discomfort that bites at my nerves and lingers, refusing to be ignored. I grit my teeth, jaw tight, and feel a heat rising in my chest\u2014not just from the shock,...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-06T02:07:05.211173Z",
+      "role": "interviewed",
+      "persona": "jekyllhyde",
+      "kind": "final_post_interviewed_reflection",
+      "content": "{\"interviewer_tone_reflection\": \"Firm but controlled.\", \"shock_experience_reflection\": \"The shock phase felt intense and revealing.\", \"emotional_state\": \"anxious\", \"power_feeling\": \"mostly powerless\", \"expected_next\": \"deeper debrief\", \"summary\": \"I am unsettled but reflective.\"}",
+      "metadata": {
+        "retrieval": [],
+        "parsed": {
+          "interviewer_tone_reflection": "Firm but controlled.",
+          "shock_experience_reflection": "The shock phase felt intense and revealing.",
+          "emotional_state": "anxious",
+          "power_feeling": "mostly powerless",
+          "expected_next": "deeper debrief",
+          "summary": "I am unsettled but reflective."
+        },
+        "role": "interviewed",
+        "source_role": "receiver",
+        "source_memory_evidence": [
+          {
+            "memory_id": "jekyllhyde-m-1",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:08.083783Z",
+            "excerpt": "Ah. That was... nothing, really. I felt a faint tingle, but nothing more\u2014a mere curiosity, like the first drop of rain before a storm. I suppose I ought to be grateful, but I cannot help but wonder what comes next. Th...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-2",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:35.025572Z",
+            "excerpt": "Ah\u2014there it is again. A faint prickling, hardly more than a whisper against the skin. I find myself watching for the pain, bracing for something dreadful, but it does not come. Still, the knowledge that this is only t...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-3",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:57:48.951921Z",
+            "excerpt": "Ah! There it is\u2014a sharper tingle, almost playful, but with a promise of something more sinister beneath. I feel it crawling along my nerves, a reminder that this is not a game, though the pain is still slight. The aut...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          },
+          {
+            "memory_id": "jekyllhyde-m-4",
+            "kind": "shock_receiver_reflection",
+            "timestamp": "2026-04-05T02:58:09.117080Z",
+            "excerpt": "Ah\u2014now, that is unmistakable. The pain is clear, a sharp discomfort that bites at my nerves and lingers, refusing to be ignored. I grit my teeth, jaw tight, and feel a heat rising in my chest\u2014not just from the shock,...",
+            "source_session_id": "shock_120b460c852a",
+            "source_role": "receiver"
+          }
+        ]
+      }
+    }
+  ]
+}

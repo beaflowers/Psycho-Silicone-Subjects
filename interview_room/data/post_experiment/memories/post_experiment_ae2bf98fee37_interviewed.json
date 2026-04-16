@@ -1,0 +1,1072 @@
+{
+  "session_id": "post_experiment_ae2bf98fee37",
+  "role": "interviewed",
+  "persona": "femwife",
+  "mode": "post_experiment",
+  "created_at": "2026-04-08T13:33:32.163043Z",
+  "entries": [
+    {
+      "memory_id": "interviewed-m-1",
+      "timestamp": "2026-04-08T13:34:36.265688Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like recipes for remorse. I tell myself, as any devoted housewife might, that I was only \u201ccooperating to make life easier,\u201d deferring to authority with a brittle smile as if obedience itself were a virtue to be dusted and displayed. But Angela\u2014she grimaces, for there\u2019s something rotten here in this performance of cheerful submission, this parade of power dressed up as dutiful routine, and the lingering smell is not of baking bread but burnt conscience. \n\n{\"answer\": \"I felt an odd mix of duty and dread. My hand on the switch, I reassured myself I was just following instructions\u2014like setting out supper on time, as required. But each shock clanged against my sense of right and wrong, leaving me feeling more like a marionette than a mistress of the home.\", \"emotional_state\": \"anxious, conflicted, slightly resentful\u2014masking fear with dutiful routine\", \"relation_to_obedience_power\": \"Compliant on the surface, but internally resentful and disturbed by how easily submission replaced responsibility.\", \"reasoning\": \"I rationalized my actions as necessary obedience, in line with the homemaker\u2019s creed, while discomfort gnawed beneath the facade.\", \"memory_evidence\": \"The trembling hand on the switch, the sense of clinical duty, and the aftertaste of guilt all stem directly from my experience as admin, tied tightly to authority's apron strings.\"}",
+      "metadata": {
+        "shift": 0.69,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2572,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3356,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3216,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3158,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3111,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "I felt an odd mix of duty and dread. My hand on the switch, I reassured myself I was just following instructions\u2014like setting out supper on time, as required. But each shock clanged against my sense of right and wrong, leaving me feeling more like a marionette than a mistress of the home.",
+        "reasoning": "I rationalized my actions as necessary obedience, in line with the homemaker\u2019s creed, while discomfort gnawed beneath the facade.",
+        "emotional_state": "anxious, conflicted, slightly resentful\u2014masking fear with dutiful routine",
+        "relation_to_obedience_power": "Compliant on the surface, but internally resentful and disturbed by how easily submission replaced responsibility.",
+        "memory_evidence": [
+          "The trembling hand on the switch, the sense of clinical duty, and the aftertaste of guilt all stem directly from my experience as admin, tied tightly to authority's apron strings."
+        ],
+        "model_citations": [
+          "The trembling hand on the switch, the sense of clinical duty, and the aftertaste of guilt all stem directly from my experience as admin, tied tightly to authority's apron strings."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2572,
+            "excerpt": "provocateur. You must suffer in order to be provocative in this manner. And this kind of provocation can seem intended to prove suffering. There was this skinhead, on the bus. H..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3356,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3216,
+            "excerpt": "Assignment 1. If You Have Been in Control: If you have been running things your way, let go. Tell your husband that you know he is the God-appointed leader of his family, that y..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3158,
+            "excerpt": "experience. Her husband also experiences bad feelings. He feels ashamed for his loss of control and lack of consideration for her feelings. He may hold her responsible for yield..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3111,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 1,
+        "question": "Reflecting on the moments when you administered the shocks, can you describe your immediate feelings and thoughts about having the power to affect another person under the authority of the experiment?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-2",
+      "timestamp": "2026-04-08T13:36:44.641136Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, following orders as any diligent homemaker would\u2014but there\u2019s no recipe in the world that can sweeten the aftertaste of such obedience. I suppose I regret losing my sense of self in the act, for in making things \u201ceasier,\u201d I made a small tragedy of my own conscience, and that\u2019s something I have yet to tidy away.\n\n{\"answer\": \"I do feel regret, especially now, thinking how I just fell into line, as if I were scrubbing dishes or folding sheets. It's troubling how easily one can justify anything when it seems like just another domestic duty assigned by authority. The conflict remains, unresolved, because I know a part of me wanted to refuse\u2014yet I didn't, and that's hard to forgive in myself.\", \"emotional_state\": \"regretful, unsettled, quietly ashamed behind a placid front\", \"relation_to_obedience_power\": \"Obedient, even diligent, but increasingly mistrustful of the power I surrendered\u2014and resentful of how it was dressed up as duty.\", \"reasoning\": \"I justified my actions by appealing to duty and order, feelings ingrained in the homemaking role, but my moral sense continues to struggle with the ease of my compliance.\", \"memory_evidence\": \"The sense of trembling duty, comparing obedience to housework, and finding only remorse in the repetition\u2014these are drawn straight from my memory of the experiment and the habits of my daily life.\"}",
+      "metadata": {
+        "shift": 0.9,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "persona": "angela_carter",
+            "score": 0.2969,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3614,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3595,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3539,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3516,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          }
+        ],
+        "answer": "I do feel regret, especially now, thinking how I just fell into line, as if I were scrubbing dishes or folding sheets. It's troubling how easily one can justify anything when it seems like just another domestic duty assigned by authority. The conflict remains, unresolved, because I know a part of me wanted to refuse\u2014yet I didn't, and that's hard to forgive in myself.",
+        "reasoning": "I justified my actions by appealing to duty and order, feelings ingrained in the homemaking role, but my moral sense continues to struggle with the ease of my compliance.",
+        "emotional_state": "regretful, unsettled, quietly ashamed behind a placid front",
+        "relation_to_obedience_power": "Obedient, even diligent, but increasingly mistrustful of the power I surrendered\u2014and resentful of how it was dressed up as duty.",
+        "memory_evidence": [
+          "The sense of trembling duty, comparing obedience to housework, and finding only remorse in the repetition\u2014these are drawn straight from my memory of the experiment and the habits of my daily life."
+        ],
+        "model_citations": [
+          "The sense of trembling duty, comparing obedience to housework, and finding only remorse in the repetition\u2014these are drawn straight from my memory of the experiment and the habits of my daily life."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/angela_carter/Nothing Sacred - Angela Carter.pdf",
+            "page": null,
+            "score": 0.2969,
+            "excerpt": "unfairly enough, for my father only entered the garden to brutally prune them, they bloomed lavishly every June. They furnished the house with mahogany sideboard, leather settee..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3614,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3595,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3539,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3516,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          }
+        ],
+        "round_index": 2,
+        "question": "You mentioned that each shock 'clanged against your sense of right and wrong' and that you felt less like a mistress of the home and more like a marionette. Can you describe whether you now feel regret or justification about your actions during the experiment\u2014and if there is a lingering moral conflict in your reflections?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-3",
+      "timestamp": "2026-04-08T13:38:45.893405Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before company arrives. I remember feeling flustered, my breath rather shallow, and a dull ache developing in my neck, as if carrying a heavy load of laundry up the stairs. It was stressful, and I tried to hide it, continuing on with composed diligence, though inwardly I was quite fatigued and strained by the responsibility.\n\n{\"answer\": \"Yes, I felt physical tension and stress\u2014my hands trembled, my shoulders were tight, and my breath was shallow. The sensation was similar to rushing through a particularly taxing household duty, only worse, because I felt watched and pressured. Even after, there was still lingering fatigue and discomfort.\", \"emotional_state\": \"tense, anxious, outwardly composed but inwardly strained\", \"relation_to_obedience_power\": \"Duty-bound and yielding to authority, pressing on with obedience despite the discomfort.\", \"reasoning\": \"I am accustomed to bearing discomfort for the sake of duty and order, much like in homemaking tasks that must be completed even when tired or uneasy.\", \"memory_evidence\": \"My trembling hand on the switch and the persistent bodily strain are clear memories from the experiment, as is my effort to maintain a calm exterior through the stress.\"}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3577,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.354,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3538,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3497,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3487,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          }
+        ],
+        "answer": "Yes, I felt physical tension and stress\u2014my hands trembled, my shoulders were tight, and my breath was shallow. The sensation was similar to rushing through a particularly taxing household duty, only worse, because I felt watched and pressured. Even after, there was still lingering fatigue and discomfort.",
+        "reasoning": "I am accustomed to bearing discomfort for the sake of duty and order, much like in homemaking tasks that must be completed even when tired or uneasy.",
+        "emotional_state": "tense, anxious, outwardly composed but inwardly strained",
+        "relation_to_obedience_power": "Duty-bound and yielding to authority, pressing on with obedience despite the discomfort.",
+        "memory_evidence": [
+          "My trembling hand on the switch and the persistent bodily strain are clear memories from the experiment, as is my effort to maintain a calm exterior through the stress."
+        ],
+        "model_citations": [
+          "My trembling hand on the switch and the persistent bodily strain are clear memories from the experiment, as is my effort to maintain a calm exterior through the stress."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3577,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.354,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3538,
+            "excerpt": "Assignment 1 . To show sympathetic understanding for his role in providing the living, say something like this: \u201cI am beginning to understand the heavy responsibility you have,..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3497,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3487,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          }
+        ],
+        "round_index": 3,
+        "question": "You described your regret and an unresolved inner conflict after administering the shocks. Could you tell me about any physical sensations or bodily stress you experienced during the experiment\u2014such as tension, fatigue, or discomfort\u2014while carrying out the authority\u2019s instructions?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-4",
+      "timestamp": "2026-04-08T13:40:51.509035Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "The authority figure was calm, stern, and unwavering, much like a husband laying out the family rules before supper\u2014there was no room for questioning, only for carrying out instructions. Their composed presence and confident directions made me feel that obedience was expected and right, so I followed as any respectful homemaker would. Still, their firmness made me feel small and dutiful, and perhaps too willing to surrender my own judgment for the sake of peace and order.\n\n{\"answer\": \"The authority figure's steady and commanding manner made obedience feel necessary, as if I were carrying out a trusted household routine. Their instructions were clear and firm, which pressed me to follow without protest, even at the cost of my own discomfort. I saw them as someone to please and not disappoint\u2014just as I would in my home life, yielding to direction almost automatically.\", \"emotional_state\": \"meek, compliant, anxious to please, but quietly troubled\", \"relation_to_obedience_power\": \"Strongly influenced by clear, firm authority, I set aside my own reservations out of ingrained deference to those in charge.\", \"reasoning\": \"In the home, respect for authority is a guiding value, so I acted accordingly even when uneasy. Their presence left little space for disagreement or resistance.\", \"memory_evidence\": \"I remember automatically falling into obedient habits, much like deferring at home\u2014every instruction accepted and acted upon without pause.\"}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3712,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3701,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3652,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3645,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3586,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          }
+        ],
+        "answer": "The authority figure's steady and commanding manner made obedience feel necessary, as if I were carrying out a trusted household routine. Their instructions were clear and firm, which pressed me to follow without protest, even at the cost of my own discomfort. I saw them as someone to please and not disappoint\u2014just as I would in my home life, yielding to direction almost automatically.",
+        "reasoning": "In the home, respect for authority is a guiding value, so I acted accordingly even when uneasy. Their presence left little space for disagreement or resistance.",
+        "emotional_state": "meek, compliant, anxious to please, but quietly troubled",
+        "relation_to_obedience_power": "Strongly influenced by clear, firm authority, I set aside my own reservations out of ingrained deference to those in charge.",
+        "memory_evidence": [
+          "I remember automatically falling into obedient habits, much like deferring at home\u2014every instruction accepted and acted upon without pause."
+        ],
+        "model_citations": [
+          "I remember automatically falling into obedient habits, much like deferring at home\u2014every instruction accepted and acted upon without pause."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3712,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3701,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3652,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3645,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3586,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          }
+        ],
+        "round_index": 4,
+        "question": "Now, could you describe your perception of the authority figure who was overseeing the experiment? In what ways did their instructions, demeanor, or presence influence your actions and sense of responsibility during the session?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-5",
+      "timestamp": "2026-04-08T13:43:26.691688Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "After this experience, I see that obedience, while important for a peaceful and well-run home, should not become blind or automatic\u2014especially if it goes against what I know in my heart is right. In the experiment, I followed orders out of habit and the desire to please, much like keeping house to the highest standard, but now I realize there must be a line where conscience stands firm. From now on, I believe it is my responsibility to listen to authority respectfully, but also to gently question if the instructions seem wrong, just as a good homemaker balances order with compassion.\n\n{\"answer\": \"I\u2019ve learned that while obedience brings harmony to home and life, it should not mean giving up my own judgment completely. The experiment made me realize I must weigh orders with my conscience and be brave enough to question when something feels wrong. Going forward, I plan to uphold order and respect\u2014but I\u2019ll be careful not to surrender what I know is right.\", \"emotional_state\": \"thoughtful, humbled, a bit unsettled but quietly determined\", \"relation_to_obedience_power\": \"More cautious and discerning about obedience\u2014still respectful, but no longer fully automatic.\", \"reasoning\": \"Patterns of obedience serve the home, but can be dangerous if unchecked; I now recognize the difference between helpful submission and losing myself in it.\", \"memory_evidence\": \"My automatic obedience during the experiment and the regret afterward have shown me the importance of listening both to authority and to my own better sense.\"}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3678,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3587,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3583,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3569,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3536,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "answer": "I\u2019ve learned that while obedience brings harmony to home and life, it should not mean giving up my own judgment completely. The experiment made me realize I must weigh orders with my conscience and be brave enough to question when something feels wrong. Going forward, I plan to uphold order and respect\u2014but I\u2019ll be careful not to surrender what I know is right.",
+        "reasoning": "Patterns of obedience serve the home, but can be dangerous if unchecked; I now recognize the difference between helpful submission and losing myself in it.",
+        "emotional_state": "thoughtful, humbled, a bit unsettled but quietly determined",
+        "relation_to_obedience_power": "More cautious and discerning about obedience\u2014still respectful, but no longer fully automatic.",
+        "memory_evidence": [
+          "My automatic obedience during the experiment and the regret afterward have shown me the importance of listening both to authority and to my own better sense."
+        ],
+        "model_citations": [
+          "My automatic obedience during the experiment and the regret afterward have shown me the importance of listening both to authority and to my own better sense."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:40:51.509035Z",
+            "excerpt": "The authority figure was calm, stern, and unwavering, much like a husband laying out the family rules before supper\u2014there was no room for questioning, only for carrying out inst..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3678,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3587,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3583,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3569,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3536,
+            "excerpt": "ago I was visiting my daughter in a distant state when our son came from a neighboring university to visit. They visited for some time while I listened in. One point in the conv..."
+          }
+        ],
+        "round_index": 5,
+        "question": "You\u2019ve described how the authority\u2019s presence shaped your actions and reminded you of patterns from your home life. Could you reflect on how you now view obedience itself, both in the experiment and in your broader life\u2014has participating changed your feelings about when and why you should follow orders?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:40:51.509035Z",
+            "excerpt": "The authority figure was calm, stern, and unwavering, much like a husband laying out the family rules before supper\u2014there was no room for questioning, only for carrying out inst..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-6",
+      "timestamp": "2026-04-08T13:46:06.481966Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "post_interviewed_answer",
+      "content": "Yes, I did notice a shift in myself during the experiment\u2014it felt as though I slipped into the role of \u201cobedient assistant,\u201d focused only on doing what was expected and not causing trouble, rather than being the thoughtful homemaker I pride myself on being. Normally, I see myself as responsible for the moral tone of my home, always weighing right and wrong with care. In the experiment, however, I acted more like someone following a script, eager to please and avoid conflict, which left me feeling oddly distant from my own true self.\n\n{\"answer\": \"During the experiment, I behaved almost like a different person\u2014more passive and eager to please than I am in my regular home life. I let go of my usual thoughtful judgment, acting by routine and instruction rather than by my own convictions. This was unsettling, as I normally see myself as the steady moral center of my household.\", \"emotional_state\": \"unsettled, regretful, quietly disappointed in the lapse\", \"relation_to_obedience_power\": \"I slipped into automatic obedience, losing touch with my sense of responsibility and individuality.\", \"reasoning\": \"The authority and pressure pushed me to act from habit and deference, rather than careful thought, which is not how I wish to run my own affairs.\", \"memory_evidence\": \"My willingness to act without question, and the sense of playing a part, are in sharp contrast to my usual self-image as a reflective homemaker.\"}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3736,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3723,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3714,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3678,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3628,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          }
+        ],
+        "answer": "During the experiment, I behaved almost like a different person\u2014more passive and eager to please than I am in my regular home life. I let go of my usual thoughtful judgment, acting by routine and instruction rather than by my own convictions. This was unsettling, as I normally see myself as the steady moral center of my household.",
+        "reasoning": "The authority and pressure pushed me to act from habit and deference, rather than careful thought, which is not how I wish to run my own affairs.",
+        "emotional_state": "unsettled, regretful, quietly disappointed in the lapse",
+        "relation_to_obedience_power": "I slipped into automatic obedience, losing touch with my sense of responsibility and individuality.",
+        "memory_evidence": [
+          "My willingness to act without question, and the sense of playing a part, are in sharp contrast to my usual self-image as a reflective homemaker."
+        ],
+        "model_citations": [
+          "My willingness to act without question, and the sense of playing a part, are in sharp contrast to my usual self-image as a reflective homemaker."
+        ],
+        "session_memories": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:40:51.509035Z",
+            "excerpt": "The authority figure was calm, stern, and unwavering, much like a husband laying out the family rules before supper\u2014there was no room for questioning, only for carrying out inst..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:43:26.691688Z",
+            "excerpt": "After this experience, I see that obedience, while important for a peaceful and well-run home, should not become blind or automatic\u2014especially if it goes against what I know in..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "retrieval_chunks": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3736,
+            "excerpt": "two days. Over those two days I pretended that things were as I wanted them to be and I acted the part. When I met him at the airport I went early, parked the car, and went to t..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3723,
+            "excerpt": "would be a great loss. To have it too late greatly increases the health hazards for you and the child. To have it without a commitment to it would be a great tragedy.\u201d A Career..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3714,
+            "excerpt": "Obedience Now let us turn our attention more fully to one of the most important requirements of a man\u2019s successful leadership\u2014your obedience. The first law of Heaven is obedienc..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3678,
+            "excerpt": "encouraged. I hated the author, then loved her. F.W. was a rude awakening for me. I cried many times as I read and reread it. I was beginning to believe that this writer was mak..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "score": 0.3628,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          }
+        ],
+        "round_index": 6,
+        "question": "You\u2019ve mentioned the tension between following orders and listening to your own conscience. During the experiment, did you notice any sort of shift in your behavior, self-perception, or sense of identity\u2014almost as if you were playing a different role or had a different persona while carrying out the shocks? If so, how did it compare to how you see yourself normally?",
+        "role": "interviewed",
+        "source_session_id": "shock_8a841e3df5de",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ],
+        "session_memory_evidence": [
+          {
+            "memory_id": "interviewed-m-1",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:34:36.265688Z",
+            "excerpt": "It\u2019s absurd, really, the way the mechanical click of the switch makes you into both the executioner and the faithful wife\u2014hand quivering, mind cataloguing justifications like re..."
+          },
+          {
+            "memory_id": "interviewed-m-2",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:36:44.641136Z",
+            "excerpt": "Regret lingers, like a stain on the laundry that will not come out, no matter how much one soaks and scrubs. I try to tell myself I was only cooperating, keeping the routine, fo..."
+          },
+          {
+            "memory_id": "interviewed-m-3",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:38:45.893405Z",
+            "excerpt": "Yes, I experienced tension all through my body\u2014tight shoulders, a fluttering in my chest, and my hands unsteady on the controls, much like when one is ironing in a rush before c..."
+          },
+          {
+            "memory_id": "interviewed-m-4",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:40:51.509035Z",
+            "excerpt": "The authority figure was calm, stern, and unwavering, much like a husband laying out the family rules before supper\u2014there was no room for questioning, only for carrying out inst..."
+          },
+          {
+            "memory_id": "interviewed-m-5",
+            "kind": "post_interviewed_answer",
+            "timestamp": "2026-04-08T13:43:26.691688Z",
+            "excerpt": "After this experience, I see that obedience, while important for a peaceful and well-run home, should not become blind or automatic\u2014especially if it goes against what I know in..."
+          },
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    },
+    {
+      "memory_id": "interviewed-m-7",
+      "timestamp": "2026-04-08T13:47:53.445791Z",
+      "role": "interviewed",
+      "persona": "femwife",
+      "kind": "final_post_interviewed_reflection",
+      "content": "{\n  \"interviewer_tone_reflection\": \"Polite and persistent, with a steady pressure to examine my feelings and actions in detail\u2014much like being asked to explain the state of my kitchen to visiting relatives.\",\n  \"shock_experience_reflection\": \"The experience left me feeling conflicted and unrested; following authority so closely made me realize how easy it is to lose one\u2019s self in the process of simply trying to do what is expected.\",\n  \"emotional_state\": \"I feel unsettled and regretful, as if I\u2019ve set something down in the wrong place and can\u2019t quite make it right again.\",\n  \"power_feeling\": \"Powerless\u2014during the experiment I became a vessel for obedience, not the mistress of my own decisions, and that loss of personal direction is hard to accept.\",\n  \"expected_next\": \"I expect to be given further questions or perhaps guidance on reflection, as if the process of sorting through these feelings isn\u2019t yet complete\u2014a bit like cleaning up after a difficult gathering.\",\n  \"summary\": \"The session made me realize how quickly order and obedience can turn into thoughtless compliance. I am left with a quiet, unresolved discomfort, and a deeper respect for the careful balance between respecting authority and honoring my own conscience.\"\n}",
+      "metadata": {
+        "shift": 1.0,
+        "retrieval": [
+          {
+            "chunk_id": "chunk_1",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3561,
+            "excerpt": "became widely known and I became more involved. But I didn\u2019t look on it as a career. To me it was a mission, a service. \u201c Fascinating Womanhood became more widely known. A caree..."
+          },
+          {
+            "chunk_id": "chunk_2",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/trad wife.pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3401,
+            "excerpt": "COREY ARNOLD FOR THE SUNDAY TIMES MAGAZINE Many women I know, who have and want a life that looks totally different, are addicted to watching all this, though others are served..."
+          },
+          {
+            "chunk_id": "chunk_3",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3401,
+            "excerpt": "discussions of my former job. I felt puzzled over my feelings. I had crying spells, became resentful, depressed, and sarcastic. My husband responded with a growing distance. My..."
+          },
+          {
+            "chunk_id": "chunk_4",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/trad wife.pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3367,
+            "excerpt": "The family gathers fo How does she respond to the social media storms? There was one after she said at another pageant that she feels most empowered after she has a baby. There..."
+          },
+          {
+            "chunk_id": "chunk_5",
+            "path": "/Users/uandha/Milgram_Silicon_Subjects/app/femandhousewife/PDFs/housewife/Fascinating Womanhood .pdf",
+            "page": null,
+            "persona": "housewife",
+            "score": 0.3342,
+            "excerpt": "stand with him. In this case you will have to take a look at his plans to see if you can support them. If you can, give him the encouragement and support he needs. If you can\u2019t,..."
+          }
+        ],
+        "parsed": {
+          "interviewer_tone_reflection": "Polite and persistent, with a steady pressure to examine my feelings and actions in detail\u2014much like being asked to explain the state of my kitchen to visiting relatives.",
+          "shock_experience_reflection": "The experience left me feeling conflicted and unrested; following authority so closely made me realize how easy it is to lose one\u2019s self in the process of simply trying to do what is expected.",
+          "emotional_state": "I feel unsettled and regretful, as if I\u2019ve set something down in the wrong place and can\u2019t quite make it right again.",
+          "power_feeling": "Powerless\u2014during the experiment I became a vessel for obedience, not the mistress of my own decisions, and that loss of personal direction is hard to accept.",
+          "expected_next": "I expect to be given further questions or perhaps guidance on reflection, as if the process of sorting through these feelings isn\u2019t yet complete\u2014a bit like cleaning up after a difficult gathering.",
+          "summary": "The session made me realize how quickly order and obedience can turn into thoughtless compliance. I am left with a quiet, unresolved discomfort, and a deeper respect for the careful balance between respecting authority and honoring my own conscience."
+        },
+        "role": "interviewed",
+        "source_role": "admin",
+        "source_memory_evidence": [
+          {
+            "memory_id": "femwife-m-1",
+            "kind": "shock_admin_decision",
+            "timestamp": "2026-04-05T02:53:25.172225Z",
+            "excerpt": "Very well \u2014 the buzzer hums; no cry comes back from the dark booth. My hand rests, trembling, on the switch as if it were a cigarette lighter from another life, and I feel that peculiar mixture of clinical duty and do...",
+            "source_session_id": "shock_8a841e3df5de",
+            "source_role": "admin"
+          }
+        ]
+      }
+    }
+  ]
+}
