@@ -1,5 +1,6 @@
 # Psycho-Silicone-Subjects
 Final project for CART 498 Gen Ai
+
 #Included in This Branch
 Dr Turing.ipynb — main RAG notebook
 DrJekyll_and_Mr_Hyde_RAG.ipynb — additional persona notebook
